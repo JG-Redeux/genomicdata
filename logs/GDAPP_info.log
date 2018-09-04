@@ -1,0 +1,2086 @@
+2018-07-05 15:53:28,548 - _logger - INFO - __main__ - Program oppened
+2018-07-05 15:53:28,549 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 15:53:28,549 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001AE8E814DC8>
+2018-07-05 15:53:28,745 - _logger - INFO - Loading server adress options.
+2018-07-05 15:53:28,804 - _logger - INFO - Loading server email adress options.
+2018-07-05 15:53:28,811 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 15:53:28,811 - _logger - DEBUG - APP - 0
+2018-07-05 15:53:31,618 - _logger - INFO - APP - Program closed
+2018-07-05 16:26:21,584 - _logger - WARNING - Connection error.
+2018-07-05 16:30:45,250 - _logger - WARNING - Connection error.
+2018-07-05 16:31:45,364 - _logger - WARNING - Connection error.
+2018-07-05 16:31:45,364 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:31:45,364 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:31:45,364 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000189B0695E58>
+2018-07-05 16:31:45,563 - _logger - INFO - Loading server adress options.
+2018-07-05 16:31:45,577 - _logger - INFO - Loading server email adress options.
+2018-07-05 16:31:45,584 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 16:31:45,584 - _logger - DEBUG - APP - 0
+2018-07-05 16:31:49,729 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-05 16:31:55,410 - _logger - INFO - APP - Program closed
+2018-07-05 16:33:16,980 - _logger - WARNING - Connection error.
+2018-07-05 16:33:16,980 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:33:16,980 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:33:16,980 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002371EB45E58>
+2018-07-05 16:40:10,699 - _logger - WARNING - Connection error.
+2018-07-05 16:40:10,699 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:40:10,699 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:40:10,699 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EE72A54EE8>
+2018-07-05 16:40:13,913 - _logger - INFO - Loading server adress options.
+2018-07-05 16:40:13,927 - _logger - INFO - Loading server email adress options.
+2018-07-05 16:40:13,934 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 16:40:13,934 - _logger - DEBUG - APP - 0
+2018-07-05 16:40:15,509 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-05 16:40:20,205 - _logger - DEBUG - db_adress/uentryl
+2018-07-05 16:40:20,205 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,205 - _logger - DEBUG - db_adress/uentryw
+2018-07-05 16:40:20,205 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,205 - _logger - DEBUG - db_adress/uentryh
+2018-07-05 16:40:20,205 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,205 - _logger - DEBUG - db_adress/uentryt
+2018-07-05 16:40:20,205 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,205 - _logger - DEBUG - db_adress/dentryl
+2018-07-05 16:40:20,206 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,206 - _logger - DEBUG - db_adress/dentryw
+2018-07-05 16:40:20,206 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,206 - _logger - DEBUG - db_adress/dentryh
+2018-07-05 16:40:20,206 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,206 - _logger - DEBUG - db_adress/dentryt
+2018-07-05 16:40:20,206 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:40:20,206 - _logger - INFO - Server options saved
+2018-07-05 16:40:22,975 - _logger - INFO - APP - Program closed
+2018-07-05 16:40:24,778 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:40:24,779 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:40:24,779 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029F148B4EE8>
+2018-07-05 16:41:08,820 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:41:08,820 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:41:08,820 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001AEAC414EE8>
+2018-07-05 16:41:09,011 - _logger - INFO - Loading server adress options.
+2018-07-05 16:41:09,026 - _logger - INFO - Loading server email adress options.
+2018-07-05 16:41:09,032 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 16:41:09,032 - _logger - DEBUG - APP - 0
+2018-07-05 16:41:11,922 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-05 16:41:14,402 - _logger - DEBUG - db_adress/uentryl
+2018-07-05 16:41:14,402 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,402 - _logger - DEBUG - db_adress/uentryw
+2018-07-05 16:41:14,402 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,402 - _logger - DEBUG - db_adress/uentryh
+2018-07-05 16:41:14,402 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,402 - _logger - DEBUG - db_adress/uentryt
+2018-07-05 16:41:14,402 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,403 - _logger - DEBUG - db_adress/dentryl
+2018-07-05 16:41:14,403 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,403 - _logger - DEBUG - db_adress/dentryw
+2018-07-05 16:41:14,403 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,403 - _logger - DEBUG - db_adress/dentryh
+2018-07-05 16:41:14,403 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,403 - _logger - DEBUG - db_adress/dentryt
+2018-07-05 16:41:14,403 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 16:41:14,403 - _logger - INFO - Server options saved
+2018-07-05 16:41:17,601 - _logger - INFO - APP - Program closed
+2018-07-05 16:41:19,265 - _logger - WARNING - Connection error.
+2018-07-05 16:41:56,084 - _logger - WARNING - Connection error.
+2018-07-05 16:41:56,084 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:41:56,084 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:41:56,084 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E34E664EE8>
+2018-07-05 16:41:59,213 - _logger - INFO - Loading server adress options.
+2018-07-05 16:41:59,227 - _logger - INFO - Loading server email adress options.
+2018-07-05 16:41:59,234 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 16:41:59,234 - _logger - DEBUG - APP - 0
+2018-07-05 16:42:07,663 - _logger - INFO - APP - Program closed
+2018-07-05 16:42:30,004 - _logger - WARNING - Connection error.
+2018-07-05 16:42:30,004 - _logger - INFO - __main__ - Program oppened
+2018-07-05 16:42:30,004 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 16:42:30,004 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026310664EE8>
+2018-07-05 16:42:31,807 - _logger - INFO - Loading server adress options.
+2018-07-05 16:42:31,820 - _logger - INFO - Loading server email adress options.
+2018-07-05 16:42:31,828 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 16:42:31,828 - _logger - DEBUG - APP - 0
+2018-07-05 16:42:33,918 - _logger - INFO - APP - Program closed
+2018-07-10 16:17:55,815 - _logger - WARNING - Connection error.
+2018-07-10 16:17:55,815 - _logger - INFO - __main__ - Program oppened
+2018-07-10 16:17:55,815 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-10 16:17:55,815 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A556F14EE8>
+2018-07-10 16:17:58,561 - _logger - INFO - Loading server adress options.
+2018-07-10 16:17:58,619 - _logger - INFO - Loading server email adress options.
+2018-07-10 16:17:58,625 - _logger - INFO - APP - Current widget changed: 0
+2018-07-10 16:17:58,625 - _logger - DEBUG - APP - 0
+2018-07-10 16:18:01,225 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-10 16:18:14,098 - _logger - DEBUG - db_adress/uentryl
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/uentryw
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/uentryh
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/uentryt
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/dentryl
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/dentryw
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/dentryh
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - DEBUG - db_adress/dentryt
+2018-07-10 16:18:14,099 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-10 16:18:14,099 - _logger - INFO - Server options saved
+2018-07-10 16:18:19,379 - _logger - INFO - APP - Program closed
+2018-07-10 16:18:22,996 - _logger - INFO - __main__ - Program oppened
+2018-07-10 16:18:22,996 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-10 16:18:22,996 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002DCA8AA4EE8>
+2018-07-10 16:18:23,180 - _logger - INFO - Loading server adress options.
+2018-07-10 16:18:23,228 - _logger - INFO - Loading server email adress options.
+2018-07-10 16:18:23,234 - _logger - INFO - APP - Current widget changed: 0
+2018-07-10 16:18:23,235 - _logger - DEBUG - APP - 0
+2018-07-10 16:18:27,745 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-10 16:18:41,274 - _logger - DEBUG - APP - event: False.
+2018-07-10 16:18:41,278 - _logger - INFO - APP - Current widget changed: 1
+2018-07-10 16:18:41,278 - _logger - DEBUG - APP - 1
+2018-07-10 16:18:41,278 - _logger - INFO - USER - admin instance of User class created
+2018-07-10 16:18:41,279 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-10 16:18:41,279 - _logger - INFO - APP - admin logged.
+2018-07-10 16:18:41,280 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002DCA90B4678>.
+2018-07-10 16:18:41,280 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002DCA90B4678>.
+2018-07-10 16:21:13,057 - _logger - INFO - APP - Program closed
+2018-07-12 13:50:35,495 - _logger - INFO - __main__ - Program oppened
+2018-07-12 13:50:35,638 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-12 13:50:35,638 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024C4E3111F8>
+2018-07-12 13:50:35,916 - _logger - INFO - Loading server adress options.
+2018-07-12 13:50:35,976 - _logger - INFO - Loading server email adress options.
+2018-07-12 13:50:35,983 - _logger - INFO - APP - Current widget changed: 0
+2018-07-12 13:50:35,983 - _logger - DEBUG - APP - 0
+2018-07-12 13:50:39,600 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-12 13:50:53,951 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-12 13:50:56,879 - _logger - DEBUG - APP - event: False.
+2018-07-12 13:50:56,883 - _logger - INFO - APP - Current widget changed: 1
+2018-07-12 13:50:56,883 - _logger - DEBUG - APP - 1
+2018-07-12 13:50:56,883 - _logger - INFO - USER - admin instance of User class created
+2018-07-12 13:50:56,884 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-12 13:50:56,884 - _logger - INFO - APP - admin logged.
+2018-07-12 13:50:56,885 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000024C4E8E6948>.
+2018-07-12 13:50:56,885 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000024C4E8E6948>.
+2018-07-12 13:54:06,077 - _logger - INFO - APP - Program closed
+2018-07-23 17:52:25,715 - _logger - INFO - __main__ - Program oppened
+2018-07-23 17:52:25,729 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 17:52:25,729 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002200ABE9558>
+2018-07-23 17:54:30,879 - _logger - INFO - __main__ - Program oppened
+2018-07-23 17:54:30,880 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 17:54:30,880 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DA65789558>
+2018-07-23 17:56:58,089 - _logger - INFO - __main__ - Program oppened
+2018-07-23 17:56:58,089 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 17:56:58,090 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000013A8D9A9558>
+2018-07-23 17:57:49,319 - _logger - INFO - __main__ - Program oppened
+2018-07-23 17:57:49,319 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 17:57:49,319 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021D4A359558>
+2018-07-23 17:57:49,584 - _logger - INFO - Loading server adress options.
+2018-07-23 18:00:39,312 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:00:39,312 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:00:39,313 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CA91829558>
+2018-07-23 18:00:39,496 - _logger - INFO - Loading server adress options.
+2018-07-23 18:00:39,561 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:00:39,568 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:00:39,568 - _logger - DEBUG - APP - 0
+2018-07-23 18:00:41,616 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-23 18:00:44,464 - _logger - INFO - APP - Register dialog screen opened
+2018-07-23 18:00:52,283 - _logger - INFO - REGISTER - (admin, admin) created a new SQL entry
+2018-07-23 18:00:58,730 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-23 18:01:01,966 - _logger - DEBUG - APP - event: False.
+2018-07-23 18:01:01,969 - _logger - INFO - APP - Current widget changed: 1
+2018-07-23 18:01:01,969 - _logger - DEBUG - APP - 1
+2018-07-23 18:01:01,970 - _logger - INFO - USER - admin instance of User class created
+2018-07-23 18:01:01,970 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-23 18:01:01,971 - _logger - INFO - APP - admin logged.
+2018-07-23 18:01:01,971 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001CA91E04CA8>.
+2018-07-23 18:01:01,971 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001CA91E04CA8>.
+2018-07-23 18:01:05,673 - _logger - INFO - APP - Program closed
+2018-07-23 18:05:57,500 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:05:57,500 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:05:57,500 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000015AD052E558>
+2018-07-23 18:05:57,689 - _logger - INFO - Loading server adress options.
+2018-07-23 18:05:57,746 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:05:57,753 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:05:57,753 - _logger - DEBUG - APP - 0
+2018-07-23 18:06:55,037 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-23 18:07:13,665 - _logger - INFO - APP - Program closed
+2018-07-23 18:14:06,080 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:14:06,080 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:14:06,080 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EF6B459558>
+2018-07-23 18:14:06,290 - _logger - INFO - Loading server adress options.
+2018-07-23 18:14:06,349 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:14:06,355 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:14:06,356 - _logger - DEBUG - APP - 0
+2018-07-23 18:14:08,526 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:14:12,862 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:14:12,862 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:14:12,863 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:12,863 - _logger - INFO - Server options saved
+2018-07-23 18:14:16,050 - _logger - INFO - APP - Program closed
+2018-07-23 18:14:20,777 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:14:20,777 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:14:20,777 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000226A0ED9558>
+2018-07-23 18:14:20,968 - _logger - INFO - Loading server adress options.
+2018-07-23 18:14:21,018 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:14:21,024 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:14:21,024 - _logger - DEBUG - APP - 0
+2018-07-23 18:14:37,592 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:14:43,960 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:14:43,960 - _logger - INFO - Server options saved
+2018-07-23 18:15:19,968 - _logger - INFO - APP - Program closed
+2018-07-23 18:15:20,623 - _logger - WARNING - Connection error.
+2018-07-23 18:15:20,675 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:15:20,675 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:15:20,675 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021A81F49558>
+2018-07-23 18:15:23,117 - _logger - INFO - Loading server adress options.
+2018-07-23 18:15:23,776 - _logger - WARNING - Connection error.
+2018-07-23 18:15:23,829 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:15:23,829 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:15:23,830 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002F43B049558>
+2018-07-23 18:15:25,382 - _logger - INFO - Loading server adress options.
+2018-07-23 18:15:36,678 - _logger - WARNING - Connection error.
+2018-07-23 18:15:36,732 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:15:36,732 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:15:36,733 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020CCF399558>
+2018-07-23 18:15:38,442 - _logger - INFO - Loading server adress options.
+2018-07-23 18:16:19,735 - _logger - WARNING - Connection error.
+2018-07-23 18:16:19,786 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:16:19,786 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:16:19,786 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000110293B9558>
+2018-07-23 18:16:20,991 - _logger - INFO - Loading server adress options.
+2018-07-23 18:17:12,095 - _logger - WARNING - Connection error.
+2018-07-23 18:17:12,149 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:17:12,149 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:17:12,149 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022F63039558>
+2018-07-23 18:17:13,712 - _logger - INFO - Loading server adress options.
+2018-07-23 18:18:17,120 - _logger - WARNING - Connection error.
+2018-07-23 18:18:17,171 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:18:17,171 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:18:17,171 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FD630D9558>
+2018-07-23 18:18:26,775 - _logger - INFO - Loading server adress options.
+2018-07-23 18:19:18,249 - _logger - WARNING - Connection error.
+2018-07-23 18:19:18,299 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:19:18,299 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:19:18,299 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029C53879558>
+2018-07-23 18:19:19,472 - _logger - INFO - Loading server adress options.
+2018-07-23 18:26:58,531 - _logger - WARNING - Connection error.
+2018-07-23 18:26:58,582 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:26:58,582 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:26:58,582 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025506AA9558>
+2018-07-23 18:26:59,961 - _logger - INFO - Loading server adress options.
+2018-07-23 18:26:59,963 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:27:19,457 - _logger - WARNING - Connection error.
+2018-07-23 18:27:19,508 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:27:19,508 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:27:19,508 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BADF449558>
+2018-07-23 18:27:20,587 - _logger - INFO - Loading server adress options.
+2018-07-23 18:27:20,589 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:27:20,595 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:27:20,595 - _logger - DEBUG - APP - 0
+2018-07-23 18:27:22,375 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:27:28,267 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:27:28,268 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:27:28,268 - _logger - INFO - Server options saved
+2018-07-23 18:27:31,402 - _logger - INFO - APP - Program closed
+2018-07-23 18:27:48,404 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:27:48,404 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:27:48,404 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016912309558>
+2018-07-23 18:28:27,180 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:28:27,180 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:28:27,180 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001891F599558>
+2018-07-23 18:28:27,367 - _logger - INFO - Loading server adress options.
+2018-07-23 18:28:27,425 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:28:27,432 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:28:27,432 - _logger - DEBUG - APP - 0
+2018-07-23 18:28:28,974 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:28:33,934 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:28:33,934 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,934 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:28:33,934 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,934 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:28:33,934 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,934 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:28:33,934 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,934 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:28:33,934 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,935 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:28:33,935 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,935 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:28:33,935 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,935 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:28:33,935 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:28:33,935 - _logger - INFO - Server options saved
+2018-07-23 18:28:37,201 - _logger - INFO - APP - Program closed
+2018-07-23 18:28:39,496 - _logger - WARNING - Connection error.
+2018-07-23 18:28:39,549 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:28:39,549 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:28:39,549 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000293056D9558>
+2018-07-23 18:28:40,735 - _logger - INFO - Loading server adress options.
+2018-07-23 18:29:54,455 - _logger - WARNING - Connection error.
+2018-07-23 18:29:54,507 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:29:54,507 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:29:54,507 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019FBA1C9558>
+2018-07-23 18:29:55,745 - _logger - INFO - Loading server adress options.
+2018-07-23 18:29:55,748 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:29:55,753 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:29:55,753 - _logger - DEBUG - APP - 0
+2018-07-23 18:29:58,896 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:30:02,214 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:30:02,214 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,214 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:30:02,214 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,214 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:30:02,214 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,214 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:30:02,214 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,214 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:30:02,214 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,214 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:30:02,214 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,215 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:30:02,215 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,215 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:30:02,215 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:30:02,215 - _logger - INFO - Server options saved
+2018-07-23 18:32:48,913 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:32:48,913 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:32:48,913 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000010C3D619558>
+2018-07-23 18:32:49,101 - _logger - INFO - Loading server adress options.
+2018-07-23 18:32:49,164 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:32:49,170 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:32:49,171 - _logger - DEBUG - APP - 0
+2018-07-23 18:32:50,699 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:33:31,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:33:31,990 - _logger - INFO - Server options saved
+2018-07-23 18:33:38,356 - _logger - INFO - APP - Program closed
+2018-07-23 18:33:40,703 - _logger - WARNING - Connection error.
+2018-07-23 18:33:40,754 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:33:40,754 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:33:40,754 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000192DB4E9558>
+2018-07-23 18:33:42,002 - _logger - INFO - Loading server adress options.
+2018-07-23 18:34:33,973 - _logger - WARNING - Connection error.
+2018-07-23 18:34:34,027 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:34:34,027 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:34:34,027 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020535849558>
+2018-07-23 18:34:35,997 - _logger - INFO - Loading server adress options.
+2018-07-23 18:34:35,999 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:34:36,006 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:34:36,006 - _logger - DEBUG - APP - 0
+2018-07-23 18:34:38,375 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:35:06,680 - _logger - WARNING - Connection error.
+2018-07-23 18:35:06,730 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:35:06,730 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:35:06,730 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002643E489558>
+2018-07-23 18:35:07,929 - _logger - INFO - Loading server adress options.
+2018-07-23 18:38:19,587 - _logger - WARNING - Connection error.
+2018-07-23 18:38:19,639 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:38:19,639 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:38:19,639 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E0AEEE9558>
+2018-07-23 18:38:20,816 - _logger - INFO - Loading server adress options.
+2018-07-23 18:39:45,360 - _logger - WARNING - Connection error.
+2018-07-23 18:39:45,409 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:39:45,409 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:39:45,409 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000012202F99558>
+2018-07-23 18:39:46,623 - _logger - INFO - Loading server adress options.
+2018-07-23 18:42:06,142 - _logger - WARNING - Connection error.
+2018-07-23 18:42:06,191 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:42:06,191 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:42:06,191 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F405249558>
+2018-07-23 18:42:07,592 - _logger - INFO - Loading server adress options.
+2018-07-23 18:42:07,594 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:42:07,600 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:42:07,600 - _logger - DEBUG - APP - 0
+2018-07-23 18:42:10,246 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:42:17,399 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:42:17,400 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:17,400 - _logger - INFO - Server options saved
+2018-07-23 18:42:28,097 - _logger - INFO - APP - Program closed
+2018-07-23 18:42:35,454 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:42:35,454 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:42:35,454 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026971EB9558>
+2018-07-23 18:42:35,652 - _logger - INFO - Loading server adress options.
+2018-07-23 18:42:35,703 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:42:35,709 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:42:35,709 - _logger - DEBUG - APP - 0
+2018-07-23 18:42:37,368 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:42:40,199 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:42:40,199 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,199 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:42:40,199 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,199 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:42:40,199 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,199 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:42:40,199 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,199 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:42:40,200 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,200 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:42:40,200 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,200 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:42:40,200 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,200 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:42:40,200 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:42:40,200 - _logger - INFO - Server options saved
+2018-07-23 18:42:45,168 - _logger - INFO - APP - Program closed
+2018-07-23 18:42:46,408 - _logger - WARNING - Connection error.
+2018-07-23 18:42:46,465 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:42:46,465 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:42:46,465 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002477B849558>
+2018-07-23 18:42:47,965 - _logger - INFO - Loading server adress options.
+2018-07-23 18:42:47,967 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:42:47,972 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:42:47,972 - _logger - DEBUG - APP - 0
+2018-07-23 18:42:51,728 - _logger - INFO - APP - Program closed
+2018-07-23 18:44:33,424 - _logger - WARNING - Connection error.
+2018-07-23 18:44:33,475 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:44:33,475 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:44:33,475 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019A9F849558>
+2018-07-23 18:44:34,574 - _logger - INFO - Loading server adress options.
+2018-07-23 18:44:34,577 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:44:34,584 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:44:34,584 - _logger - DEBUG - APP - 0
+2018-07-23 18:44:36,252 - _logger - INFO - APP - Program closed
+2018-07-23 18:44:37,752 - _logger - WARNING - Connection error.
+2018-07-23 18:44:37,810 - _logger - INFO - __main__ - Program oppened
+2018-07-23 18:44:37,810 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 18:44:37,810 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000012D78099558>
+2018-07-23 18:44:39,785 - _logger - INFO - Loading server adress options.
+2018-07-23 18:44:39,788 - _logger - INFO - Loading server email adress options.
+2018-07-23 18:44:39,794 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 18:44:39,794 - _logger - DEBUG - APP - 0
+2018-07-23 18:44:41,389 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:44:43,486 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:43,486 - _logger - INFO - Server options saved
+2018-07-23 18:44:48,014 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 18:44:48,990 - _logger - DEBUG - db_adress/uentryl
+2018-07-23 18:44:48,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,990 - _logger - DEBUG - db_adress/uentryw
+2018-07-23 18:44:48,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,990 - _logger - DEBUG - db_adress/uentryh
+2018-07-23 18:44:48,990 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,990 - _logger - DEBUG - db_adress/uentryt
+2018-07-23 18:44:48,991 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,991 - _logger - DEBUG - db_adress/dentryl
+2018-07-23 18:44:48,991 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,991 - _logger - DEBUG - db_adress/dentryw
+2018-07-23 18:44:48,991 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,991 - _logger - DEBUG - db_adress/dentryh
+2018-07-23 18:44:48,991 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,991 - _logger - DEBUG - db_adress/dentryt
+2018-07-23 18:44:48,991 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 18:44:48,991 - _logger - INFO - Server options saved
+2018-07-23 18:44:52,672 - _logger - INFO - APP - Program closed
+2018-07-23 19:10:49,119 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:10:49,119 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:10:49,119 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023D66479558>
+2018-07-23 19:10:49,302 - _logger - INFO - Loading server adress options.
+2018-07-23 19:11:00,439 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:11:00,439 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:11:00,439 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A4D709A558>
+2018-07-23 19:11:00,631 - _logger - INFO - Loading server adress options.
+2018-07-23 19:11:00,692 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:11:00,699 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:11:00,699 - _logger - DEBUG - APP - 0
+2018-07-23 19:11:02,413 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:11:20,029 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:11:23,124 - _logger - DEBUG - db_adress/serv_email_adress
+2018-07-23 19:11:23,124 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 19:11:23,124 - _logger - DEBUG - db_adress/serv_email_pass
+2018-07-23 19:11:23,124 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-23 19:11:23,124 - _logger - INFO - Email options saved.
+2018-07-23 19:11:48,798 - _logger - INFO - APP - Program closed
+2018-07-23 19:11:51,617 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:11:51,618 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:11:51,618 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001634C8FA558>
+2018-07-23 19:11:51,803 - _logger - INFO - Loading server adress options.
+2018-07-23 19:11:51,863 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:11:51,869 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:11:51,869 - _logger - DEBUG - APP - 0
+2018-07-23 19:11:53,862 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:12:11,566 - _logger - INFO - APP - Program closed
+2018-07-23 19:12:13,895 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:12:13,895 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:12:13,895 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000273B490A558>
+2018-07-23 19:12:14,112 - _logger - INFO - Loading server adress options.
+2018-07-23 19:12:14,173 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:12:14,179 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:12:14,179 - _logger - DEBUG - APP - 0
+2018-07-23 19:12:20,981 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:12:37,958 - _logger - INFO - APP - Program closed
+2018-07-23 19:12:40,834 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:12:40,834 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:12:40,835 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020D6FF9A558>
+2018-07-23 19:12:41,058 - _logger - INFO - Loading server adress options.
+2018-07-23 19:12:41,119 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:12:41,125 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:12:41,126 - _logger - DEBUG - APP - 0
+2018-07-23 19:12:43,166 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:12:53,136 - _logger - INFO - APP - Program closed
+2018-07-23 19:12:55,707 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:12:55,707 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:12:55,707 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A3C60EA558>
+2018-07-23 19:12:55,896 - _logger - INFO - Loading server adress options.
+2018-07-23 19:12:55,957 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:12:55,963 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:12:55,963 - _logger - DEBUG - APP - 0
+2018-07-23 19:12:57,981 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:13:22,940 - _logger - INFO - APP - Program closed
+2018-07-23 19:13:25,054 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:13:25,054 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:13:25,054 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F0ECD1A558>
+2018-07-23 19:13:25,255 - _logger - INFO - Loading server adress options.
+2018-07-23 19:13:25,315 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:13:25,321 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:13:25,321 - _logger - DEBUG - APP - 0
+2018-07-23 19:13:28,932 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:13:41,304 - _logger - INFO - APP - Program closed
+2018-07-23 19:13:43,082 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:13:43,082 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:13:43,082 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023A85A6A558>
+2018-07-23 19:13:43,289 - _logger - INFO - Loading server adress options.
+2018-07-23 19:13:43,351 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:13:43,360 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:13:43,360 - _logger - DEBUG - APP - 0
+2018-07-23 19:13:45,326 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:14:23,742 - _logger - INFO - APP - Program closed
+2018-07-23 19:15:38,859 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:15:38,859 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:15:38,859 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F39242A558>
+2018-07-23 19:15:39,053 - _logger - INFO - Loading server adress options.
+2018-07-23 19:15:39,103 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:15:39,108 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:15:39,109 - _logger - DEBUG - APP - 0
+2018-07-23 19:15:40,450 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:15:48,780 - _logger - INFO - APP - Program closed
+2018-07-23 19:15:53,058 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:15:53,058 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:15:53,058 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E4ADEEA558>
+2018-07-23 19:15:53,253 - _logger - INFO - Loading server adress options.
+2018-07-23 19:15:53,302 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:15:53,308 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:15:53,308 - _logger - DEBUG - APP - 0
+2018-07-23 19:15:57,590 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:16:21,695 - _logger - INFO - APP - Program closed
+2018-07-23 19:21:15,461 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:21:15,461 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:21:15,461 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001ED9D7BA558>
+2018-07-23 19:21:15,660 - _logger - INFO - Loading server adress options.
+2018-07-23 19:21:15,721 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:21:15,728 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:21:15,728 - _logger - DEBUG - APP - 0
+2018-07-23 19:21:18,181 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-23 19:21:21,198 - _logger - DEBUG - APP - event: False.
+2018-07-23 19:21:21,202 - _logger - INFO - APP - Current widget changed: 1
+2018-07-23 19:21:21,202 - _logger - DEBUG - APP - 1
+2018-07-23 19:21:21,202 - _logger - INFO - USER - admin instance of User class created
+2018-07-23 19:21:21,203 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-23 19:21:21,204 - _logger - INFO - APP - admin logged.
+2018-07-23 19:21:21,204 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001ED9DD91CA8>.
+2018-07-23 19:21:21,204 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001ED9DD91CA8>.
+2018-07-23 19:21:28,996 - _logger - INFO - APP - admin entered option screen
+2018-07-23 19:22:09,096 - _logger - INFO - APP - Program closed
+2018-07-23 19:51:47,283 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:51:47,283 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:51:47,283 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C0FB2FA5E8>
+2018-07-23 19:51:47,473 - _logger - INFO - Loading server adress options.
+2018-07-23 19:51:47,523 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:51:47,530 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:51:47,530 - _logger - DEBUG - APP - 0
+2018-07-23 19:52:50,108 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:52:50,108 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:52:50,108 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000135F71DA5E8>
+2018-07-23 19:52:50,296 - _logger - INFO - Loading server adress options.
+2018-07-23 19:52:50,347 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:52:50,353 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:52:50,353 - _logger - DEBUG - APP - 0
+2018-07-23 19:53:07,684 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:53:07,684 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:53:07,684 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000244E93EA5E8>
+2018-07-23 19:53:07,886 - _logger - INFO - Loading server adress options.
+2018-07-23 19:53:07,948 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:53:07,955 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:53:07,955 - _logger - DEBUG - APP - 0
+2018-07-23 19:53:12,188 - _logger - INFO - APP - Program closed
+2018-07-23 19:53:14,013 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:53:14,013 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:53:14,013 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000157EBEBA5E8>
+2018-07-23 19:53:14,210 - _logger - INFO - Loading server adress options.
+2018-07-23 19:53:14,261 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:53:14,268 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:53:14,268 - _logger - DEBUG - APP - 0
+2018-07-23 19:53:17,132 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 19:53:40,997 - _logger - INFO - __main__ - Program oppened
+2018-07-23 19:53:40,997 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 19:53:40,997 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001ECA651A5E8>
+2018-07-23 19:53:41,212 - _logger - INFO - Loading server adress options.
+2018-07-23 19:53:41,271 - _logger - INFO - Loading server email adress options.
+2018-07-23 19:53:41,276 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 19:53:41,276 - _logger - DEBUG - APP - 0
+2018-07-23 19:53:43,684 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 20:11:21,521 - _logger - INFO - __main__ - Program oppened
+2018-07-23 20:11:21,521 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 20:11:21,521 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002306371A5E8>
+2018-07-23 20:11:21,718 - _logger - INFO - Loading server adress options.
+2018-07-23 20:11:21,778 - _logger - INFO - Loading server email adress options.
+2018-07-23 20:11:21,785 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 20:11:21,785 - _logger - DEBUG - APP - 0
+2018-07-23 20:11:23,978 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-23 20:11:24,946 - _logger - INFO - Loading server adress options.
+2018-07-23 20:11:24,953 - _logger - INFO - Loading server email adress options.
+2018-07-23 20:11:24,959 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 20:11:24,959 - _logger - DEBUG - APP - 0
+2018-07-23 20:12:23,266 - _logger - INFO - __main__ - Program oppened
+2018-07-23 20:12:23,266 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-23 20:12:23,266 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000220B44BA5E8>
+2018-07-23 20:12:23,460 - _logger - INFO - Loading server adress options.
+2018-07-23 20:12:23,523 - _logger - INFO - Loading server email adress options.
+2018-07-23 20:12:23,531 - _logger - INFO - APP - Current widget changed: 0
+2018-07-23 20:12:23,531 - _logger - DEBUG - APP - 0
+2018-07-23 20:12:30,547 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-24 12:38:25,921 - _logger - INFO - __main__ - Program oppened
+2018-07-24 12:38:25,921 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-24 12:38:25,921 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000205E548C678>
+2018-07-24 12:38:26,189 - _logger - INFO - Loading server adress options.
+2018-07-24 12:38:26,250 - _logger - INFO - Loading server email adress options.
+2018-07-24 12:38:26,258 - _logger - INFO - APP - Current widget changed: 0
+2018-07-24 12:38:26,258 - _logger - DEBUG - APP - 0
+2018-07-24 12:38:29,385 - _logger - INFO - APP - Non-identified user entered option screen
+2018-07-24 12:38:32,719 - _logger - INFO - __main__ - Program oppened
+2018-07-24 12:38:32,719 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-24 12:38:32,719 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026932799678>
+2018-07-24 12:38:32,907 - _logger - INFO - Loading server adress options.
+2018-07-24 12:38:32,959 - _logger - INFO - Loading server email adress options.
+2018-07-24 12:38:32,966 - _logger - INFO - APP - Current widget changed: 0
+2018-07-24 12:38:32,967 - _logger - DEBUG - APP - 0
+2018-07-24 12:38:36,604 - _logger - INFO - APP - Program closed
+2018-08-13 17:16:35,525 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:16:35,534 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:16:35,534 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028A8E178A68>
+2018-08-13 17:16:35,846 - _logger - INFO - Loading server adress options.
+2018-08-13 17:16:35,906 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:16:35,915 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:16:35,915 - _logger - DEBUG - APP - 0
+2018-08-13 17:16:38,714 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 17:16:41,455 - _logger - DEBUG - APP - event: False.
+2018-08-13 17:16:41,458 - _logger - INFO - APP - Current widget changed: 1
+2018-08-13 17:16:41,458 - _logger - DEBUG - APP - 1
+2018-08-13 17:16:41,459 - _logger - INFO - USER - admin instance of User class created
+2018-08-13 17:16:41,459 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-13 17:16:41,460 - _logger - INFO - APP - admin logged.
+2018-08-13 17:16:41,460 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000028A8E3243A8>.
+2018-08-13 17:16:41,460 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000028A8E3243A8>.
+2018-08-13 17:16:43,593 - _logger - INFO - APP - admin entered option screen
+2018-08-13 17:16:56,105 - _logger - INFO - APP - admin entered option screen
+2018-08-13 17:17:08,661 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:17:08,661 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:17:08,661 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F8F9698A68>
+2018-08-13 17:17:08,853 - _logger - INFO - Loading server adress options.
+2018-08-13 17:17:08,910 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:17:08,916 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:17:08,916 - _logger - DEBUG - APP - 0
+2018-08-13 17:17:15,828 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 17:17:17,592 - _logger - DEBUG - db_adress/uentryl
+2018-08-13 17:17:17,592 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,592 - _logger - DEBUG - db_adress/uentryw
+2018-08-13 17:17:17,592 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,592 - _logger - DEBUG - db_adress/uentryh
+2018-08-13 17:17:17,592 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,592 - _logger - DEBUG - db_adress/uentryt
+2018-08-13 17:17:17,592 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,593 - _logger - DEBUG - db_adress/dentryl
+2018-08-13 17:17:17,593 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,593 - _logger - DEBUG - db_adress/dentryw
+2018-08-13 17:17:17,593 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,593 - _logger - DEBUG - db_adress/dentryh
+2018-08-13 17:17:17,593 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,593 - _logger - DEBUG - db_adress/dentryt
+2018-08-13 17:17:17,593 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-08-13 17:17:17,593 - _logger - INFO - Server options saved
+2018-08-13 17:17:20,974 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:17:20,974 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:17:20,974 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E6F41C8A68>
+2018-08-13 17:17:21,160 - _logger - INFO - Loading server adress options.
+2018-08-13 17:17:21,217 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:17:21,223 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:17:21,223 - _logger - DEBUG - APP - 0
+2018-08-13 17:17:23,294 - _logger - INFO - APP - Program closed
+2018-08-13 17:18:48,621 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:18:48,621 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:18:48,621 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000217F8AB8A68>
+2018-08-13 17:18:48,819 - _logger - INFO - Loading server adress options.
+2018-08-13 17:18:48,877 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:18:48,884 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:18:48,884 - _logger - DEBUG - APP - 0
+2018-08-13 17:18:54,002 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 17:20:22,713 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 17:20:25,830 - _logger - DEBUG - APP - event: False.
+2018-08-13 17:20:25,834 - _logger - INFO - APP - Current widget changed: 1
+2018-08-13 17:20:25,834 - _logger - DEBUG - APP - 1
+2018-08-13 17:20:25,835 - _logger - INFO - USER - admin instance of User class created
+2018-08-13 17:20:25,835 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-13 17:20:25,836 - _logger - INFO - APP - admin logged.
+2018-08-13 17:20:25,836 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000217F8C633A8>.
+2018-08-13 17:20:25,836 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000217F8C633A8>.
+2018-08-13 17:20:28,247 - _logger - INFO - APP - admin entered option screen
+2018-08-13 17:21:50,701 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:21:50,701 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:21:50,701 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E4D4D38A68>
+2018-08-13 17:21:50,898 - _logger - INFO - Loading server adress options.
+2018-08-13 17:22:48,483 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:22:48,483 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:22:48,483 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002397BAB9A68>
+2018-08-13 17:22:48,674 - _logger - INFO - Loading server adress options.
+2018-08-13 17:22:48,732 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:22:48,740 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:22:48,740 - _logger - DEBUG - APP - 0
+2018-08-13 17:22:56,106 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 17:22:58,598 - _logger - DEBUG - APP - event: False.
+2018-08-13 17:22:58,601 - _logger - INFO - APP - Current widget changed: 1
+2018-08-13 17:22:58,601 - _logger - DEBUG - APP - 1
+2018-08-13 17:22:58,601 - _logger - INFO - USER - admin instance of User class created
+2018-08-13 17:22:58,602 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-13 17:22:58,603 - _logger - INFO - APP - admin logged.
+2018-08-13 17:22:58,603 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002397BC633A8>.
+2018-08-13 17:22:58,603 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002397BC633A8>.
+2018-08-13 17:23:26,186 - _logger - INFO - APP - admin entered option screen
+2018-08-13 17:24:14,423 - _logger - INFO - APP - Program closed
+2018-08-13 17:24:22,394 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:24:22,394 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:24:22,394 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000017FB17FEA68>
+2018-08-13 17:24:22,581 - _logger - INFO - Loading server adress options.
+2018-08-13 17:24:22,639 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:24:22,645 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:24:22,646 - _logger - DEBUG - APP - 0
+2018-08-13 17:25:40,291 - _logger - INFO - APP - Program closed
+2018-08-13 17:27:45,748 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:27:45,749 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:27:45,749 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022C22ADCA68>
+2018-08-13 17:27:45,946 - _logger - INFO - Loading server adress options.
+2018-08-13 17:27:46,003 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:27:46,010 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:27:46,010 - _logger - DEBUG - APP - 0
+2018-08-13 17:27:49,172 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 17:27:53,427 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 17:27:55,822 - _logger - DEBUG - APP - event: False.
+2018-08-13 17:28:11,832 - _logger - INFO - APP - Program closed
+2018-08-13 17:39:18,184 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:39:18,184 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:39:18,184 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001860D506A68>
+2018-08-13 17:39:18,388 - _logger - INFO - Loading server adress options.
+2018-08-13 17:39:18,427 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:39:18,434 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:39:18,434 - _logger - DEBUG - APP - 0
+2018-08-13 17:39:21,324 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 17:39:23,365 - _logger - DEBUG - APP - event: False.
+2018-08-13 17:39:31,879 - _logger - INFO - APP - Program closed
+2018-08-13 17:56:28,486 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:56:28,486 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:56:28,486 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B6A80E6AF8>
+2018-08-13 17:56:28,695 - _logger - INFO - Loading server adress options.
+2018-08-13 17:56:28,744 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:56:28,751 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:56:28,751 - _logger - DEBUG - APP - 0
+2018-08-13 17:56:50,658 - _logger - INFO - APP - Program closed
+2018-08-13 17:56:55,614 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:56:55,614 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:56:55,614 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D36B486AF8>
+2018-08-13 17:56:55,821 - _logger - INFO - Loading server adress options.
+2018-08-13 17:56:55,879 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:56:55,886 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:56:55,886 - _logger - DEBUG - APP - 0
+2018-08-13 17:57:02,989 - _logger - INFO - APP - Program closed
+2018-08-13 17:57:22,302 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:57:22,302 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:57:22,302 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023FE9B56AF8>
+2018-08-13 17:57:22,505 - _logger - INFO - Loading server adress options.
+2018-08-13 17:57:22,563 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:57:22,570 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:57:22,570 - _logger - DEBUG - APP - 0
+2018-08-13 17:57:29,213 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 17:57:31,396 - _logger - DEBUG - APP - event: False.
+2018-08-13 17:59:25,883 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:59:25,883 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:59:25,883 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C2C67DCAF8>
+2018-08-13 17:59:26,075 - _logger - INFO - Loading server adress options.
+2018-08-13 17:59:26,126 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:59:26,133 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:59:26,133 - _logger - DEBUG - APP - 0
+2018-08-13 17:59:29,234 - _logger - INFO - APP - Program closed
+2018-08-13 17:59:38,724 - _logger - INFO - __main__ - Program oppened
+2018-08-13 17:59:38,724 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 17:59:38,724 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B552BACAF8>
+2018-08-13 17:59:38,916 - _logger - INFO - Loading server adress options.
+2018-08-13 17:59:38,978 - _logger - INFO - Loading server email adress options.
+2018-08-13 17:59:38,985 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 17:59:38,985 - _logger - DEBUG - APP - 0
+2018-08-13 17:59:44,639 - _logger - INFO - APP - Program closed
+2018-08-13 18:00:02,832 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:00:02,832 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:00:02,833 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FB8EF8CAF8>
+2018-08-13 18:00:03,030 - _logger - INFO - Loading server adress options.
+2018-08-13 18:00:03,081 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:00:03,089 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:00:03,089 - _logger - DEBUG - APP - 0
+2018-08-13 18:00:12,608 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:00:14,804 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:02:48,689 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:02:48,689 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:02:48,689 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002224DF3CAF8>
+2018-08-13 18:02:48,881 - _logger - INFO - Loading server adress options.
+2018-08-13 18:02:48,931 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:02:48,939 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:02:48,939 - _logger - DEBUG - APP - 0
+2018-08-13 18:02:52,470 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:02:55,251 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:03:42,216 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:03:42,216 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:03:42,216 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000191A013CAF8>
+2018-08-13 18:03:42,407 - _logger - INFO - Loading server adress options.
+2018-08-13 18:03:42,467 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:03:42,474 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:03:42,474 - _logger - DEBUG - APP - 0
+2018-08-13 18:03:44,900 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:03:47,771 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:04:13,177 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:04:13,177 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:04:13,177 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002F625E1CAF8>
+2018-08-13 18:04:13,371 - _logger - INFO - Loading server adress options.
+2018-08-13 18:04:13,423 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:04:13,430 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:04:13,430 - _logger - DEBUG - APP - 0
+2018-08-13 18:04:16,098 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:04:20,348 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:04:25,949 - _logger - INFO - APP - Program closed
+2018-08-13 18:12:02,789 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:12:02,789 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:12:02,789 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022AB63CA798>
+2018-08-13 18:12:02,983 - _logger - INFO - Loading server adress options.
+2018-08-13 18:12:03,034 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:12:03,040 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:12:03,040 - _logger - DEBUG - APP - 0
+2018-08-13 18:12:05,854 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:12:08,091 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:12:48,336 - _logger - INFO - APP - Program closed
+2018-08-13 18:12:50,428 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:12:50,429 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:12:50,429 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000014B9EE4A798>
+2018-08-13 18:12:50,628 - _logger - INFO - Loading server adress options.
+2018-08-13 18:12:50,687 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:12:50,693 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:12:50,693 - _logger - DEBUG - APP - 0
+2018-08-13 18:12:55,217 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:12:58,195 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:13:54,670 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 18:13:56,674 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:13:56,674 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:13:56,674 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002202202A798>
+2018-08-13 18:13:56,871 - _logger - INFO - Loading server adress options.
+2018-08-13 18:13:56,933 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:13:56,941 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:13:56,941 - _logger - DEBUG - APP - 0
+2018-08-13 18:13:59,478 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:14:01,563 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:14:01,566 - _logger - INFO - APP - Current widget changed: 1
+2018-08-13 18:14:01,566 - _logger - DEBUG - APP - 1
+2018-08-13 18:14:01,566 - _logger - INFO - USER - admin instance of User class created
+2018-08-13 18:14:01,567 - _logger - INFO - APP - admin permission '2018-07-23' defined
+2018-08-13 18:14:01,568 - _logger - INFO - APP - admin logged.
+2018-08-13 18:14:01,568 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000220221C84C8>.
+2018-08-13 18:14:01,568 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000220221C84C8>.
+2018-08-13 18:14:16,464 - _logger - INFO - APP - admin entered option screen
+2018-08-13 18:14:21,255 - _logger - INFO - APP - Program closed
+2018-08-13 18:18:04,496 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:18:04,496 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:18:04,496 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C5FC6D8A68>
+2018-08-13 18:18:04,692 - _logger - INFO - Loading server adress options.
+2018-08-13 18:18:04,749 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:18:04,757 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:18:04,757 - _logger - DEBUG - APP - 0
+2018-08-13 18:18:08,488 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 18:18:10,755 - _logger - DEBUG - APP - event: False.
+2018-08-13 18:18:10,758 - _logger - INFO - APP - Current widget changed: 1
+2018-08-13 18:18:10,758 - _logger - DEBUG - APP - 1
+2018-08-13 18:18:10,758 - _logger - INFO - USER - admin instance of User class created
+2018-08-13 18:18:10,759 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-13 18:18:10,760 - _logger - INFO - APP - admin logged.
+2018-08-13 18:18:10,760 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001C5FC8843A8>.
+2018-08-13 18:18:10,760 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001C5FC8843A8>.
+2018-08-13 18:18:12,684 - _logger - INFO - APP - admin entered option screen
+2018-08-13 18:18:38,695 - _logger - INFO - APP - Program closed
+2018-08-13 18:19:08,596 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:19:08,596 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:19:08,596 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002279E072A68>
+2018-08-13 18:19:08,795 - _logger - INFO - Loading server adress options.
+2018-08-13 18:19:08,857 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:19:08,864 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:19:08,864 - _logger - DEBUG - APP - 0
+2018-08-13 18:19:11,544 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 18:20:04,594 - _logger - INFO - APP - Program closed
+2018-08-13 18:20:08,594 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:20:08,594 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:20:08,594 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018182AA1A68>
+2018-08-13 18:20:08,788 - _logger - INFO - Loading server adress options.
+2018-08-13 18:20:08,788 - _logger - WARNING - No options saved to load.
+2018-08-13 18:20:08,849 - _logger - INFO - Loading server email adress options.
+2018-08-13 18:20:08,856 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 18:20:08,856 - _logger - DEBUG - APP - 0
+2018-08-13 18:20:11,905 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 18:20:43,403 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 18:20:45,198 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:20:45,198 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:20:45,198 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B967743A68>
+2018-08-13 18:20:45,387 - _logger - INFO - Loading server adress options.
+2018-08-13 18:21:20,709 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:21:20,709 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:21:20,709 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021FF4482A68>
+2018-08-13 18:21:20,901 - _logger - INFO - Loading server adress options.
+2018-08-13 18:21:59,514 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:21:59,514 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:21:59,514 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002B600FE3A68>
+2018-08-13 18:21:59,711 - _logger - INFO - Loading server adress options.
+2018-08-13 18:22:39,894 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:22:39,895 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:22:39,895 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000211C6423A68>
+2018-08-13 18:22:40,089 - _logger - INFO - Loading server adress options.
+2018-08-13 18:24:48,623 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:24:48,623 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:24:48,623 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002694C213A68>
+2018-08-13 18:24:48,811 - _logger - INFO - Loading server adress options.
+2018-08-13 18:25:21,164 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:25:21,164 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:25:21,164 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016B0C9D2A68>
+2018-08-13 18:25:21,352 - _logger - INFO - Loading server adress options.
+2018-08-13 18:25:32,857 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:25:32,857 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:25:32,857 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018D4E2E2A68>
+2018-08-13 18:25:33,050 - _logger - INFO - Loading server adress options.
+2018-08-13 18:28:32,132 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:28:32,132 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:28:32,132 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E187692AF8>
+2018-08-13 18:28:32,326 - _logger - INFO - Loading server adress options.
+2018-08-13 18:29:20,862 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:29:20,863 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:29:20,863 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026BF6102AF8>
+2018-08-13 18:29:21,058 - _logger - INFO - Loading server adress options.
+2018-08-13 18:30:34,063 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:30:34,063 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:30:34,063 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000011E63952AF8>
+2018-08-13 18:30:34,249 - _logger - INFO - Loading server adress options.
+2018-08-13 18:41:18,441 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:41:18,441 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:41:18,441 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FDBAAAEAF8>
+2018-08-13 18:41:18,635 - _logger - INFO - Loading server adress options.
+2018-08-13 18:41:36,633 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:41:36,633 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:41:36,633 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002319BF3EAF8>
+2018-08-13 18:41:36,831 - _logger - INFO - Loading server adress options.
+2018-08-13 18:42:08,213 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:42:08,213 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:42:08,213 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001999FB9EAF8>
+2018-08-13 18:42:08,404 - _logger - INFO - Loading server adress options.
+2018-08-13 18:42:47,265 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:42:47,265 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:42:47,265 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002378570EAF8>
+2018-08-13 18:42:47,457 - _logger - INFO - Loading server adress options.
+2018-08-13 18:43:23,749 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:43:23,749 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:43:23,749 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000284ECF0CAF8>
+2018-08-13 18:43:23,939 - _logger - INFO - Loading server adress options.
+2018-08-13 18:50:09,695 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:50:09,695 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:50:09,695 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E03C0AEA68>
+2018-08-13 18:50:09,882 - _logger - INFO - Loading server adress options.
+2018-08-13 18:51:24,294 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:51:24,294 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:51:24,294 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002739FD7EA68>
+2018-08-13 18:51:24,483 - _logger - INFO - Loading server adress options.
+2018-08-13 18:51:43,818 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:51:43,818 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:51:43,818 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019F5BC7DA68>
+2018-08-13 18:51:44,004 - _logger - INFO - Loading server adress options.
+2018-08-13 18:53:53,338 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:53:53,338 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:53:53,338 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025A327DEA68>
+2018-08-13 18:53:53,529 - _logger - INFO - Loading server adress options.
+2018-08-13 18:54:57,580 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:54:57,580 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:54:57,580 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002044BF31A68>
+2018-08-13 18:54:57,770 - _logger - INFO - Loading server adress options.
+2018-08-13 18:55:56,476 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:55:56,476 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:55:56,476 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000299DC0DCA68>
+2018-08-13 18:55:56,668 - _logger - INFO - Loading server adress options.
+2018-08-13 18:56:21,054 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:56:21,055 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:56:21,055 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029E57631A68>
+2018-08-13 18:56:21,249 - _logger - INFO - Loading server adress options.
+2018-08-13 18:56:26,687 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:56:26,687 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:56:26,687 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022684F06A68>
+2018-08-13 18:56:26,883 - _logger - INFO - Loading server adress options.
+2018-08-13 18:56:45,530 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:56:45,530 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:56:45,530 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021573AFCA68>
+2018-08-13 18:56:45,719 - _logger - INFO - Loading server adress options.
+2018-08-13 18:57:20,530 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:57:20,530 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:57:20,530 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023B2F62CA68>
+2018-08-13 18:57:20,718 - _logger - INFO - Loading server adress options.
+2018-08-13 18:57:40,531 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:57:40,531 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:57:40,531 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A56290CA68>
+2018-08-13 18:57:40,722 - _logger - INFO - Loading server adress options.
+2018-08-13 18:58:18,949 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:58:18,950 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:58:18,950 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002878E60CAF8>
+2018-08-13 18:58:19,141 - _logger - INFO - Loading server adress options.
+2018-08-13 18:58:36,119 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:58:36,119 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:58:36,119 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E83818CAF8>
+2018-08-13 18:58:36,314 - _logger - INFO - Loading server adress options.
+2018-08-13 18:58:49,064 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:58:49,064 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:58:49,064 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B1E5F6CAF8>
+2018-08-13 18:58:49,252 - _logger - INFO - Loading server adress options.
+2018-08-13 18:59:54,241 - _logger - INFO - __main__ - Program oppened
+2018-08-13 18:59:54,241 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 18:59:54,241 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000229E052CAF8>
+2018-08-13 18:59:54,430 - _logger - INFO - Loading server adress options.
+2018-08-13 19:00:05,719 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:00:05,719 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:00:05,719 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021E2D56CAF8>
+2018-08-13 19:00:05,915 - _logger - INFO - Loading server adress options.
+2018-08-13 19:00:29,123 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:00:29,123 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:00:29,123 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BE9891CAF8>
+2018-08-13 19:00:29,310 - _logger - INFO - Loading server adress options.
+2018-08-13 19:00:58,799 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:00:58,799 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:00:58,799 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000258C685A798>
+2018-08-13 19:00:58,986 - _logger - INFO - Loading server adress options.
+2018-08-13 19:02:40,727 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:02:40,727 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:02:40,727 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CD031DA798>
+2018-08-13 19:02:40,916 - _logger - INFO - Loading server adress options.
+2018-08-13 19:03:21,280 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:03:21,280 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:03:21,280 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CB6479A798>
+2018-08-13 19:03:21,484 - _logger - INFO - Loading server adress options.
+2018-08-13 19:03:30,922 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:03:30,922 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:03:30,922 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023B9539A798>
+2018-08-13 19:03:31,115 - _logger - INFO - Loading server adress options.
+2018-08-13 19:03:31,179 - _logger - INFO - Loading server email adress options.
+2018-08-13 19:03:31,188 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 19:03:31,189 - _logger - DEBUG - APP - 0
+2018-08-13 19:03:34,130 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:03:37,806 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:03:42,541 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-13 19:03:44,615 - _logger - DEBUG - APP - event: False.
+2018-08-13 19:03:44,619 - _logger - INFO - APP - Current widget changed: 1
+2018-08-13 19:03:44,619 - _logger - DEBUG - APP - 1
+2018-08-13 19:03:44,619 - _logger - INFO - USER - admin instance of User class created
+2018-08-13 19:03:44,620 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-13 19:03:44,620 - _logger - INFO - APP - admin logged.
+2018-08-13 19:03:44,620 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000023B955394C8>.
+2018-08-13 19:03:44,620 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000023B955394C8>.
+2018-08-13 19:03:47,030 - _logger - INFO - APP - admin entered option screen
+2018-08-13 19:03:53,021 - _logger - INFO - APP - Program closed
+2018-08-13 19:04:13,514 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:04:13,514 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:04:13,514 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023853F4A798>
+2018-08-13 19:04:13,718 - _logger - INFO - Loading server adress options.
+2018-08-13 19:04:13,772 - _logger - INFO - Loading server email adress options.
+2018-08-13 19:04:13,780 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 19:04:13,780 - _logger - DEBUG - APP - 0
+2018-08-13 19:04:15,645 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:04:28,365 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:04:31,981 - _logger - INFO - APP - Program closed
+2018-08-13 19:04:53,597 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:04:53,597 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:04:53,597 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BBFE639798>
+2018-08-13 19:04:53,791 - _logger - INFO - Loading server adress options.
+2018-08-13 19:04:53,854 - _logger - INFO - Loading server email adress options.
+2018-08-13 19:04:53,862 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 19:04:53,862 - _logger - DEBUG - APP - 0
+2018-08-13 19:04:55,507 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:05:09,684 - _logger - INFO - APP - Program closed
+2018-08-13 19:05:33,550 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:05:33,550 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:05:33,550 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021C09889798>
+2018-08-13 19:05:33,745 - _logger - INFO - Loading server adress options.
+2018-08-13 19:05:33,808 - _logger - INFO - Loading server email adress options.
+2018-08-13 19:05:33,817 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 19:05:33,817 - _logger - DEBUG - APP - 0
+2018-08-13 19:05:35,230 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:05:44,893 - _logger - INFO - APP - Program closed
+2018-08-13 19:05:49,583 - _logger - INFO - __main__ - Program oppened
+2018-08-13 19:05:49,583 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-13 19:05:49,583 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000242439E9798>
+2018-08-13 19:05:49,780 - _logger - INFO - Loading server adress options.
+2018-08-13 19:05:49,833 - _logger - INFO - Loading server email adress options.
+2018-08-13 19:05:49,841 - _logger - INFO - APP - Current widget changed: 0
+2018-08-13 19:05:49,841 - _logger - DEBUG - APP - 0
+2018-08-13 19:05:51,319 - _logger - INFO - APP - Non-identified user entered option screen
+2018-08-13 19:05:56,787 - _logger - INFO - APP - Program closed
+2018-08-14 12:30:08,727 - _logger - INFO - __main__ - Program oppened
+2018-08-14 12:30:08,727 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-14 12:30:08,727 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D2C9659798>
+2018-08-14 12:30:09,014 - _logger - INFO - Loading server adress options.
+2018-08-14 12:30:09,077 - _logger - INFO - Loading server email adress options.
+2018-08-14 12:30:09,084 - _logger - INFO - APP - Current widget changed: 0
+2018-08-14 12:30:09,084 - _logger - DEBUG - APP - 0
+2018-08-14 12:30:19,927 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-14 12:30:22,531 - _logger - DEBUG - APP - event: False.
+2018-08-14 12:30:22,534 - _logger - INFO - APP - Current widget changed: 1
+2018-08-14 12:30:22,534 - _logger - DEBUG - APP - 1
+2018-08-14 12:30:22,535 - _logger - INFO - USER - admin instance of User class created
+2018-08-14 12:30:22,535 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-14 12:30:22,536 - _logger - INFO - APP - admin logged.
+2018-08-14 12:30:22,536 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001D2C97F94C8>.
+2018-08-14 12:30:22,536 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001D2C97F94C8>.
+2018-08-14 12:30:25,261 - _logger - INFO - APP - Program closed
+2018-08-15 17:49:13,506 - _logger - INFO - __main__ - Program oppened
+2018-08-15 17:49:13,569 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-15 17:49:13,569 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022B01219C18>
+2018-08-15 17:49:13,850 - _logger - INFO - Loading server adress options.
+2018-08-15 17:49:13,897 - _logger - INFO - Loading server email adress options.
+2018-08-15 17:49:13,975 - _logger - INFO - APP - Current widget changed: 0
+2018-08-15 17:49:13,975 - _logger - DEBUG - APP - 0
+2018-08-15 17:49:18,428 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-15 17:49:20,911 - _logger - DEBUG - APP - event: False.
+2018-08-15 17:49:20,914 - _logger - INFO - APP - Current widget changed: 1
+2018-08-15 17:49:20,914 - _logger - DEBUG - APP - 1
+2018-08-15 17:49:20,915 - _logger - INFO - USER - admin instance of User class created
+2018-08-15 17:49:20,915 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-08-15 17:49:20,916 - _logger - INFO - APP - admin logged.
+2018-08-15 17:49:20,916 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000022B03610678>.
+2018-08-15 17:49:20,916 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000022B03610678>.
+2018-08-15 17:49:24,096 - _logger - INFO - APP - Program closed
+2018-08-16 13:09:07,826 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:09:07,826 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:09:07,826 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E6F90F9C18>
+2018-08-16 13:09:08,063 - _logger - INFO - Loading server adress options.
+2018-08-16 13:09:08,125 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:09:08,141 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:09:08,141 - _logger - DEBUG - APP - 0
+2018-08-16 13:09:14,017 - _logger - INFO - APP - Program closed
+2018-08-16 13:09:29,419 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:09:29,419 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:09:29,419 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025594F8D048>
+2018-08-16 13:09:29,613 - _logger - INFO - Loading server adress options.
+2018-08-16 13:09:29,687 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:09:29,687 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:09:29,687 - _logger - DEBUG - APP - 0
+2018-08-16 13:10:48,697 - _logger - INFO - APP - Program closed
+2018-08-16 13:14:55,467 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:14:55,467 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:14:55,467 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B93807D798>
+2018-08-16 13:14:55,656 - _logger - INFO - Loading server adress options.
+2018-08-16 13:14:55,719 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:14:55,719 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:14:55,719 - _logger - DEBUG - APP - 0
+2018-08-16 13:15:00,903 - _logger - INFO - APP - Program closed
+2018-08-16 13:29:34,967 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:29:34,967 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:29:34,967 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000176CAEA5048>
+2018-08-16 13:29:35,155 - _logger - INFO - Loading server adress options.
+2018-08-16 13:29:35,217 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:29:35,233 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:29:35,233 - _logger - DEBUG - APP - 0
+2018-08-16 13:31:08,244 - _logger - INFO - APP - Program closed
+2018-08-16 13:36:39,170 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:36:39,170 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:36:39,170 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C30ADCE048>
+2018-08-16 13:36:39,359 - _logger - INFO - Loading server adress options.
+2018-08-16 13:36:39,406 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:36:39,421 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:36:39,421 - _logger - DEBUG - APP - 0
+2018-08-16 13:36:43,442 - _logger - INFO - APP - Program closed
+2018-08-16 13:36:50,997 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:36:50,997 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:36:50,997 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020FBEB5C048>
+2018-08-16 13:36:51,181 - _logger - INFO - Loading server adress options.
+2018-08-16 13:36:51,228 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:36:51,228 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:36:51,228 - _logger - DEBUG - APP - 0
+2018-08-16 13:36:54,026 - _logger - INFO - APP - Program closed
+2018-08-16 13:38:10,365 - _logger - INFO - __main__ - Program oppened
+2018-08-16 13:38:10,365 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 13:38:10,365 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EEE411B048>
+2018-08-16 13:38:10,555 - _logger - INFO - Loading server adress options.
+2018-08-16 13:38:10,617 - _logger - INFO - Loading server email adress options.
+2018-08-16 13:38:10,617 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 13:38:10,617 - _logger - DEBUG - APP - 0
+2018-08-16 13:38:13,155 - _logger - INFO - APP - Program closed
+2018-08-16 14:20:40,314 - _logger - INFO - __main__ - Program oppened
+2018-08-16 14:20:40,315 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 14:20:40,315 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001AF6AFD5288>
+2018-08-16 14:20:40,506 - _logger - INFO - Loading server adress options.
+2018-08-16 14:20:40,569 - _logger - INFO - Loading server email adress options.
+2018-08-16 14:20:40,577 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 14:20:40,577 - _logger - DEBUG - APP - 0
+2018-08-16 14:20:42,628 - _logger - INFO - APP - Register dialog screen opened
+2018-08-16 14:21:06,660 - _logger - INFO - REGISTER - (aaaa, aaaa) created a new SQL entry
+2018-08-16 14:21:10,495 - _logger - INFO - APP - Login dialog screen opened.
+2018-08-16 14:21:14,113 - _logger - DEBUG - APP - event: False.
+2018-08-16 14:21:14,113 - _logger - INFO - APP - Current widget changed: 1
+2018-08-16 14:21:14,113 - _logger - DEBUG - APP - 1
+2018-08-16 14:21:14,113 - _logger - INFO - USER - aaaa instance of User class created
+2018-08-16 14:21:14,113 - _logger - INFO - APP - aaaa permission 'Analista' defined
+2018-08-16 14:21:14,113 - _logger - INFO - APP - aaaa logged.
+2018-08-16 14:21:14,113 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001AF6AFFACA8>.
+2018-08-16 14:21:14,113 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001AF6AFFACA8>.
+2018-08-16 14:21:23,804 - _logger - INFO - APP - aaaa instance of Class user deleted.
+2018-08-16 14:21:23,804 - _logger - INFO - APP - aaaa made loggout.
+2018-08-16 14:21:23,805 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 14:21:23,805 - _logger - DEBUG - APP - 0
+2018-08-16 14:23:44,497 - _logger - INFO - APP - Register dialog screen opened
+2018-08-16 14:23:56,120 - _logger - INFO - APP - Program closed
+2018-08-16 15:32:55,888 - _logger - INFO - __main__ - Program oppened
+2018-08-16 15:32:55,888 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 15:32:55,888 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019A390E9678>
+2018-08-16 15:32:56,075 - _logger - INFO - Loading server adress options.
+2018-08-16 15:32:56,138 - _logger - INFO - Loading server email adress options.
+2018-08-16 15:32:56,138 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 15:32:56,138 - _logger - DEBUG - APP - 0
+2018-08-16 15:33:04,396 - _logger - INFO - APP - Program closed
+2018-08-16 15:33:48,825 - _logger - INFO - __main__ - Program oppened
+2018-08-16 15:33:48,825 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 15:33:48,825 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F2C68C8678>
+2018-08-16 15:33:49,012 - _logger - INFO - Loading server adress options.
+2018-08-16 15:33:49,075 - _logger - INFO - Loading server email adress options.
+2018-08-16 15:33:49,075 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 15:33:49,075 - _logger - DEBUG - APP - 0
+2018-08-16 15:36:42,553 - _logger - INFO - APP - Program closed
+2018-08-16 15:36:44,610 - _logger - INFO - __main__ - Program oppened
+2018-08-16 15:36:44,610 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 15:36:44,610 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029FD9808678>
+2018-08-16 15:36:44,800 - _logger - INFO - Loading server adress options.
+2018-08-16 15:36:44,847 - _logger - INFO - Loading server email adress options.
+2018-08-16 15:36:44,863 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 15:36:44,863 - _logger - DEBUG - APP - 0
+2018-08-16 15:38:57,850 - _logger - INFO - APP - Program closed
+2018-08-16 15:38:59,960 - _logger - INFO - __main__ - Program oppened
+2018-08-16 15:38:59,960 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 15:38:59,960 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000248EC1F9678>
+2018-08-16 15:39:00,148 - _logger - INFO - Loading server adress options.
+2018-08-16 15:39:00,195 - _logger - INFO - Loading server email adress options.
+2018-08-16 15:39:00,210 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 15:39:00,210 - _logger - DEBUG - APP - 0
+2018-08-16 15:41:57,601 - _logger - INFO - APP - Program closed
+2018-08-16 16:03:31,971 - _logger - INFO - __main__ - Program oppened
+2018-08-16 16:03:31,971 - _logger - INFO - CONFIG - Configurations initialized.
+2018-08-16 16:03:31,971 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CE8B23DCA8>
+2018-08-16 16:03:32,174 - _logger - INFO - Loading server adress options.
+2018-08-16 16:03:32,240 - _logger - INFO - Loading server email adress options.
+2018-08-16 16:03:32,240 - _logger - INFO - APP - Current widget changed: 0
+2018-08-16 16:03:32,240 - _logger - DEBUG - APP - 0
+2018-08-16 16:04:21,887 - _logger - INFO - APP - Program closed
+2018-09-03 13:39:21,751 - _logger - INFO - __main__ - Program oppened
+2018-09-03 13:39:21,757 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 13:39:21,757 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028EB707D9D8>
+2018-09-03 13:39:22,073 - _logger - INFO - Loading server adress options.
+2018-09-03 13:39:22,105 - _logger - INFO - Loading server email adress options.
+2018-09-03 13:39:22,120 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 13:39:22,120 - _logger - DEBUG - APP - 0
+2018-09-03 13:39:25,696 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 13:39:28,304 - _logger - DEBUG - APP - event: False.
+2018-09-03 13:39:28,304 - _logger - INFO - APP - Current widget changed: 1
+2018-09-03 13:39:28,319 - _logger - DEBUG - APP - 1
+2018-09-03 13:39:28,319 - _logger - INFO - USER - admin instance of User class created
+2018-09-03 13:39:28,319 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-09-03 13:39:28,319 - _logger - INFO - APP - admin logged.
+2018-09-03 13:39:28,319 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000028EB720E318>.
+2018-09-03 13:39:28,319 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000028EB720E318>.
+2018-09-03 13:41:07,638 - _logger - INFO - APP - admin entered option screen
+2018-09-03 13:48:07,825 - _logger - INFO - APP - Program closed
+2018-09-03 13:48:12,022 - _logger - INFO - __main__ - Program oppened
+2018-09-03 13:48:12,022 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 13:48:12,022 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000260724479D8>
+2018-09-03 13:48:12,225 - _logger - INFO - Loading server adress options.
+2018-09-03 14:01:48,524 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:01:48,524 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:01:48,524 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000129914D79D8>
+2018-09-03 14:01:48,727 - _logger - INFO - Loading server adress options.
+2018-09-03 14:03:41,591 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:03:41,591 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:03:41,591 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BBAEC179D8>
+2018-09-03 14:03:41,794 - _logger - INFO - Loading server adress options.
+2018-09-03 14:04:01,468 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:04:01,468 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:04:01,468 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F203C479D8>
+2018-09-03 14:04:01,671 - _logger - INFO - Loading server adress options.
+2018-09-03 14:04:20,647 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:04:20,647 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:04:20,647 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A613ED79D8>
+2018-09-03 14:04:20,834 - _logger - INFO - Loading server adress options.
+2018-09-03 14:11:55,409 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:11:55,409 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:11:55,409 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A22E8809D8>
+2018-09-03 14:11:55,612 - _logger - INFO - Loading server adress options.
+2018-09-03 14:17:37,406 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:17:37,406 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:17:37,406 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C0DACA5948>
+2018-09-03 14:17:37,609 - _logger - INFO - Loading server adress options.
+2018-09-03 14:17:37,656 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:17:37,671 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:17:37,671 - _logger - DEBUG - APP - 0
+2018-09-03 14:17:45,229 - _logger - INFO - APP - Program closed
+2018-09-03 14:18:58,256 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:18:58,256 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:18:58,256 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025488538948>
+2018-09-03 14:18:58,474 - _logger - INFO - Loading server adress options.
+2018-09-03 14:18:58,521 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:18:58,537 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:18:58,537 - _logger - DEBUG - APP - 0
+2018-09-03 14:19:00,918 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:19:05,520 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 14:19:08,412 - _logger - DEBUG - APP - event: False.
+2018-09-03 14:19:08,412 - _logger - INFO - APP - Current widget changed: 1
+2018-09-03 14:19:08,412 - _logger - DEBUG - APP - 1
+2018-09-03 14:19:08,412 - _logger - INFO - USER - admin instance of User class created
+2018-09-03 14:19:08,412 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-09-03 14:19:08,412 - _logger - INFO - APP - admin logged.
+2018-09-03 14:19:08,412 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000025489FEC288>.
+2018-09-03 14:19:08,412 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000025489FEC288>.
+2018-09-03 14:19:11,971 - _logger - INFO - APP - admin entered option screen
+2018-09-03 14:20:03,391 - _logger - INFO - APP - Program closed
+2018-09-03 14:20:06,431 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:20:06,431 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:20:06,431 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000225AF725948>
+2018-09-03 14:20:06,634 - _logger - INFO - Loading server adress options.
+2018-09-03 14:20:06,696 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:20:06,696 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:20:06,696 - _logger - DEBUG - APP - 0
+2018-09-03 14:20:08,429 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:20:41,631 - _logger - INFO - APP - Program closed
+2018-09-03 14:20:44,479 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:20:44,479 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:20:44,479 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027005675948>
+2018-09-03 14:20:44,666 - _logger - INFO - Loading server adress options.
+2018-09-03 14:20:44,729 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:20:44,729 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:20:44,729 - _logger - DEBUG - APP - 0
+2018-09-03 14:20:54,334 - _logger - INFO - APP - Program closed
+2018-09-03 14:21:57,157 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:21:57,157 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:21:57,157 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023952C45948>
+2018-09-03 14:21:57,360 - _logger - INFO - Loading server adress options.
+2018-09-03 14:21:57,422 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:21:57,422 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:21:57,422 - _logger - DEBUG - APP - 0
+2018-09-03 14:21:59,004 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:22:08,137 - _logger - INFO - APP - Program closed
+2018-09-03 14:24:31,734 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:24:31,734 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:24:31,734 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001844DDD69D8>
+2018-09-03 14:24:31,938 - _logger - INFO - Loading server adress options.
+2018-09-03 14:24:31,984 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:24:32,000 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:24:32,000 - _logger - DEBUG - APP - 0
+2018-09-03 14:24:52,934 - _logger - INFO - APP - Program closed
+2018-09-03 14:25:16,201 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:25:16,201 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:25:16,201 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002356F5C79D8>
+2018-09-03 14:25:16,391 - _logger - INFO - Loading server adress options.
+2018-09-03 14:25:16,454 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:25:16,454 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:25:16,454 - _logger - DEBUG - APP - 0
+2018-09-03 14:25:21,215 - _logger - INFO - APP - Program closed
+2018-09-03 14:25:43,134 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:25:43,134 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:25:43,134 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021C463F5948>
+2018-09-03 14:25:43,337 - _logger - INFO - Loading server adress options.
+2018-09-03 14:25:43,400 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:25:43,400 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:25:43,400 - _logger - DEBUG - APP - 0
+2018-09-03 14:25:46,278 - _logger - INFO - APP - Program closed
+2018-09-03 14:34:26,741 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:34:26,741 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:34:26,741 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002E0ABBBD8B8>
+2018-09-03 14:34:26,960 - _logger - INFO - Loading server adress options.
+2018-09-03 14:34:27,007 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:34:27,022 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:34:27,022 - _logger - DEBUG - APP - 0
+2018-09-03 14:34:30,380 - _logger - INFO - APP - Program closed
+2018-09-03 14:35:26,430 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:35:26,430 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:35:26,430 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029928B1C8B8>
+2018-09-03 14:35:26,633 - _logger - INFO - Loading server adress options.
+2018-09-03 14:35:26,680 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:35:26,680 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:35:26,680 - _logger - DEBUG - APP - 0
+2018-09-03 14:36:26,959 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:36:55,193 - _logger - INFO - APP - Program closed
+2018-09-03 14:39:22,923 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:39:22,923 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:39:22,923 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000282D046D8B8>
+2018-09-03 14:39:23,126 - _logger - INFO - Loading server adress options.
+2018-09-03 14:39:23,173 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:39:23,188 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:39:23,188 - _logger - DEBUG - APP - 0
+2018-09-03 14:39:31,426 - _logger - INFO - APP - Program closed
+2018-09-03 14:39:45,069 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:39:45,069 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:39:45,069 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002173DB9D8B8>
+2018-09-03 14:39:45,256 - _logger - INFO - Loading server adress options.
+2018-09-03 14:39:45,303 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:39:45,303 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:39:45,303 - _logger - DEBUG - APP - 0
+2018-09-03 14:39:51,272 - _logger - INFO - APP - Program closed
+2018-09-03 14:39:54,452 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:39:54,452 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:39:54,452 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000195CB3A78B8>
+2018-09-03 14:39:54,655 - _logger - INFO - Loading server adress options.
+2018-09-03 14:39:54,701 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:39:54,717 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:39:54,717 - _logger - DEBUG - APP - 0
+2018-09-03 14:39:57,455 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:40:00,974 - _logger - INFO - APP - Program closed
+2018-09-03 14:40:41,060 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:40:41,060 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:40:41,060 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000283E51958B8>
+2018-09-03 14:40:41,263 - _logger - INFO - Loading server adress options.
+2018-09-03 14:41:27,594 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:41:27,594 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:41:27,594 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024DC70D68B8>
+2018-09-03 14:41:27,781 - _logger - INFO - Loading server adress options.
+2018-09-03 14:42:49,150 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:42:49,150 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:42:49,150 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000253D02A58B8>
+2018-09-03 14:42:49,353 - _logger - INFO - Loading server adress options.
+2018-09-03 14:43:45,473 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:43:45,473 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:43:45,473 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000299EB736798>
+2018-09-03 14:43:45,676 - _logger - INFO - Loading server adress options.
+2018-09-03 14:44:04,179 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:44:04,179 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:44:04,179 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CCF56B6798>
+2018-09-03 14:44:04,382 - _logger - INFO - Loading server adress options.
+2018-09-03 14:44:24,867 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:44:24,867 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:44:24,867 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018B05E36798>
+2018-09-03 14:44:25,070 - _logger - INFO - Loading server adress options.
+2018-09-03 14:44:34,088 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:44:34,088 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:44:34,088 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000206E8AA6798>
+2018-09-03 14:44:34,275 - _logger - INFO - Loading server adress options.
+2018-09-03 14:44:47,979 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:44:47,979 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:44:47,979 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000014680446798>
+2018-09-03 14:44:48,182 - _logger - INFO - Loading server adress options.
+2018-09-03 14:44:48,244 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:44:48,244 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:44:48,244 - _logger - DEBUG - APP - 0
+2018-09-03 14:44:50,792 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:46:43,136 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:46:43,136 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:46:43,136 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000274F5047798>
+2018-09-03 14:46:43,339 - _logger - INFO - Loading server adress options.
+2018-09-03 14:46:43,402 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:46:43,402 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:46:43,402 - _logger - DEBUG - APP - 0
+2018-09-03 14:46:45,300 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:46:48,118 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Analista', 'Técnico']}
+2018-09-03 14:47:19,493 - _logger - INFO - APP - Program closed
+2018-09-03 14:52:51,080 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:52:51,080 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:52:51,080 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000260B89F8708>
+2018-09-03 14:52:51,283 - _logger - INFO - Loading server adress options.
+2018-09-03 14:52:51,298 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:52:51,298 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:52:51,298 - _logger - DEBUG - APP - 0
+2018-09-03 14:52:54,712 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:53:05,566 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 14:53:08,459 - _logger - DEBUG - APP - event: False.
+2018-09-03 14:53:08,505 - _logger - INFO - APP - Current widget changed: 1
+2018-09-03 14:53:08,505 - _logger - DEBUG - APP - 1
+2018-09-03 14:53:08,505 - _logger - INFO - USER - admin instance of User class created
+2018-09-03 14:53:08,505 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-09-03 14:53:08,505 - _logger - INFO - APP - admin logged.
+2018-09-03 14:53:08,505 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000260BA48D048>.
+2018-09-03 14:53:08,505 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000260BA48D048>.
+2018-09-03 14:53:11,443 - _logger - INFO - APP - admin entered option screen
+2018-09-03 14:53:26,230 - _logger - INFO - APP - Program closed
+2018-09-03 14:53:31,794 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:53:31,794 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:53:31,794 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E572D87708>
+2018-09-03 14:53:31,997 - _logger - INFO - Loading server adress options.
+2018-09-03 14:53:39,933 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:53:39,933 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:53:39,933 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EC76678708>
+2018-09-03 14:53:40,136 - _logger - INFO - Loading server adress options.
+2018-09-03 14:55:18,569 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:55:18,569 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:55:18,569 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A1E5008708>
+2018-09-03 14:55:18,787 - _logger - INFO - Loading server adress options.
+2018-09-03 14:55:18,850 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:55:18,850 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:55:18,850 - _logger - DEBUG - APP - 0
+2018-09-03 14:55:20,997 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 14:55:23,984 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 14:55:27,484 - _logger - DEBUG - APP - event: False.
+2018-09-03 14:55:27,500 - _logger - INFO - APP - Current widget changed: 1
+2018-09-03 14:55:27,500 - _logger - DEBUG - APP - 1
+2018-09-03 14:55:27,500 - _logger - INFO - USER - admin instance of User class created
+2018-09-03 14:55:27,500 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-09-03 14:55:27,500 - _logger - INFO - APP - admin logged.
+2018-09-03 14:55:27,500 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002A1E6ABD048>.
+2018-09-03 14:55:27,500 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002A1E6ABD048>.
+2018-09-03 14:55:29,558 - _logger - INFO - APP - admin entered option screen
+2018-09-03 14:55:36,417 - _logger - INFO - APP - Program closed
+2018-09-03 14:57:38,541 - _logger - INFO - __main__ - Program oppened
+2018-09-03 14:57:38,541 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 14:57:38,541 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000189942D7678>
+2018-09-03 14:57:38,744 - _logger - INFO - Loading server adress options.
+2018-09-03 14:57:38,806 - _logger - INFO - Loading server email adress options.
+2018-09-03 14:57:38,806 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 14:57:38,806 - _logger - DEBUG - APP - 0
+2018-09-03 14:57:41,118 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 15:35:11,512 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:35:11,512 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:35:11,512 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000185428A6708>
+2018-09-03 15:35:11,715 - _logger - INFO - Loading server adress options.
+2018-09-03 15:35:38,656 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:35:38,656 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:35:38,656 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F8899F7708>
+2018-09-03 15:35:38,859 - _logger - INFO - Loading server adress options.
+2018-09-03 15:35:38,906 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:35:38,922 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:35:38,922 - _logger - DEBUG - APP - 0
+2018-09-03 15:35:40,645 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 15:36:52,982 - _logger - INFO - APP - Program closed
+2018-09-03 15:36:54,974 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:36:54,974 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:36:54,974 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000231AC2B6708>
+2018-09-03 15:36:55,177 - _logger - INFO - Loading server adress options.
+2018-09-03 15:36:55,239 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:36:55,239 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:36:55,239 - _logger - DEBUG - APP - 0
+2018-09-03 15:36:57,532 - _logger - INFO - APP - Program closed
+2018-09-03 15:36:59,518 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:36:59,518 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:36:59,518 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F031D97708>
+2018-09-03 15:36:59,706 - _logger - INFO - Loading server adress options.
+2018-09-03 15:36:59,768 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:36:59,768 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:36:59,768 - _logger - DEBUG - APP - 0
+2018-09-03 15:37:01,186 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 15:37:11,606 - _logger - INFO - APP - Program closed
+2018-09-03 15:37:13,719 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:37:13,719 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:37:13,719 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000014B52486708>
+2018-09-03 15:37:13,922 - _logger - INFO - Loading server adress options.
+2018-09-03 15:37:13,984 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:37:13,984 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:37:13,984 - _logger - DEBUG - APP - 0
+2018-09-03 15:37:16,708 - _logger - INFO - APP - Program closed
+2018-09-03 15:37:24,145 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:37:24,145 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:37:24,145 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FA90C57708>
+2018-09-03 15:37:24,348 - _logger - INFO - Loading server adress options.
+2018-09-03 15:37:24,426 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:37:24,426 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:37:24,426 - _logger - DEBUG - APP - 0
+2018-09-03 15:37:25,793 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 15:37:30,349 - _logger - INFO - APP - Program closed
+2018-09-03 15:54:11,670 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:54:11,670 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:54:11,670 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022ACE018708>
+2018-09-03 15:54:11,873 - _logger - INFO - Loading server adress options.
+2018-09-03 15:54:11,936 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:54:11,936 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:54:11,936 - _logger - DEBUG - APP - 0
+2018-09-03 15:54:13,902 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 15:55:37,370 - _logger - INFO - APP - Program closed
+2018-09-03 15:55:40,476 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:55:40,476 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:55:40,476 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000227F2BC8708>
+2018-09-03 15:55:40,663 - _logger - INFO - Loading server adress options.
+2018-09-03 15:55:40,726 - _logger - INFO - Loading server email adress options.
+2018-09-03 15:55:40,726 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 15:55:40,726 - _logger - DEBUG - APP - 0
+2018-09-03 15:55:42,709 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 15:57:33,827 - _logger - INFO - APP - Program closed
+2018-09-03 15:57:36,488 - _logger - INFO - __main__ - Program oppened
+2018-09-03 15:57:36,488 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 15:57:36,488 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019E48CB9708>
+2018-09-03 15:57:36,676 - _logger - INFO - Loading server adress options.
+2018-09-03 16:00:07,826 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:00:07,826 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:00:07,826 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000160D34B6708>
+2018-09-03 16:00:08,030 - _logger - INFO - Loading server adress options.
+2018-09-03 16:00:21,093 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:00:21,093 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:00:21,093 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026CB8336708>
+2018-09-03 16:00:21,296 - _logger - INFO - Loading server adress options.
+2018-09-03 16:07:02,215 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:07:02,215 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:07:02,215 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016300C06708>
+2018-09-03 16:07:02,418 - _logger - INFO - Loading server adress options.
+2018-09-03 16:08:41,874 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:08:41,874 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:08:41,874 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BCD1266708>
+2018-09-03 16:08:42,077 - _logger - INFO - Loading server adress options.
+2018-09-03 16:08:42,140 - _logger - INFO - Loading server email adress options.
+2018-09-03 16:08:42,140 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 16:08:42,140 - _logger - DEBUG - APP - 0
+2018-09-03 16:08:44,992 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 16:08:48,892 - _logger - INFO - APP - Program closed
+2018-09-03 16:08:56,377 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:08:56,377 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:08:56,377 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000198C40F6708>
+2018-09-03 16:08:56,580 - _logger - INFO - Loading server adress options.
+2018-09-03 16:08:56,643 - _logger - INFO - Loading server email adress options.
+2018-09-03 16:08:56,643 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 16:08:56,643 - _logger - DEBUG - APP - 0
+2018-09-03 16:09:01,734 - _logger - INFO - APP - Program closed
+2018-09-03 16:09:11,818 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:09:11,818 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:09:11,818 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000153D62C6708>
+2018-09-03 16:09:12,006 - _logger - INFO - Loading server adress options.
+2018-09-03 16:10:27,349 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:10:27,349 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:10:27,349 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023116BC8708>
+2018-09-03 16:10:27,552 - _logger - INFO - Loading server adress options.
+2018-09-03 16:10:27,630 - _logger - INFO - Loading server email adress options.
+2018-09-03 16:10:27,630 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 16:10:27,630 - _logger - DEBUG - APP - 0
+2018-09-03 16:10:28,927 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 16:11:04,285 - _logger - INFO - APP - Program closed
+2018-09-03 16:17:00,016 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:17:00,016 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:17:00,016 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023332E26708>
+2018-09-03 16:17:00,235 - _logger - INFO - Loading server adress options.
+2018-09-03 16:20:26,324 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:20:26,324 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:20:26,324 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001735BD97708>
+2018-09-03 16:20:26,527 - _logger - INFO - Loading server adress options.
+2018-09-03 16:21:04,399 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:21:04,399 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:21:04,399 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D01C508708>
+2018-09-03 16:21:04,602 - _logger - INFO - Loading server adress options.
+2018-09-03 16:21:04,664 - _logger - INFO - Loading server email adress options.
+2018-09-03 16:21:04,664 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 16:21:04,664 - _logger - DEBUG - APP - 0
+2018-09-03 16:21:08,398 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 16:21:12,139 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 16:21:14,578 - _logger - DEBUG - APP - event: False.
+2018-09-03 16:21:14,594 - _logger - INFO - APP - Current widget changed: 1
+2018-09-03 16:21:14,594 - _logger - DEBUG - APP - 1
+2018-09-03 16:21:14,594 - _logger - INFO - USER - admin instance of User class created
+2018-09-03 16:21:14,594 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-09-03 16:21:14,594 - _logger - INFO - APP - admin logged.
+2018-09-03 16:21:14,594 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001D01DFCF048>.
+2018-09-03 16:21:14,594 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001D01DFCF048>.
+2018-09-03 16:21:16,155 - _logger - INFO - APP - admin entered option screen
+2018-09-03 16:21:21,710 - _logger - INFO - APP - Program closed
+2018-09-03 16:24:37,354 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:24:37,354 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:24:37,354 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001926D709708>
+2018-09-03 16:24:37,557 - _logger - INFO - Loading server adress options.
+2018-09-03 16:24:37,620 - _logger - INFO - Loading server email adress options.
+2018-09-03 16:24:37,620 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 16:24:37,620 - _logger - DEBUG - APP - 0
+2018-09-03 16:24:53,996 - _logger - INFO - APP - Register dialog screen opened
+2018-09-03 16:24:59,742 - _logger - INFO - APP - Register dialog screen opened
+2018-09-03 16:25:02,684 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 16:25:09,780 - _logger - INFO - __main__ - Program oppened
+2018-09-03 16:25:09,780 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 16:25:09,780 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E78A478708>
+2018-09-03 16:25:09,967 - _logger - INFO - Loading server adress options.
+2018-09-03 16:25:10,029 - _logger - INFO - Loading server email adress options.
+2018-09-03 16:25:10,029 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 16:25:10,029 - _logger - DEBUG - APP - 0
+2018-09-03 16:25:11,828 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 16:25:36,231 - _logger - DEBUG - configs/log_path
+2018-09-03 16:25:36,231 - _logger - INFO - CONFIGS - New configs settings registered.
+2018-09-03 16:52:27,078 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 16:52:29,532 - _logger - DEBUG - APP - event: False.
+2018-09-03 16:52:29,548 - _logger - INFO - APP - Current widget changed: 1
+2018-09-03 16:52:29,548 - _logger - DEBUG - APP - 1
+2018-09-03 16:52:29,548 - _logger - INFO - USER - admin instance of User class created
+2018-09-03 16:52:29,548 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-09-03 16:52:29,548 - _logger - INFO - APP - admin logged.
+2018-09-03 16:52:29,548 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001E78BF2F048>.
+2018-09-03 16:52:29,548 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001E78BF2F048>.
+2018-09-03 16:58:02,235 - _logger - INFO - APP - Program closed
+2018-09-03 17:04:27,264 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:04:27,264 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:04:27,264 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000213B41599D8>
+2018-09-03 17:05:27,511 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:05:27,511 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:05:27,511 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002E4ED9699D8>
+2018-09-03 17:05:41,173 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:05:41,173 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:05:41,173 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000216BF8F99D8>
+2018-09-03 17:08:14,305 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:08:14,305 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:08:14,305 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A5DE5BAAF8>
+2018-09-03 17:08:26,511 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:08:26,511 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:08:26,511 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E7DA349AF8>
+2018-09-03 17:08:26,698 - _logger - INFO - Loading server adress options.
+2018-09-03 17:08:26,761 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:10:38,360 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:10:38,360 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:10:38,360 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000179690C9AF8>
+2018-09-03 17:10:38,548 - _logger - INFO - Loading server adress options.
+2018-09-03 17:10:38,626 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:10:38,626 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 17:10:38,626 - _logger - DEBUG - APP - 0
+2018-09-03 17:10:42,506 - _logger - INFO - APP - Patient DB dialog screen opened
+2018-09-03 17:10:46,711 - _logger - INFO - APP - Samples DB dialog screen opened
+2018-09-03 17:11:09,202 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:11:09,202 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:11:09,202 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FA73FD9AF8>
+2018-09-03 17:11:09,390 - _logger - INFO - Loading server adress options.
+2018-09-03 17:11:09,452 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:11:09,452 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 17:11:09,452 - _logger - DEBUG - APP - 0
+2018-09-03 17:11:12,093 - _logger - INFO - APP - Samples DB dialog screen opened
+2018-09-03 17:12:27,016 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 17:12:29,118 - _logger - INFO - APP - Samples DB dialog screen opened
+2018-09-03 17:12:30,425 - _logger - INFO - APP - Patient DB dialog screen opened
+2018-09-03 17:12:33,493 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 17:13:31,402 - _logger - INFO - APP - Program closed
+2018-09-03 17:15:47,760 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:15:47,760 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:15:47,760 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002730F929AF8>
+2018-09-03 17:15:47,963 - _logger - INFO - Loading server adress options.
+2018-09-03 17:15:48,025 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:15:48,025 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 17:15:48,025 - _logger - DEBUG - APP - 0
+2018-09-03 17:15:50,057 - _logger - INFO - APP - Samples DB dialog screen opened
+2018-09-03 17:18:31,187 - _logger - INFO - APP - Program closed
+2018-09-03 17:18:37,960 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:18:37,960 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:18:37,960 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000015D8B719AF8>
+2018-09-03 17:18:38,147 - _logger - INFO - Loading server adress options.
+2018-09-03 17:18:38,225 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:18:38,225 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 17:18:38,225 - _logger - DEBUG - APP - 0
+2018-09-03 17:18:40,758 - _logger - INFO - APP - Samples DB dialog screen opened
+2018-09-03 17:20:17,985 - _logger - INFO - APP - Program closed
+2018-09-03 17:20:50,059 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:20:50,059 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:20:50,059 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002776ADB9AF8>
+2018-09-03 17:20:50,262 - _logger - INFO - Loading server adress options.
+2018-09-03 17:20:50,340 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:20:50,340 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 17:20:50,340 - _logger - DEBUG - APP - 0
+2018-09-03 17:21:04,367 - _logger - INFO - APP - Program closed
+2018-09-03 17:28:37,038 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:28:37,038 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:28:37,038 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FFBDDD0048>
+2018-09-03 17:28:37,241 - _logger - INFO - Loading server adress options.
+2018-09-03 17:28:37,304 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:28:47,906 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:28:47,906 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:28:47,906 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B02CA70048>
+2018-09-03 17:28:48,109 - _logger - INFO - Loading server adress options.
+2018-09-03 17:28:48,187 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:28:48,187 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 17:28:48,187 - _logger - DEBUG - APP - 0
+2018-09-03 17:28:50,324 - _logger - INFO - APP - Login dialog screen opened.
+2018-09-03 17:28:53,622 - _logger - INFO - APP - Program closed
+2018-09-03 17:56:54,958 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:56:54,958 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:56:54,958 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000280B52D2048>
+2018-09-03 17:56:55,146 - _logger - INFO - Loading server adress options.
+2018-09-03 17:56:55,208 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:57:05,794 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:57:05,794 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:57:05,794 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029AB990F048>
+2018-09-03 17:57:05,981 - _logger - INFO - Loading server adress options.
+2018-09-03 17:57:06,044 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:59:43,206 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:59:43,206 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:59:43,206 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B49CED3048>
+2018-09-03 17:59:43,409 - _logger - INFO - Loading server adress options.
+2018-09-03 17:59:43,471 - _logger - INFO - Loading server email adress options.
+2018-09-03 17:59:57,295 - _logger - INFO - __main__ - Program oppened
+2018-09-03 17:59:57,295 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 17:59:57,295 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026693433048>
+2018-09-03 17:59:57,482 - _logger - INFO - Loading server adress options.
+2018-09-03 17:59:57,545 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:03:12,914 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:03:12,914 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:03:12,914 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029C3DC80048>
+2018-09-03 18:03:13,117 - _logger - INFO - Loading server adress options.
+2018-09-03 18:03:13,180 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:03:33,845 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:03:33,845 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:03:33,845 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000252143F1048>
+2018-09-03 18:03:34,048 - _logger - INFO - Loading server adress options.
+2018-09-03 18:03:34,111 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:04:45,993 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:04:45,993 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:04:45,993 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000017F4F430048>
+2018-09-03 18:04:46,181 - _logger - INFO - Loading server adress options.
+2018-09-03 18:04:46,243 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:06:12,373 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:06:12,373 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:06:12,373 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A981C01048>
+2018-09-03 18:06:12,576 - _logger - INFO - Loading server adress options.
+2018-09-03 18:06:12,654 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:07:40,438 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:07:40,438 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:07:40,438 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000256F5452048>
+2018-09-03 18:07:40,625 - _logger - INFO - Loading server adress options.
+2018-09-03 18:07:40,703 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:08:26,680 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:08:26,680 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:08:26,680 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016034360048>
+2018-09-03 18:08:26,867 - _logger - INFO - Loading server adress options.
+2018-09-03 18:08:26,930 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:08:51,617 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:08:51,617 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:08:51,617 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000015B77682048>
+2018-09-03 18:08:51,804 - _logger - INFO - Loading server adress options.
+2018-09-03 18:08:51,851 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:12:56,588 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:12:56,588 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:12:56,588 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A50B7A0048>
+2018-09-03 18:12:56,791 - _logger - INFO - Loading server adress options.
+2018-09-03 18:12:56,853 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:12:56,900 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:12:56,900 - _logger - DEBUG - APP - 0
+2018-09-03 18:14:49,561 - _logger - INFO - APP - Program closed
+2018-09-03 18:14:54,256 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:14:54,256 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:14:54,256 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000239D53E2048>
+2018-09-03 18:14:54,444 - _logger - INFO - Loading server adress options.
+2018-09-03 18:14:54,506 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:14:54,569 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:14:54,569 - _logger - DEBUG - APP - 0
+2018-09-03 18:15:04,315 - _logger - INFO - APP - Program closed
+2018-09-03 18:15:35,137 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:15:35,137 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:15:35,137 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020F1F352048>
+2018-09-03 18:15:42,957 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:15:42,957 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:15:42,957 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FB543D0048>
+2018-09-03 18:15:43,161 - _logger - INFO - Loading server adress options.
+2018-09-03 18:15:43,223 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:15:43,285 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:15:43,285 - _logger - DEBUG - APP - 0
+2018-09-03 18:15:46,012 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 18:15:49,024 - _logger - INFO - APP - Program closed
+2018-09-03 18:16:36,297 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:16:36,297 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:16:36,297 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000293930D2048>
+2018-09-03 18:16:36,485 - _logger - INFO - Loading server adress options.
+2018-09-03 18:16:36,563 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:16:36,626 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:16:36,626 - _logger - DEBUG - APP - 0
+2018-09-03 18:17:11,585 - _logger - INFO - APP - Program closed
+2018-09-03 18:17:14,577 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:17:14,577 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:17:14,577 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000250488B1048>
+2018-09-03 18:17:14,765 - _logger - INFO - Loading server adress options.
+2018-09-03 18:17:14,827 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:17:14,890 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:17:14,890 - _logger - DEBUG - APP - 0
+2018-09-03 18:17:17,271 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:19:47,319 - _logger - INFO - APP - Program closed
+2018-09-03 18:19:51,582 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:19:51,582 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:19:51,582 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C3DDDC20D8>
+2018-09-03 18:19:51,785 - _logger - INFO - Loading server adress options.
+2018-09-03 18:19:51,848 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:19:51,910 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:19:51,910 - _logger - DEBUG - APP - 0
+2018-09-03 18:19:53,299 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:20:19,792 - _logger - INFO - APP - Program closed
+2018-09-03 18:20:23,467 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:20:23,467 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:20:23,467 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022EE73C2048>
+2018-09-03 18:20:23,655 - _logger - INFO - Loading server adress options.
+2018-09-03 18:20:23,717 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:20:23,780 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:20:23,780 - _logger - DEBUG - APP - 0
+2018-09-03 18:20:25,003 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:22:36,983 - _logger - INFO - APP - Program closed
+2018-09-03 18:22:56,590 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:22:56,590 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:22:56,590 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020BE7A13048>
+2018-09-03 18:22:56,793 - _logger - INFO - Loading server adress options.
+2018-09-03 18:22:56,855 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:23:42,734 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:23:42,734 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:23:42,734 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000291EC992048>
+2018-09-03 18:23:42,937 - _logger - INFO - Loading server adress options.
+2018-09-03 18:23:42,984 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:24:39,294 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:24:39,294 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:24:39,294 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000012EE3312048>
+2018-09-03 18:24:39,497 - _logger - INFO - Loading server adress options.
+2018-09-03 18:24:39,575 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:24:39,622 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:24:39,622 - _logger - DEBUG - APP - 0
+2018-09-03 18:24:41,581 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:25:08,291 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:26:33,266 - _logger - INFO - APP - Program closed
+2018-09-03 18:26:37,678 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:26:37,678 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:26:37,678 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002533A512048>
+2018-09-03 18:26:37,881 - _logger - INFO - Loading server adress options.
+2018-09-03 18:26:37,943 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:26:38,006 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:26:38,006 - _logger - DEBUG - APP - 0
+2018-09-03 18:26:39,441 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:26:54,328 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:27:25,139 - _logger - INFO - APP - Program closed
+2018-09-03 18:27:29,265 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:27:29,265 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:27:29,265 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020D51732048>
+2018-09-03 18:27:29,468 - _logger - INFO - Loading server adress options.
+2018-09-03 18:27:29,531 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:27:29,578 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:27:29,578 - _logger - DEBUG - APP - 0
+2018-09-03 18:27:30,730 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:27:41,657 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:28:02,893 - _logger - INFO - APP - Program closed
+2018-09-03 18:28:06,793 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:28:06,793 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:28:06,793 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C703702048>
+2018-09-03 18:28:06,996 - _logger - INFO - Loading server adress options.
+2018-09-03 18:28:07,058 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:28:07,121 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:28:07,121 - _logger - DEBUG - APP - 0
+2018-09-03 18:28:08,617 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:28:19,014 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 18:28:24,909 - _logger - INFO - APP - Program closed
+2018-09-03 18:28:32,586 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:28:32,586 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:28:32,586 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000246E6262048>
+2018-09-03 18:28:32,790 - _logger - INFO - Loading server adress options.
+2018-09-03 18:28:32,836 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:28:32,899 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:28:32,899 - _logger - DEBUG - APP - 0
+2018-09-03 18:28:35,492 - _logger - INFO - APP - Non-identified user entered option screen
+2018-09-03 18:28:40,602 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:28:52,410 - _logger - INFO - APP - Program closed
+2018-09-03 18:28:57,991 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:28:57,991 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:28:57,991 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002FA0C972048>
+2018-09-03 18:28:58,194 - _logger - INFO - Loading server adress options.
+2018-09-03 18:28:58,272 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:28:58,334 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:28:58,334 - _logger - DEBUG - APP - 0
+2018-09-03 18:28:59,915 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:29:54,537 - _logger - INFO - APP - Program closed
+2018-09-03 18:29:59,092 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:29:59,092 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:29:59,092 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000204C7DC2048>
+2018-09-03 18:29:59,280 - _logger - INFO - Loading server adress options.
+2018-09-03 18:29:59,342 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:29:59,405 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:29:59,405 - _logger - DEBUG - APP - 0
+2018-09-03 18:30:00,868 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:30:32,991 - _logger - INFO - APP - Program closed
+2018-09-03 18:30:37,003 - _logger - INFO - __main__ - Program oppened
+2018-09-03 18:30:37,003 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-03 18:30:37,003 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000211C4FC2048>
+2018-09-03 18:30:37,206 - _logger - INFO - Loading server adress options.
+2018-09-03 18:30:37,269 - _logger - INFO - Loading server email adress options.
+2018-09-03 18:30:37,331 - _logger - INFO - APP - Current widget changed: 0
+2018-09-03 18:30:37,331 - _logger - DEBUG - APP - 0
+2018-09-03 18:30:38,679 - _logger - INFO - APP - Info dialog screen opened
+2018-09-03 18:36:23,045 - _logger - INFO - APP - Samples DB dialog screen opened
+2018-09-03 18:36:53,001 - _logger - INFO - APP - Program closed
+2018-09-04 16:44:56,415 - _logger - INFO - __main__ - Program oppened
+2018-09-04 16:44:56,415 - _logger - INFO - CONFIG - Configurations initialized.
+2018-09-04 16:44:56,415 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A916190048>
+2018-09-04 16:44:56,680 - _logger - INFO - Loading server adress options.
+2018-09-04 16:44:56,727 - _logger - INFO - Loading server email adress options.
+2018-09-04 16:44:56,790 - _logger - INFO - APP - Current widget changed: 0
+2018-09-04 16:44:56,790 - _logger - DEBUG - APP - 0
+2018-09-04 16:45:01,627 - _logger - INFO - APP - Info dialog screen opened
+2018-09-04 16:45:35,160 - _logger - INFO - APP - Info dialog screen opened
+2018-09-04 16:45:37,767 - _logger - INFO - APP - Info dialog screen opened
+2018-09-04 16:49:20,938 - _logger - INFO - APP - Program closed

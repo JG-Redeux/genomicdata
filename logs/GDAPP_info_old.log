@@ -1,0 +1,2446 @@
+2018-04-02 13:12:00,126 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:12:00,126 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:12:00,126 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:12:00,126 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:12:00,126 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020E4A4E2AF8>
+2018-04-02 13:12:00,329 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:12:00,329 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:12:00,329 - _logger - DEBUG - APP - 0
+2018-04-02 13:12:02,019 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:12:02,019 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:12:20,669 - _logger - INFO - APP - Program closed
+2018-04-02 13:12:20,669 - _logger - INFO - APP - Program closed
+2018-04-02 13:12:21,819 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:12:21,819 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:12:21,819 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F3CA762AF8>
+2018-04-02 13:12:22,030 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:12:22,030 - _logger - DEBUG - APP - 0
+2018-04-02 13:12:23,497 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:12:39,347 - _logger - INFO - CONFIGS - New configs settings registered.
+2018-04-02 13:12:45,692 - _logger - INFO - APP - Program closed
+2018-04-02 13:16:32,758 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:16:32,758 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:16:32,758 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027E3FEA2AF8>
+2018-04-02 13:16:32,966 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:16:32,966 - _logger - DEBUG - APP - 0
+2018-04-02 13:16:34,311 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:16:36,533 - _logger - INFO - CONFIGS - New configs settings registered.
+2018-04-02 13:17:58,949 - _logger - INFO - APP - Program closed
+2018-04-02 13:18:21,004 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:18:21,004 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:18:21,004 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018390D62AF8>
+2018-04-02 13:18:21,221 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:18:21,221 - _logger - DEBUG - APP - 0
+2018-04-02 13:18:24,333 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:18:28,268 - _logger - DEBUG - configs/log_path
+2018-04-02 13:18:28,268 - _logger - INFO - CONFIGS - New configs settings registered.
+2018-04-02 13:18:55,717 - _logger - INFO - APP - Program closed
+2018-04-02 13:18:58,781 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:18:58,781 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:18:58,781 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B8CBDF0B88>
+2018-04-02 13:18:58,989 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:18:58,989 - _logger - DEBUG - APP - 0
+2018-04-02 13:19:00,554 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:19:06,725 - _logger - DEBUG - configs/log_path
+2018-04-02 13:19:06,725 - _logger - INFO - CONFIGS - New configs settings registered.
+2018-04-02 13:19:19,293 - _logger - INFO - APP - Program closed
+2018-04-02 13:19:20,220 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:19:20,220 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:19:20,220 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020458B72AF8>
+2018-04-02 13:19:20,430 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:19:20,430 - _logger - DEBUG - APP - 0
+2018-04-02 13:19:21,834 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:19:24,716 - _logger - DEBUG - configs/log_path
+2018-04-02 13:19:24,716 - _logger - INFO - CONFIGS - New configs settings registered.
+2018-04-02 13:19:30,519 - _logger - INFO - APP - Program closed
+2018-04-02 13:23:39,662 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:23:39,662 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:23:39,662 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022772EB1B88>
+2018-04-02 13:23:39,876 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:23:39,876 - _logger - DEBUG - APP - 0
+2018-04-02 13:23:41,585 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:23:57,542 - _logger - INFO - APP - Program closed
+2018-04-02 13:23:58,280 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:23:58,280 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:23:58,280 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FB35582B88>
+2018-04-02 13:23:58,488 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:23:58,488 - _logger - DEBUG - APP - 0
+2018-04-02 13:24:00,025 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:24:12,046 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:24:15,709 - _logger - INFO - APP - Program closed
+2018-04-02 13:24:16,687 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:24:16,687 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:24:16,687 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025A760B2B88>
+2018-04-02 13:24:16,893 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:24:16,893 - _logger - DEBUG - APP - 0
+2018-04-02 13:24:18,559 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:24:38,557 - _logger - INFO - APP - Program closed
+2018-04-02 13:24:39,586 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:24:39,586 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:24:39,586 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001585DD71B88>
+2018-04-02 13:24:39,794 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:24:39,794 - _logger - DEBUG - APP - 0
+2018-04-02 13:24:41,213 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:25:17,294 - _logger - INFO - APP - Program closed
+2018-04-02 13:25:18,483 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:25:18,483 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:25:18,483 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000250CF321B88>
+2018-04-02 13:25:18,696 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:25:18,696 - _logger - DEBUG - APP - 0
+2018-04-02 13:25:19,982 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:25:38,926 - _logger - INFO - APP - Program closed
+2018-04-02 13:25:50,254 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:25:50,254 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:25:50,254 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000164B57A1B88>
+2018-04-02 13:25:50,460 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:25:50,460 - _logger - DEBUG - APP - 0
+2018-04-02 13:25:51,584 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:26:25,246 - _logger - INFO - APP - Program closed
+2018-04-02 13:26:26,309 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:26:26,309 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:26:26,309 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000218AF4F1B88>
+2018-04-02 13:26:26,520 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:26:26,520 - _logger - DEBUG - APP - 0
+2018-04-02 13:26:27,903 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:27:05,822 - _logger - INFO - APP - Program closed
+2018-04-02 13:27:06,662 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:27:06,662 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:27:06,662 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001294BBA1B88>
+2018-04-02 13:27:06,871 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:27:06,871 - _logger - DEBUG - APP - 0
+2018-04-02 13:27:08,359 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:31:11,582 - _logger - INFO - APP - Program closed
+2018-04-02 13:31:12,749 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:31:12,749 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:31:12,749 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002349D921B88>
+2018-04-02 13:31:12,965 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:31:12,965 - _logger - DEBUG - APP - 0
+2018-04-02 13:31:14,214 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:31:27,166 - _logger - INFO - APP - Program closed
+2018-04-02 13:31:28,150 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:31:28,150 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:31:28,150 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B6F77C1B88>
+2018-04-02 13:31:28,362 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:31:28,362 - _logger - DEBUG - APP - 0
+2018-04-02 13:31:30,117 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:33:05,878 - _logger - INFO - APP - Program closed
+2018-04-02 13:33:07,196 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:33:07,197 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:33:07,197 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001AD79741B88>
+2018-04-02 13:33:07,416 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:33:07,416 - _logger - DEBUG - APP - 0
+2018-04-02 13:33:08,633 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:33:32,662 - _logger - INFO - APP - Program closed
+2018-04-02 13:33:33,581 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:33:33,581 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:33:33,581 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000222BD971B88>
+2018-04-02 13:33:33,801 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:33:33,801 - _logger - DEBUG - APP - 0
+2018-04-02 13:33:40,010 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:34:06,391 - _logger - INFO - APP - Program closed
+2018-04-02 13:34:07,446 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:34:07,446 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:34:07,446 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002387F531B88>
+2018-04-02 13:34:07,662 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:34:07,662 - _logger - DEBUG - APP - 0
+2018-04-02 13:34:10,521 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:35:53,079 - _logger - INFO - APP - Program closed
+2018-04-02 13:35:53,377 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:35:53,377 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:35:53,377 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000011AC5D60B88>
+2018-04-02 13:35:53,599 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:35:53,599 - _logger - DEBUG - APP - 0
+2018-04-02 13:35:56,341 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:36:25,047 - _logger - INFO - APP - Program closed
+2018-04-02 13:36:26,011 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:36:26,011 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:36:26,011 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002C175491B88>
+2018-04-02 13:36:26,229 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:36:26,229 - _logger - DEBUG - APP - 0
+2018-04-02 13:36:27,528 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:36:58,069 - _logger - INFO - APP - Program closed
+2018-04-02 13:36:58,371 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:36:58,371 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:36:58,371 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BEA0AD1B88>
+2018-04-02 13:36:58,584 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:36:58,584 - _logger - DEBUG - APP - 0
+2018-04-02 13:37:00,409 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:37:34,672 - _logger - INFO - APP - Program closed
+2018-04-02 13:37:38,732 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:37:38,732 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:37:38,732 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023C54E51B88>
+2018-04-02 13:37:38,948 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:37:38,948 - _logger - DEBUG - APP - 0
+2018-04-02 13:37:40,338 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:37:58,119 - _logger - INFO - APP - Program closed
+2018-04-02 13:37:59,528 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:37:59,528 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:37:59,528 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018C55501B88>
+2018-04-02 13:37:59,736 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:37:59,736 - _logger - DEBUG - APP - 0
+2018-04-02 13:38:01,510 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:38:10,878 - _logger - INFO - APP - Program closed
+2018-04-02 13:38:12,527 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:38:12,527 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:38:12,527 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C57EF41B88>
+2018-04-02 13:38:12,745 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:38:12,745 - _logger - DEBUG - APP - 0
+2018-04-02 13:38:14,764 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:38:27,926 - _logger - INFO - APP - Program closed
+2018-04-02 13:38:29,310 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:38:29,310 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:38:29,310 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027A7F271B88>
+2018-04-02 13:38:29,523 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:38:29,523 - _logger - DEBUG - APP - 0
+2018-04-02 13:38:32,227 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:38:54,470 - _logger - INFO - APP - Program closed
+2018-04-02 13:38:55,449 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:38:55,449 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:38:55,449 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016F3B631B88>
+2018-04-02 13:38:55,654 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:38:55,654 - _logger - DEBUG - APP - 0
+2018-04-02 13:38:56,753 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:39:07,093 - _logger - INFO - APP - Program closed
+2018-04-02 13:39:07,987 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:39:07,987 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:39:07,987 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022D25811B88>
+2018-04-02 13:39:08,197 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:39:08,198 - _logger - DEBUG - APP - 0
+2018-04-02 13:39:09,622 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:39:55,301 - _logger - INFO - APP - Program closed
+2018-04-02 13:40:29,963 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:40:29,963 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:40:29,963 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000011FB6471B88>
+2018-04-02 13:40:30,181 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:40:30,181 - _logger - DEBUG - APP - 0
+2018-04-02 13:40:31,148 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:40:52,686 - _logger - INFO - APP - Program closed
+2018-04-02 13:40:53,745 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:40:53,745 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:40:53,745 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000285F2C51B88>
+2018-04-02 13:40:53,966 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:40:53,966 - _logger - DEBUG - APP - 0
+2018-04-02 13:40:57,573 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:41:12,671 - _logger - INFO - APP - Program closed
+2018-04-02 13:41:13,811 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:41:13,811 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:41:13,811 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020D34400B88>
+2018-04-02 13:41:14,034 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:41:14,034 - _logger - DEBUG - APP - 0
+2018-04-02 13:41:15,389 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:41:24,000 - _logger - INFO - APP - Program closed
+2018-04-02 13:41:30,105 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:41:30,105 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:41:30,105 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026BD6BF1B88>
+2018-04-02 13:41:30,323 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:41:30,323 - _logger - DEBUG - APP - 0
+2018-04-02 13:41:31,794 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:41:47,640 - _logger - INFO - APP - Program closed
+2018-04-02 13:41:48,852 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:41:48,852 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:41:48,852 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EE194B0B88>
+2018-04-02 13:41:49,074 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:41:49,074 - _logger - DEBUG - APP - 0
+2018-04-02 13:41:50,256 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:42:04,934 - _logger - INFO - APP - Program closed
+2018-04-02 13:42:07,009 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:42:07,009 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:42:07,009 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027EBE411B88>
+2018-04-02 13:42:07,449 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:42:07,449 - _logger - DEBUG - APP - 0
+2018-04-02 13:42:08,646 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:42:23,615 - _logger - INFO - APP - Program closed
+2018-04-02 13:42:24,665 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:42:24,665 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:42:24,665 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C4D66C1B88>
+2018-04-02 13:42:24,885 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:42:24,885 - _logger - DEBUG - APP - 0
+2018-04-02 13:42:26,231 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:43:33,118 - _logger - INFO - APP - Program closed
+2018-04-02 13:43:34,137 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:43:34,137 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:43:34,137 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000013B25561B88>
+2018-04-02 13:43:34,355 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:43:34,356 - _logger - DEBUG - APP - 0
+2018-04-02 13:43:36,223 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:43:56,789 - _logger - INFO - APP - Program closed
+2018-04-02 13:43:58,702 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:43:58,702 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:43:58,702 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FA99AF1B88>
+2018-04-02 13:43:58,914 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:43:58,915 - _logger - DEBUG - APP - 0
+2018-04-02 13:44:01,121 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:44:24,767 - _logger - INFO - APP - Program closed
+2018-04-02 13:44:25,777 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:44:25,777 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:44:25,777 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016B73662B88>
+2018-04-02 13:44:26,018 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:44:26,019 - _logger - DEBUG - APP - 0
+2018-04-02 13:44:27,401 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:44:40,446 - _logger - INFO - APP - Program closed
+2018-04-02 13:44:40,738 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:44:40,738 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:44:40,738 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B5C38C2B88>
+2018-04-02 13:44:40,956 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:44:40,956 - _logger - DEBUG - APP - 0
+2018-04-02 13:44:42,502 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:44:58,399 - _logger - INFO - APP - Program closed
+2018-04-02 13:44:59,464 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:44:59,464 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:44:59,464 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A4FF1B2B88>
+2018-04-02 13:44:59,680 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:44:59,680 - _logger - DEBUG - APP - 0
+2018-04-02 13:45:00,900 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:45:54,135 - _logger - INFO - APP - Program closed
+2018-04-02 13:45:55,059 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:45:55,059 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:45:55,059 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F4BD4A2B88>
+2018-04-02 13:46:38,221 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:46:38,221 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:46:38,221 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A324DD2B88>
+2018-04-02 13:46:45,021 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:46:45,021 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:46:45,021 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FBC0F42B88>
+2018-04-02 13:46:45,240 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:46:45,240 - _logger - DEBUG - APP - 0
+2018-04-02 13:46:46,923 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:48:02,480 - _logger - INFO - APP - Program closed
+2018-04-02 13:48:03,547 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:48:03,548 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:48:03,548 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002E6DA4A2B88>
+2018-04-02 13:48:03,765 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:48:03,765 - _logger - DEBUG - APP - 0
+2018-04-02 13:48:05,638 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:48:17,494 - _logger - INFO - APP - Program closed
+2018-04-02 13:48:18,469 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:48:18,469 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:48:18,469 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BA86022B88>
+2018-04-02 13:48:18,691 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:48:18,691 - _logger - DEBUG - APP - 0
+2018-04-02 13:48:20,118 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:48:37,743 - _logger - INFO - APP - Program closed
+2018-04-02 13:48:39,071 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:48:39,071 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:48:39,071 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028CDE882B88>
+2018-04-02 13:48:39,280 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:48:39,280 - _logger - DEBUG - APP - 0
+2018-04-02 13:48:40,515 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:51:50,274 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:53:51,807 - _logger - INFO - APP - Program closed
+2018-04-02 13:53:53,550 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:53:53,550 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:53:53,550 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029456693B88>
+2018-04-02 13:53:53,760 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:53:53,761 - _logger - DEBUG - APP - 0
+2018-04-02 13:53:55,059 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:54:16,999 - _logger - INFO - APP - Program closed
+2018-04-02 13:54:25,345 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:54:25,345 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:54:25,345 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002E4A5693B88>
+2018-04-02 13:54:25,562 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:54:25,562 - _logger - DEBUG - APP - 0
+2018-04-02 13:54:26,834 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:55:55,607 - _logger - INFO - APP - Program closed
+2018-04-02 13:56:17,890 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:56:17,890 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:56:17,890 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002E82F2C1B88>
+2018-04-02 13:56:18,107 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:56:18,107 - _logger - DEBUG - APP - 0
+2018-04-02 13:56:19,197 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:56:31,838 - _logger - INFO - APP - Program closed
+2018-04-02 13:56:32,662 - _logger - INFO - __main__ - Program oppened
+2018-04-02 13:56:32,662 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 13:56:32,662 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000014BB9FF1B88>
+2018-04-02 13:56:32,877 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 13:56:32,877 - _logger - DEBUG - APP - 0
+2018-04-02 13:56:34,064 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 13:57:17,445 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 14:00:14,328 - _logger - INFO - APP - Program closed
+2018-04-02 14:00:15,435 - _logger - INFO - __main__ - Program oppened
+2018-04-02 14:00:15,435 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 14:00:15,435 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023FA7281B88>
+2018-04-02 14:00:15,656 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 14:00:15,656 - _logger - DEBUG - APP - 0
+2018-04-02 14:00:17,110 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 14:02:04,603 - _logger - INFO - APP - Program closed
+2018-04-02 14:53:40,735 - _logger - INFO - __main__ - Program oppened
+2018-04-02 14:53:40,735 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 14:53:40,735 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C4D05C1CA8>
+2018-04-02 14:53:40,951 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 14:53:40,951 - _logger - DEBUG - APP - 0
+2018-04-02 14:53:45,402 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 14:54:53,904 - _logger - INFO - APP - Program closed
+2018-04-02 15:05:14,713 - _logger - INFO - __main__ - Program oppened
+2018-04-02 15:05:14,713 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 15:05:14,713 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002AC5B9F2D38>
+2018-04-02 15:05:14,928 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 15:05:14,928 - _logger - DEBUG - APP - 0
+2018-04-02 15:05:16,545 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:05:32,996 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 15:05:32,996 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 15:10:18,306 - _logger - INFO - APP - Program closed
+2018-04-02 15:10:20,116 - _logger - INFO - __main__ - Program oppened
+2018-04-02 15:10:20,116 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 15:10:20,116 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020D70262D38>
+2018-04-02 15:10:20,331 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 15:10:20,331 - _logger - DEBUG - APP - 0
+2018-04-02 15:10:24,286 - _logger - INFO - APP - Program closed
+2018-04-02 15:10:30,222 - _logger - INFO - __main__ - Program oppened
+2018-04-02 15:10:30,222 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 15:10:30,222 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002072DBB2D38>
+2018-04-02 15:10:30,439 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 15:10:30,439 - _logger - DEBUG - APP - 0
+2018-04-02 15:10:39,048 - _logger - INFO - APP - Program closed
+2018-04-02 16:00:06,045 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:00:06,045 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:00:06,045 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000241A8F31EE8>
+2018-04-02 16:00:27,392 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:00:27,393 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:00:27,393 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BD60161EE8>
+2018-04-02 16:00:27,623 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:00:27,623 - _logger - DEBUG - APP - 0
+2018-04-02 16:00:30,355 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:00:41,044 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:00:41,044 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:12:17,630 - _logger - INFO - APP - Program closed
+2018-04-02 16:12:26,835 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:12:26,835 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:12:26,835 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000139A54E2EE8>
+2018-04-02 16:12:27,059 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:12:27,060 - _logger - DEBUG - APP - 0
+2018-04-02 16:12:32,573 - _logger - INFO - APP - Program closed
+2018-04-02 16:13:09,713 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:13:09,713 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:13:09,713 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021A21283EE8>
+2018-04-02 16:13:09,938 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:13:09,938 - _logger - DEBUG - APP - 0
+2018-04-02 16:13:12,276 - _logger - INFO - APP - Program closed
+2018-04-02 16:18:20,865 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:18:20,865 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:18:20,865 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BF6DD33EE8>
+2018-04-02 16:18:21,083 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:18:21,083 - _logger - DEBUG - APP - 0
+2018-04-02 16:18:25,150 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:18:45,849 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:18:45,849 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,849 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:18:45,849 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,851 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:18:45,851 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,851 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:18:45,851 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,851 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:18:45,851 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,851 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:18:45,851 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,851 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:18:45,851 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:45,851 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:18:45,851 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:18:54,907 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:19:00,545 - _logger - INFO - APP - Program closed
+2018-04-02 16:19:03,372 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:19:03,372 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:19:03,372 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026814363EE8>
+2018-04-02 16:19:03,587 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:19:03,587 - _logger - DEBUG - APP - 0
+2018-04-02 16:19:09,787 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:20:46,925 - _logger - INFO - APP - Program closed
+2018-04-02 16:20:51,673 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:20:51,673 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:20:51,673 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019E39A63EE8>
+2018-04-02 16:20:51,894 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:20:51,895 - _logger - DEBUG - APP - 0
+2018-04-02 16:20:53,768 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:00,799 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:21:00,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:21:04,116 - _logger - INFO - APP - Program closed
+2018-04-02 16:21:33,004 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:21:33,005 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:21:33,005 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F0AE933EE8>
+2018-04-02 16:21:33,211 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:21:33,211 - _logger - DEBUG - APP - 0
+2018-04-02 16:21:35,023 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:21:47,536 - _logger - INFO - APP - Program closed
+2018-04-02 16:22:16,546 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:22:16,546 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:22:16,546 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019713E33EE8>
+2018-04-02 16:22:16,756 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:22:16,756 - _logger - DEBUG - APP - 0
+2018-04-02 16:22:19,156 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:22:20,241 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:22:20,241 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,241 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:22:20,241 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,242 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:22:20,242 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,242 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:22:20,242 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,242 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:22:20,242 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,242 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:22:20,242 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,242 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:22:20,242 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:22:20,242 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:22:20,242 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:52,958 - _logger - INFO - APP - Program closed
+2018-04-02 16:23:54,360 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:23:54,360 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:23:54,360 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002D6F9412E58>
+2018-04-02 16:23:54,571 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:23:54,572 - _logger - DEBUG - APP - 0
+2018-04-02 16:23:56,068 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:23:57,902 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:23:57,902 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:35,766 - _logger - INFO - APP - Program closed
+2018-04-02 16:28:39,392 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:28:39,392 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:28:39,392 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D7D9AB2E58>
+2018-04-02 16:28:39,607 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:28:39,607 - _logger - DEBUG - APP - 0
+2018-04-02 16:28:41,912 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:28:43,003 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:28:43,003 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:13,607 - _logger - INFO - APP - Program closed
+2018-04-02 16:29:15,130 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:29:15,130 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:29:15,130 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019571763E58>
+2018-04-02 16:29:15,348 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:29:15,348 - _logger - DEBUG - APP - 0
+2018-04-02 16:29:17,242 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:29:18,451 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:29:18,451 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:09,056 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:30:15,614 - _logger - INFO - APP - Program closed
+2018-04-02 16:30:16,877 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:30:16,877 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:30:16,877 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000227B3583E58>
+2018-04-02 16:30:17,098 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:30:17,098 - _logger - DEBUG - APP - 0
+2018-04-02 16:30:19,563 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:30:20,624 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:30:20,624 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:25,055 - _logger - INFO - APP - Program closed
+2018-04-02 16:34:26,102 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:34:26,102 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:34:26,102 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CCF9D42EE8>
+2018-04-02 16:34:26,317 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:34:26,317 - _logger - DEBUG - APP - 0
+2018-04-02 16:34:28,262 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:34:30,357 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:34:30,357 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,357 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:34:30,357 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,358 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:34:30,358 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,358 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:34:30,358 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,358 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:34:30,358 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,358 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:34:30,358 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,358 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:34:30,358 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:34:30,358 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:34:30,358 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:00,238 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:35:00,238 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:35:00,238 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000291BD342EE8>
+2018-04-02 16:35:00,448 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:35:00,448 - _logger - DEBUG - APP - 0
+2018-04-02 16:35:02,202 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:35:04,341 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:35:04,341 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:04,342 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:35:04,342 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:40,856 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:35:40,856 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:35:40,856 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C5C8F32EE8>
+2018-04-02 16:35:41,072 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:35:41,072 - _logger - DEBUG - APP - 0
+2018-04-02 16:35:42,247 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:35:44,745 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:35:44,745 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:07,081 - _logger - INFO - APP - Program closed
+2018-04-02 16:38:09,164 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:38:09,164 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:38:09,164 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000256CE9F2EE8>
+2018-04-02 16:38:09,371 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:38:09,371 - _logger - DEBUG - APP - 0
+2018-04-02 16:38:10,949 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:38:11,993 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:38:11,993 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,993 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:38:11,993 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,993 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:38:11,993 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,993 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:38:11,993 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,993 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:38:11,993 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,993 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:38:11,993 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,994 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:38:11,994 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:38:11,994 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:38:11,994 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:01,777 - _logger - INFO - APP - Program closed
+2018-04-02 16:41:03,223 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:41:03,223 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:41:03,223 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002B4A5642EE8>
+2018-04-02 16:41:03,435 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:41:03,435 - _logger - DEBUG - APP - 0
+2018-04-02 16:41:04,810 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:41:05,872 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:41:05,872 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,872 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:41:05,872 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,872 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:41:05,872 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,872 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:41:05,872 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,872 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:41:05,872 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,873 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:41:05,873 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,873 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:41:05,873 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:41:05,873 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:41:05,873 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:20,192 - _logger - INFO - APP - Program closed
+2018-04-02 16:48:21,326 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:48:21,326 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:48:21,326 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CD68182EE8>
+2018-04-02 16:48:21,545 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:48:21,545 - _logger - DEBUG - APP - 0
+2018-04-02 16:48:23,106 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:48:24,439 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:48:24,439 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,439 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:48:24,439 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,440 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:48:24,440 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,440 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:48:24,440 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,440 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:48:24,440 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,440 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:48:24,440 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,440 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:48:24,440 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:24,440 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:48:24,440 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:50,946 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:48:50,946 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:48:50,946 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000161EB362EE8>
+2018-04-02 16:48:51,167 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:48:51,167 - _logger - DEBUG - APP - 0
+2018-04-02 16:48:52,490 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:48:55,041 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:48:55,041 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:48:55,042 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:15,970 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:49:15,970 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:49:15,970 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F37A662EE8>
+2018-04-02 16:49:16,186 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:49:16,186 - _logger - DEBUG - APP - 0
+2018-04-02 16:49:18,128 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:49:19,712 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:49:19,712 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,712 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:49:19,712 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,713 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:49:19,713 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,713 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:49:19,713 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,713 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:49:19,713 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,713 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:49:19,713 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,713 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:49:19,713 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:19,713 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:49:19,713 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,201 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:49:25,201 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,201 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:49:25,201 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,201 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:49:25,201 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,201 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:49:25,202 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,202 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:49:25,202 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,202 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:49:25,202 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,202 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:49:25,202 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:25,202 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:49:25,202 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:49:55,480 - _logger - INFO - APP - Program closed
+2018-04-02 16:49:55,787 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:49:55,787 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:49:55,787 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002743B651EE8>
+2018-04-02 16:49:56,010 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:49:56,010 - _logger - DEBUG - APP - 0
+2018-04-02 16:50:42,482 - _logger - INFO - APP - Program closed
+2018-04-02 16:52:33,693 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:52:33,693 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:52:33,693 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023C75712EE8>
+2018-04-02 16:52:33,913 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:52:33,913 - _logger - DEBUG - APP - 0
+2018-04-02 16:52:35,483 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:52:37,252 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:52:37,252 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,252 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:52:37,252 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,252 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:52:37,252 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,252 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:52:37,253 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,253 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:52:37,253 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,253 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:52:37,253 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,253 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:52:37,253 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:52:37,253 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:52:37,253 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:02,504 - _logger - INFO - APP - Program closed
+2018-04-02 16:53:03,429 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:53:03,429 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:53:03,429 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002091CDE2EE8>
+2018-04-02 16:53:03,648 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:53:03,648 - _logger - DEBUG - APP - 0
+2018-04-02 16:53:05,114 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:53:06,412 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:53:06,412 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,412 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:53:06,412 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,412 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:53:06,412 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,412 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:53:06,412 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,412 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:53:06,412 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,412 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:53:06,412 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,413 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:53:06,413 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:53:06,413 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:53:06,413 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 16:54:05,155 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 16:54:05,155 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 16:54:05,155 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 16:54:05,155 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 16:54:05,155 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 16:54:05,155 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,155 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 16:54:05,156 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:54:05,156 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 16:54:05,156 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 16:55:16,632 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-02 16:55:19,310 - _logger - DEBUG - APP - event: False.
+2018-04-02 16:55:19,943 - _logger - INFO - APP - Current widget changed: 1
+2018-04-02 16:55:19,943 - _logger - DEBUG - APP - 1
+2018-04-02 16:55:19,944 - _logger - INFO - USER - admin instance of User class created
+2018-04-02 16:55:19,946 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-02 16:55:19,946 - _logger - INFO - APP - admin logged.
+2018-04-02 16:55:51,643 - _logger - INFO - __main__ - Program oppened
+2018-04-02 16:55:51,643 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 16:55:51,643 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E976DF2EE8>
+2018-04-02 16:55:51,866 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 16:55:51,866 - _logger - DEBUG - APP - 0
+2018-04-02 16:55:53,490 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-02 16:55:55,846 - _logger - DEBUG - APP - event: False.
+2018-04-02 16:55:56,430 - _logger - INFO - APP - Current widget changed: 1
+2018-04-02 16:55:56,430 - _logger - DEBUG - APP - 1
+2018-04-02 16:55:56,431 - _logger - INFO - USER - admin instance of User class created
+2018-04-02 16:55:56,433 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-02 16:55:56,433 - _logger - INFO - APP - admin logged.
+2018-04-02 16:55:56,433 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001E976F29828>.
+2018-04-02 16:55:56,433 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001E976F29828>.
+2018-04-02 16:56:00,349 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-02 16:57:02,780 - _logger - INFO - APP - Program closed
+2018-04-02 17:00:12,437 - _logger - INFO - __main__ - Program oppened
+2018-04-02 17:00:12,437 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 17:00:12,437 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000188860B2EE8>
+2018-04-02 17:00:12,666 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 17:00:12,666 - _logger - DEBUG - APP - 0
+2018-04-02 17:00:15,382 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-02 17:00:19,309 - _logger - DEBUG - APP - event: False.
+2018-04-02 17:00:19,890 - _logger - INFO - APP - Current widget changed: 1
+2018-04-02 17:00:19,890 - _logger - DEBUG - APP - 1
+2018-04-02 17:00:19,891 - _logger - INFO - USER - admin instance of User class created
+2018-04-02 17:00:19,892 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-02 17:00:19,893 - _logger - INFO - APP - admin logged.
+2018-04-02 17:00:19,893 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000188861E9828>.
+2018-04-02 17:00:19,893 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000188861E9828>.
+2018-04-02 17:00:29,309 - _logger - INFO - APP - admin entered option screen
+2018-04-02 17:00:31,015 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 17:00:31,015 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,016 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 17:00:31,016 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,017 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 17:00:31,017 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,017 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 17:00:31,017 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,017 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 17:00:31,017 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,017 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 17:00:31,018 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,018 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 17:00:31,018 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:31,018 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 17:00:31,018 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:00:39,281 - _logger - INFO - APP - Program closed
+2018-04-02 17:04:25,461 - _logger - INFO - __main__ - Program oppened
+2018-04-02 17:04:25,461 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 17:04:25,461 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021118152EE8>
+2018-04-02 17:04:25,685 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 17:04:25,685 - _logger - DEBUG - APP - 0
+2018-04-02 17:04:28,456 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-02 17:04:30,542 - _logger - DEBUG - APP - event: False.
+2018-04-02 17:04:31,154 - _logger - INFO - APP - Current widget changed: 1
+2018-04-02 17:04:31,154 - _logger - DEBUG - APP - 1
+2018-04-02 17:04:31,154 - _logger - INFO - USER - admin instance of User class created
+2018-04-02 17:04:31,155 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-02 17:04:31,156 - _logger - INFO - APP - admin logged.
+2018-04-02 17:04:31,156 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000021118289828>.
+2018-04-02 17:04:31,156 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000021118289828>.
+2018-04-02 17:04:33,798 - _logger - INFO - APP - admin entered option screen
+2018-04-02 17:04:36,261 - _logger - DEBUG - db_adress/uentryl
+2018-04-02 17:04:36,261 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,261 - _logger - DEBUG - db_adress/uentryw
+2018-04-02 17:04:36,261 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,261 - _logger - DEBUG - db_adress/uentryh
+2018-04-02 17:04:36,261 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,261 - _logger - DEBUG - db_adress/uentryt
+2018-04-02 17:04:36,261 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,262 - _logger - DEBUG - db_adress/dentryl
+2018-04-02 17:04:36,262 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,262 - _logger - DEBUG - db_adress/dentryw
+2018-04-02 17:04:36,262 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,262 - _logger - DEBUG - db_adress/dentryh
+2018-04-02 17:04:36,262 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:36,262 - _logger - DEBUG - db_adress/dentryt
+2018-04-02 17:04:36,262 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-02 17:04:42,523 - _logger - INFO - APP - Program closed
+2018-04-02 17:05:09,574 - _logger - INFO - __main__ - Program oppened
+2018-04-02 17:05:09,574 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-02 17:05:09,574 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A531A13EE8>
+2018-04-02 17:05:09,793 - _logger - INFO - APP - Current widget changed: 0
+2018-04-02 17:05:09,793 - _logger - DEBUG - APP - 0
+2018-04-02 17:05:13,025 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-02 17:05:15,078 - _logger - DEBUG - APP - event: False.
+2018-04-02 17:05:15,670 - _logger - INFO - APP - Current widget changed: 1
+2018-04-02 17:05:15,670 - _logger - DEBUG - APP - 1
+2018-04-02 17:05:15,671 - _logger - INFO - USER - admin instance of User class created
+2018-04-02 17:05:15,672 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-02 17:05:15,673 - _logger - INFO - APP - admin logged.
+2018-04-02 17:05:15,673 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002A531B49828>.
+2018-04-02 17:05:15,673 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002A531B49828>.
+2018-04-02 17:05:18,798 - _logger - INFO - APP - Program closed
+2018-04-05 16:04:53,627 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:04:53,628 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:04:53,628 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A47FAE3E58>
+2018-04-05 16:05:22,139 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:05:22,139 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:05:22,139 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000245CB274E58>
+2018-04-05 16:06:03,401 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:06:03,402 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:06:03,402 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022504234E58>
+2018-04-05 16:12:17,424 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:12:17,424 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:12:17,424 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000215B8BBE1F8>
+2018-04-05 16:15:23,820 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:15:23,820 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:15:23,820 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E46DE3E1F8>
+2018-04-05 16:24:05,519 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:24:05,519 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:24:05,519 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002AE9D3EE1F8>
+2018-04-05 16:24:41,506 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:24:41,506 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:24:41,506 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027C1534E1F8>
+2018-04-05 16:24:41,698 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:24:41,698 - _logger - DEBUG - APP - 0
+2018-04-05 16:24:44,783 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:26:14,418 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:26:14,418 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,418 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:26:14,418 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,418 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:26:14,418 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,418 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:26:14,418 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,418 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:26:14,418 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,419 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:26:14,419 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,419 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:26:14,419 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:26:14,419 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:26:14,419 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:04,267 - _logger - INFO - APP - Program closed
+2018-04-05 16:27:05,573 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:27:05,573 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:27:05,573 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000239263DE1F8>
+2018-04-05 16:27:05,764 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:27:05,766 - _logger - DEBUG - APP - 0
+2018-04-05 16:27:28,688 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:27:32,121 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:27:32,726 - _logger - INFO - APP - Current widget changed: 1
+2018-04-05 16:27:32,726 - _logger - DEBUG - APP - 1
+2018-04-05 16:27:32,726 - _logger - INFO - USER - admin instance of User class created
+2018-04-05 16:27:32,727 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-05 16:27:32,727 - _logger - INFO - APP - admin logged.
+2018-04-05 16:27:32,727 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000023934975828>.
+2018-04-05 16:27:32,727 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000023934975828>.
+2018-04-05 16:27:36,706 - _logger - INFO - APP - Program closed
+2018-04-05 16:27:41,015 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:27:41,015 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:27:41,015 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022325ADE1F8>
+2018-04-05 16:27:41,211 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:27:41,211 - _logger - DEBUG - APP - 0
+2018-04-05 16:27:43,567 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:27:46,116 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:27:46,116 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,116 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:27:46,116 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,117 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:27:46,117 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,117 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:27:46,117 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,117 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:27:46,117 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,117 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:27:46,117 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,117 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:27:46,117 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:46,117 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:27:46,117 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:27:50,615 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:27:52,737 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:27:53,375 - _logger - INFO - APP - Current widget changed: 1
+2018-04-05 16:27:53,375 - _logger - DEBUG - APP - 1
+2018-04-05 16:27:53,375 - _logger - INFO - USER - admin instance of User class created
+2018-04-05 16:27:53,375 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-05 16:27:53,376 - _logger - INFO - APP - admin logged.
+2018-04-05 16:27:53,376 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000022334874828>.
+2018-04-05 16:27:53,376 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000022334874828>.
+2018-04-05 16:27:56,790 - _logger - INFO - APP - Program closed
+2018-04-05 16:28:12,218 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:28:12,218 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:28:12,218 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B537B6E1F8>
+2018-04-05 16:28:12,406 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:28:12,406 - _logger - DEBUG - APP - 0
+2018-04-05 16:28:14,018 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:28:16,489 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:28:40,892 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:28:40,892 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:28:40,893 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DECF9DE1F8>
+2018-04-05 16:28:41,089 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:28:41,089 - _logger - DEBUG - APP - 0
+2018-04-05 16:28:45,724 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:49,552 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:28:49,552 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:28:54,050 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:28:56,225 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:30:27,337 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:30:27,337 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:30:27,337 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B83397E1F8>
+2018-04-05 16:30:27,533 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:30:27,533 - _logger - DEBUG - APP - 0
+2018-04-05 16:30:29,923 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:30:32,449 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:30:33,025 - _logger - INFO - APP - Current widget changed: 1
+2018-04-05 16:30:33,025 - _logger - DEBUG - APP - 1
+2018-04-05 16:30:33,025 - _logger - INFO - USER - admin instance of User class created
+2018-04-05 16:30:33,026 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-05 16:30:33,026 - _logger - INFO - APP - admin logged.
+2018-04-05 16:30:33,027 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001B842714828>.
+2018-04-05 16:30:33,027 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001B842714828>.
+2018-04-05 16:30:35,255 - _logger - INFO - APP - Program closed
+2018-04-05 16:31:39,640 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:31:39,640 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:31:39,640 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000272AA0EE1F8>
+2018-04-05 16:31:39,832 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:31:39,832 - _logger - DEBUG - APP - 0
+2018-04-05 16:31:42,150 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:44,138 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:31:44,138 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:31:47,578 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:31:51,258 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:31:51,874 - _logger - INFO - APP - Current widget changed: 1
+2018-04-05 16:31:51,875 - _logger - DEBUG - APP - 1
+2018-04-05 16:31:51,875 - _logger - INFO - USER - admin instance of User class created
+2018-04-05 16:31:51,875 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-05 16:31:51,876 - _logger - INFO - APP - admin logged.
+2018-04-05 16:31:51,876 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000272B8E84828>.
+2018-04-05 16:31:51,876 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000272B8E84828>.
+2018-04-05 16:31:57,544 - _logger - INFO - APP - admin entered option screen
+2018-04-05 16:32:02,265 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:32:02,265 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,265 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:32:02,265 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,266 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:32:02,266 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,266 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:32:02,266 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,266 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:32:02,266 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,266 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:32:02,266 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,266 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:32:02,266 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,266 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:32:02,266 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,731 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:32:02,731 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,731 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:32:02,731 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,731 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:32:02,731 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,731 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:32:02,732 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,732 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:32:02,732 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,732 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:32:02,732 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,732 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:32:02,732 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:32:02,732 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:32:02,732 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:33:31,072 - _logger - INFO - APP - Program closed
+2018-04-05 16:35:33,461 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:35:33,461 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:35:33,461 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000219DAA2E1F8>
+2018-04-05 16:35:33,671 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:35:33,671 - _logger - DEBUG - APP - 0
+2018-04-05 16:35:36,621 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:38,799 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:35:38,799 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:35:42,292 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:35:44,842 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:35:54,362 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:35:54,364 - _logger - INFO - APP - Current widget changed: 1
+2018-04-05 16:35:54,364 - _logger - DEBUG - APP - 1
+2018-04-05 16:35:54,364 - _logger - INFO - USER - admin instance of User class created
+2018-04-05 16:35:54,365 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-05 16:35:54,365 - _logger - INFO - APP - admin logged.
+2018-04-05 16:35:54,366 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000219E97C5828>.
+2018-04-05 16:35:54,366 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000219E97C5828>.
+2018-04-05 16:35:59,107 - _logger - INFO - APP - Program closed
+2018-04-05 16:36:09,581 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:36:09,581 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:36:09,581 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B1ED06E1F8>
+2018-04-05 16:36:09,787 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:36:09,787 - _logger - DEBUG - APP - 0
+2018-04-05 16:36:11,419 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:36:13,908 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:36:16,138 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:37:59,633 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:37:59,633 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:37:59,633 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002DDF7D4E1F8>
+2018-04-05 16:37:59,822 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:37:59,822 - _logger - DEBUG - APP - 0
+2018-04-05 16:38:01,424 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:38:04,476 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:38:06,618 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:38:53,105 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:38:53,105 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:38:53,105 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018926B4E1F8>
+2018-04-05 16:38:53,297 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:38:53,297 - _logger - DEBUG - APP - 0
+2018-04-05 16:38:55,166 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:38:57,162 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:39:01,986 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:43:34,021 - _logger - INFO - APP - Program closed
+2018-04-05 16:46:53,971 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:46:53,971 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:46:53,971 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022622F52168>
+2018-04-05 16:46:54,163 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:46:54,163 - _logger - DEBUG - APP - 0
+2018-04-05 16:46:56,917 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:46:59,002 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:48:57,444 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:48:57,444 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:48:57,444 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019A68774168>
+2018-04-05 16:48:57,638 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:48:57,638 - _logger - DEBUG - APP - 0
+2018-04-05 16:48:59,633 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:49:01,858 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:49:09,167 - _logger - INFO - APP - Program closed
+2018-04-05 16:52:12,638 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:52:12,638 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:52:12,638 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025565762168>
+2018-04-05 16:52:12,838 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:52:12,838 - _logger - DEBUG - APP - 0
+2018-04-05 16:52:15,948 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:52:18,179 - _logger - DEBUG - APP - event: False.
+2018-04-05 16:52:31,177 - _logger - INFO - __main__ - Program oppened
+2018-04-05 16:52:31,177 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-05 16:52:31,177 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027C4E1C4168>
+2018-04-05 16:52:31,367 - _logger - INFO - APP - Current widget changed: 0
+2018-04-05 16:52:31,367 - _logger - DEBUG - APP - 0
+2018-04-05 16:52:41,092 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-05 16:52:42,761 - _logger - DEBUG - db_adress/uentryl
+2018-04-05 16:52:42,761 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,761 - _logger - DEBUG - db_adress/uentryw
+2018-04-05 16:52:42,761 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,761 - _logger - DEBUG - db_adress/uentryh
+2018-04-05 16:52:42,761 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,761 - _logger - DEBUG - db_adress/uentryt
+2018-04-05 16:52:42,761 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,762 - _logger - DEBUG - db_adress/dentryl
+2018-04-05 16:52:42,762 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,762 - _logger - DEBUG - db_adress/dentryw
+2018-04-05 16:52:42,762 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,762 - _logger - DEBUG - db_adress/dentryh
+2018-04-05 16:52:42,762 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:42,762 - _logger - DEBUG - db_adress/dentryt
+2018-04-05 16:52:42,762 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-05 16:52:47,317 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-05 16:52:49,762 - _logger - DEBUG - APP - event: False.
+2018-04-06 12:21:38,985 - _logger - INFO - __main__ - Program oppened
+2018-04-06 12:21:38,985 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 12:21:38,985 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020071634168>
+2018-04-06 12:21:39,227 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 12:21:39,227 - _logger - DEBUG - APP - 0
+2018-04-06 12:21:41,019 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:00:55,259 - _logger - INFO - APP - Program closed
+2018-04-06 14:40:44,634 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:40:44,634 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:40:44,634 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DB8E870318>
+2018-04-06 14:44:57,687 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:44:57,687 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:44:57,687 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020D1DFC0318>
+2018-04-06 14:48:12,062 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:48:12,062 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:48:12,063 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002F129710318>
+2018-04-06 14:48:12,261 - _logger - INFO - Loading server adress options.
+2018-04-06 14:48:12,262 - _logger - WARNING - No options saved to load.
+2018-04-06 14:48:55,952 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:48:55,953 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:48:55,953 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029B7ACA0318>
+2018-04-06 14:48:56,139 - _logger - INFO - Loading server adress options.
+2018-04-06 14:48:56,140 - _logger - WARNING - No options saved to load.
+2018-04-06 14:49:14,064 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:49:14,064 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:49:14,064 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F6FB970318>
+2018-04-06 14:49:14,247 - _logger - INFO - Loading server adress options.
+2018-04-06 14:49:14,248 - _logger - WARNING - No options saved to load.
+2018-04-06 14:50:46,488 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:50:46,488 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:50:46,488 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000169E83503A8>
+2018-04-06 14:50:46,679 - _logger - INFO - Loading server adress options.
+2018-04-06 14:50:46,680 - _logger - WARNING - No options saved to load.
+2018-04-06 14:50:56,759 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:50:56,759 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:50:56,759 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D5FDE703A8>
+2018-04-06 14:50:56,946 - _logger - INFO - Loading server adress options.
+2018-04-06 14:50:56,948 - _logger - WARNING - No options saved to load.
+2018-04-06 14:50:56,979 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 14:50:56,980 - _logger - DEBUG - APP - 0
+2018-04-06 14:50:59,058 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:51:22,576 - _logger - INFO - APP - Program closed
+2018-04-06 14:52:04,943 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:52:04,943 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:52:04,943 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000017EEA3F03A8>
+2018-04-06 14:52:05,133 - _logger - INFO - Loading server adress options.
+2018-04-06 14:52:05,134 - _logger - WARNING - No options saved to load.
+2018-04-06 14:52:05,167 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 14:52:05,167 - _logger - DEBUG - APP - 0
+2018-04-06 14:52:07,156 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:52:36,458 - _logger - INFO - APP - Program closed
+2018-04-06 14:53:00,548 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:53:00,548 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:53:00,548 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F9097203A8>
+2018-04-06 14:53:00,727 - _logger - INFO - Loading server adress options.
+2018-04-06 14:53:27,857 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:53:27,857 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:53:27,857 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018C2C5A03A8>
+2018-04-06 14:53:28,050 - _logger - INFO - Loading server adress options.
+2018-04-06 14:53:51,197 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:53:51,197 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:53:51,198 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000223BDBC03A8>
+2018-04-06 14:53:51,377 - _logger - INFO - Loading server adress options.
+2018-04-06 14:53:51,378 - _logger - WARNING - No options saved to load.
+2018-04-06 14:53:51,412 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 14:53:51,412 - _logger - DEBUG - APP - 0
+2018-04-06 14:53:53,711 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:54:45,092 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:54:54,092 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-06 14:54:54,092 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:54:54,092 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-06 14:54:54,093 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:54:55,975 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-06 14:54:55,975 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:54:55,975 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-06 14:54:55,975 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:56:28,569 - _logger - INFO - APP - Program closed
+2018-04-06 14:58:33,271 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:58:33,271 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:58:33,271 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018525830438>
+2018-04-06 14:58:33,464 - _logger - INFO - Loading server adress options.
+2018-04-06 14:58:33,466 - _logger - WARNING - No options saved to load.
+2018-04-06 14:58:33,498 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 14:58:33,498 - _logger - DEBUG - APP - 0
+2018-04-06 14:58:35,317 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:58:42,306 - _logger - DEBUG - db_adress/uentryl
+2018-04-06 14:58:42,306 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/uentryw
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/uentryh
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/uentryt
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/dentryl
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/dentryw
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/dentryh
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:58:42,307 - _logger - DEBUG - db_adress/dentryt
+2018-04-06 14:58:42,307 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:01,864 - _logger - INFO - __main__ - Program oppened
+2018-04-06 14:59:01,865 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 14:59:01,865 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020262E60438>
+2018-04-06 14:59:02,052 - _logger - INFO - Loading server adress options.
+2018-04-06 14:59:02,053 - _logger - WARNING - No options saved to load.
+2018-04-06 14:59:02,086 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 14:59:02,086 - _logger - DEBUG - APP - 0
+2018-04-06 14:59:03,426 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 14:59:08,699 - _logger - DEBUG - db_adress/uentryl
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/uentryw
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/uentryh
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/uentryt
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/dentryl
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/dentryw
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/dentryh
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:08,700 - _logger - DEBUG - db_adress/dentryt
+2018-04-06 14:59:08,700 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 14:59:40,963 - _logger - INFO - APP - Program closed
+2018-04-06 15:00:40,353 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:00:40,353 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:00:40,353 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001989D640438>
+2018-04-06 15:00:40,544 - _logger - INFO - Loading server adress options.
+2018-04-06 15:00:40,546 - _logger - WARNING - No options saved to load.
+2018-04-06 15:00:40,579 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:00:40,579 - _logger - DEBUG - APP - 0
+2018-04-06 15:00:42,034 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:00:51,407 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-06 15:00:51,407 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:00:51,407 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-06 15:00:51,407 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:00:53,273 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-06 15:00:53,273 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:00:53,273 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-06 15:00:53,273 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:02:41,701 - _logger - INFO - APP - Program closed
+2018-04-06 15:03:10,052 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:03:10,052 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:03:10,052 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A6AD1103A8>
+2018-04-06 15:03:10,239 - _logger - INFO - Loading server adress options.
+2018-04-06 15:03:10,240 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:03:10,272 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:03:10,272 - _logger - DEBUG - APP - 0
+2018-04-06 15:05:29,570 - _logger - INFO - APP - Program closed
+2018-04-06 15:05:30,773 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:05:30,773 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:05:30,773 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000178899303A8>
+2018-04-06 15:05:30,958 - _logger - INFO - Loading server adress options.
+2018-04-06 15:05:30,960 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:05:30,992 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:05:30,992 - _logger - DEBUG - APP - 0
+2018-04-06 15:05:33,760 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:05:53,666 - _logger - INFO - APP - Program closed
+2018-04-06 15:05:55,455 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:05:55,455 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:05:55,455 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000127F704F3A8>
+2018-04-06 15:05:55,652 - _logger - INFO - Loading server adress options.
+2018-04-06 15:06:04,830 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:06:04,830 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:06:04,830 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B9D20CF3A8>
+2018-04-06 15:06:05,053 - _logger - INFO - Loading server adress options.
+2018-04-06 15:06:05,055 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:06:05,087 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:06:05,087 - _logger - DEBUG - APP - 0
+2018-04-06 15:06:06,932 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:06:32,324 - _logger - INFO - APP - Program closed
+2018-04-06 15:33:10,982 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:33:10,982 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:33:10,982 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D303330558>
+2018-04-06 15:33:11,171 - _logger - INFO - Loading server adress options.
+2018-04-06 15:33:11,173 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:33:11,206 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:33:11,206 - _logger - DEBUG - APP - 0
+2018-04-06 15:33:14,163 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:34:00,398 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-06 15:34:00,398 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:34:00,398 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-06 15:34:00,398 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:34:46,764 - _logger - INFO - APP - Program closed
+2018-04-06 15:35:00,249 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:35:00,249 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:35:00,249 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000017347310558>
+2018-04-06 15:36:35,638 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:36:35,638 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:36:35,638 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019849200558>
+2018-04-06 15:36:58,310 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:36:58,310 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:36:58,310 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025DC6250558>
+2018-04-06 15:36:58,500 - _logger - INFO - Loading server adress options.
+2018-04-06 15:36:58,501 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:36:58,534 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:36:58,534 - _logger - DEBUG - APP - 0
+2018-04-06 15:37:02,486 - _logger - INFO - APP - Program closed
+2018-04-06 15:37:12,461 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:37:12,461 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:37:12,461 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002706F990558>
+2018-04-06 15:37:12,653 - _logger - INFO - Loading server adress options.
+2018-04-06 15:37:12,655 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:37:12,688 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:37:12,688 - _logger - DEBUG - APP - 0
+2018-04-06 15:37:14,898 - _logger - INFO - APP - Program closed
+2018-04-06 15:37:58,670 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:37:58,670 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:37:58,670 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EC8258F558>
+2018-04-06 15:37:58,863 - _logger - INFO - Loading server adress options.
+2018-04-06 15:37:58,865 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:37:58,875 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:37:58,875 - _logger - DEBUG - APP - 0
+2018-04-06 15:38:01,209 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:38:03,438 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-06 15:38:03,439 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:38:03,439 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-06 15:38:03,439 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-06 15:38:14,755 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-06 15:38:17,305 - _logger - DEBUG - APP - event: False.
+2018-04-06 15:38:17,999 - _logger - INFO - APP - Current widget changed: 1
+2018-04-06 15:38:17,999 - _logger - DEBUG - APP - 1
+2018-04-06 15:38:17,999 - _logger - INFO - USER - admin instance of User class created
+2018-04-06 15:38:18,000 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-06 15:38:18,000 - _logger - INFO - APP - admin logged.
+2018-04-06 15:38:18,001 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001EC91324B88>.
+2018-04-06 15:38:18,001 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001EC91324B88>.
+2018-04-06 15:38:23,513 - _logger - INFO - APP - admin instance of Class user deleted.
+2018-04-06 15:38:23,513 - _logger - INFO - APP - admin made loggout.
+2018-04-06 15:38:23,513 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:38:23,513 - _logger - DEBUG - APP - 0
+2018-04-06 15:38:25,880 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-06 15:39:15,217 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:39:15,217 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:39:15,217 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EB2D25F558>
+2018-04-06 15:39:15,400 - _logger - INFO - Loading server adress options.
+2018-04-06 15:39:15,402 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:39:15,412 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:39:15,412 - _logger - DEBUG - APP - 0
+2018-04-06 15:39:18,854 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-06 15:39:27,808 - _logger - INFO - RECOVERY - admin asked a new password.
+2018-04-06 15:40:02,201 - _logger - DEBUG - APP - event: False.
+2018-04-06 15:40:06,757 - _logger - DEBUG - APP - event: False.
+2018-04-06 15:40:18,041 - _logger - DEBUG - APP - event: False.
+2018-04-06 15:42:05,727 - _logger - INFO - RECOVERY - admin asked a new password.
+2018-04-06 15:42:40,349 - _logger - DEBUG - APP - event: False.
+2018-04-06 15:42:57,399 - _logger - INFO - APP - Program closed
+2018-04-06 15:42:59,263 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:42:59,263 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:42:59,264 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000012AC6EFF558>
+2018-04-06 15:42:59,452 - _logger - INFO - Loading server adress options.
+2018-04-06 15:42:59,454 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:42:59,464 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:42:59,464 - _logger - DEBUG - APP - 0
+2018-04-06 15:43:03,005 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-06 15:43:13,552 - _logger - INFO - RECOVERY - admin asked a new password.
+2018-04-06 15:43:25,212 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-06 15:43:30,828 - _logger - DEBUG - APP - event: False.
+2018-04-06 15:43:30,831 - _logger - INFO - APP - Current widget changed: 1
+2018-04-06 15:43:30,831 - _logger - DEBUG - APP - 1
+2018-04-06 15:43:30,831 - _logger - INFO - USER - admin instance of User class created
+2018-04-06 15:43:30,832 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-06 15:43:30,833 - _logger - INFO - APP - admin logged.
+2018-04-06 15:43:30,833 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000012AD5C95B88>.
+2018-04-06 15:43:30,833 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000012AD5C95B88>.
+2018-04-06 15:43:33,936 - _logger - INFO - APP - Dialog dialog screen opened.
+2018-04-06 15:43:48,248 - _logger - INFO - APP - Program closed
+2018-04-06 15:47:11,942 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:47:11,942 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:47:11,942 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000237F740F558>
+2018-04-06 15:47:12,131 - _logger - INFO - Loading server adress options.
+2018-04-06 15:47:12,133 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:47:12,142 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:47:12,143 - _logger - DEBUG - APP - 0
+2018-04-06 15:47:15,178 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-06 15:51:15,855 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:54:27,736 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:58:46,572 - _logger - INFO - APP - Program closed
+2018-04-06 15:58:59,271 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:58:59,271 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:58:59,271 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000017B6689F558>
+2018-04-06 15:58:59,459 - _logger - INFO - Loading server adress options.
+2018-04-06 15:58:59,461 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:58:59,470 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:58:59,470 - _logger - DEBUG - APP - 0
+2018-04-06 15:59:00,917 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 15:59:24,860 - _logger - INFO - APP - Program closed
+2018-04-06 15:59:26,305 - _logger - INFO - __main__ - Program oppened
+2018-04-06 15:59:26,305 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 15:59:26,306 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000181592DF558>
+2018-04-06 15:59:26,499 - _logger - INFO - Loading server adress options.
+2018-04-06 15:59:26,501 - _logger - INFO - Loading server email adress options.
+2018-04-06 15:59:26,511 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 15:59:26,511 - _logger - DEBUG - APP - 0
+2018-04-06 15:59:28,133 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:00:24,722 - _logger - INFO - APP - Program closed
+2018-04-06 16:00:56,361 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:00:56,361 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:00:56,361 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CDF9CEF558>
+2018-04-06 16:00:56,556 - _logger - INFO - Loading server adress options.
+2018-04-06 16:00:56,558 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:00:56,568 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:00:56,568 - _logger - DEBUG - APP - 0
+2018-04-06 16:00:57,693 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:01:10,700 - _logger - INFO - APP - Program closed
+2018-04-06 16:01:14,820 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:01:14,820 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:01:14,820 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DC4D6FF558>
+2018-04-06 16:01:15,006 - _logger - INFO - Loading server adress options.
+2018-04-06 16:01:15,007 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:01:15,017 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:01:15,017 - _logger - DEBUG - APP - 0
+2018-04-06 16:01:16,766 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:04:54,653 - _logger - INFO - APP - Program closed
+2018-04-06 16:04:57,379 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:04:57,379 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:04:57,379 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002AD023AF558>
+2018-04-06 16:04:57,573 - _logger - INFO - Loading server adress options.
+2018-04-06 16:04:57,574 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:04:57,584 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:04:57,584 - _logger - DEBUG - APP - 0
+2018-04-06 16:04:59,828 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:05:23,429 - _logger - INFO - APP - Program closed
+2018-04-06 16:05:25,095 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:05:25,096 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:05:25,096 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001794828F558>
+2018-04-06 16:05:25,287 - _logger - INFO - Loading server adress options.
+2018-04-06 16:05:25,289 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:05:25,299 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:05:25,299 - _logger - DEBUG - APP - 0
+2018-04-06 16:05:26,905 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:09:43,729 - _logger - INFO - APP - Program closed
+2018-04-06 16:21:57,796 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:21:57,796 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:21:57,796 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B35695D5E8>
+2018-04-06 16:21:58,035 - _logger - INFO - Loading server adress options.
+2018-04-06 16:21:58,036 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:21:58,053 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:21:58,053 - _logger - DEBUG - APP - 0
+2018-04-06 16:22:00,666 - _logger - INFO - APP - Program closed
+2018-04-06 16:23:50,518 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:23:50,518 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:23:50,518 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001907DC8C678>
+2018-04-06 16:23:50,710 - _logger - INFO - Loading server adress options.
+2018-04-06 16:23:50,711 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:23:50,720 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:23:50,720 - _logger - DEBUG - APP - 0
+2018-04-06 16:23:52,418 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:25:05,537 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:25:05,537 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:25:05,537 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F6D562C678>
+2018-04-06 16:25:05,730 - _logger - INFO - Loading server adress options.
+2018-04-06 16:25:05,732 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:25:05,742 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:25:05,742 - _logger - DEBUG - APP - 0
+2018-04-06 16:25:06,924 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:26:34,254 - _logger - INFO - APP - Program closed
+2018-04-06 16:26:35,413 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:26:35,413 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:26:35,413 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000222958BD678>
+2018-04-06 16:26:35,598 - _logger - INFO - Loading server adress options.
+2018-04-06 16:27:03,361 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:27:03,361 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:27:03,361 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F3777AC678>
+2018-04-06 16:27:03,550 - _logger - INFO - Loading server adress options.
+2018-04-06 16:27:19,706 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:27:19,706 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:27:19,706 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FB3CD0C678>
+2018-04-06 16:27:19,901 - _logger - INFO - Loading server adress options.
+2018-04-06 16:27:20,443 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:27:20,453 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:27:20,453 - _logger - DEBUG - APP - 0
+2018-04-06 16:27:21,960 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:28:12,287 - _logger - INFO - APP - Program closed
+2018-04-06 16:36:23,984 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:36:23,984 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:36:23,985 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019551A3E678>
+2018-04-06 16:36:24,179 - _logger - INFO - Loading server adress options.
+2018-04-06 16:36:24,729 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:36:24,739 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:36:24,739 - _logger - DEBUG - APP - 0
+2018-04-06 16:36:26,068 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:39:46,335 - _logger - INFO - APP - Program closed
+2018-04-06 16:39:47,626 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:39:47,626 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:39:47,627 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001388774E708>
+2018-04-06 16:39:47,814 - _logger - INFO - Loading server adress options.
+2018-04-06 16:40:27,211 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:40:27,211 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:40:27,211 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000016C7200F678>
+2018-04-06 16:40:27,407 - _logger - INFO - Loading server adress options.
+2018-04-06 16:40:43,136 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:40:43,136 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:40:43,136 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000252C356E708>
+2018-04-06 16:40:43,332 - _logger - INFO - Loading server adress options.
+2018-04-06 16:40:50,501 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:40:50,501 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:40:50,501 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002B3337AE708>
+2018-04-06 16:40:50,687 - _logger - INFO - Loading server adress options.
+2018-04-06 16:40:51,218 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:40:51,227 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:40:51,227 - _logger - DEBUG - APP - 0
+2018-04-06 16:40:53,243 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:42:33,287 - _logger - INFO - APP - Program closed
+2018-04-06 16:42:54,920 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:42:54,920 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:42:54,920 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F9DCF2D678>
+2018-04-06 16:42:55,112 - _logger - INFO - Loading server adress options.
+2018-04-06 16:42:55,646 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:42:55,656 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:42:55,656 - _logger - DEBUG - APP - 0
+2018-04-06 16:42:58,430 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-06 16:45:20,222 - _logger - INFO - APP - Program closed
+2018-04-06 16:45:21,454 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:45:21,454 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:45:21,454 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021D0A88D678>
+2018-04-06 16:45:21,653 - _logger - INFO - Loading server adress options.
+2018-04-06 16:45:36,512 - _logger - INFO - __main__ - Program oppened
+2018-04-06 16:45:36,512 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-06 16:45:36,512 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002EBD4F5D678>
+2018-04-06 16:45:36,701 - _logger - INFO - Loading server adress options.
+2018-04-06 16:45:37,262 - _logger - INFO - Loading server email adress options.
+2018-04-06 16:45:37,272 - _logger - INFO - APP - Current widget changed: 0
+2018-04-06 16:45:37,272 - _logger - DEBUG - APP - 0
+2018-04-06 16:45:40,255 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-07 22:02:52,484 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-07 22:05:22,425 - _logger - INFO - APP - Program closed
+2018-04-08 01:45:42,920 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:45:42,920 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:45:42,920 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002186C24FAF8>
+2018-04-08 01:45:43,135 - _logger - INFO - Loading server adress options.
+2018-04-08 01:46:30,552 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:46:30,552 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:46:30,552 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026D23FADAF8>
+2018-04-08 01:46:30,736 - _logger - INFO - Loading server adress options.
+2018-04-08 01:52:18,288 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:52:18,288 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:52:18,288 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020D5358EAF8>
+2018-04-08 01:52:18,476 - _logger - INFO - Loading server adress options.
+2018-04-08 01:52:52,215 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:52:52,215 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:52:52,215 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000246C1B8FAF8>
+2018-04-08 01:52:52,406 - _logger - INFO - Loading server adress options.
+2018-04-08 01:52:52,962 - _logger - INFO - Loading server email adress options.
+2018-04-08 01:52:52,972 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 01:52:52,973 - _logger - DEBUG - APP - 0
+2018-04-08 01:53:11,038 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-08 01:53:29,489 - _logger - INFO - APP - Program closed
+2018-04-08 01:54:19,857 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:54:19,857 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:54:19,857 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027BD04FFAF8>
+2018-04-08 01:54:20,081 - _logger - INFO - Loading server adress options.
+2018-04-08 01:54:20,629 - _logger - INFO - Loading server email adress options.
+2018-04-08 01:54:20,640 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 01:54:20,640 - _logger - DEBUG - APP - 0
+2018-04-08 01:54:27,368 - _logger - INFO - APP - Program closed
+2018-04-08 01:54:47,700 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:54:47,700 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:54:47,700 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020C048BFA68>
+2018-04-08 01:54:47,893 - _logger - INFO - Loading server adress options.
+2018-04-08 01:54:48,471 - _logger - INFO - Loading server email adress options.
+2018-04-08 01:54:48,481 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 01:54:48,481 - _logger - DEBUG - APP - 0
+2018-04-08 01:54:52,398 - _logger - INFO - APP - Program closed
+2018-04-08 01:59:50,229 - _logger - INFO - __main__ - Program oppened
+2018-04-08 01:59:50,229 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 01:59:50,229 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002BB8B6CFA68>
+2018-04-08 01:59:50,426 - _logger - INFO - Loading server adress options.
+2018-04-08 01:59:50,975 - _logger - INFO - Loading server email adress options.
+2018-04-08 01:59:50,987 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 01:59:50,987 - _logger - DEBUG - APP - 0
+2018-04-08 01:59:56,394 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-08 02:00:33,498 - _logger - INFO - APP - Program closed
+2018-04-08 02:09:05,507 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:09:05,507 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:09:05,507 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024A1DF8FA68>
+2018-04-08 02:09:05,696 - _logger - INFO - Loading server adress options.
+2018-04-08 02:09:06,252 - _logger - INFO - Loading server email adress options.
+2018-04-08 02:09:06,263 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 02:09:06,263 - _logger - DEBUG - APP - 0
+2018-04-08 02:09:24,639 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-08 02:10:30,158 - _logger - INFO - APP - Program closed
+2018-04-08 02:10:33,862 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:10:33,862 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:10:33,862 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F03F02DAF8>
+2018-04-08 02:10:34,054 - _logger - INFO - Loading server adress options.
+2018-04-08 02:12:19,579 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:12:19,579 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:12:19,579 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024BE63EDAF8>
+2018-04-08 02:12:19,765 - _logger - INFO - Loading server adress options.
+2018-04-08 02:12:20,336 - _logger - INFO - Loading server email adress options.
+2018-04-08 02:12:20,346 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 02:12:20,346 - _logger - DEBUG - APP - 0
+2018-04-08 02:12:22,767 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-08 02:13:13,850 - _logger - INFO - APP - Program closed
+2018-04-08 02:13:16,065 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:13:16,066 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:13:16,066 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000298A9A7EAF8>
+2018-04-08 02:13:16,261 - _logger - INFO - Loading server adress options.
+2018-04-08 02:13:16,806 - _logger - INFO - Loading server email adress options.
+2018-04-08 02:13:16,817 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 02:13:16,817 - _logger - DEBUG - APP - 0
+2018-04-08 02:13:24,258 - _logger - INFO - APP - Program closed
+2018-04-08 02:14:44,126 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:14:44,126 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:14:44,126 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F0F114DAF8>
+2018-04-08 02:14:44,314 - _logger - INFO - Loading server adress options.
+2018-04-08 02:14:44,865 - _logger - INFO - Loading server email adress options.
+2018-04-08 02:14:44,876 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 02:14:44,876 - _logger - DEBUG - APP - 0
+2018-04-08 02:14:48,019 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-08 02:15:27,041 - _logger - INFO - APP - Program closed
+2018-04-08 02:15:57,012 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:15:57,012 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:15:57,012 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002662F95EAF8>
+2018-04-08 02:15:57,201 - _logger - INFO - Loading server adress options.
+2018-04-08 02:15:57,758 - _logger - INFO - Loading server email adress options.
+2018-04-08 02:15:57,769 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 02:15:57,769 - _logger - DEBUG - APP - 0
+2018-04-08 02:16:07,837 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-08 02:16:31,829 - _logger - INFO - APP - Program closed
+2018-04-08 02:17:58,831 - _logger - INFO - __main__ - Program oppened
+2018-04-08 02:17:58,831 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-08 02:17:58,831 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000212EDA7FA68>
+2018-04-08 02:17:59,023 - _logger - INFO - Loading server adress options.
+2018-04-08 02:17:59,581 - _logger - INFO - Loading server email adress options.
+2018-04-08 02:17:59,591 - _logger - INFO - APP - Current widget changed: 0
+2018-04-08 02:17:59,591 - _logger - DEBUG - APP - 0
+2018-04-08 02:18:07,017 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 12:38:54,743 - _logger - INFO - APP - Program closed
+2018-04-09 12:40:56,654 - _logger - INFO - __main__ - Program oppened
+2018-04-09 12:40:56,654 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 12:40:56,654 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002919E91FA68>
+2018-04-09 12:40:56,885 - _logger - INFO - Loading server adress options.
+2018-04-09 12:40:57,446 - _logger - INFO - Loading server email adress options.
+2018-04-09 12:40:57,457 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 12:40:57,457 - _logger - DEBUG - APP - 0
+2018-04-09 12:41:20,028 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-09 12:41:27,891 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 12:42:00,148 - _logger - INFO - APP - Register dialog screen opened
+2018-04-09 12:42:18,028 - _logger - INFO - APP - Register dialog screen opened
+2018-04-09 12:42:41,484 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-09 12:42:45,345 - _logger - DEBUG - APP - event: False.
+2018-04-09 12:42:45,348 - _logger - INFO - APP - Current widget changed: 1
+2018-04-09 12:42:45,348 - _logger - DEBUG - APP - 1
+2018-04-09 12:42:45,348 - _logger - INFO - USER - admin instance of User class created
+2018-04-09 12:42:45,349 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-09 12:42:45,350 - _logger - INFO - APP - admin logged.
+2018-04-09 12:42:45,350 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000291AD6EC0D8>.
+2018-04-09 12:42:45,350 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000291AD6EC0D8>.
+2018-04-09 12:42:53,915 - _logger - INFO - APP - admin entered option screen
+2018-04-09 12:42:56,859 - _logger - INFO - APP - admin entered option screen
+2018-04-09 12:43:16,160 - _logger - INFO - APP - Program closed
+2018-04-09 12:43:46,540 - _logger - INFO - __main__ - Program oppened
+2018-04-09 12:43:46,540 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 12:43:46,540 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B96C5BEA68>
+2018-04-09 12:43:46,732 - _logger - INFO - Loading server adress options.
+2018-04-09 12:43:47,327 - _logger - INFO - Loading server email adress options.
+2018-04-09 12:43:47,338 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 12:43:47,338 - _logger - DEBUG - APP - 0
+2018-04-09 12:43:54,166 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-09 12:43:58,225 - _logger - DEBUG - APP - event: False.
+2018-04-09 12:43:58,228 - _logger - INFO - APP - Current widget changed: 1
+2018-04-09 12:43:58,228 - _logger - DEBUG - APP - 1
+2018-04-09 12:43:58,228 - _logger - INFO - USER - admin instance of User class created
+2018-04-09 12:43:58,229 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-09 12:43:58,230 - _logger - INFO - APP - admin logged.
+2018-04-09 12:43:58,230 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001B97B38D0D8>.
+2018-04-09 12:43:58,230 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001B97B38D0D8>.
+2018-04-09 12:44:15,173 - _logger - INFO - APP - Dialog dialog screen opened.
+2018-04-09 12:44:24,021 - _logger - INFO - APP - User changed.
+2018-04-09 12:44:24,022 - _logger - INFO - APP - admin instance of Class user deleted.
+2018-04-09 12:44:24,022 - _logger - INFO - APP - admin made loggout.
+2018-04-09 12:44:24,022 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 12:44:24,022 - _logger - DEBUG - APP - 0
+2018-04-09 12:44:26,698 - _logger - DEBUG - APP - event: False.
+2018-04-09 12:44:26,700 - _logger - INFO - APP - Current widget changed: 1
+2018-04-09 12:44:26,700 - _logger - DEBUG - APP - 1
+2018-04-09 12:44:26,700 - _logger - INFO - USER - admin instance of User class created
+2018-04-09 12:44:26,703 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-09 12:44:26,703 - _logger - INFO - APP - admin logged.
+2018-04-09 12:44:26,703 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001B97B38D0D8>.
+2018-04-09 12:44:26,703 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001B97B38D0D8>.
+2018-04-09 12:45:20,933 - _logger - INFO - APP - Program closed
+2018-04-09 12:51:33,712 - _logger - INFO - __main__ - Program oppened
+2018-04-09 12:51:33,712 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 12:51:33,712 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002DC5266EA68>
+2018-04-09 12:51:33,906 - _logger - INFO - Loading server adress options.
+2018-04-09 12:51:34,469 - _logger - INFO - Loading server email adress options.
+2018-04-09 12:51:34,480 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 12:51:34,481 - _logger - DEBUG - APP - 0
+2018-04-09 12:51:37,474 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 13:18:22,913 - _logger - INFO - APP - Program closed
+2018-04-09 13:18:27,194 - _logger - INFO - __main__ - Program oppened
+2018-04-09 13:18:27,195 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 13:18:27,195 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000271118FEA68>
+2018-04-09 13:18:27,387 - _logger - INFO - Loading server adress options.
+2018-04-09 13:18:27,969 - _logger - INFO - Loading server email adress options.
+2018-04-09 13:18:27,979 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 13:18:27,979 - _logger - DEBUG - APP - 0
+2018-04-09 13:24:49,707 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-09 13:24:53,290 - _logger - INFO - APP - Register dialog screen opened
+2018-04-09 13:25:37,561 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-09 13:25:43,399 - _logger - DEBUG - APP - event: False.
+2018-04-09 13:25:43,403 - _logger - INFO - APP - Current widget changed: 1
+2018-04-09 13:25:43,403 - _logger - DEBUG - APP - 1
+2018-04-09 13:25:43,403 - _logger - INFO - USER - admin instance of User class created
+2018-04-09 13:25:43,404 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-09 13:25:43,405 - _logger - INFO - APP - admin logged.
+2018-04-09 13:25:43,405 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002711FECD0D8>.
+2018-04-09 13:25:43,405 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002711FECD0D8>.
+2018-04-09 13:26:05,866 - _logger - INFO - APP - User changed.
+2018-04-09 13:26:05,866 - _logger - INFO - APP - admin instance of Class user deleted.
+2018-04-09 13:26:05,866 - _logger - INFO - APP - admin made loggout.
+2018-04-09 13:26:05,867 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 13:26:05,867 - _logger - DEBUG - APP - 0
+2018-04-09 13:26:08,576 - _logger - DEBUG - APP - event: False.
+2018-04-09 13:26:08,578 - _logger - INFO - APP - Current widget changed: 1
+2018-04-09 13:26:08,578 - _logger - DEBUG - APP - 1
+2018-04-09 13:26:08,578 - _logger - INFO - USER - admin instance of User class created
+2018-04-09 13:26:08,579 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-09 13:26:08,580 - _logger - INFO - APP - admin logged.
+2018-04-09 13:26:08,580 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002711FECD0D8>.
+2018-04-09 13:26:08,580 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002711FECD0D8>.
+2018-04-09 13:26:11,945 - _logger - INFO - APP - Dialog dialog screen opened.
+2018-04-09 13:26:17,835 - _logger - INFO - APP - admin entered option screen
+2018-04-09 13:27:14,111 - _logger - DEBUG - db_adress/serv_email_adress
+2018-04-09 13:27:14,111 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-09 13:27:14,111 - _logger - DEBUG - db_adress/serv_email_pass
+2018-04-09 13:27:14,111 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-04-09 13:27:14,111 - _logger - INFO - Email options saved.
+2018-04-09 13:27:25,914 - _logger - INFO - APP - User changed.
+2018-04-09 13:27:25,914 - _logger - INFO - APP - admin instance of Class user deleted.
+2018-04-09 13:27:25,914 - _logger - INFO - APP - admin made loggout.
+2018-04-09 13:27:25,914 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 13:27:25,914 - _logger - DEBUG - APP - 0
+2018-04-09 13:28:19,503 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 13:29:53,881 - _logger - INFO - APP - Program closed
+2018-04-09 15:30:24,992 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:30:24,992 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:30:24,992 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001972FAAEAF8>
+2018-04-09 15:30:25,186 - _logger - INFO - Loading server adress options.
+2018-04-09 15:30:25,743 - _logger - INFO - Loading server email adress options.
+2018-04-09 15:30:25,754 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 15:30:25,754 - _logger - DEBUG - APP - 0
+2018-04-09 15:30:27,388 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 15:31:32,954 - _logger - INFO - APP - Program closed
+2018-04-09 15:37:15,901 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:37:15,901 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:37:15,901 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000218B9D2DAF8>
+2018-04-09 15:37:16,083 - _logger - INFO - Loading server adress options.
+2018-04-09 15:37:46,362 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:37:46,362 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:37:46,362 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000275C14ADAF8>
+2018-04-09 15:37:46,545 - _logger - INFO - Loading server adress options.
+2018-04-09 15:38:28,020 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:38:28,020 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:38:28,021 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000011A0B58DAF8>
+2018-04-09 15:38:28,209 - _logger - INFO - Loading server adress options.
+2018-04-09 15:39:20,650 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:39:20,650 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:39:20,650 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BC1669DAF8>
+2018-04-09 15:39:20,832 - _logger - INFO - Loading server adress options.
+2018-04-09 15:39:21,379 - _logger - INFO - Loading server email adress options.
+2018-04-09 15:39:21,391 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 15:39:21,391 - _logger - DEBUG - APP - 0
+2018-04-09 15:39:22,936 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 15:40:31,892 - _logger - INFO - APP - Program closed
+2018-04-09 15:46:03,479 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:46:03,479 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:46:03,479 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027E0CBDFB88>
+2018-04-09 15:46:03,674 - _logger - INFO - Loading server adress options.
+2018-04-09 15:46:04,247 - _logger - INFO - Loading server email adress options.
+2018-04-09 15:46:04,259 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 15:46:04,259 - _logger - DEBUG - APP - 0
+2018-04-09 15:46:05,692 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 15:47:10,701 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 15:56:47,368 - _logger - INFO - APP - Program closed
+2018-04-09 15:56:50,988 - _logger - INFO - __main__ - Program oppened
+2018-04-09 15:56:50,988 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 15:56:50,988 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002553955FB88>
+2018-04-09 15:56:51,172 - _logger - INFO - Loading server adress options.
+2018-04-09 15:56:51,730 - _logger - INFO - Loading server email adress options.
+2018-04-09 15:56:51,740 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 15:56:51,741 - _logger - DEBUG - APP - 0
+2018-04-09 15:56:53,150 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 15:57:01,215 - _logger - INFO - APP - Program closed
+2018-04-09 16:01:24,024 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:01:24,024 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:01:24,024 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A217390B88>
+2018-04-09 16:01:24,211 - _logger - INFO - Loading server adress options.
+2018-04-09 16:01:42,265 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:01:42,265 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:01:42,265 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A787830B88>
+2018-04-09 16:01:42,456 - _logger - INFO - Loading server adress options.
+2018-04-09 16:01:43,014 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:01:43,025 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:01:43,025 - _logger - DEBUG - APP - 0
+2018-04-09 16:01:44,613 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:02:50,914 - _logger - INFO - APP - Program closed
+2018-04-09 16:02:53,160 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:02:53,160 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:02:53,160 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028561900B88>
+2018-04-09 16:02:53,345 - _logger - INFO - Loading server adress options.
+2018-04-09 16:02:53,886 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:02:53,896 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:02:53,896 - _logger - DEBUG - APP - 0
+2018-04-09 16:02:55,540 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:03:11,124 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:10:27,057 - _logger - INFO - APP - Program closed
+2018-04-09 16:27:11,894 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:27:11,894 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:27:11,894 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000231B3B0FC18>
+2018-04-09 16:27:12,083 - _logger - INFO - Loading server adress options.
+2018-04-09 16:27:46,164 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:27:46,164 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:27:46,164 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002123FE1EC18>
+2018-04-09 16:27:46,358 - _logger - INFO - Loading server adress options.
+2018-04-09 16:27:46,925 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:27:46,936 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:27:46,936 - _logger - DEBUG - APP - 0
+2018-04-09 16:27:49,467 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:27:58,034 - _logger - INFO - APP - Program closed
+2018-04-09 16:30:03,225 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:30:03,226 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:30:03,226 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000299C980EC18>
+2018-04-09 16:30:03,422 - _logger - INFO - Loading server adress options.
+2018-04-09 16:30:03,980 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:30:03,991 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:30:03,991 - _logger - DEBUG - APP - 0
+2018-04-09 16:30:05,276 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:30:11,692 - _logger - INFO - APP - Program closed
+2018-04-09 16:32:00,780 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:32:00,780 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:32:00,780 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020AD145EC18>
+2018-04-09 16:32:00,976 - _logger - INFO - Loading server adress options.
+2018-04-09 16:32:01,532 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:32:01,541 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:32:01,541 - _logger - DEBUG - APP - 0
+2018-04-09 16:32:02,704 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:33:41,788 - _logger - INFO - APP - Program closed
+2018-04-09 16:33:43,075 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:33:43,075 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:33:43,075 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000013E6833EC18>
+2018-04-09 16:33:43,258 - _logger - INFO - Loading server adress options.
+2018-04-09 16:33:43,804 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:33:43,815 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:33:43,815 - _logger - DEBUG - APP - 0
+2018-04-09 16:33:44,950 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:33:55,074 - _logger - INFO - APP - Program closed
+2018-04-09 16:34:12,023 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:34:12,023 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:34:12,023 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024512DEEC18>
+2018-04-09 16:34:12,210 - _logger - INFO - Loading server adress options.
+2018-04-09 16:34:12,775 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:34:12,784 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:34:12,784 - _logger - DEBUG - APP - 0
+2018-04-09 16:34:13,906 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:38:13,465 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:39:44,812 - _logger - INFO - APP - Program closed
+2018-04-09 16:39:46,004 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:39:46,004 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:39:46,004 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002135F1CEC18>
+2018-04-09 16:39:46,203 - _logger - INFO - Loading server adress options.
+2018-04-09 16:39:46,759 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:39:46,769 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:39:46,769 - _logger - DEBUG - APP - 0
+2018-04-09 16:39:48,102 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:45:00,531 - _logger - INFO - APP - Program closed
+2018-04-09 16:45:01,546 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:45:01,546 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:45:01,546 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023E492EEC18>
+2018-04-09 16:45:01,733 - _logger - INFO - Loading server adress options.
+2018-04-09 16:45:02,282 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:45:02,292 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:45:02,292 - _logger - DEBUG - APP - 0
+2018-04-09 16:45:03,710 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:45:29,972 - _logger - INFO - APP - Program closed
+2018-04-09 16:45:39,636 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:45:39,636 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:45:39,636 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002625DBBEC18>
+2018-04-09 16:45:39,827 - _logger - INFO - Loading server adress options.
+2018-04-09 16:45:40,384 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:45:40,395 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:45:40,395 - _logger - DEBUG - APP - 0
+2018-04-09 16:45:41,816 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:46:56,115 - _logger - INFO - APP - Program closed
+2018-04-09 16:46:57,143 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:46:57,143 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:46:57,143 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026F642FEC18>
+2018-04-09 16:46:57,346 - _logger - INFO - Loading server adress options.
+2018-04-09 16:46:57,885 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:46:57,895 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:46:57,895 - _logger - DEBUG - APP - 0
+2018-04-09 16:46:58,959 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:48:42,165 - _logger - INFO - APP - Program closed
+2018-04-09 16:48:43,903 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:48:43,903 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:48:43,903 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020B149AEC18>
+2018-04-09 16:48:44,100 - _logger - INFO - Loading server adress options.
+2018-04-09 16:48:44,685 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:48:44,696 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:48:44,696 - _logger - DEBUG - APP - 0
+2018-04-09 16:48:50,567 - _logger - INFO - APP - Program closed
+2018-04-09 16:51:49,972 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:51:49,972 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:51:49,972 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A281C4EC18>
+2018-04-09 16:51:50,164 - _logger - INFO - Loading server adress options.
+2018-04-09 16:51:50,721 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:51:50,731 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:51:50,732 - _logger - DEBUG - APP - 0
+2018-04-09 16:51:51,888 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 16:53:27,860 - _logger - INFO - APP - Program closed
+2018-04-09 16:53:28,189 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:53:28,189 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:53:28,189 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002169C0FEC18>
+2018-04-09 16:53:28,379 - _logger - INFO - Loading server adress options.
+2018-04-09 16:53:28,935 - _logger - INFO - Loading server email adress options.
+2018-04-09 16:53:28,946 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 16:53:28,946 - _logger - DEBUG - APP - 0
+2018-04-09 16:53:33,661 - _logger - INFO - APP - Program closed
+2018-04-09 16:54:52,417 - _logger - INFO - __main__ - Program oppened
+2018-04-09 16:54:52,417 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 16:54:52,417 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018237BBEC18>
+2018-04-09 16:54:52,610 - _logger - INFO - Loading server adress options.
+2018-04-09 17:06:27,726 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:06:27,726 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:06:27,726 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019F4959DCA8>
+2018-04-09 17:06:27,921 - _logger - INFO - Loading server adress options.
+2018-04-09 17:06:28,517 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:06:28,527 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:06:28,527 - _logger - DEBUG - APP - 0
+2018-04-09 17:06:30,683 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:06:37,543 - _logger - INFO - APP - Program closed
+2018-04-09 17:10:23,829 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:10:23,829 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:10:23,829 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021EEDC80CA8>
+2018-04-09 17:10:24,014 - _logger - INFO - Loading server adress options.
+2018-04-09 17:10:24,568 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:10:24,578 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:10:24,578 - _logger - DEBUG - APP - 0
+2018-04-09 17:10:26,389 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:13:13,862 - _logger - INFO - APP - Program closed
+2018-04-09 17:13:14,724 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:13:14,724 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:13:14,724 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022BEC9A0CA8>
+2018-04-09 17:13:14,921 - _logger - INFO - Loading server adress options.
+2018-04-09 17:13:15,488 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:13:15,498 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:13:15,498 - _logger - DEBUG - APP - 0
+2018-04-09 17:13:16,689 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:13:41,205 - _logger - INFO - APP - Program closed
+2018-04-09 17:13:43,968 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:13:43,968 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:13:43,968 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001858D8C0CA8>
+2018-04-09 17:13:44,159 - _logger - INFO - Loading server adress options.
+2018-04-09 17:13:44,727 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:13:44,737 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:13:44,737 - _logger - DEBUG - APP - 0
+2018-04-09 17:13:45,954 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:15:05,413 - _logger - INFO - APP - Program closed
+2018-04-09 17:15:06,279 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:15:06,279 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:15:06,279 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027695830CA8>
+2018-04-09 17:15:06,478 - _logger - INFO - Loading server adress options.
+2018-04-09 17:15:07,056 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:15:07,066 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:15:07,066 - _logger - DEBUG - APP - 0
+2018-04-09 17:15:08,365 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:16:39,589 - _logger - INFO - APP - Program closed
+2018-04-09 17:16:41,341 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:16:41,341 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:16:41,341 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001EAD245FCA8>
+2018-04-09 17:16:41,532 - _logger - INFO - Loading server adress options.
+2018-04-09 17:16:42,102 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:16:42,112 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:16:42,112 - _logger - DEBUG - APP - 0
+2018-04-09 17:16:43,418 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:22:26,238 - _logger - INFO - APP - Program closed
+2018-04-09 17:22:27,183 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:22:27,183 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:22:27,183 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002559985EC18>
+2018-04-09 17:22:27,370 - _logger - INFO - Loading server adress options.
+2018-04-09 17:22:27,934 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:22:27,944 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:22:27,944 - _logger - DEBUG - APP - 0
+2018-04-09 17:22:28,973 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:25:46,267 - _logger - INFO - APP - Program closed
+2018-04-09 17:38:57,145 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:38:57,145 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:38:57,145 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024FFD53FD38>
+2018-04-09 17:38:57,332 - _logger - INFO - Loading server adress options.
+2018-04-09 17:38:57,895 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:38:57,906 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:38:57,906 - _logger - DEBUG - APP - 0
+2018-04-09 17:38:59,489 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:39:29,318 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:39:29,318 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:39:29,319 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A7BDD90CA8>
+2018-04-09 17:39:29,510 - _logger - INFO - Loading server adress options.
+2018-04-09 17:39:30,070 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:39:30,080 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:39:30,080 - _logger - DEBUG - APP - 0
+2018-04-09 17:39:34,369 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:39:52,068 - _logger - DEBUG - OPTIONS - User permissions changed: {'userteste': ['Analista', 'Técnico'], 'teste2': ['Analista', 'Técnico'], 'teste3': ['Analista', 'Técnico']}
+2018-04-09 17:40:39,768 - _logger - DEBUG - OPTIONS - User permissions changed: {'userteste': ['Analista', 'Técnico'], 'teste2': ['Analista', 'Técnico'], 'teste3': ['Analista', 'Técnico'], 'Jullian': ['Analista', 'Técnico']}
+2018-04-09 17:41:00,287 - _logger - DEBUG - OPTIONS - User permissions changed: {'userteste': ['Analista', 'Técnico'], 'teste2': ['Analista', 'Técnico'], 'teste3': ['Analista', 'Técnico'], 'Jullian': ['Analista', 'Técnico']}
+2018-04-09 17:41:40,342 - _logger - INFO - APP - Program closed
+2018-04-09 17:41:41,764 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:41:41,764 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:41:41,764 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000299EB03FCA8>
+2018-04-09 17:41:41,952 - _logger - INFO - Loading server adress options.
+2018-04-09 17:42:02,890 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:42:02,890 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:42:02,890 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029BC460FCA8>
+2018-04-09 17:42:03,074 - _logger - INFO - Loading server adress options.
+2018-04-09 17:43:36,674 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:43:36,674 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:43:36,674 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000013973FFDCA8>
+2018-04-09 17:43:36,868 - _logger - INFO - Loading server adress options.
+2018-04-09 17:43:37,433 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:43:37,443 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:43:37,443 - _logger - DEBUG - APP - 0
+2018-04-09 17:43:39,032 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:43:58,336 - _logger - INFO - APP - Program closed
+2018-04-09 17:44:16,255 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:44:16,255 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:44:16,255 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000234FD0AFCA8>
+2018-04-09 17:44:16,442 - _logger - INFO - Loading server adress options.
+2018-04-09 17:45:10,577 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:45:10,577 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:45:10,577 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B61F48FCA8>
+2018-04-09 17:45:10,769 - _logger - INFO - Loading server adress options.
+2018-04-09 17:45:11,322 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:45:11,332 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:45:11,332 - _logger - DEBUG - APP - 0
+2018-04-09 17:45:12,568 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:45:18,149 - _logger - DEBUG - OPTIONS - User permissions changed: {'teste2': ['Técnico', 'Técnico'], 'teste3': ['Técnico', 'Técnico'], 'userteste': ['Analista', 'Técnico']}
+2018-04-09 17:45:56,144 - _logger - INFO - APP - Program closed
+2018-04-09 17:45:58,507 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:45:58,507 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:45:58,507 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002AF704FFCA8>
+2018-04-09 17:45:58,701 - _logger - INFO - Loading server adress options.
+2018-04-09 17:45:59,297 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:45:59,307 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:45:59,307 - _logger - DEBUG - APP - 0
+2018-04-09 17:46:00,900 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:46:09,677 - _logger - DEBUG - OPTIONS - User permissions changed: {'teste2': ['Técnico', 'Técnico'], 'teste3': ['Analista', 'Técnico']}
+2018-04-09 17:46:42,868 - _logger - DEBUG - OPTIONS - User permissions changed: {'teste2': ['Técnico', 'Técnico'], 'teste3': ['Analista', 'Técnico']}
+2018-04-09 17:46:54,866 - _logger - DEBUG - OPTIONS - User permissions changed: {'teste2': ['Técnico', 'Técnico'], 'teste3': ['Analista', 'Técnico']}
+2018-04-09 17:47:13,511 - _logger - DEBUG - OPTIONS - User permissions changed: {'teste2': ['Técnico', 'Técnico'], 'teste3': ['Analista', 'Aluno'], 'admin': ['Técnico', 'Técnico'], 'teste1': ['Técnico', 'Técnico']}
+2018-04-09 17:48:08,429 - _logger - DEBUG - OPTIONS - User permissions changed: {'teste2': ['Analista', 'Analista'], 'teste3': ['Analista', 'Analista'], 'admin': ['Técnico', 'Analista'], 'teste1': ['Técnico', 'Analista']}
+2018-04-09 17:49:01,942 - _logger - INFO - APP - Program closed
+2018-04-09 17:49:03,666 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:49:03,666 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:49:03,666 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DEE1AE0CA8>
+2018-04-09 17:49:03,860 - _logger - INFO - Loading server adress options.
+2018-04-09 17:49:04,414 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:49:04,424 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:49:04,424 - _logger - DEBUG - APP - 0
+2018-04-09 17:49:05,760 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:49:07,990 - _logger - DEBUG - OPTIONS - User permissions changed: {}
+2018-04-09 17:49:26,314 - _logger - DEBUG - OPTIONS - User permissions changed: {}
+2018-04-09 17:50:47,547 - _logger - INFO - APP - Program closed
+2018-04-09 17:50:51,248 - _logger - INFO - __main__ - Program oppened
+2018-04-09 17:50:51,248 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-09 17:50:51,248 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000015ADB610CA8>
+2018-04-09 17:50:51,435 - _logger - INFO - Loading server adress options.
+2018-04-09 17:50:52,028 - _logger - INFO - Loading server email adress options.
+2018-04-09 17:50:52,038 - _logger - INFO - APP - Current widget changed: 0
+2018-04-09 17:50:52,038 - _logger - DEBUG - APP - 0
+2018-04-09 17:50:58,894 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:51:08,285 - _logger - DEBUG - OPTIONS - User permissions changed: {}
+2018-04-09 17:51:27,131 - _logger - DEBUG - OPTIONS - User permissions changed: {'admin': ['Analista', 'Aluno'], 'teste3': ['Analista', 'Aluno'], 'teste2': ['Analista', 'Aluno']}
+2018-04-09 17:51:37,441 - _logger - INFO - APP - Non-identified user entered option screen
+2018-04-09 17:51:42,287 - _logger - DEBUG - OPTIONS - User permissions changed: {'admin': ['Analista', 'Analista'], 'teste3': ['Analista', 'Analista'], 'teste2': ['Analista', 'Analista']}
+2018-04-09 17:52:09,629 - _logger - INFO - APP - Program closed
+2018-04-11 12:45:32,783 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:45:32,783 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:45:32,783 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D65ECB1CA8>
+2018-04-11 12:45:33,026 - _logger - INFO - Loading server adress options.
+2018-04-11 12:46:01,987 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:46:01,987 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:46:01,987 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000014ED10A1CA8>
+2018-04-11 12:46:02,169 - _logger - INFO - Loading server adress options.
+2018-04-11 12:46:15,764 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:46:15,764 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:46:15,764 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B875D60CA8>
+2018-04-11 12:46:15,956 - _logger - INFO - Loading server adress options.
+2018-04-11 12:52:13,167 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:52:13,167 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:52:13,167 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CC43080CA8>
+2018-04-11 12:52:13,355 - _logger - INFO - Loading server adress options.
+2018-04-11 12:53:14,374 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:53:14,374 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:53:14,374 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C9A7941CA8>
+2018-04-11 12:53:14,565 - _logger - INFO - Loading server adress options.
+2018-04-11 12:53:31,617 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:53:31,617 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:53:31,617 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000169ABE61CA8>
+2018-04-11 12:53:31,803 - _logger - INFO - Loading server adress options.
+2018-04-11 12:54:46,035 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:54:46,036 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:54:46,036 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000015B9DD51CA8>
+2018-04-11 12:54:46,224 - _logger - INFO - Loading server adress options.
+2018-04-11 12:55:17,562 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:55:17,562 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:55:17,562 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F604DA1CA8>
+2018-04-11 12:55:17,752 - _logger - INFO - Loading server adress options.
+2018-04-11 12:55:18,298 - _logger - INFO - Loading server email adress options.
+2018-04-11 12:55:18,310 - _logger - INFO - APP - Current widget changed: 0
+2018-04-11 12:55:18,310 - _logger - DEBUG - APP - 0
+2018-04-11 12:55:27,080 - _logger - INFO - APP - Login dialog screen opened.
+2018-04-11 12:55:30,673 - _logger - DEBUG - APP - event: False.
+2018-04-11 12:55:30,676 - _logger - INFO - APP - Current widget changed: 1
+2018-04-11 12:55:30,676 - _logger - DEBUG - APP - 1
+2018-04-11 12:55:30,677 - _logger - INFO - USER - admin instance of User class created
+2018-04-11 12:55:30,678 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-04-11 12:55:30,678 - _logger - INFO - APP - admin logged.
+2018-04-11 12:55:30,678 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001F61336E318>.
+2018-04-11 12:55:30,678 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001F61336E318>.
+2018-04-11 12:55:33,996 - _logger - INFO - APP - Dialog dialog screen opened.
+2018-04-11 12:55:48,720 - _logger - INFO - APP - Program closed
+2018-04-11 12:58:07,462 - _logger - INFO - __main__ - Program oppened
+2018-04-11 12:58:07,462 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-11 12:58:07,462 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002465C640CA8>
+2018-04-11 12:58:07,656 - _logger - INFO - Loading server adress options.
+2018-04-11 12:58:08,247 - _logger - INFO - Loading server email adress options.
+2018-04-11 12:58:08,258 - _logger - INFO - APP - Current widget changed: 0
+2018-04-11 12:58:08,258 - _logger - DEBUG - APP - 0
+2018-04-11 12:58:11,003 - _logger - INFO - APP - Program closed
+2018-04-13 18:17:54,996 - _logger - INFO - __main__ - Program oppened
+2018-04-13 18:17:55,044 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-13 18:17:55,044 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001B652AB0CA8>
+2018-04-13 18:17:55,285 - _logger - INFO - Loading server adress options.
+2018-04-13 18:17:55,846 - _logger - INFO - Loading server email adress options.
+2018-04-13 18:17:55,857 - _logger - INFO - APP - Current widget changed: 0
+2018-04-13 18:17:55,858 - _logger - DEBUG - APP - 0
+2018-04-13 18:17:59,146 - _logger - INFO - APP - Program closed
+2018-04-16 12:10:22,479 - _logger - INFO - __main__ - Program oppened
+2018-04-16 12:10:22,479 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-16 12:10:22,479 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F028E6FCA8>
+2018-04-16 12:10:22,709 - _logger - INFO - Loading server adress options.
+2018-04-16 12:29:47,839 - _logger - INFO - __main__ - Program oppened
+2018-04-16 12:29:47,839 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-16 12:29:47,839 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028114B0FCA8>
+2018-04-16 12:29:48,020 - _logger - INFO - Loading server adress options.
+2018-04-16 12:29:48,593 - _logger - INFO - Loading server email adress options.
+2018-04-16 12:29:48,604 - _logger - INFO - APP - Current widget changed: 0
+2018-04-16 12:29:48,604 - _logger - DEBUG - APP - 0
+2018-04-16 12:29:51,002 - _logger - INFO - APP - Program closed
+2018-04-16 12:36:00,100 - _logger - INFO - __main__ - Program oppened
+2018-04-16 12:36:00,101 - _logger - INFO - CONFIG - Configurations initialized.
+2018-04-16 12:36:00,101 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001AE50ECFCA8>
+2018-04-16 12:36:00,291 - _logger - INFO - Loading server adress options.
+2018-04-16 12:36:00,849 - _logger - INFO - Loading server email adress options.
+2018-04-16 12:36:00,861 - _logger - INFO - APP - Current widget changed: 0
+2018-04-16 12:36:00,861 - _logger - DEBUG - APP - 0
+2018-04-16 12:36:02,450 - _logger - INFO - APP - Program closed
+2018-06-13 22:44:42,523 - _logger - INFO - __main__ - Program oppened
+2018-06-13 22:44:42,538 - _logger - INFO - CONFIG - Configurations initialized.
+2018-06-13 22:44:42,538 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021864532798>
+2018-06-13 22:44:42,724 - _logger - INFO - Loading server adress options.
+2018-06-13 22:44:43,224 - _logger - INFO - Loading server email adress options.
+2018-06-13 22:44:43,262 - _logger - INFO - APP - Current widget changed: 0
+2018-06-13 22:44:43,262 - _logger - DEBUG - APP - 0
+2018-06-13 22:44:46,778 - _logger - INFO - APP - Login dialog screen opened.
+2018-06-13 22:44:49,672 - _logger - INFO - APP - Program closed
+2018-07-05 10:54:44,790 - _logger - INFO - __main__ - Program oppened
+2018-07-05 10:54:44,953 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 10:54:44,953 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002033E1DA8B8>
+2018-07-05 10:55:21,561 - _logger - INFO - Loading server adress options.
+2018-07-05 10:55:35,116 - _logger - INFO - Loading server email adress options.
+2018-07-05 10:55:39,201 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 10:55:39,201 - _logger - DEBUG - APP - 0
+2018-07-05 11:44:45,239 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-05 11:44:47,779 - _logger - DEBUG - APP - event: False.
+2018-07-05 11:44:47,813 - _logger - INFO - APP - Current widget changed: 1
+2018-07-05 11:44:47,813 - _logger - DEBUG - APP - 1
+2018-07-05 11:44:47,818 - _logger - INFO - USER - admin instance of User class created
+2018-07-05 11:44:47,818 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-05 11:44:47,819 - _logger - INFO - APP - admin logged.
+2018-07-05 11:44:47,819 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002033E7C5678>.
+2018-07-05 11:44:47,819 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002033E7C5678>.
+2018-07-05 11:44:55,835 - _logger - INFO - APP - Program closed
+2018-07-05 15:41:20,492 - _logger - INFO - __main__ - Program oppened
+2018-07-05 15:41:20,492 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 15:41:20,492 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029DAF294D38>
+2018-07-05 15:41:20,835 - _logger - INFO - Loading server adress options.
+2018-07-05 15:41:20,893 - _logger - INFO - Loading server email adress options.
+2018-07-05 15:41:20,911 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 15:41:20,911 - _logger - DEBUG - APP - 0
+2018-07-05 15:41:26,149 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-05 15:41:28,709 - _logger - DEBUG - APP - event: False.
+2018-07-05 15:41:28,712 - _logger - INFO - APP - Current widget changed: 1
+2018-07-05 15:41:28,712 - _logger - DEBUG - APP - 1
+2018-07-05 15:41:28,713 - _logger - INFO - USER - admin instance of User class created
+2018-07-05 15:41:28,713 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-05 15:41:28,714 - _logger - INFO - APP - admin logged.
+2018-07-05 15:41:28,714 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000029DAF89E4C8>.
+2018-07-05 15:41:28,714 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000029DAF89E4C8>.
+2018-07-05 15:41:37,461 - _logger - INFO - APP - admin entered option screen
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/uentryl
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/uentryw
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/uentryh
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/uentryt
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/dentryl
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/dentryw
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/dentryh
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - DEBUG - db_adress/dentryt
+2018-07-05 15:43:06,527 - _logger - INFO - CONFIGS - New db_adress settings registered.
+2018-07-05 15:43:06,527 - _logger - INFO - Server options saved
+2018-07-05 15:43:13,891 - _logger - INFO - APP - Program closed
+2018-07-05 15:46:34,660 - _logger - INFO - __main__ - Program oppened
+2018-07-05 15:46:34,660 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 15:46:34,660 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022294484E58>
+2018-07-05 15:46:34,861 - _logger - INFO - Loading server adress options.
+2018-07-05 15:46:34,920 - _logger - INFO - Loading server email adress options.
+2018-07-05 15:46:34,933 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 15:46:34,933 - _logger - DEBUG - APP - 0
+2018-07-05 15:46:38,342 - _logger - INFO - APP - Login dialog screen opened.
+2018-07-05 15:46:42,493 - _logger - DEBUG - APP - event: False.
+2018-07-05 15:46:42,496 - _logger - INFO - APP - Current widget changed: 1
+2018-07-05 15:46:42,496 - _logger - DEBUG - APP - 1
+2018-07-05 15:46:42,497 - _logger - INFO - USER - admin instance of User class created
+2018-07-05 15:46:42,497 - _logger - INFO - APP - admin permission 'Analista' defined
+2018-07-05 15:46:42,498 - _logger - INFO - APP - admin logged.
+2018-07-05 15:46:42,498 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000022294A8E5E8>.
+2018-07-05 15:46:42,498 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000022294A8E5E8>.
+2018-07-05 15:46:44,364 - _logger - INFO - APP - admin entered option screen
+2018-07-05 15:46:52,395 - _logger - INFO - APP - Program closed
+2018-07-05 15:47:42,646 - _logger - INFO - __main__ - Program oppened
+2018-07-05 15:47:42,646 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 15:47:42,646 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000282CEB64DC8>
+2018-07-05 15:47:42,842 - _logger - INFO - Loading server adress options.
+2018-07-05 15:47:42,890 - _logger - INFO - Loading server email adress options.
+2018-07-05 15:47:42,903 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 15:47:42,903 - _logger - DEBUG - APP - 0
+2018-07-05 15:47:47,709 - _logger - INFO - APP - Program closed
+2018-07-05 15:52:36,257 - _logger - INFO - __main__ - Program oppened
+2018-07-05 15:52:36,257 - _logger - INFO - CONFIG - Configurations initialized.
+2018-07-05 15:52:36,257 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000025A89F74DC8>
+2018-07-05 15:52:36,474 - _logger - INFO - Loading server adress options.
+2018-07-05 15:52:36,533 - _logger - INFO - Loading server email adress options.
+2018-07-05 15:52:36,544 - _logger - INFO - APP - Current widget changed: 0
+2018-07-05 15:52:36,544 - _logger - DEBUG - APP - 0
+2018-07-05 15:52:40,976 - _logger - INFO - APP - Program closed
