@@ -5159,3 +5159,967 @@
 2019-09-25 17:22:04,208 - _logger - INFO - APP - Current widget changed: 0
 2019-09-25 17:22:04,208 - _logger - DEBUG - APP - 0
 2019-09-25 17:22:39,374 - _logger - INFO - APP - Non-identified user entered option screen
+2019-09-25 17:29:01,322 - _logger - INFO - APP - Program closed
+2019-09-25 17:30:44,495 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:30:44,495 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:30:44,495 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026EA08DC708>
+2019-09-25 17:30:44,700 - _logger - INFO - Loading server adress options.
+2019-09-25 17:30:44,704 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:30:44,704 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:30:44,724 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 17:30:44,724 - _logger - DEBUG - APP - 0
+2019-09-25 17:47:38,659 - _logger - INFO - APP - Program closed
+2019-09-25 17:47:41,604 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:47:41,604 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:47:41,604 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002838F5E7B88>
+2019-09-25 17:47:41,817 - _logger - INFO - Loading server adress options.
+2019-09-25 17:47:41,823 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:47:41,824 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:48:19,163 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:48:19,163 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:48:19,163 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001614D626B88>
+2019-09-25 17:48:19,368 - _logger - INFO - Loading server adress options.
+2019-09-25 17:48:19,373 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:48:19,373 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:48:47,817 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:48:47,817 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:48:47,818 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001BDC77F6B88>
+2019-09-25 17:48:48,019 - _logger - INFO - Loading server adress options.
+2019-09-25 17:48:48,023 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:48:48,023 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:52:34,726 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:52:34,727 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:52:34,727 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023887206B88>
+2019-09-25 17:52:34,925 - _logger - INFO - Loading server adress options.
+2019-09-25 17:52:34,929 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:52:34,930 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,237 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:57:44,238 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:57:44,238 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D0550D6B88>
+2019-09-25 17:57:44,432 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,436 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,436 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,458 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,460 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,461 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,483 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,486 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,486 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,508 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,510 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,511 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,531 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,533 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,533 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,554 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,556 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,556 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,577 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,578 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,579 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,598 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,600 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,601 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,621 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,623 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,623 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,643 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,645 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,646 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,666 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,668 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,669 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,689 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,691 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,692 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,712 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,713 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,714 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,734 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,736 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,737 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,757 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,759 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,759 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,780 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,781 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,782 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,802 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,803 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,804 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,824 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,825 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,826 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,846 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,847 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,848 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,867 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,869 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,869 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,889 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,891 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,892 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,912 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,914 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,914 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,934 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,936 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,936 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,956 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,958 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,958 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:44,978 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:44,980 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:44,980 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,000 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,002 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,002 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,023 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,025 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,025 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,045 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,047 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,047 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,069 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,071 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,071 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,092 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,094 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,095 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,115 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,117 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,118 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,139 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,141 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,141 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,161 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,163 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,163 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,183 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,185 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,185 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,205 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,207 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,207 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,227 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,229 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,229 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,249 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,251 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,251 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,272 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,273 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,274 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,294 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,296 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,296 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,316 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,318 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,318 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,340 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,341 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,342 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,362 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,365 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,365 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,386 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,388 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,388 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,408 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,410 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,410 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,431 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,432 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,433 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,453 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,455 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,455 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,476 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,478 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,479 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,499 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,501 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,501 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,521 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,523 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,524 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,544 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,546 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,546 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,566 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,568 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,568 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,589 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,590 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,591 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,611 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,613 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,613 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,634 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,635 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,636 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,656 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,658 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,658 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,678 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,681 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,681 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,701 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,703 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,703 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,723 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,725 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,725 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,746 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,747 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,748 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,769 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,771 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,771 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,793 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,794 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,795 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,816 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,818 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,819 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,840 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,842 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,842 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,864 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,865 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,866 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,887 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,888 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,889 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,910 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,911 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,912 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,932 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,934 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,934 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,956 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,957 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,958 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:45,978 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:45,980 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:45,980 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,000 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,003 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,003 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,024 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,026 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,026 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,047 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,049 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,049 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,070 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,073 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,073 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,095 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,097 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,097 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,118 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,120 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,120 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,140 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,142 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,142 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,163 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,165 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,165 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,186 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,188 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,188 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,209 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,211 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,211 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,232 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,234 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,234 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,255 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,256 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,257 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,278 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,280 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,280 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,301 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,302 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,303 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,323 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,325 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,325 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,345 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,347 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,348 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,368 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,370 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,370 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,391 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,392 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,393 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,413 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,415 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,416 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,437 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,438 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,439 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,459 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,462 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,462 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,483 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,485 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,486 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,507 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,509 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,509 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,530 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,532 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,532 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,553 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,555 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,556 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,577 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,579 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,579 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,600 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,602 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,602 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,624 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,626 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,627 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,648 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,651 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,651 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,672 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,674 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,674 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,695 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,697 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,697 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,718 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,720 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,721 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,742 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,744 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,744 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,765 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,767 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,767 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,788 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,790 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,790 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,811 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,813 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,813 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,834 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,836 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,836 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,857 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,859 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,859 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,880 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,882 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,882 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,905 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,907 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,908 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,930 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,932 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,932 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,954 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,956 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,956 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:46,978 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:46,980 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:46,980 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,001 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,003 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,003 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,024 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,026 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,027 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,048 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,050 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,050 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,072 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,074 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,074 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,095 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,097 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,097 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,119 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,121 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,121 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,142 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,144 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,145 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,166 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,168 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,168 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,189 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,191 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,191 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,213 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,214 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,215 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,236 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,238 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,238 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,260 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,261 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,262 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,283 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,284 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,285 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,307 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,309 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,310 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,331 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,333 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,333 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,355 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,357 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,357 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,379 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,381 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,381 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,402 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,404 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,404 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,426 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,427 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,428 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,449 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,451 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,451 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,473 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,475 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,476 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,496 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,498 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,499 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,520 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,522 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,522 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,543 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,545 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,545 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,567 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,569 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,569 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,591 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,593 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,593 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,615 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,617 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,617 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,638 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,640 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,641 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,662 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,663 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,664 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,685 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,687 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,687 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,709 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,711 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,711 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,732 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,734 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,734 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,756 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,757 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,758 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,779 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,781 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,781 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,802 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,804 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,804 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,826 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,827 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,828 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,849 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,850 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,851 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,872 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,874 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,874 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,895 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,897 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,898 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,919 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,921 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,921 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,942 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,944 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,944 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,965 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,968 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,969 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:47,990 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:47,992 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:47,993 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,015 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,016 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,017 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,038 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,040 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,040 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,063 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,065 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,065 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,087 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,089 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,090 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,112 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,114 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,115 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,136 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,138 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,139 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,160 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,162 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,162 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,183 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,185 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,185 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,208 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,210 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,210 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,232 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,233 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,234 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,255 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,257 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,257 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,279 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,281 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,281 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,303 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,305 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,305 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,327 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,329 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,329 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,351 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,353 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,353 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,375 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,377 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,378 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,400 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,402 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,402 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,425 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,427 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,427 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,450 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,451 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,452 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,474 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,476 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,477 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,499 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,500 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,501 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,522 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,524 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,524 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,546 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,548 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,548 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,570 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,571 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,572 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,593 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,595 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,595 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,617 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,620 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,620 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,642 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,645 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,645 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,668 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,670 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,670 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,692 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,694 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,694 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,716 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,718 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,718 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,739 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,741 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,742 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,764 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,766 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,766 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,787 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,789 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,790 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,811 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,813 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,814 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,835 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,837 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,837 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,859 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,861 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,861 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,883 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,885 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,885 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,907 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,909 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,909 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,931 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,933 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,933 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,955 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,956 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,957 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:48,979 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:48,981 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:48,981 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,003 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,005 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,005 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,027 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,029 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,029 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,051 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,053 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,053 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,075 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,077 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,078 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,101 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,103 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,104 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,126 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,128 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,128 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,150 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,152 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,153 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,174 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,176 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,177 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,199 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,200 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,201 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,223 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,224 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,225 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,247 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,248 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,249 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,271 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,273 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,273 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,295 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,297 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,298 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,320 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,323 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,323 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,345 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,347 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,347 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,370 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,372 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,373 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,395 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,396 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,397 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,419 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,421 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,421 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,443 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,445 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,445 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,469 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,471 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,472 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,494 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,496 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,497 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,519 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,520 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,521 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,543 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,545 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,545 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,568 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,570 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,570 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,592 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,594 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,594 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,616 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,618 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,619 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,641 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,642 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,643 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,665 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,667 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,667 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,689 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,691 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,691 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,713 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,715 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,716 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,738 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,740 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,740 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,762 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,764 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,765 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,787 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,789 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,789 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,811 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,813 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,813 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,835 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,837 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,838 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,860 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,862 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,862 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,884 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,886 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,886 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,909 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,910 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,911 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,933 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,935 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,935 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,957 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,959 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,959 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:57:49,981 - _logger - INFO - Loading server adress options.
+2019-09-25 17:57:49,983 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:57:49,983 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:59:34,324 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:59:34,324 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:59:34,324 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029ED58A7B88>
+2019-09-25 17:59:34,527 - _logger - INFO - Loading server adress options.
+2019-09-25 17:59:34,531 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:59:34,531 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:02:04,213 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:02:04,213 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:02:04,213 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000022B73C27B88>
+2019-09-25 18:02:04,425 - _logger - INFO - Loading server adress options.
+2019-09-25 18:02:04,429 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:02:04,429 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:02:22,529 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:02:22,529 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:02:22,529 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000164A2E76B88>
+2019-09-25 18:02:22,743 - _logger - INFO - Loading server adress options.
+2019-09-25 18:02:22,748 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:02:22,748 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:05:27,599 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:05:27,599 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:05:27,599 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D5E8226B88>
+2019-09-25 18:05:27,795 - _logger - INFO - Loading server adress options.
+2019-09-25 18:05:27,799 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:05:27,800 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:11:09,696 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:11:09,697 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:11:09,697 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000230FB1F6B88>
+2019-09-25 18:11:09,897 - _logger - INFO - Loading server adress options.
+2019-09-25 18:11:09,902 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:11:09,902 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:13:01,714 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:13:01,714 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:13:01,714 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000018462AF7B88>
+2019-09-25 18:13:01,907 - _logger - INFO - Loading server adress options.
+2019-09-25 18:13:01,911 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:13:01,911 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:13:13,570 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:13:13,570 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:13:13,570 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002D1AB2A7B88>
+2019-09-25 18:13:13,773 - _logger - INFO - Loading server adress options.
+2019-09-25 18:13:13,777 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:13:13,777 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:13:29,501 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:13:29,501 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:13:29,501 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E398776B88>
+2019-09-25 18:13:29,707 - _logger - INFO - Loading server adress options.
+2019-09-25 18:13:29,711 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:13:29,712 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:13:29,735 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:13:29,735 - _logger - DEBUG - APP - 0
+2019-09-25 18:13:33,670 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:14:18,501 - _logger - INFO - APP - Program closed
+2019-09-25 18:14:21,330 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:14:21,330 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:14:21,330 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002942DDC7B88>
+2019-09-25 18:14:21,529 - _logger - INFO - Loading server adress options.
+2019-09-25 18:14:21,533 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:14:21,534 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:14:21,557 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:14:21,557 - _logger - DEBUG - APP - 0
+2019-09-25 18:14:23,722 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:14:54,742 - _logger - INFO - APP - Program closed
+2019-09-25 18:14:56,687 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:14:56,687 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:14:56,687 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D380216B88>
+2019-09-25 18:14:56,886 - _logger - INFO - Loading server adress options.
+2019-09-25 18:14:56,891 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:14:56,891 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:14:56,914 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:14:56,914 - _logger - DEBUG - APP - 0
+2019-09-25 18:14:58,436 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:15:05,034 - _logger - INFO - APP - Program closed
+2019-09-25 18:16:09,828 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:16:09,828 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:16:09,828 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001525C856B88>
+2019-09-25 18:16:10,038 - _logger - INFO - Loading server adress options.
+2019-09-25 18:16:10,042 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:16:10,042 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:16:10,065 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:16:10,065 - _logger - DEBUG - APP - 0
+2019-09-25 18:16:13,628 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:23:07,291 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:23:29,445 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 18:23:35,373 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:23:43,537 - _logger - INFO - APP - Program closed
+2019-09-25 18:24:05,736 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:24:05,736 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:24:05,736 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F344BF7B88>
+2019-09-25 18:24:05,933 - _logger - INFO - Loading server adress options.
+2019-09-25 18:24:05,937 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:24:05,938 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:24:05,961 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:24:05,961 - _logger - DEBUG - APP - 0
+2019-09-25 18:24:07,931 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:24:10,807 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 18:24:35,426 - _logger - INFO - APP - Program closed
+2019-09-25 18:24:37,808 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:24:37,808 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:24:37,808 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000023538CA8B88>
+2019-09-25 18:24:37,994 - _logger - INFO - Loading server adress options.
+2019-09-25 18:24:37,998 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:24:37,999 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:24:38,021 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:24:38,022 - _logger - DEBUG - APP - 0
+2019-09-25 18:24:40,369 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:25:11,188 - _logger - INFO - APP - Program closed
+2019-09-25 18:34:43,005 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:34:43,005 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:34:43,005 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000157EDBC6C18>
+2019-09-25 18:34:43,197 - _logger - INFO - Loading server adress options.
+2019-09-25 18:34:43,202 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:34:43,202 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:34:43,252 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:34:43,252 - _logger - DEBUG - APP - 0
+2019-09-25 18:34:45,346 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:35:02,179 - _logger - INFO - APP - Program closed
+2019-09-25 18:35:03,826 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:35:03,826 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:35:03,826 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002CF22BA8C18>
+2019-09-25 18:35:04,015 - _logger - INFO - Loading server adress options.
+2019-09-25 18:35:04,019 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:35:04,020 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:35:04,043 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:35:04,043 - _logger - DEBUG - APP - 0
+2019-09-25 18:35:06,333 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:37:18,264 - _logger - INFO - APP - Program closed
+2019-09-25 18:37:20,019 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:37:20,019 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:37:20,019 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CBB5D99B88>
+2019-09-25 18:37:20,218 - _logger - INFO - Loading server adress options.
+2019-09-25 18:37:20,223 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:37:20,223 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:37:20,249 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:37:20,249 - _logger - DEBUG - APP - 0
+2019-09-25 18:37:21,751 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:38:01,634 - _logger - INFO - APP - Program closed
+2019-09-25 18:45:43,938 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:45:43,938 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:45:43,938 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000261BB52A048>
+2019-09-25 18:45:44,142 - _logger - INFO - Loading server adress options.
+2019-09-25 18:45:44,146 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:45:44,147 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:46:17,255 - _logger - INFO - __main__ - Program oppened
+2019-09-25 18:46:17,255 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 18:46:17,255 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DF9EE05C18>
+2019-09-25 18:46:17,443 - _logger - INFO - Loading server adress options.
+2019-09-25 18:46:17,448 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 18:46:17,448 - _logger - INFO - Loading server email adress options.
+2019-09-25 18:46:17,473 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 18:46:17,473 - _logger - DEBUG - APP - 0
+2019-09-25 18:46:19,349 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 18:50:02,799 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:43:37,515 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 19:43:38,599 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:43:41,075 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:49:14,439 - _logger - INFO - APP - Program closed
+2019-09-25 19:49:16,385 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:49:16,385 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:49:16,385 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F59735A048>
+2019-09-25 19:49:16,600 - _logger - INFO - Loading server adress options.
+2019-09-25 19:49:16,605 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:49:16,605 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:51:03,806 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:51:03,806 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:51:03,806 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DF9F71A048>
+2019-09-25 19:51:04,004 - _logger - INFO - Loading server adress options.
+2019-09-25 19:51:04,008 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:51:04,008 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:51:43,913 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:51:43,913 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:51:43,913 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000181013490D8>
+2019-09-25 19:51:44,126 - _logger - INFO - Loading server adress options.
+2019-09-25 19:51:44,131 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:51:44,131 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:51:44,155 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 19:51:44,155 - _logger - DEBUG - APP - 0
+2019-09-25 19:51:45,631 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:52:08,786 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 19:54:00,447 - _logger - INFO - APP - Program closed
+2019-09-25 19:54:05,050 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:54:05,051 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:54:05,051 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000204BF538048>
+2019-09-25 19:54:05,255 - _logger - INFO - Loading server adress options.
+2019-09-25 19:54:05,260 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:54:05,261 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:54:05,285 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 19:54:05,285 - _logger - DEBUG - APP - 0
+2019-09-25 19:54:10,112 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:54:32,097 - _logger - INFO - APP - Program closed
+2019-09-25 19:54:32,569 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:54:32,569 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:54:32,569 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001809FF7A048>
+2019-09-25 19:54:32,778 - _logger - INFO - Loading server adress options.
+2019-09-25 19:54:32,782 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:54:32,783 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:54:32,807 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 19:54:32,807 - _logger - DEBUG - APP - 0
+2019-09-25 19:54:37,078 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:54:45,710 - _logger - INFO - APP - Program closed
+2019-09-25 19:58:21,956 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:58:21,956 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:58:21,956 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C45529B168>
+2019-09-25 19:58:22,146 - _logger - INFO - Loading server adress options.
+2019-09-25 19:58:22,150 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:58:22,151 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:58:22,175 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 19:58:22,175 - _logger - DEBUG - APP - 0
+2019-09-25 19:58:24,790 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:58:27,169 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 19:58:31,748 - _logger - INFO - APP - Program closed
+2019-09-25 19:58:39,041 - _logger - INFO - __main__ - Program oppened
+2019-09-25 19:58:39,042 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 19:58:39,042 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001C6B2C5B168>
+2019-09-25 19:58:39,240 - _logger - INFO - Loading server adress options.
+2019-09-25 19:58:39,244 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 19:58:39,245 - _logger - INFO - Loading server email adress options.
