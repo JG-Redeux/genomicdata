@@ -5137,3 +5137,25 @@
 2019-09-25 16:59:28,168 - _logger - INFO - Loading server adress options.
 2019-09-25 16:59:28,173 - _logger - DEBUG - APP - OPTIONS - Users option error
 2019-09-25 16:59:28,173 - _logger - INFO - Loading server email adress options.
+2019-09-25 16:59:28,194 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 16:59:28,194 - _logger - DEBUG - APP - 0
+2019-09-25 16:59:33,898 - _logger - INFO - APP - Login dialog screen opened.
+2019-09-25 16:59:36,371 - _logger - DEBUG - APP - event: False.
+2019-09-25 16:59:36,379 - _logger - INFO - APP - Current widget changed: 1
+2019-09-25 16:59:36,379 - _logger - DEBUG - APP - 1
+2019-09-25 16:59:36,380 - _logger - INFO - USER - admin instance of User class created
+2019-09-25 16:59:36,380 - _logger - INFO - APP - admin permission 'Analista' defined
+2019-09-25 16:59:36,487 - _logger - INFO - APP - admin logged.
+2019-09-25 16:59:36,487 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000024B14148438>.
+2019-09-25 16:59:36,487 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000024B14148438>.
+2019-09-25 16:59:43,431 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-25 17:07:29,189 - _logger - INFO - APP - Program closed
+2019-09-25 17:22:03,968 - _logger - INFO - __main__ - Program oppened
+2019-09-25 17:22:03,968 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 17:22:03,968 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000012C4420D678>
+2019-09-25 17:22:04,182 - _logger - INFO - Loading server adress options.
+2019-09-25 17:22:04,186 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 17:22:04,187 - _logger - INFO - Loading server email adress options.
+2019-09-25 17:22:04,208 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 17:22:04,208 - _logger - DEBUG - APP - 0
+2019-09-25 17:22:39,374 - _logger - INFO - APP - Non-identified user entered option screen
