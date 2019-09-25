@@ -14,9 +14,9 @@ import numpy as np
 def image_divider(image):
     pil_img = Image.open(image)
     arr_img = np.array(pil_img)
-    custom_height = arr_img.shape[0]//3
+    custom_height = arr_img.shape[0] // 3
     pix_group = []
-    
+
     for i in range(0, arr_img.shape[0], custom_height):
         j = i + custom_height
         if len(pix_group) < 3:
@@ -27,7 +27,7 @@ def print_img(img_list):
     for item in img_list:
         imgpix = Image.fromarray(item)
         imgpix.show()
-        
+
 def pil_to_qt(img_list):
     qt_pix_list = []
     for item in img_list:
@@ -39,9 +39,9 @@ def pil_to_qt(img_list):
 def str_to_hex(string, factor):
     hex_list = []
     for char in string:
-        hex_list.append(hex(ord(char)*int(factor)))
+        hex_list.append(hex(ord(char) * int(factor)))
     return " ".join(hex_list)
-    
+
 def hex_to_str(hexa, factor):
     hex_list = hexa.split(" ")
     str_list = []

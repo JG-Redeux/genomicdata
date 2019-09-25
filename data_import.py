@@ -6,6 +6,9 @@ itable API
 
 @author: Usagi
 """
+
+# flake8: noqa
+
 import os
 import pandas as pd
 import logging
