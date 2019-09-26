@@ -872,14 +872,15 @@ class DatabaseViewer(QDialog):
         self.table = self.table_gen()
         self.leftbar = self.dv_leftbar()
 
-        self.spacer_dv = Spacer(15, 540).spacer()
+        self.spacer_dv = Spacer(0, 300).spacer()
 
         self.DV_layout.addWidget(self.DVLeftBar_widget, 0, 0)
-        self.DV_layout.addWidget(self.sampat_table_widget, 0, 1)
-        # self.DV_layout.addWidget(self.spacer_dv, 1, 0)
+        self.DV_layout.addWidget(self.sampat_table_widget, 0, 1, 2, 1)
+        self.DV_layout.addItem(self.spacer_dv, 1, 0)
 
         width = DatabaseViewer.rect(self).width()
         self.DV_layout.setColumnMinimumWidth(1, width - 100)
+        self.DV_layout.setColumnStretch(1, 6)
 
         # self.DV_grid.setFixedWidth(161)
         # self.DV_grid.setColumnMinimumWidth(0, 161)
@@ -906,11 +907,16 @@ class DatabaseViewer(QDialog):
         for key, value in table_dict.items():
             self.dv_grid_table_dd.addItem(key)
 
+        self.spacer_dv = Spacer(0, 15).spacer()
+
         self.DVLeftBar.addWidget(self.list_header, 0, 0, Qt.AlignTop)
+        self.DVLeftBar.addItem(self.spacer_dv, 1, 0)
         self.DVLeftBar.addWidget(self.dv_grid_choose_label, 2, 0, Qt.AlignTop)
         self.DVLeftBar.addWidget(self.dv_grid_table_dd, 3, 0, Qt.AlignTop)
+        self.DVLeftBar.addItem(self.spacer_dv, 4, 0)
         self.DVLeftBar.addWidget(self.dv_grid_search_label, 5, 0, Qt.AlignTop)
         self.DVLeftBar.addWidget(self.dv_grid_input_text, 6, 0, Qt.AlignTop)
+        self.DVLeftBar.addItem(self.spacer_dv, 7, 0)
         self.DVLeftBar.addWidget(self.dv_grid_priority_cb, 8, 0, Qt.AlignTop)
 
         self.DVLeftBar.columnStretch(1)
