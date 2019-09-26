@@ -19,7 +19,7 @@ from sqlalchemy.sql.expression import false
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy_utils import create_database, database_exists
 # import data_import as itapi
-
+import pandas as pd
 # from sqlalchemy.ext.automap import automap_base
 import logging
 
@@ -167,7 +167,7 @@ class SQL(object):
         logging.info("SQLMNG - {} deleted and changes commited.".format(target))
 
     def query_values(self, session, column=None, schema="db_user_schema",
-                     target=None, table="users", _type="all"):
+                     target=None, table="users", _type="all", _pd=False):
 
         logging.debug("SQLMNG - {}".format(":".join(str(x) for x in [session,
                       column, table, _type])))
@@ -178,6 +178,9 @@ class SQL(object):
         if table == "users":
             col = str_to_column(table_name, column)
             return self.session.query(col).all()
+
+        if _pd is True:
+            return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
 
         if column:
             if type(column) == str:
@@ -243,7 +246,6 @@ class SQL(object):
         logging.info("SQLMNG - Update commited.")
 
     def add_rows_sampat(self, session, rows_info, schema, table):
-
         table = str_to_table(schema, table)
         new_row = table(**rows_info)
         session.add(new_row)
@@ -345,10 +347,9 @@ class SQL(object):
             rows = session.query(func.count(Exams.id)).scalar()
         return rows
 
-    def col_count(self, session, schema="db_sampat_schema", table="patients_table"):
+    def col_info(self, session, schema="db_sampat_schema", table="patients_table"):
         insp = reflection.Inspector.from_engine(self.engine)
         col_info = insp.get_columns(table, schema)
-        print(len(col_info))
         return col_info
 
     # back-end method used to add entries to the badword table, it accepts both lists and strings

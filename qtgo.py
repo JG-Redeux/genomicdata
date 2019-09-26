@@ -16,7 +16,7 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QDialog, QGroupBox, QFormLayout, QComboBox, QDialogButtonBox,
                              QVBoxLayout, QTextBrowser, QHBoxLayout, QStackedWidget,
                              QStatusBar, QListWidget, QSpacerItem, QPlainTextEdit, QFileDialog,
-                             QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox)
+                             QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView)
 from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont)
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
                           QSettings, QTimer, QSignalMapper, QProcess)
@@ -26,6 +26,8 @@ import sqlmng
 import errorex
 import _logger
 import configparser
+import pandas as pd
+import pdm
 import auxiliary as aux
 
 absfilepath = os.path.abspath(__file__)
@@ -134,7 +136,6 @@ class App(QMainWindow):
         self.reg_dialog = Register()
         self.log_dialog = Login()
         self.pat_dialog = DatabaseViewer()
-        self.samp_dialog = Samples()
         self.info_dialog = Info()
 
         self.central_widget = QStackedWidget()
@@ -245,21 +246,9 @@ class App(QMainWindow):
 
         # # Ferramentas sub-menu dialog
 
-        self.search_db = QAction('&Busca de dados', self)
-        # self.search_db.triggered.connect(self.)
-        # self.search_db.setEnabled(False)
-
-        self.priority_db = QAction('&Prioridades', self)
-        # self.priority_db.triggered.connect(self.register_open)
-        # self.priority_db.setEnabled(False)
-
-        self.patient_db = QAction('&Banco de Pacientes', self)
+        self.patient_db = QAction('&Visualizar Bancos', self)
         self.patient_db.triggered.connect(self.patdb_open)
         self.patient_db.setEnabled(True)
-
-        self.sample_db = QAction('&Banco de Amostras', self)
-        self.sample_db.triggered.connect(self.smpdb_open)
-        self.sample_db.setEnabled(True)
 
         self.info_db = QAction('&Informações', self)
         self.info_db.triggered.connect(self.info_open)
@@ -268,10 +257,7 @@ class App(QMainWindow):
         self.opt_menu = QAction('&Configurações', self)
         self.opt_menu.triggered.connect(self.options_open)
 
-        self.toolsMenu.addAction(self.priority_db)
-        self.toolsMenu.addAction(self.search_db)
         self.toolsMenu.addAction(self.patient_db)
-        self.toolsMenu.addAction(self.sample_db)
         self.toolsMenu.addAction(self.opt_menu)
         self.toolsMenu.addAction(self.info_db)
 
@@ -851,6 +837,7 @@ class Register(QDialog):
         error.setWindowTitle("Registro Realizado")
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
+
 #a#
 class DatabaseViewer(QDialog):
     def __init__(self):
@@ -859,6 +846,9 @@ class DatabaseViewer(QDialog):
         self.setWindowTitle("Banco de Dados")
         self.setGeometry(200, 200, 800, 500)
         self.setMaximumSize(screen.size())
+
+        self.table_name = "patients_table"
+        self.schema = "db_sampat_schema"
 
         self.create_databaseViewer_layout()
 
@@ -879,7 +869,7 @@ class DatabaseViewer(QDialog):
         self.DV_layout.addItem(self.spacer_dv, 1, 0)
 
         width = DatabaseViewer.rect(self).width()
-        self.DV_layout.setColumnMinimumWidth(1, width - 100)
+        self.DV_layout.setColumnMinimumWidth(1, width - 150)
         self.DV_layout.setColumnStretch(1, 6)
 
         # self.DV_grid.setFixedWidth(161)
@@ -890,6 +880,8 @@ class DatabaseViewer(QDialog):
         self.DV_layout_widget.setLayout(self.DV_layout)
 
     def dv_leftbar(self):
+        height = self.geometry().height()
+
         self.DVLeftBar = QGridLayout()
 
         table_dict = {"Pacientes": "patients_table",
@@ -906,18 +898,25 @@ class DatabaseViewer(QDialog):
         self.dv_grid_table_dd = QComboBox()
         for key, value in table_dict.items():
             self.dv_grid_table_dd.addItem(key)
-
+        self.dv_grid_table_dd.currentIndexChanged.connect(lambda check: self.update_table_gen(table_dict[self.dv_grid_table_dd.currentText()]))
+        # self.dv_grid_table_dd.currentIndexChanged.connect(self.sampat_table_widget.update())
         self.spacer_dv = Spacer(0, 15).spacer()
+        self.spacer_dv_large = Spacer(0, 50).spacer()
 
-        self.DVLeftBar.addWidget(self.list_header, 0, 0, Qt.AlignTop)
+        self.dv_grid_new_entry = QPushButton("Nova entrada")
+        self.dv_grid_new_entry.clicked.connect(self.new_entry_open)
+
+        self.DVLeftBar.addWidget(self.list_header, 0, 0, Qt.AlignLeft)
         self.DVLeftBar.addItem(self.spacer_dv, 1, 0)
-        self.DVLeftBar.addWidget(self.dv_grid_choose_label, 2, 0, Qt.AlignTop)
-        self.DVLeftBar.addWidget(self.dv_grid_table_dd, 3, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_choose_label, 2, 0, Qt.AlignLeft)
+        self.DVLeftBar.addWidget(self.dv_grid_table_dd, 3, 0, Qt.AlignLeft)
         self.DVLeftBar.addItem(self.spacer_dv, 4, 0)
-        self.DVLeftBar.addWidget(self.dv_grid_search_label, 5, 0, Qt.AlignTop)
-        self.DVLeftBar.addWidget(self.dv_grid_input_text, 6, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_search_label, 5, 0, Qt.AlignLeft)
+        self.DVLeftBar.addWidget(self.dv_grid_input_text, 6, 0, Qt.AlignLeft)
         self.DVLeftBar.addItem(self.spacer_dv, 7, 0)
-        self.DVLeftBar.addWidget(self.dv_grid_priority_cb, 8, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_priority_cb, 8, 0, Qt.AlignLeft)
+        self.DVLeftBar.addItem(self.spacer_dv_large, 9, 0)
+        self.DVLeftBar.addWidget(self.dv_grid_new_entry, 10, 0, Qt.AlignLeft)
 
         self.DVLeftBar.columnStretch(1)
         self.DVLeftBar.rowStretch(1)
@@ -925,39 +924,110 @@ class DatabaseViewer(QDialog):
         self.DVLeftBar_widget = QWidget()
         self.DVLeftBar_widget.setLayout(self.DVLeftBar)
 
-    def table_gen(self, _table_name="patients_table"):
+    def update_table_gen(self, table_name):
+        self.table_name = table_name
+        self.target_query = sampat_psql.query_values(dsess, table=table_name, schema=self.schema, _pd=True)
+        df = self.target_query
+        model = pdm.PandasModel(df)
+        self.target_table.setModel(model)
 
+    def table_gen(self):
         sampat_table_widget_layout = QGridLayout()
 
         # defining table
-        rows = sampat_psql.row_count(dsess, table=_table_name)
-        cols = sampat_psql.col_count(dsess, table=_table_name)
+        self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
+        df = self.target_query
+        
+        # construir df com pandas e aí transformar em tablewidget
 
-        self.target_query = sampat_psql.query_values(dsess, table=_table_name, schema='db_sampat_schema', _type='all')
-
-        self.target_table = QTableWidget(rows, len(cols))
-        col_names = [col["name"] for col in cols]
-        self.target_table.setHorizontalHeaderLabels(col_names)
-
-        self.header = self.target_table.horizontalHeader()
-        self.header.setSectionResizeMode(0, QHeaderView.ResizeToContents)
-        self.header.setSectionResizeMode(1, QHeaderView.Stretch)
-
-        self.target_table.setSortingEnabled(False)
-        self.changes_dict = {}
+        model = pdm.PandasModel(df)
+        self.target_table = QTableView()
+        self.target_table.setModel(model)
 
         sampat_table_widget_layout.addWidget(self.target_table, 0, 0, 3, 4)
         self.sampat_table_widget = QWidget()
         self.sampat_table_widget.setLayout(sampat_table_widget_layout)
+        self.update()
 
+    def new_entry_open(self):
+        print(self.table_name)
+        self.dialog = New_Entry(self.schema, self.table_name)
+        self.dialog.show()
 
-class Samples(QDialog):
-    def __init__(self):
-        super(Samples, self).__init__()
+class New_Entry(QDialog):
 
-        self.setWindowTitle("Banco de Amostras")
-        self.setGeometry(200, 200, 800, 500)
-        self.setMaximumSize(screen.size())
+    def __init__(self, schema, table):
+        super(New_Entry, self).__init__()
+
+        self.table_name = table
+        self.schema = schema
+
+        self.create_NE_form_group_box()
+
+        NE_buttonBox = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
+        NE_buttonBox.accepted.connect(self.NE_confirm)
+        NE_buttonBox.rejected.connect(self.reject)
+
+        regLayout = QVBoxLayout()
+        regLayout.addWidget(self.NE_form_group_box)
+        regLayout.addWidget(NE_buttonBox)
+        regLayout.setSizeConstraint(3)
+        self.setLayout(regLayout)
+        self.setWindowTitle('Novo registro')
+
+    def create_NE_form_group_box(self):
+        self.NE_form_group_box = QGroupBox('Novo registro')
+        NE_form_layout = QFormLayout()
+
+        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
+        col_list = [(col["name"], col["type"]) for col in col_info]
+        print(col_info)
+
+        self.line_dict = {}
+        for i, col in enumerate(col_list):
+            self.line_dict[col[0]] = QLineEdit()
+
+        for key, value in self.line_dict.items():
+            NE_form_layout.addRow(QLabel(key), value)
+
+        self.NE_form_group_box.setLayout(NE_form_layout)
+
+    def NE_confirm(self):
+        NE_conf = QMessageBox()
+        NE_conf.setText("Salvar informações?")
+        NE_conf.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
+        NE_conf = NE_conf.exec()
+
+        if NE_conf == QMessageBox.Yes:
+            self.save_form()
+        else:
+            self.reject()
+
+    def save_form(self):
+
+        ne_form_dict = {}
+        for key, value in self.line_dict.items():
+            ne_form_dict[key] = value.text()
+
+        for key, value in ne_form_dict.items():
+            if type(value) == str:
+                ne_form_dict[key] = value.strip()
+
+        if "" in ne_form_dict.values():
+            gerrors.reg_error()
+        else:
+            logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
+            sampat_psql.update_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
+            self.rec_sucess()
+            self.close()
+
+    def rec_sucess(self):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Information)
+        error.setText("Registro realizado com sucesso, realize o login.")
+        error.setWindowTitle("Registro Realizado")
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
 
 class Info(QDialog):
     def __init__(self):
