@@ -133,11 +133,9 @@ class App(QMainWindow):
         self.opt_dialog = Options()
         self.reg_dialog = Register()
         self.log_dialog = Login()
-        self.pat_dialog = Patients()
+        self.pat_dialog = DatabaseViewer()
         self.samp_dialog = Samples()
         self.info_dialog = Info()
-        self.about_dialog = About()
-        self.contact_dialog = Contact()
 
         self.central_widget = QStackedWidget()
         self.setCentralWidget(self.central_widget)
@@ -263,14 +261,6 @@ class App(QMainWindow):
         self.sample_db.triggered.connect(self.smpdb_open)
         self.sample_db.setEnabled(True)
 
-        self.about = QAction('&Sobre', self)
-        self.about.triggered.connect(self.about_open)
-        self.about.setEnabled(True)
-
-        self.contact = QAction('&Contato', self)
-        self.contact.triggered.connect(self.contact_open)
-        self.contact.setEnabled(True)
-
         self.info_db = QAction('&Informações', self)
         self.info_db.triggered.connect(self.info_open)
         self.info_db.setEnabled(True)
@@ -293,8 +283,8 @@ class App(QMainWindow):
         self.fileMenu.addAction(self.closeApp)
 
         # # help menu sub-menus
-        self.helpMenu.addAction(self.about)
-        self.helpMenu.addAction(self.contact)
+        self.helpMenu.addAction('Sobre')
+        self.helpMenu.addAction('Contato')
 
     # message box for logout confirmation
     def logout_msg(self, event):
@@ -374,14 +364,6 @@ class App(QMainWindow):
     def patdb_open(self):
         logger.info("APP - Patient DB dialog screen opened")
         self.pat_dialog.show()
-
-    def about_open(self):
-        logger.info("APP - about dialog screen opened")
-        self.about_dialog.show()
-
-    def contact_open(self):
-        logger.info("APP - contact dialog screen opened")
-        self.contact_dialog.show()
 
     def smpdb_open(self):
         logger.info("APP - Samples DB dialog screen opened")
@@ -869,17 +851,64 @@ class Register(QDialog):
         error.setWindowTitle("Registro Realizado")
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
-
-class Patients(QDialog):
+#a#
+class DatabaseViewer(QDialog):
     def __init__(self):
-        super(Patients, self).__init__()
+        super(DatabaseViewer, self).__init__()
 
-        self.setWindowTitle("Banco de Pacientes")
+        self.setWindowTitle("Banco de Dados")
         self.setGeometry(200, 200, 800, 500)
         self.setMaximumSize(screen.size())
 
-    def create_patientes_layout(self):
-        pass
+        self.create_databaseViewer_layout()
+        DVLayout = QVBoxLayout()
+        DVLayout.addWidget(self.DV_widget)
+        self.setLayout(DVLayout)
+
+    def create_databaseViewer_layout(self):
+        self.DVLeftBar = QGridLayout()
+        self.list_header = QLabel("Opções de busca")
+        self.DV_grid = QGridLayout()
+
+        self.table = self.table_gen()
+
+        self.sampat_table_widget
+
+        self.spacer_header = Spacer(20, 10).spacer()
+        self.spacer_option = Spacer(15, 540).spacer()
+
+        #self.DV_grid.setFixedWidth(161)
+        #self.DV_grid.setColumnMinimumWidth(0, 161)
+        #self.DV_grid.setColumnStretch(0, 1)
+
+        self.DV_widget = QWidget()
+        self.DV_widget.setLayout(self.DV_grid)
+
+    def table_gen(self, _table_name="patients_table"):
+
+        sampat_table_widget_layout = QGridLayout()
+
+        # defining table
+        rows = sampat_psql.row_count(dsess, table=_table_name)
+        cols = sampat_psql.col_count(dsess, table=_table_name)
+
+        self.target_query = sampat_psql.query_values(dsess, table=_table_name, schema='db_sampat_schema', _type='all')
+
+        self.target_table = QTableWidget(rows, len(cols))
+        col_names = [col["name"] for col in cols]
+        self.target_table.setHorizontalHeaderLabels(col_names)
+
+        self.header = self.target_table.horizontalHeader()
+        self.header.setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        self.header.setSectionResizeMode(1, QHeaderView.Stretch)
+
+        self.target_table.setSortingEnabled(False)
+        self.changes_dict = {}
+
+        sampat_table_widget_layout.addWidget(self.target_table, 0, 0, 3, 4)
+        self.sampat_table_widget = QWidget()
+        self.sampat_table_widget.setLayout(sampat_table_widget_layout)
+
 
 class Samples(QDialog):
     def __init__(self):
@@ -903,6 +932,12 @@ class Info(QDialog):
         infoLayout.addWidget(self.info_widget)
 
         self.setLayout(infoLayout)
+    '''
+    print("Usuários cadastrados (teste): ", upsql.row_count(usess, table="User"))
+    print("Pacientes registrados: ", spsql.row_count(ssess, table="Patients"))
+    print("Amostras cadastradas: ", spsql.row_count(ssess, table="Samples"))
+    print("Exames cadastrados: ", spsql.row_count(ssess, table="Exams"))
+    '''
 
     def create_info_layout(self):
 
@@ -915,9 +950,9 @@ class Info(QDialog):
 
         # table_info
         tinfo = [user_psql.row_count(usess),
-                 sampat_psql.row_count(dsess, "Patients"),
-                 sampat_psql.row_count(dsess, "Samples"),
-                 sampat_psql.row_count(dsess, "Exams")]
+                 sampat_psql.row_count(dsess, "patients_table"),
+                 sampat_psql.row_count(dsess, "samples_table"),
+                 sampat_psql.row_count(dsess, "exams_table")]
 
         info = "Tabelas:\n{}\n\nDados do servidor:\n"\
                "Usuários cadastrados: {}\n"\
@@ -930,58 +965,6 @@ class Info(QDialog):
 
         self.info_widget = QWidget()
         self.info_widget.setLayout(self.info_grid)
-
-class About(QDialog):
-    def __init__(self):
-        super(About, self).__init__()
-        self.setWindowTitle("Sobre")
-        self.setGeometry(200, 200, 400, 200)
-
-        self.create_about_layout()
-        about_layout = QVBoxLayout()
-        about_layout.addWidget(self.about_widget)
-        self.setLayout(about_layout)
-
-    def create_about_layout(self):
-        self.about_grid = QGridLayout()
-        self.about_viewer = QPlainTextEdit()
-        self.about_viewer.setReadOnly(True)
-
-        with open("readme.md", encoding='utf-8') as readme:
-            about_readme = readme.read()
-
-        self.about_viewer.setPlainText(about_readme)
-        self.about_grid.addWidget(self.about_viewer)
-
-        self.about_widget = QWidget()
-        self.about_widget.setLayout(self.about_grid)
-
-class Contact(QWidget):
-    def __init__(self):
-        super(Contact, self).__init__()
-        self.setWindowTitle("Contato")
-        self.setGeometry(200, 200, 400, 100)
-
-        self.create_contact_layout()
-        contact_layout = QVBoxLayout()
-        contact_layout.addWidget(self.contact_widget)
-        self.setLayout(contact_layout)
-
-    def create_contact_layout(self):
-        self.contact_grid = QGridLayout()
-        self.contact_viewer = QPlainTextEdit()
-        self.contact_viewer.setReadOnly(True)
-
-        contact_readme = "Para entrar em contato utilize:\n"\
-                         "Email: jul.dam@gmail.com\n"\
-                         "GitLab: https://gitlab.com/DeuzLaharl/gdap-doc"
-
-        self.contact_viewer.setPlainText(contact_readme)
-        self.contact_grid.addWidget(self.contact_viewer)
-
-        self.contact_widget = QWidget()
-        self.contact_widget.setLayout(self.contact_grid)
-
 
 class Options(QWidget):
     def __init__(self):
@@ -1012,7 +995,7 @@ class Options(QWidget):
             self.central_opt_widget.setCurrentWidget(self.user_widget)
 
     def create_config_layout(self):
-
+        #ada#
         self.opt_list = QListWidget()
 
         opt_list = ["Servidor", "Configurações de Email",
