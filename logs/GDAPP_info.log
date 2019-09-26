@@ -6123,3 +6123,13 @@
 2019-09-25 19:58:39,240 - _logger - INFO - Loading server adress options.
 2019-09-25 19:58:39,244 - _logger - DEBUG - APP - OPTIONS - Users option error
 2019-09-25 19:58:39,245 - _logger - INFO - Loading server email adress options.
+2019-09-25 19:58:39,269 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 19:58:39,269 - _logger - DEBUG - APP - 0
+2019-09-25 19:58:55,498 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 19:59:14,362 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 19:59:16,792 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 20:14:09,472 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 20:14:11,596 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 20:14:18,567 - _logger - INFO - APP - about dialog screen opened
+2019-09-25 20:14:24,799 - _logger - INFO - APP - contact dialog screen opened
+2019-09-25 20:14:33,019 - _logger - INFO - APP - Program closed
