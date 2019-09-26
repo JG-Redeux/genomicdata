@@ -6133,3 +6133,13 @@
 2019-09-25 20:14:18,567 - _logger - INFO - APP - about dialog screen opened
 2019-09-25 20:14:24,799 - _logger - INFO - APP - contact dialog screen opened
 2019-09-25 20:14:33,019 - _logger - INFO - APP - Program closed
+2019-09-25 21:27:34,560 - _logger - INFO - __main__ - Program oppened
+2019-09-25 21:27:34,560 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-25 21:27:34,560 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002B64B947168>
+2019-09-25 21:27:34,785 - _logger - INFO - Loading server adress options.
+2019-09-25 21:27:34,789 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-25 21:27:34,789 - _logger - INFO - Loading server email adress options.
+2019-09-25 21:27:34,839 - _logger - INFO - APP - Current widget changed: 0
+2019-09-25 21:27:34,839 - _logger - DEBUG - APP - 0
+2019-09-25 21:27:43,761 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-25 21:27:48,706 - _logger - INFO - APP - Program closed
