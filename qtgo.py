@@ -16,7 +16,7 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QDialog, QGroupBox, QFormLayout, QComboBox, QDialogButtonBox,
                              QVBoxLayout, QTextBrowser, QHBoxLayout, QStackedWidget,
                              QStatusBar, QListWidget, QSpacerItem, QPlainTextEdit, QFileDialog,
-                             QTableWidget, QTableWidgetItem, QHeaderView)
+                             QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox)
 from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont)
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
                           QSettings, QTimer, QSignalMapper, QProcess)
@@ -861,28 +861,63 @@ class DatabaseViewer(QDialog):
         self.setMaximumSize(screen.size())
 
         self.create_databaseViewer_layout()
+
         DVLayout = QVBoxLayout()
-        DVLayout.addWidget(self.DV_widget)
+        DVLayout.addWidget(self.DV_layout_widget)
         self.setLayout(DVLayout)
 
     def create_databaseViewer_layout(self):
-        self.DVLeftBar = QGridLayout()
-        self.list_header = QLabel("Opções de busca")
-        self.DV_grid = QGridLayout()
+        self.DV_layout = QGridLayout()
 
         self.table = self.table_gen()
+        self.leftbar = self.dv_leftbar()
 
-        self.sampat_table_widget
+        self.spacer_dv = Spacer(15, 540).spacer()
 
-        self.spacer_header = Spacer(20, 10).spacer()
-        self.spacer_option = Spacer(15, 540).spacer()
+        self.DV_layout.addWidget(self.DVLeftBar_widget, 0, 0)
+        self.DV_layout.addWidget(self.sampat_table_widget, 0, 1)
+        # self.DV_layout.addWidget(self.spacer_dv, 1, 0)
 
-        #self.DV_grid.setFixedWidth(161)
-        #self.DV_grid.setColumnMinimumWidth(0, 161)
-        #self.DV_grid.setColumnStretch(0, 1)
+        width = DatabaseViewer.rect(self).width()
+        self.DV_layout.setColumnMinimumWidth(1, width - 100)
 
-        self.DV_widget = QWidget()
-        self.DV_widget.setLayout(self.DV_grid)
+        # self.DV_grid.setFixedWidth(161)
+        # self.DV_grid.setColumnMinimumWidth(0, 161)
+        # self.DV_grid.setColumnStretch(0, 1)
+
+        self.DV_layout_widget = QWidget()
+        self.DV_layout_widget.setLayout(self.DV_layout)
+
+    def dv_leftbar(self):
+        self.DVLeftBar = QGridLayout()
+
+        table_dict = {"Pacientes": "patients_table",
+                      "Amostras": "samples_table",
+                      "Exames": "exams_table"}
+
+        self.list_header = QLabel("Opções de busca")
+
+        self.dv_grid_choose_label = QLabel("Escolha o Banco:")
+        self.dv_grid_search_label = QLabel("Procurar:")
+        self.dv_grid_input_text = QLineEdit()
+        self.dv_grid_priority_cb = QCheckBox('Prioridades', self)
+
+        self.dv_grid_table_dd = QComboBox()
+        for key, value in table_dict.items():
+            self.dv_grid_table_dd.addItem(key)
+
+        self.DVLeftBar.addWidget(self.list_header, 0, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_choose_label, 2, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_table_dd, 3, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_search_label, 5, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_input_text, 6, 0, Qt.AlignTop)
+        self.DVLeftBar.addWidget(self.dv_grid_priority_cb, 8, 0, Qt.AlignTop)
+
+        self.DVLeftBar.columnStretch(1)
+        self.DVLeftBar.rowStretch(1)
+
+        self.DVLeftBar_widget = QWidget()
+        self.DVLeftBar_widget.setLayout(self.DVLeftBar)
 
     def table_gen(self, _table_name="patients_table"):
 

@@ -9,13 +9,14 @@ SQL Management Module
 '''This module focus is to create methods derived from sqlalchemy to be used in
 the main app, the methods names are self explanatory'''
 
-import psycopg2  # analysis:ignore
-from sqlalchemy import (MetaData, Table, create_engine, Column, Integer, String, Date,  # analysis:ignore
-                        exists, Boolean, Float, exc, func, ForeignKey, select, text,  # analysis:ignore
-                        or_, and_, literal, schema)  # analysis:ignore
-from sqlalchemy.orm import sessionmaker, relationship, mapper  # analysis:ignore
+import psycopg2
+from sqlalchemy import (MetaData, Table, create_engine, Column, Integer, String, Date,
+                        exists, Boolean, Float, exc, func, ForeignKey, select, text,
+                        or_, and_, literal, schema, inspect)
+from sqlalchemy.engine import reflection
+from sqlalchemy.orm import sessionmaker, relationship, mapper
 from sqlalchemy.sql.expression import false
-from sqlalchemy.ext.declarative import declarative_base  # analysis:ignore
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy_utils import create_database, database_exists
 # import data_import as itapi
 
@@ -331,18 +332,24 @@ class SQL(object):
             else:
                 pass
 
-    def row_count(self, session, table="User"):
-        if table == "User":
+    def row_count(self, session, table="users_table"):
+        if table == "users_table":
             rows = session.query(func.count(User.id)).scalar()
         elif table == "Badword":
             rows = session.query(func.count(Badwords.id)).scalar()
-        elif table == "Samples":
+        elif table == "samples_table":
             rows = session.query(func.count(Samples.id)).scalar()
-        elif table == "Patients":
+        elif table == "patients_table":
             rows = session.query(func.count(Patient.id)).scalar()
-        elif table == "Exams":
+        elif table == "exams_table":
             rows = session.query(func.count(Exams.id)).scalar()
         return rows
+
+    def col_count(self, session, schema="db_sampat_schema", table="patients_table"):
+        insp = reflection.Inspector.from_engine(self.engine)
+        col_info = insp.get_columns(table, schema)
+        print(len(col_info))
+        return col_info
 
     # back-end method used to add entries to the badword table, it accepts both lists and strings
     def populate_badword(self, session, badword):
