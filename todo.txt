@@ -1,6 +1,6 @@
 barcode_gen
 arrumar/tentar arrumar hex_to_str e str_to_hex
-fazer janela prioridades
-fazer busca de dados
-fazer banco de amostras
-fazer banco de pacientes
+refinar janela de banco de dados
+fazer busca no banco de dados
+buscar prioridades
+atualizar direto na row
