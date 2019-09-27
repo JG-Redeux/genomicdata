@@ -18,9 +18,9 @@ from sqlalchemy.orm import sessionmaker, relationship, mapper
 from sqlalchemy.sql.expression import false
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy_utils import create_database, database_exists
+
 # import data_import as itapi
 import pandas as pd
-# from sqlalchemy.ext.automap import automap_base
 import logging
 
 logger = logging.getLogger(__name__)
@@ -249,7 +249,10 @@ class SQL(object):
         table = str_to_table(schema, table)
         new_row = table(**rows_info)
         session.add(new_row)
-        session.commit()
+        try:
+            session.commit()
+        except exc.ProgrammingError:
+            raise ValueError
         logger.info("SQLMNG - {} rows added to {} table.".format(len(rows_info), table))
 
     def update_rows_sampat(self, session, rows_info, schema, table):
@@ -406,7 +409,7 @@ class Patient(Base):
     __table_args__ = {'schema': "db_sampat_schema"}
 
     id = Column(Integer, primary_key=True, unique=True)
-    old_id = Column("barcode", Integer, unique=False)
+    # old_id = Column("barcode", Integer, unique=False)
     samples = relationship("Samples", backref='sample_owner')
     particular = Column(Boolean, default=False, unique=False, nullable=False)
     first_name = Column(String, default=None)
@@ -437,7 +440,7 @@ class Samples(Base):
     __table_args__ = {'schema': "db_sampat_schema"}
 
     id = Column(Integer, primary_key=True)
-    old_id = Column("old_id", Integer, unique=False)
+    # old_id = Column(Integer, unique=False)
     sample_group = Column(String, default=None)
     samp_serial = Column(Integer, default=None, unique=True)
     patient_id = Column(Integer, ForeignKey('db_sampat_schema.patients_table.id'), nullable=False)

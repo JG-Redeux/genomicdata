@@ -16,10 +16,11 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QDialog, QGroupBox, QFormLayout, QComboBox, QDialogButtonBox,
                              QVBoxLayout, QTextBrowser, QHBoxLayout, QStackedWidget,
                              QStatusBar, QListWidget, QSpacerItem, QPlainTextEdit, QFileDialog,
-                             QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView)
-from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont)
+                             QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView,
+                             QDateTimeEdit)
+from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExpValidator)
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
-                          QSettings, QTimer, QSignalMapper, QProcess)
+                          QSettings, QTimer, QSignalMapper, QProcess, QRegExp)
 from datetime import datetime
 import recmail
 import sqlmng
@@ -961,6 +962,7 @@ class New_Entry(QDialog):
 
         self.table_name = table
         self.schema = schema
+        self.date_index = False
 
         self.create_NE_form_group_box()
 
@@ -981,14 +983,27 @@ class New_Entry(QDialog):
 
         col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
         col_list = [(col["name"], col["type"]) for col in col_info]
-        print(col_info)
-
+#b# 
         self.line_dict = {}
         for i, col in enumerate(col_list):
-            self.line_dict[col[0]] = QLineEdit()
+            if "BOOLEAN" in str(col[1]):
+                self.line_dict[col[0]] = QCheckBox()
+            elif "INTEGER" in str(col[1]):
+                onlyInt = QIntValidator()
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setValidator(onlyInt)
+            elif "DATE" in str(col[1]):
+                onlyDate = QRegExpValidator(QRegExp("(\d{2}/)(\d{2}/)(\d{4})"))
+                self.line_dict[col[0]] = (QLineEdit(), "date")
+                self.line_dict[col[0]][0].setValidator(onlyDate)
+            else:
+                self.line_dict[col[0]] = QLineEdit()
 
         for key, value in self.line_dict.items():
-            NE_form_layout.addRow(QLabel(key), value)
+            if type(self.line_dict[key]) == tuple:
+                NE_form_layout.addRow(QLabel(key), value[0])
+            else:
+                NE_form_layout.addRow(QLabel(key), value)
 
         self.NE_form_group_box.setLayout(NE_form_layout)
 
@@ -1007,24 +1022,33 @@ class New_Entry(QDialog):
 
         ne_form_dict = {}
         for key, value in self.line_dict.items():
-            ne_form_dict[key] = value.text()
+            print(key, value)
+            if value == QCheckBox():
+                ne_form_dict[key] = value.checkState()
+            elif type(value) == tuple:
+                val = "01/01/1970"
+                datetime.strptime(val, "%d/%m/%Y")
+            else:
+                if value.text() == "":
+                    ne_form_dict[key] = 0
+                elif value.text().isdigit():
+                    ne_form_dict[key] = int(value.text())
+                else:
+                    ne_form_dict[key] = value.text()
 
         for key, value in ne_form_dict.items():
             if type(value) == str:
                 ne_form_dict[key] = value.strip()
 
-        if "" in ne_form_dict.values():
-            gerrors.reg_error()
-        else:
-            logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
-            sampat_psql.update_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
-            self.rec_sucess()
-            self.close()
+        logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
+        sampat_psql.add_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
+        self.ne_sucess()
+        self.close()
 
-    def rec_sucess(self):
+    def ne_sucess(self):
         error = QMessageBox()
         error.setIcon(QMessageBox.Information)
-        error.setText("Registro realizado com sucesso, realize o login.")
+        error.setText("Novas entradas adicionadas com sucesso.")
         error.setWindowTitle("Registro Realizado")
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
