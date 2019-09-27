@@ -18,6 +18,7 @@ from sqlalchemy.orm import sessionmaker, relationship, mapper
 from sqlalchemy.sql.expression import false
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy_utils import create_database, database_exists
+from sqlalchemy.dialects import postgresql
 
 # import data_import as itapi
 import pandas as pd
@@ -186,6 +187,8 @@ class SQL(object):
             if type(column) == str:
                 col_obj = str_to_column(table_name, column)
                 col_query = base_query.filter(col_obj == target)
+                if _type == "first":
+                    return base_query.filter(col_obj == target).first()
             elif type(column) == list:
                 col_obj_list = [str_to_column(table_name, col) for col in column]
                 col_query = base_query.with_entities(*col_obj_list)
@@ -245,6 +248,37 @@ class SQL(object):
         logging.debug("SQLMNG - Update <{}> requested.".format(new_info))
         logging.info("SQLMNG - Update commited.")
 
+    def upsert(self, schema, table_name, records={}):
+
+        metadata = MetaData(schema=schema)
+        metadata.bind = self.engine
+
+        table = Table(table_name, metadata, schema=schema, autoload=True)
+
+        # get list of fields making up primary key
+        primary_keys = [key.name for key in inspect(table).primary_key]
+
+        # assemble base statement
+        stmt = postgresql.insert(table).values(records)
+
+        # define dict of non-primary keys for updating
+        update_dict = {
+            c.name: c
+            for c in stmt.excluded
+            if not c.primary_key
+        }
+
+        # assemble new statement with 'on conflict do update' clause
+        update_stmt = stmt.on_conflict_do_update(
+            index_elements=primary_keys,
+            set_=update_dict,
+        )
+
+        # execute
+        with self.engine.connect() as conn:
+            result = conn.execute(update_stmt)
+            return result
+
     def add_rows_sampat(self, session, rows_info, schema, table):
         table = str_to_table(schema, table)
         new_row = table(**rows_info)
@@ -255,9 +289,15 @@ class SQL(object):
             raise ValueError
         logger.info("SQLMNG - {} rows added to {} table.".format(len(rows_info), table))
 
+    def update_table(self, session, schema, table, column, target, new_entry):
+        true_table = str_to_table(schema, table)
+        true_col = str_to_column(true_table, column)
+        session.query(true_table).filter(true_col == target).update(new_entry)
+        session.commit()
+
     def update_rows_sampat(self, session, rows_info, schema, table):
-        table = str_to_table(schema, table)
-        new_row = table(**rows_info)
+        table_obj = str_to_table(schema, table)
+        new_row = table_obj(**rows_info)
         session.merge(new_row)
         session.commit()
         logging.info('SQLMNG - Update commited')

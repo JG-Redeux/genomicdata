@@ -1022,7 +1022,6 @@ class New_Entry(QDialog):
 
         ne_form_dict = {}
         for key, value in self.line_dict.items():
-            print(key, value)
             if value == QCheckBox():
                 ne_form_dict[key] = value.checkState()
             elif type(value) == tuple:
@@ -1041,7 +1040,15 @@ class New_Entry(QDialog):
                 ne_form_dict[key] = value.strip()
 
         logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
-        sampat_psql.add_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
+
+        sampat_psql.upsert(self.schema, self.table_name, ne_form_dict)
+        #try:
+        #    sampat_psql.add_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
+        #except sqlmng.exc.IntegrityError:
+        #    print(ne_form_dict)
+        #    sampat_psql.update_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
+        #    #sampat_psql.update_table(session=dsess, schema=self.schema, table=self.table_name, column="id", target=ne_form_dict["id"], new_entry=ne_form_dict)
+
         self.ne_sucess()
         self.close()
 
