@@ -951,7 +951,6 @@ class DatabaseViewer(QDialog):
         self.update()
 
     def new_entry_open(self):
-        print(self.table_name)
         self.dialog = New_Entry(self.schema, self.table_name)
         self.dialog.show()
 
@@ -1019,10 +1018,14 @@ class New_Entry(QDialog):
             self.reject()
 
     def save_form(self):
-
+        flag = False
         ne_form_dict = {}
         for key, value in self.line_dict.items():
-            if value == QCheckBox():
+            if "id" in key:
+                if self.line_dict[key].text() == "":
+                    gerrors.reg_bw_error()
+                    flag = True
+            elif value == QCheckBox():
                 ne_form_dict[key] = value.checkState()
             elif type(value) == tuple:
                 val = "01/01/1970"
@@ -1039,18 +1042,13 @@ class New_Entry(QDialog):
             if type(value) == str:
                 ne_form_dict[key] = value.strip()
 
-        logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
+        if not flag:
+            logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
 
-        sampat_psql.upsert(self.schema, self.table_name, ne_form_dict)
-        #try:
-        #    sampat_psql.add_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
-        #except sqlmng.exc.IntegrityError:
-        #    print(ne_form_dict)
-        #    sampat_psql.update_rows_sampat(dsess, ne_form_dict, self.schema, self.table_name)
-        #    #sampat_psql.update_table(session=dsess, schema=self.schema, table=self.table_name, column="id", target=ne_form_dict["id"], new_entry=ne_form_dict)
+            sampat_psql.upsert(self.schema, self.table_name, ne_form_dict)
 
-        self.ne_sucess()
-        self.close()
+            self.ne_sucess()
+            self.close()
 
     def ne_sucess(self):
         error = QMessageBox()

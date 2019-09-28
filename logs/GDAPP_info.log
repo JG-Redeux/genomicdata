@@ -8504,3 +8504,88 @@
 2019-09-27 03:17:58,687 - _logger - INFO - Loading server adress options.
 2019-09-27 03:17:58,689 - _logger - DEBUG - APP - OPTIONS - Users option error
 2019-09-27 03:17:58,689 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:17:58,764 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:17:58,765 - _logger - DEBUG - APP - 0
+2019-09-27 03:18:00,343 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:18:06,309 - _logger - INFO - REGISTER - id created a new SQL entry
+2019-09-27 03:18:27,552 - _logger - INFO - REGISTER - id created a new SQL entry
+2019-09-27 03:18:41,634 - _logger - INFO - REGISTER - id created a new SQL entry
+2019-09-27 03:19:31,528 - _logger - INFO - APP - Program closed
+2019-09-27 03:23:42,057 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:23:42,057 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:23:42,057 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024BE1C0F948>
+2019-09-27 03:23:42,257 - _logger - INFO - Loading server adress options.
+2019-09-27 03:23:42,259 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:23:42,259 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:23:42,334 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:23:42,334 - _logger - DEBUG - APP - 0
+2019-09-27 03:23:43,942 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:24:07,470 - _logger - INFO - REGISTER - id created a new SQL entry
+2019-09-27 03:24:10,841 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:27:32,014 - _logger - INFO - APP - Program closed
+2019-09-27 03:27:32,966 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:27:32,966 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:27:32,966 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D2CEBD3948>
+2019-09-27 03:27:33,160 - _logger - INFO - Loading server adress options.
+2019-09-27 03:27:33,162 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:27:33,162 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:27:33,235 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:27:33,235 - _logger - DEBUG - APP - 0
+2019-09-27 03:27:35,084 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:28:32,448 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:28:32,448 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:28:32,448 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002817DD43948>
+2019-09-27 03:28:32,650 - _logger - INFO - Loading server adress options.
+2019-09-27 03:28:32,652 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:28:32,652 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:28:32,726 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:28:32,726 - _logger - DEBUG - APP - 0
+2019-09-27 03:28:33,753 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:29:26,722 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:29:26,722 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:29:26,722 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001FD23684948>
+2019-09-27 03:29:26,918 - _logger - INFO - Loading server adress options.
+2019-09-27 03:29:26,919 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:29:26,920 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:29:26,995 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:29:26,995 - _logger - DEBUG - APP - 0
+2019-09-27 03:29:28,119 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:30:14,855 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:30:14,855 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:30:14,855 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028F321D3948>
+2019-09-27 03:30:15,071 - _logger - INFO - Loading server adress options.
+2019-09-27 03:30:15,073 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:30:15,074 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:30:15,147 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:30:15,147 - _logger - DEBUG - APP - 0
+2019-09-27 03:30:16,983 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:30:30,480 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:30:30,480 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:30:30,480 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000024330C43948>
+2019-09-27 03:30:30,694 - _logger - INFO - Loading server adress options.
+2019-09-27 03:30:30,695 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:30:30,696 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:30:30,768 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:30:30,768 - _logger - DEBUG - APP - 0
+2019-09-27 03:30:31,815 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:30:47,024 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:30:47,024 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:30:47,024 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000028B1CF53948>
+2019-09-27 03:30:47,231 - _logger - INFO - Loading server adress options.
+2019-09-27 03:30:47,233 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:30:47,234 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:30:47,313 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:30:47,313 - _logger - DEBUG - APP - 0
+2019-09-27 03:30:48,288 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:30:53,256 - _logger - INFO - REGISTER - particular created a new SQL entry
+2019-09-27 03:32:14,265 - _logger - INFO - APP - Program closed
+2019-09-27 03:32:16,502 - _logger - INFO - __main__ - Program oppened
+2019-09-27 03:32:16,502 - _logger - INFO - CONFIG - Configurations initialized.
+2019-09-27 03:32:16,502 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000015D00925948>
+2019-09-27 03:32:16,692 - _logger - INFO - Loading server adress options.
+2019-09-27 03:32:16,694 - _logger - DEBUG - APP - OPTIONS - Users option error
+2019-09-27 03:32:16,694 - _logger - INFO - Loading server email adress options.
+2019-09-27 03:32:16,772 - _logger - INFO - APP - Current widget changed: 0
+2019-09-27 03:32:16,773 - _logger - DEBUG - APP - 0
+2019-09-27 03:32:18,760 - _logger - INFO - APP - Patient DB dialog screen opened
+2019-09-27 03:32:34,208 - _logger - INFO - APP - Program closed
