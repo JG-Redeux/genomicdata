@@ -181,7 +181,15 @@ class SQL(object):
             return self.session.query(col).all()
 
         if _pd is True:
-            return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+            if column is not None and target is not None:
+                try:
+                    col_obj = str_to_column(table_name, column)
+                    q = pd.read_sql(self.session.query(table_name).filter(col_obj == target).statement, self.session.bind)
+                    return q
+                except:
+                    return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+            else:
+                return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
 
         if column:
             if type(column) == str:
@@ -191,7 +199,7 @@ class SQL(object):
                     return base_query.filter(col_obj == target).first()
             elif type(column) == list:
                 col_obj_list = [str_to_column(table_name, col) for col in column]
-                col_query = base_query.with_entities(*col_obj_list)
+                col_query = base_query.with_entities(*col_obj_list).filter(text(target))
             else:
                 raise ValueError("Column must be either str or list")
 

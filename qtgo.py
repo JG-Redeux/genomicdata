@@ -17,7 +17,7 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QVBoxLayout, QTextBrowser, QHBoxLayout, QStackedWidget,
                              QStatusBar, QListWidget, QSpacerItem, QPlainTextEdit, QFileDialog,
                              QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView,
-                             QDateTimeEdit)
+                             QDateTimeEdit, QAbstractItemView)
 from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExpValidator)
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
                           QSettings, QTimer, QSignalMapper, QProcess, QRegExp)
@@ -894,7 +894,17 @@ class DatabaseViewer(QDialog):
         self.dv_grid_choose_label = QLabel("Escolha o Banco:")
         self.dv_grid_search_label = QLabel("Procurar:")
         self.dv_grid_input_text = QLineEdit()
+        self.dv_grid_input_text.returnPressed.connect(self.search)
+    
         self.dv_grid_priority_cb = QCheckBox('Prioridades', self)
+
+        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
+        col_list = [col["name"] for col in col_info]
+        self.dv_grid_col_selector = QComboBox()
+        self.dv_grid_col_selector.addItems(col_list)
+        self.dv_grid_col_selector.resize(self.dv_grid_col_selector.sizeHint())
+
+    
 
         self.dv_grid_table_dd = QComboBox()
         for key, value in table_dict.items():
@@ -906,6 +916,11 @@ class DatabaseViewer(QDialog):
 
         self.dv_grid_new_entry = QPushButton("Nova entrada")
         self.dv_grid_new_entry.clicked.connect(self.new_entry_open)
+        self.dv_grid_new_entry.setAutoDefault(False)
+
+        self.dv_subgrid = QGridLayout()
+        self.dv_subgrid.addWidget(self.dv_grid_input_text, 0, 0)
+        self.dv_subgrid.addWidget(self.dv_grid_col_selector, 1, 0)
 
         self.DVLeftBar.addWidget(self.list_header, 0, 0, Qt.AlignLeft)
         self.DVLeftBar.addItem(self.spacer_dv, 1, 0)
@@ -913,7 +928,8 @@ class DatabaseViewer(QDialog):
         self.DVLeftBar.addWidget(self.dv_grid_table_dd, 3, 0, Qt.AlignLeft)
         self.DVLeftBar.addItem(self.spacer_dv, 4, 0)
         self.DVLeftBar.addWidget(self.dv_grid_search_label, 5, 0, Qt.AlignLeft)
-        self.DVLeftBar.addWidget(self.dv_grid_input_text, 6, 0, Qt.AlignLeft)
+        self.DVLeftBar.addLayout(self.dv_subgrid, 6, 0, Qt.AlignLeft)
+
         self.DVLeftBar.addItem(self.spacer_dv, 7, 0)
         self.DVLeftBar.addWidget(self.dv_grid_priority_cb, 8, 0, Qt.AlignLeft)
         self.DVLeftBar.addItem(self.spacer_dv_large, 9, 0)
@@ -925,12 +941,21 @@ class DatabaseViewer(QDialog):
         self.DVLeftBar_widget = QWidget()
         self.DVLeftBar_widget.setLayout(self.DVLeftBar)
 
-    def update_table_gen(self, table_name):
+    def update_table_gen(self, table_name, df=None):
         self.table_name = table_name
         self.target_query = sampat_psql.query_values(dsess, table=table_name, schema=self.schema, _pd=True)
-        df = self.target_query
-        model = pdm.PandasModel(df)
-        self.target_table.setModel(model)
+        if df is None:
+            df = self.target_query
+            model = pdm.DataFrameModel(df)
+            self.target_table.setModel(model)
+        else:
+            model = pdm.DataFrameModel(df)
+            self.target_table.setModel(model)
+
+        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
+        col_list = [col["name"] for col in col_info]
+        self.dv_grid_col_selector.clear()
+        self.dv_grid_col_selector.addItems(col_list)
 
     def table_gen(self):
         sampat_table_widget_layout = QGridLayout()
@@ -938,21 +963,32 @@ class DatabaseViewer(QDialog):
         # defining table
         self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
         df = self.target_query
-        
+
         # construir df com pandas e aí transformar em tablewidget
 
-        model = pdm.PandasModel(df)
+        self.model = pdm.DataFrameModel(df)
         self.target_table = QTableView()
-        self.target_table.setModel(model)
+        self.target_table.setEditTriggers(QAbstractItemView.DoubleClicked)
+        self.target_table.setModel(self.model)
 
         sampat_table_widget_layout.addWidget(self.target_table, 0, 0, 3, 4)
         self.sampat_table_widget = QWidget()
         self.sampat_table_widget.setLayout(sampat_table_widget_layout)
         self.update()
 
+    def search(self):
+        column = self.dv_grid_col_selector.currentText()
+        value = self.dv_grid_input_text.text()
+        if len(value) > 0:
+            q = sampat_psql.query_values(dsess, column=column, schema=self.schema, table=self.table_name, target=value, _pd=True)
+            self.update_table_gen(self.table_name, q)
+        else:
+            self.update_table_gen(self.table_name)
+
     def new_entry_open(self):
         self.dialog = New_Entry(self.schema, self.table_name)
         self.dialog.show()
+
 
 class New_Entry(QDialog):
 
