@@ -12,17 +12,17 @@ the main app, the methods names are self explanatory'''
 import psycopg2
 from sqlalchemy import (MetaData, Table, create_engine, Column, Integer, String, Date,
                         exists, Boolean, Float, exc, func, ForeignKey, select, text,
-                        or_, and_, literal, schema, inspect)
+                        or_, and_, literal, schema, inspect, DateTime)
 from sqlalchemy.engine import reflection
 from sqlalchemy.orm import sessionmaker, relationship, mapper
 from sqlalchemy.sql.expression import false
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy_utils import create_database, database_exists
 from sqlalchemy.dialects import postgresql
-
 # import data_import as itapi
 import pandas as pd
 import logging
+import datetime
 
 logger = logging.getLogger(__name__)
 Base = declarative_base()
@@ -188,6 +188,21 @@ class SQL(object):
                     return q
                 except:
                     return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+            elif column is not None:
+                if _type is None:
+                    try:
+                        col_obj = str_to_column(table_name, column)
+                        q = pd.read_sql(self.session.query(table_name).order_by(column.asc()).statement, self.session.bind)
+                        return q
+                    except:
+                        return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+                elif _type == "last":
+                    try:
+                        col_obj = str_to_column(table_name, column)
+                        q = pd.read_sql(self.session.query(table_name).order_by(column.id.asc()).limit(20).statement, self.session.bind)
+                        return q
+                    except:
+                        return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
             else:
                 return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
 
@@ -257,7 +272,6 @@ class SQL(object):
         logging.info("SQLMNG - Update commited.")
 
     def upsert(self, schema, table_name, records={}):
-
         metadata = MetaData(schema=schema)
         metadata.bind = self.engine
 
@@ -479,6 +493,7 @@ class Patient(Base):
     gen = Column(String, default=None)
     karyotype = Column(String, default=None)
     obs = Column(String, default=None)
+    updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
         return rep_gen(self)
@@ -519,6 +534,7 @@ class Samples(Base):
     lib_date = Column(Date, default=None)
     lib = Column(Boolean, default=False, unique=False, nullable=False)
     obs = Column(String, default=None)
+    updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
         return rep_gen(self)
@@ -541,6 +557,7 @@ class Exams(Base):
     lib_date = Column(Date, default=None)
     lib = Column(Boolean, default=False, unique=False, nullable=False)
     obs = Column(String, default=None)
+    updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
         return rep_gen(self)

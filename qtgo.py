@@ -17,8 +17,9 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QVBoxLayout, QTextBrowser, QHBoxLayout, QStackedWidget,
                              QStatusBar, QListWidget, QSpacerItem, QPlainTextEdit, QFileDialog,
                              QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView,
-                             QDateTimeEdit, QAbstractItemView)
-from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExpValidator)
+                             QDateTimeEdit, QAbstractItemView, QScrollArea)
+from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExpValidator,
+                         QDoubleValidator)
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
                           QSettings, QTimer, QSignalMapper, QProcess, QRegExp)
 from datetime import datetime
@@ -845,7 +846,7 @@ class DatabaseViewer(QDialog):
         super(DatabaseViewer, self).__init__()
 
         self.setWindowTitle("Banco de Dados")
-        self.setGeometry(200, 200, 800, 500)
+        self.setGeometry(100, 100, 800, 300)
         self.setMaximumSize(screen.size())
 
         self.table_name = "patients_table"
@@ -895,16 +896,16 @@ class DatabaseViewer(QDialog):
         self.dv_grid_search_label = QLabel("Procurar:")
         self.dv_grid_input_text = QLineEdit()
         self.dv_grid_input_text.returnPressed.connect(self.search)
-    
-        self.dv_grid_priority_cb = QCheckBox('Prioridades', self)
+
+        self.dv_grid_expriority_cb = QCheckBox('Exames com Prioridades', self)
+        self.dv_grid_sppriority_cb = QCheckBox('Amostras com Prioridades', self)
+        self.dv_grid_recent_cb = QCheckBox('Recentes', self)
 
         col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
         col_list = [col["name"] for col in col_info]
         self.dv_grid_col_selector = QComboBox()
         self.dv_grid_col_selector.addItems(col_list)
         self.dv_grid_col_selector.resize(self.dv_grid_col_selector.sizeHint())
-
-    
 
         self.dv_grid_table_dd = QComboBox()
         for key, value in table_dict.items():
@@ -929,17 +930,39 @@ class DatabaseViewer(QDialog):
         self.DVLeftBar.addItem(self.spacer_dv, 4, 0)
         self.DVLeftBar.addWidget(self.dv_grid_search_label, 5, 0, Qt.AlignLeft)
         self.DVLeftBar.addLayout(self.dv_subgrid, 6, 0, Qt.AlignLeft)
-
         self.DVLeftBar.addItem(self.spacer_dv, 7, 0)
-        self.DVLeftBar.addWidget(self.dv_grid_priority_cb, 8, 0, Qt.AlignLeft)
-        self.DVLeftBar.addItem(self.spacer_dv_large, 9, 0)
-        self.DVLeftBar.addWidget(self.dv_grid_new_entry, 10, 0, Qt.AlignLeft)
+        self.DVLeftBar.addWidget(self.dv_grid_expriority_cb, 8, 0, Qt.AlignLeft)
+        self.DVLeftBar.addWidget(self.dv_grid_sppriority_cb, 9, 0, Qt.AlignLeft)
+        self.DVLeftBar.addWidget(self.dv_grid_recent_cb, 10, 0, Qt.AlignLeft)
+        self.DVLeftBar.addItem(self.spacer_dv_large, 11, 0)
+        self.DVLeftBar.addWidget(self.dv_grid_new_entry, 12, 0, Qt.AlignLeft)
+
+        self.dv_grid_expriority_cb.stateChanged.connect(self.onStateChange)
+        self.dv_grid_sppriority_cb.stateChanged.connect(self.onStateChange)
+        self.dv_grid_recent_cb.stateChanged.connect(self.onStateChange)
+
+        self.dv_grid_expriority_cb.stateChanged.connect(self.cb_response)
+        self.dv_grid_sppriority_cb.stateChanged.connect(self.cb_response)
+        self.dv_grid_recent_cb.stateChanged.connect(self.cb_response)
 
         self.DVLeftBar.columnStretch(1)
         self.DVLeftBar.rowStretch(1)
 
         self.DVLeftBar_widget = QWidget()
         self.DVLeftBar_widget.setLayout(self.DVLeftBar)
+
+    @pyqtSlot(int)
+    def onStateChange(self, state):
+        if state == Qt.Checked:
+            if self.sender() == self.dv_grid_expriority_cb:
+                self.dv_grid_sppriority_cb.setChecked(False)
+                self.dv_grid_recent_cb.setChecked(False)
+            elif self.sender() == self.dv_grid_sppriority_cb:
+                self.dv_grid_recent_cb.setChecked(False)
+                self.dv_grid_expriority_cb.setChecked(False)
+            elif self.sender() == self.dv_grid_recent_cb:
+                self.dv_grid_expriority_cb.setChecked(False)
+                self.dv_grid_sppriority_cb.setChecked(False)
 
     def update_table_gen(self, table_name, df=None):
         self.table_name = table_name
@@ -952,6 +975,7 @@ class DatabaseViewer(QDialog):
             model = pdm.DataFrameModel(df)
             self.target_table.setModel(model)
 
+        self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
         col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
         col_list = [col["name"] for col in col_info]
         self.dv_grid_col_selector.clear()
@@ -963,13 +987,13 @@ class DatabaseViewer(QDialog):
         # defining table
         self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
         df = self.target_query
-
-        # construir df com pandas e aí transformar em tablewidget
-
         self.model = pdm.DataFrameModel(df)
         self.target_table = QTableView()
         self.target_table.setEditTriggers(QAbstractItemView.DoubleClicked)
         self.target_table.setModel(self.model)
+        self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
+
+        self.target_table.doubleClicked.connect(self.update_entry_open)
 
         sampat_table_widget_layout.addWidget(self.target_table, 0, 0, 3, 4)
         self.sampat_table_widget = QWidget()
@@ -985,12 +1009,42 @@ class DatabaseViewer(QDialog):
         else:
             self.update_table_gen(self.table_name)
 
+    @pyqtSlot(int)
+    def cb_response(self, state):
+        column = self.dv_grid_col_selector.currentText()
+        expriority = sampat_psql.query_values(dsess, column="lib_date", schema=self.schema, table="exams_table", _pd=True, _type=None)
+        sppriority = sampat_psql.query_values(dsess, column="lib_date", schema=self.schema, table="samples_table", _pd=True, _type=None)
+        recent = sampat_psql.query_values(dsess, column="updated", schema=self.schema, table=self.table_name, _pd=True, _type="last")
+
+        expriority.sort_values(by=["id", "lib_date"], ascending=True, inplace=True)
+        sppriority.sort_values(by=["id", "lib_date"], ascending=True, inplace=True)
+        recent.sort_values(by="id", inplace=True)
+
+        if state == Qt.Checked:
+            if self.sender() == self.dv_grid_expriority_cb:
+                self.update_table_gen("exams_table", expriority)
+                self.dv_grid_table_dd.setCurrentIndex(2)
+            elif self.sender() == self.dv_grid_sppriority_cb:
+                self.update_table_gen("samples_table", sppriority)
+                self.dv_grid_table_dd.setCurrentIndex(1)
+            elif self.sender() == self.dv_grid_recent_cb:
+                self.update_table_gen(self.table_name, recent)
+            else:
+                self.update_table_gen(self.table_name)
+
     def new_entry_open(self):
         self.dialog = New_Entry(self.schema, self.table_name)
         self.dialog.show()
+        self.dialog.update.connect(lambda x=self.table_name: self.update_table_gen(x))
 
+    def update_entry_open(self, e):
+        target = str(self.target_query.iloc[e.row(), 0])
+        self.dialog = Update_Entry(self.schema, self.table_name, target)
+        self.dialog.show()
+        self.dialog.update.connect(lambda x=self.table_name: self.update_table_gen(x))
 
 class New_Entry(QDialog):
+    update = pyqtSignal()
 
     def __init__(self, schema, table):
         super(New_Entry, self).__init__()
@@ -1006,7 +1060,7 @@ class New_Entry(QDialog):
         NE_buttonBox.rejected.connect(self.reject)
 
         regLayout = QVBoxLayout()
-        regLayout.addWidget(self.NE_form_group_box)
+        regLayout.addWidget(self.NE_scrollArea)
         regLayout.addWidget(NE_buttonBox)
         regLayout.setSizeConstraint(3)
         self.setLayout(regLayout)
@@ -1018,11 +1072,16 @@ class New_Entry(QDialog):
 
         col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
         col_list = [(col["name"], col["type"]) for col in col_info]
-#b# 
+
         self.line_dict = {}
+
         for i, col in enumerate(col_list):
             if "BOOLEAN" in str(col[1]):
                 self.line_dict[col[0]] = QCheckBox()
+            elif "DOUBLE" in str(col[1]):
+                onlyDouble = QDoubleValidator(-999.99, 999.99, 4)
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setValidator(onlyDouble)
             elif "INTEGER" in str(col[1]):
                 onlyInt = QIntValidator()
                 self.line_dict[col[0]] = QLineEdit()
@@ -1031,6 +1090,10 @@ class New_Entry(QDialog):
                 onlyDate = QRegExpValidator(QRegExp("(\d{2}/)(\d{2}/)(\d{4})"))
                 self.line_dict[col[0]] = (QLineEdit(), "date")
                 self.line_dict[col[0]][0].setValidator(onlyDate)
+            elif "updated" in col[0]:
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
+                self.line_dict[col[0]].setReadOnly(True)
             else:
                 self.line_dict[col[0]] = QLineEdit()
 
@@ -1041,6 +1104,10 @@ class New_Entry(QDialog):
                 NE_form_layout.addRow(QLabel(key), value)
 
         self.NE_form_group_box.setLayout(NE_form_layout)
+        self.NE_scrollArea = QScrollArea()
+        self.NE_scrollArea.setWidget(self.NE_form_group_box)
+        self.NE_scrollArea.setWidgetResizable(True)
+        self.NE_scrollArea.setFixedHeight(500)
 
     def NE_confirm(self):
         NE_conf = QMessageBox()
@@ -1057,15 +1124,29 @@ class New_Entry(QDialog):
         flag = False
         ne_form_dict = {}
         for key, value in self.line_dict.items():
-            if "id" in key:
+            if key == "id":
                 if self.line_dict[key].text() == "":
-                    gerrors.reg_bw_error()
+                    gerrors.id_error()
                     flag = True
-            elif value == QCheckBox():
-                ne_form_dict[key] = value.checkState()
+                else:
+                    ne_form_dict[key] = value.text()
+            elif key == "patient_id" or key == "sample_id":
+                if self.line_dict[key].text() == "":
+                    gerrors.id_error()
+                    flag = True
+                else:
+                    ne_form_dict[key] = value.text()
+            elif "updated" in key:
+                ne_form_dict[key] = datetime.now()
+            elif "QCheckBox" in str(type(value)):
+                ne_form_dict[key] = value.isChecked()
             elif type(value) == tuple:
-                val = "01/01/1970"
-                datetime.strptime(val, "%d/%m/%Y")
+                if value[0].text() == "":
+                    val = "01/01/1970"
+                    datetime.strptime(val, "%d/%m/%Y")
+                    ne_form_dict[key] = val
+                else:
+                    ne_form_dict[key] = value[0].text()
             else:
                 if value.text() == "":
                     ne_form_dict[key] = 0
@@ -1080,10 +1161,9 @@ class New_Entry(QDialog):
 
         if not flag:
             logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
-
             sampat_psql.upsert(self.schema, self.table_name, ne_form_dict)
-
             self.ne_sucess()
+            self.update.emit()
             self.close()
 
     def ne_sucess(self):
@@ -1091,6 +1171,145 @@ class New_Entry(QDialog):
         error.setIcon(QMessageBox.Information)
         error.setText("Novas entradas adicionadas com sucesso.")
         error.setWindowTitle("Registro Realizado")
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
+
+class Update_Entry(QDialog):
+    update = pyqtSignal()
+
+    def __init__(self, schema, table, _id):
+        super(Update_Entry, self).__init__()
+
+        self.table_name = table
+        self.schema = schema
+        self.column = "id"
+        self.query = sampat_psql.query_values(dsess, column=self.column, schema=self.schema, table=self.table_name, target=_id, _pd=True)
+        self.qdict = self.query.to_dict('list')
+        self.create_NE_form_group_box()
+
+        NE_buttonBox = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
+        NE_buttonBox.accepted.connect(self.NE_confirm)
+        NE_buttonBox.rejected.connect(self.reject)
+
+        regLayout = QVBoxLayout()
+        regLayout.addWidget(self.NE_scrollArea)
+        regLayout.addWidget(NE_buttonBox)
+        regLayout.setSizeConstraint(3)
+        self.setLayout(regLayout)
+        self.setWindowTitle('Atualizar registro')
+
+    def create_NE_form_group_box(self):
+        self.NE_form_group_box = QGroupBox('Atualizar registro')
+        NE_form_layout = QFormLayout()
+
+        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
+        col_list = [(col["name"], col["type"]) for col in col_info]
+
+        self.line_dict = {}
+
+        for i, col in enumerate(col_list):
+            if "BOOLEAN" in str(col[1]):
+                self.line_dict[col[0]] = QCheckBox()
+                print(self.qdict[col[0]][0])
+                self.line_dict[col[0]].setChecked(self.qdict[col[0]][0])
+            elif "DOUBLE" in str(col[1]):
+                onlyDouble = QDoubleValidator(-999.99, 999.99, 4)
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(str(self.qdict[col[0]][0]))
+                self.line_dict[col[0]].setValidator(onlyDouble)
+            elif "INTEGER" in str(col[1]):
+                onlyInt = QIntValidator()
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(str(self.qdict[col[0]][0]))
+                self.line_dict[col[0]].setValidator(onlyInt)
+            elif "DATE" in str(col[1]):
+                onlyDate = QRegExpValidator(QRegExp("(\d{2}/)(\d{2}/)(\d{4})"))
+                self.line_dict[col[0]] = (QLineEdit(), "date")
+                self.line_dict[col[0]][0].setText(str(self.qdict[col[0]][0]))
+                self.line_dict[col[0]][0].setValidator(onlyDate)
+            elif "updated" in col[0]:
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
+                self.line_dict[col[0]].setReadOnly(True)
+            else:
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(self.qdict[col[0]][0])
+
+        for key, value in self.line_dict.items():
+            if type(self.line_dict[key]) == tuple:
+                NE_form_layout.addRow(QLabel(key), value[0])
+            else:
+                NE_form_layout.addRow(QLabel(key), value)
+
+        self.NE_form_group_box.setLayout(NE_form_layout)
+        self.NE_scrollArea = QScrollArea()
+        self.NE_scrollArea.setWidget(self.NE_form_group_box)
+        self.NE_scrollArea.setWidgetResizable(True)
+        self.NE_scrollArea.setFixedHeight(500)
+
+    def NE_confirm(self):
+        NE_conf = QMessageBox()
+        NE_conf.setText("Salvar informações?")
+        NE_conf.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
+        NE_conf = NE_conf.exec()
+
+        if NE_conf == QMessageBox.Yes:
+            self.save_form()
+        else:
+            self.reject()
+
+    def save_form(self):
+        flag = False
+        ne_form_dict = {}
+        for key, value in self.line_dict.items():
+            if key == "id":
+                if self.line_dict[key].text() == "":
+                    gerrors.id_error()
+                    flag = True
+                else:
+                    ne_form_dict[key] = value.text()
+            elif key == "patient_id" or key == "sample_id":
+                if self.line_dict[key].text() == "":
+                    gerrors.id_error()
+                    flag = True
+                else:
+                    ne_form_dict[key] = value.text()
+            elif "updated" in key:
+                ne_form_dict[key] = datetime.now()
+            elif "QCheckBox" in str(type(value)):
+                ne_form_dict[key] = value.isChecked()
+            elif type(value) == tuple:
+                if value[0].text() == "":
+                    val = "01/01/1970"
+                    datetime.strptime(val, "%d/%m/%Y")
+                    ne_form_dict[key] = val
+                else:
+                    ne_form_dict[key] = value[0].text()
+            else:
+                if value.text() == "":
+                    ne_form_dict[key] = 0
+                elif value.text().isdigit():
+                    ne_form_dict[key] = int(value.text())
+                else:
+                    ne_form_dict[key] = value.text()
+
+        for key, value in ne_form_dict.items():
+            if type(value) == str:
+                ne_form_dict[key] = value.strip()
+
+        if not flag:
+            logger.info("REGISTER - {} created a new SQL entry".format(next(iter(ne_form_dict))))
+            sampat_psql.upsert(self.schema, self.table_name, ne_form_dict)
+
+            self.ne_sucess()
+            self.update.emit()
+            self.close()
+
+    def ne_sucess(self):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Information)
+        error.setText("Entradas atualizadas com sucesso.")
+        error.setWindowTitle("Registro Atualizado")
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
 
@@ -1171,7 +1390,6 @@ class Options(QWidget):
             self.central_opt_widget.setCurrentWidget(self.user_widget)
 
     def create_config_layout(self):
-        #ada#
         self.opt_list = QListWidget()
 
         opt_list = ["Servidor", "Configurações de Email",
@@ -1716,7 +1934,7 @@ class System():
                 login = config["CUSTOM_SERVER_ADRESS"]["login"]
                 upw = config["CUSTOM_SERVER_ADRESS"]["password"]
                 hn = config["CUSTOM_SERVER_ADRESS"]["hostname"]
-                db = config["CUSTOM_SERVER_ADRESS"]["database1"]
+                db = config["CUSTOM_SERVER_ADRESS"]["database2"]
                 sampat_psql, dsess = sqlmng.sql_init(login, upw, hn, db)
             except:
                 try:
@@ -1724,7 +1942,7 @@ class System():
                     login = config["DEFAULT_SERVER_ADRESS"]["login"]
                     upw = config["DEFAULT_SERVER_ADRESS"]["password"]
                     hn = config["DEFAULT_SERVER_ADRESS"]["hostname"]
-                    db = config["DEFAULT_SERVER_ADRESS"]["database1"]
+                    db = config["DEFAULT_SERVER_ADRESS"]["database2"]
                     sampat_psql, dsess = sqlmng.sql_init(login, upw, hn, db)
                 except:
                     logger.warning("Server or Localhost unreachable.")

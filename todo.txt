@@ -1,6 +1,4 @@
-barcode_gen
 arrumar/tentar arrumar hex_to_str e str_to_hex
 refinar janela de banco de dados
-fazer busca no banco de dados = fazer camp pra palavra chave e um seletor de coluna
+testar mais as buscas e prioridades (a principio funciona)
 buscar prioridades
-atualizar direto na row

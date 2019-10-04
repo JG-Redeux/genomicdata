@@ -177,3 +177,12 @@ class gd_errors():
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
         logger.error("ERROR - 13: Erro ao reiniciar aplicativo.")
+
+    def id_error(self):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Critical)
+        error.setText("14: ID não pode ser vazio.")
+        error.setWindowTitle("ID não pode ser vazio.")
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
+        logger.error("ERROR - 14: ID não pode ser vazio.")

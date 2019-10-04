@@ -62,3 +62,10 @@ class DataFrameModel(QtCore.QAbstractTableModel):
             DataFrameModel.ValueRole: b'value'
         }
         return roles
+
+    def sort(self, column):
+        colname = self._df.columns.tolist()[column]
+        self.layoutAboutToBeChanged.emit()
+        self._df.sort_values(colname, ascending=QtCore.Qt.AscendingOrder, inplace=True)
+        self._df.reset_index(inplace=True, drop=True)
+        self.layoutChanged.emit()
