@@ -9,18 +9,20 @@ SQL Management Module
 '''This module focus is to create methods derived from sqlalchemy to be used in
 the main app, the methods names are self explanatory'''
 
-import psycopg2  # analysis:ignore
-from sqlalchemy import (MetaData, Table, create_engine, Column, Integer, String, Date,  # analysis:ignore
-                        exists, Boolean, Float, exc, func, ForeignKey, select, text,  # analysis:ignore
-                        or_, and_, literal, schema)  # analysis:ignore
-from sqlalchemy.orm import sessionmaker, relationship, mapper  # analysis:ignore
+import psycopg2
+from sqlalchemy import (MetaData, Table, create_engine, Column, Integer, String, Date,
+                        exists, Boolean, Float, exc, func, ForeignKey, select, text,
+                        or_, and_, literal, schema, inspect, DateTime)
+from sqlalchemy.engine import reflection
+from sqlalchemy.orm import sessionmaker, relationship, mapper
 from sqlalchemy.sql.expression import false
-from sqlalchemy.ext.declarative import declarative_base  # analysis:ignore
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy_utils import create_database, database_exists
+from sqlalchemy.dialects import postgresql
 # import data_import as itapi
-
-# from sqlalchemy.ext.automap import automap_base
+import pandas as pd
 import logging
+import datetime
 
 logger = logging.getLogger(__name__)
 Base = declarative_base()
@@ -166,7 +168,7 @@ class SQL(object):
         logging.info("SQLMNG - {} deleted and changes commited.".format(target))
 
     def query_values(self, session, column=None, schema="db_user_schema",
-                     target=None, table="users", _type="all"):
+                     target=None, table="users", _type="all", _pd=False):
 
         logging.debug("SQLMNG - {}".format(":".join(str(x) for x in [session,
                       column, table, _type])))
@@ -178,13 +180,41 @@ class SQL(object):
             col = str_to_column(table_name, column)
             return self.session.query(col).all()
 
+        if _pd is True:
+            if column is not None and target is not None:
+                try:
+                    col_obj = str_to_column(table_name, column)
+                    q = pd.read_sql(self.session.query(table_name).filter(col_obj == target).statement, self.session.bind)
+                    return q
+                except:
+                    return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+            elif column is not None:
+                if _type is None:
+                    try:
+                        col_obj = str_to_column(table_name, column)
+                        q = pd.read_sql(self.session.query(table_name).order_by(column.asc()).statement, self.session.bind)
+                        return q
+                    except:
+                        return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+                elif _type == "last":
+                    try:
+                        col_obj = str_to_column(table_name, column)
+                        q = pd.read_sql(self.session.query(table_name).order_by(column.id.asc()).limit(20).statement, self.session.bind)
+                        return q
+                    except:
+                        return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+            else:
+                return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
+
         if column:
             if type(column) == str:
                 col_obj = str_to_column(table_name, column)
                 col_query = base_query.filter(col_obj == target)
+                if _type == "first":
+                    return base_query.filter(col_obj == target).first()
             elif type(column) == list:
                 col_obj_list = [str_to_column(table_name, col) for col in column]
-                col_query = base_query.with_entities(*col_obj_list)
+                col_query = base_query.with_entities(*col_obj_list).filter(text(target))
             else:
                 raise ValueError("Column must be either str or list")
 
@@ -241,17 +271,55 @@ class SQL(object):
         logging.debug("SQLMNG - Update <{}> requested.".format(new_info))
         logging.info("SQLMNG - Update commited.")
 
-    def add_rows_sampat(self, session, rows_info, schema, table):
+    def upsert(self, schema, table_name, records={}):
+        metadata = MetaData(schema=schema)
+        metadata.bind = self.engine
 
+        table = Table(table_name, metadata, schema=schema, autoload=True)
+
+        # get list of fields making up primary key
+        primary_keys = [key.name for key in inspect(table).primary_key]
+
+        # assemble base statement
+        stmt = postgresql.insert(table).values(records)
+
+        # define dict of non-primary keys for updating
+        update_dict = {
+            c.name: c
+            for c in stmt.excluded
+            if not c.primary_key
+        }
+
+        # assemble new statement with 'on conflict do update' clause
+        update_stmt = stmt.on_conflict_do_update(
+            index_elements=primary_keys,
+            set_=update_dict,
+        )
+
+        # execute
+        with self.engine.connect() as conn:
+            result = conn.execute(update_stmt)
+            return result
+
+    def add_rows_sampat(self, session, rows_info, schema, table):
         table = str_to_table(schema, table)
         new_row = table(**rows_info)
         session.add(new_row)
-        session.commit()
+        try:
+            session.commit()
+        except exc.ProgrammingError:
+            raise ValueError
         logger.info("SQLMNG - {} rows added to {} table.".format(len(rows_info), table))
 
+    def update_table(self, session, schema, table, column, target, new_entry):
+        true_table = str_to_table(schema, table)
+        true_col = str_to_column(true_table, column)
+        session.query(true_table).filter(true_col == target).update(new_entry)
+        session.commit()
+
     def update_rows_sampat(self, session, rows_info, schema, table):
-        table = str_to_table(schema, table)
-        new_row = table(**rows_info)
+        table_obj = str_to_table(schema, table)
+        new_row = table_obj(**rows_info)
         session.merge(new_row)
         session.commit()
         logging.info('SQLMNG - Update commited')
@@ -331,18 +399,23 @@ class SQL(object):
             else:
                 pass
 
-    def row_count(self, session, table="User"):
-        if table == "User":
+    def row_count(self, session, table="users_table"):
+        if table == "users_table":
             rows = session.query(func.count(User.id)).scalar()
         elif table == "Badword":
             rows = session.query(func.count(Badwords.id)).scalar()
-        elif table == "Samples":
+        elif table == "samples_table":
             rows = session.query(func.count(Samples.id)).scalar()
-        elif table == "Patients":
+        elif table == "patients_table":
             rows = session.query(func.count(Patient.id)).scalar()
-        elif table == "Exams":
+        elif table == "exams_table":
             rows = session.query(func.count(Exams.id)).scalar()
         return rows
+
+    def col_info(self, session, schema="db_sampat_schema", table="patients_table"):
+        insp = reflection.Inspector.from_engine(self.engine)
+        col_info = insp.get_columns(table, schema)
+        return col_info
 
     # back-end method used to add entries to the badword table, it accepts both lists and strings
     def populate_badword(self, session, badword):
@@ -398,7 +471,7 @@ class Patient(Base):
     __table_args__ = {'schema': "db_sampat_schema"}
 
     id = Column(Integer, primary_key=True, unique=True)
-    old_id = Column("barcode", Integer, unique=False)
+    # old_id = Column("barcode", Integer, unique=False)
     samples = relationship("Samples", backref='sample_owner')
     particular = Column(Boolean, default=False, unique=False, nullable=False)
     first_name = Column(String, default=None)
@@ -420,6 +493,7 @@ class Patient(Base):
     gen = Column(String, default=None)
     karyotype = Column(String, default=None)
     obs = Column(String, default=None)
+    updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
         return rep_gen(self)
@@ -429,7 +503,7 @@ class Samples(Base):
     __table_args__ = {'schema': "db_sampat_schema"}
 
     id = Column(Integer, primary_key=True)
-    old_id = Column("old_id", Integer, unique=False)
+    # old_id = Column(Integer, unique=False)
     sample_group = Column(String, default=None)
     samp_serial = Column(Integer, default=None, unique=True)
     patient_id = Column(Integer, ForeignKey('db_sampat_schema.patients_table.id'), nullable=False)
@@ -460,6 +534,7 @@ class Samples(Base):
     lib_date = Column(Date, default=None)
     lib = Column(Boolean, default=False, unique=False, nullable=False)
     obs = Column(String, default=None)
+    updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
         return rep_gen(self)
@@ -482,6 +557,7 @@ class Exams(Base):
     lib_date = Column(Date, default=None)
     lib = Column(Boolean, default=False, unique=False, nullable=False)
     obs = Column(String, default=None)
+    updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
         return rep_gen(self)

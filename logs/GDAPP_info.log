@@ -1564,7 +1564,7 @@
 2018-09-03 14:46:43,402 - _logger - INFO - APP - Current widget changed: 0
 2018-09-03 14:46:43,402 - _logger - DEBUG - APP - 0
 2018-09-03 14:46:45,300 - _logger - INFO - APP - Non-identified user entered option screen
-2018-09-03 14:46:48,118 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Analista', 'Técnico']}
+2018-09-03 14:46:48,118 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Analista', 'Tï¿½cnico']}
 2018-09-03 14:47:19,493 - _logger - INFO - APP - Program closed
 2018-09-03 14:52:51,080 - _logger - INFO - __main__ - Program oppened
 2018-09-03 14:52:51,080 - _logger - INFO - CONFIG - Configurations initialized.
@@ -2267,7 +2267,7 @@
 2018-11-28 01:58:15,609 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000024C10CABF78>.
 2018-11-28 01:58:18,065 - _logger - INFO - APP - Dialog dialog screen opened.
 2018-11-28 01:58:34,346 - _logger - INFO - APP - admin entered option screen
-2018-11-28 01:58:46,676 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Técnico', 'Técnico'], 'not admin': ['Analista', 'Aluno'], 'admin': ['Analista', 'Técnico'], 'd': ['Técnico', 'Outros']}
+2018-11-28 01:58:46,676 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Tï¿½cnico', 'Tï¿½cnico'], 'not admin': ['Analista', 'Aluno'], 'admin': ['Analista', 'Tï¿½cnico'], 'd': ['Tï¿½cnico', 'Outros']}
 2018-11-28 01:59:02,676 - _logger - DEBUG - db_adress/uentryl
 2018-11-28 01:59:02,677 - _logger - INFO - CONFIGS - New db_adress settings registered.
 2018-11-28 01:59:02,677 - _logger - DEBUG - db_adress/uentryw
@@ -2382,12 +2382,12 @@
 2018-11-30 13:39:46,791 - _logger - INFO - APP - Current widget changed: 1
 2018-11-30 13:39:46,791 - _logger - DEBUG - APP - 1
 2018-11-30 13:39:46,791 - _logger - INFO - USER - admin instance of User class created
-2018-11-30 13:39:46,792 - _logger - INFO - APP - admin permission 'Técnico' defined
+2018-11-30 13:39:46,792 - _logger - INFO - APP - admin permission 'Tï¿½cnico' defined
 2018-11-30 13:39:46,792 - _logger - INFO - APP - admin logged.
 2018-11-30 13:39:46,792 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002525913BF78>.
 2018-11-30 13:39:46,792 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002525913BF78>.
 2018-11-30 13:39:55,863 - _logger - INFO - APP - admin entered option screen
-2018-11-30 13:40:04,755 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Técnico', 'Técnico'], 'not admin': ['Aluno', 'Aluno'], 'admin': ['Técnico', 'Analista'], 'd': ['Outros', 'Outros']}
+2018-11-30 13:40:04,755 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Tï¿½cnico', 'Tï¿½cnico'], 'not admin': ['Aluno', 'Aluno'], 'admin': ['Tï¿½cnico', 'Analista'], 'd': ['Outros', 'Outros']}
 2018-11-30 13:40:09,257 - _logger - INFO - APP - Program closed
 2018-11-30 13:56:27,786 - _logger - INFO - __main__ - Program oppened
 2018-11-30 13:56:27,786 - _logger - INFO - CONFIG - Configurations initialized.
@@ -2406,7 +2406,7 @@
 2018-11-30 13:57:08,593 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000022B692ABF78>.
 2018-11-30 13:57:08,593 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000022B692ABF78>.
 2018-11-30 13:57:18,603 - _logger - INFO - APP - admin entered option screen
-2018-11-30 13:57:27,613 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Técnico', 'Técnico'], 'not admin': ['Técnico', 'Aluno'], 'd': ['Outros', 'Outros']}
+2018-11-30 13:57:27,613 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Tï¿½cnico', 'Tï¿½cnico'], 'not admin': ['Tï¿½cnico', 'Aluno'], 'd': ['Outros', 'Outros']}
 2018-11-30 13:57:35,218 - _logger - INFO - APP - Program closed
 2018-11-30 14:03:28,712 - _logger - INFO - __main__ - Program oppened
 2018-11-30 14:03:28,712 - _logger - INFO - CONFIG - Configurations initialized.
@@ -2425,7 +2425,7 @@
 2018-11-30 14:09:08,535 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002AD647DCF78>.
 2018-11-30 14:09:08,535 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002AD647DCF78>.
 2018-11-30 14:09:18,625 - _logger - INFO - APP - admin entered option screen
-2018-11-30 14:09:30,187 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Técnico', 'Técnico'], 'not admin': ['Analista', 'Técnico'], 'd': ['Outros', 'Outros']}
+2018-11-30 14:09:30,187 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Tï¿½cnico', 'Tï¿½cnico'], 'not admin': ['Analista', 'Tï¿½cnico'], 'd': ['Outros', 'Outros']}
 2018-11-30 14:09:37,113 - _logger - INFO - APP - Program closed
 2018-11-30 14:10:10,538 - _logger - INFO - __main__ - Program oppened
 2018-11-30 14:10:10,538 - _logger - INFO - CONFIG - Configurations initialized.
@@ -2444,7 +2444,7 @@
 2018-11-30 14:10:49,867 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001DA2D80BF78>.
 2018-11-30 14:10:49,867 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001DA2D80BF78>.
 2018-11-30 14:10:57,550 - _logger - INFO - APP - admin entered option screen
-2018-11-30 14:11:05,683 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Técnico', 'Técnico'], 'not admin': ['Analista', 'Analista'], 'd': ['Outros', 'Outros']}
+2018-11-30 14:11:05,683 - _logger - DEBUG - OPTIONS - User permissions changed: {'aaaa': ['Tï¿½cnico', 'Tï¿½cnico'], 'not admin': ['Analista', 'Analista'], 'd': ['Outros', 'Outros']}
 2018-11-30 14:11:12,033 - _logger - INFO - APP - Info dialog screen opened
 2018-11-30 14:11:20,023 - _logger - INFO - APP - Program closed
 2018-11-30 16:09:22,340 - _logger - INFO - __main__ - Program oppened

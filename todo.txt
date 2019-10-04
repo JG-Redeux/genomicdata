@@ -1,6 +1,4 @@
-barcode_gen
 arrumar/tentar arrumar hex_to_str e str_to_hex
-fazer janela prioridades
-fazer busca de dados
-fazer banco de amostras
-fazer banco de pacientes
+refinar janela de banco de dados
+testar mais as buscas e prioridades (a principio funciona)
+buscar prioridades
