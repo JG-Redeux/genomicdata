@@ -139,6 +139,8 @@ class App(QMainWindow):
         self.log_dialog = Login()
         self.pat_dialog = DatabaseViewer()
         self.info_dialog = Info()
+        self.about_dialog = About()
+        self.contact_dialog = Contact()
 
         self.central_widget = QStackedWidget()
         self.setCentralWidget(self.central_widget)
@@ -263,6 +265,14 @@ class App(QMainWindow):
         self.toolsMenu.addAction(self.opt_menu)
         self.toolsMenu.addAction(self.info_db)
 
+        self.about = QAction('&Sobre', self)
+        self.about.triggered.connect(self.about_open)
+        self.about.setEnabled(True)
+
+        self.contact = QAction('&Contato', self)
+        self.contact.triggered.connect(self.contact_open)
+        self.contact.setEnabled(True)
+
         # #  quit sub-menu definition
         self.closeApp = QAction('&Sair', self)
         self.closeApp.triggered.connect(self.close)
@@ -271,8 +281,8 @@ class App(QMainWindow):
         self.fileMenu.addAction(self.closeApp)
 
         # # help menu sub-menus
-        self.helpMenu.addAction('Sobre')
-        self.helpMenu.addAction('Contato')
+        self.helpMenu.addAction(self.about)
+        self.helpMenu.addAction(self.contact)
 
     # message box for logout confirmation
     def logout_msg(self, event):
@@ -360,6 +370,14 @@ class App(QMainWindow):
     def info_open(self):
         logger.info("APP - Info dialog screen opened")
         self.info_dialog.show()
+
+    def about_open(self):
+        logger.info("APP - about dialog screen opened")
+        self.about_dialog.show()
+
+    def contact_open(self):
+        logger.info("APP - contact dialog screen opened")
+        self.contact_dialog.show()
 
     # delete the current acc, it should ask for password at some point
     def acc_delete(self, event):
@@ -840,7 +858,6 @@ class Register(QDialog):
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
 
-#a#
 class DatabaseViewer(QDialog):
     def __init__(self):
         super(DatabaseViewer, self).__init__()
@@ -1360,6 +1377,57 @@ class Info(QDialog):
 
         self.info_widget = QWidget()
         self.info_widget.setLayout(self.info_grid)
+
+class About(QDialog):
+    def __init__(self):
+        super(About, self).__init__()
+        self.setWindowTitle("Sobre")
+        self.setGeometry(200, 200, 400, 200)
+
+        self.create_about_layout()
+        about_layout = QVBoxLayout()
+        about_layout.addWidget(self.about_widget)
+        self.setLayout(about_layout)
+
+    def create_about_layout(self):
+        self.about_grid = QGridLayout()
+        self.about_viewer = QPlainTextEdit()
+        self.about_viewer.setReadOnly(True)
+
+        with open("readme.md", encoding='utf-8') as readme:
+            about_readme = readme.read()
+
+        self.about_viewer.setPlainText(about_readme)
+        self.about_grid.addWidget(self.about_viewer)
+
+        self.about_widget = QWidget()
+        self.about_widget.setLayout(self.about_grid)
+
+class Contact(QWidget):
+    def __init__(self):
+        super(Contact, self).__init__()
+        self.setWindowTitle("Contato")
+        self.setGeometry(200, 200, 400, 100)
+
+        self.create_contact_layout()
+        contact_layout = QVBoxLayout()
+        contact_layout.addWidget(self.contact_widget)
+        self.setLayout(contact_layout)
+
+    def create_contact_layout(self):
+        self.contact_grid = QGridLayout()
+        self.contact_viewer = QPlainTextEdit()
+        self.contact_viewer.setReadOnly(True)
+
+        contact_readme = "Para entrar em contato utilize:\n"\
+                         "Email: jul.dam@gmail.com\n"\
+                         "GitLab: https://gitlab.com/DeuzLaharl/gdap-doc"
+
+        self.contact_viewer.setPlainText(contact_readme)
+        self.contact_grid.addWidget(self.contact_viewer)
+
+        self.contact_widget = QWidget()
+        self.contact_widget.setLayout(self.contact_grid)
 
 class Options(QWidget):
     def __init__(self):
