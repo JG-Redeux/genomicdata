@@ -4,7 +4,7 @@ Created on Sat Mar 31 02:09:04 2018
 
 logging handler
 
-@author: Usagi
+@author: Jullian GD.
 """
 
 import os

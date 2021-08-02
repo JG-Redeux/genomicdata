@@ -1,4 +1,0 @@
-arrumar/tentar arrumar hex_to_str e str_to_hex
-refinar janela de banco de dados
-testar mais as buscas e prioridades (a principio funciona)
-buscar prioridades

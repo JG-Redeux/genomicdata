@@ -186,3 +186,30 @@ class gd_errors():
         error.setStandardButtons(QMessageBox.Ok)
         error.exec_()
         logger.error("ERROR - 14: ID não pode ser vazio.")
+
+    def unlogged_error(self):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Critical)
+        error.setText("15: Função apenas para registrados.")
+        error.setWindowTitle("Necessário realizar login para acessar.")
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
+        logger.error("ERROR - 15: Função apenas para registrados.")
+
+    def wrong_access_level_error(self):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Critical)
+        error.setText("16: Ação limitada pelo nível de acesso.")
+        error.setWindowTitle("Login sem permissão para esta atividade.")
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
+        logger.error("ERROR - 16: Ação limitada pelo nível de acesso.")
+
+    def custom_error(self, err):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Critical)
+        error.setText(err)
+        error.setWindowTitle(err)
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
+        logger.error("ERROR - X: Erro/Teste")

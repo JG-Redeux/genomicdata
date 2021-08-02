@@ -50,7 +50,7 @@ class SQL(object):
                                                                self.database)
 
         self.engine = create_engine(db_adress)
-        if not database_exists(self.engine.url):
+        if database_exists(self.engine.url) is False:
             logger.warn("SQLMNG - DB not found, creating new DB")
             logger.debug("SQLMNG - DB {} created".format(self.engine.url))
             create_database(self.engine.url)
@@ -111,7 +111,7 @@ class SQL(object):
         return ret
 
     def table_exists(self, name, schema=None):
-        ret = self.engine.dialect.has_table(self.engine, name, schema)
+        ret = inspect(self.engine).has_table(name, schema)
         return ret
 
     def class_mapper(self, schema, tablename):
@@ -564,9 +564,12 @@ class Exams(Base):
 
 # a plain function that initialize the SQL class and outputs the instance and session
 def str_to_table(schema, table):
-    for item in Base._decl_class_registry.values():
-        if hasattr(item, '__table__') and item.__table__.fullname == "{}.{}".format(schema, table):
-            return item
+    '''# for item in Base._decl_class_registry.values():
+    # if hasattr(item, '__table__') and item.__table__.fullname == "{}.{}".format(schema, table):
+        return item'''
+    for item in Base.registry.mappers:
+        if item.class_.__tablename__ == table.lower():
+            return item.class_
 
 def str_to_column(table, column):
     return getattr(table, column)
@@ -594,7 +597,7 @@ def rep_gen(ncls):
     cls_attr = [getattr(_cls, key) for key in cl_keys]
     return repr_str.format(*cls_attr)
 
-login = "citoTest"
+login = "citoTeste"
 spw = "schizo"
 hn = "localhost"
 udb = "user_database"

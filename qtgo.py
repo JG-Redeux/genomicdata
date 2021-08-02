@@ -23,6 +23,8 @@ from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExp
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
                           QSettings, QTimer, QSignalMapper, QProcess, QRegExp)
 from datetime import datetime
+
+from sqlalchemy.sql.functions import user
 import recmail
 import sqlmng
 import errorex
@@ -78,12 +80,24 @@ class Spacer(QWidget):
 # the necessity of calling the database all the time after the login, the big string
 # inside the classe keeps being valid
 class User():
-    ''' The access_dict is supossed to work as a main driver for wich acess level
-        the u"ser will be granted: 0 for dev mode (total access); 1 for total
-        core functions acess; 2 for partial acess (input data and visualizations);
-        3 (lowest level) for very restricted acess (visualization only)'''
+    ''' The access_dict is supossed to work as a main driver for which acess level
+        the user will be granted: 0 for dev mode (total access); 1 for total
+        core functions acess; 2 for partial access (input data and visualizations);
+        3 (lowest level) for very restricted access (visualization only)'''
+    access_dict = {"Professor": 1,
+                   "Analista": 2,
+                   "Técnico": 3,
+                   "Aluno": 4,
+                   "Outros": 5}
 
-    def __init__(self, login_info):
+    def __init__(self, login_info=None):
+        self.logged = False
+        self.nvl = 'Outros'
+        if login_info:
+            self._update(login_info)
+
+    def _update(self, login_info):
+        self.logged = True
         self.login = login_info[0][1]
         self.pw = login_info[1][1]
         self.pname = login_info[2][1]
@@ -91,8 +105,13 @@ class User():
         self.nvl = login_info[4][1]
         self.other = login_info[5][1]
         self.email = login_info[6][1]
-        self.access_dict = {"adm": -1, "Analista": 0, "Aluno": 1, "Outros": 2}
         logger.info("USER - {} instance of User class created".format(self.login))
+
+    def get_access(self):
+        return self.access_dict[self.nvl]
+
+    def is_logged(self):
+        return self.logged
 
 # One of the layouts of the main window
 class Unlogged_window(QWidget):
@@ -100,8 +119,8 @@ class Unlogged_window(QWidget):
     def __init__(self, parent=None):
         super(Unlogged_window, self).__init__(parent)
         layout = QGridLayout()
-        ulabel = QLabel("Deslogado")
-        layout.addWidget(ulabel)
+        #ulabel = QLabel("Deslogado")
+        #layout.addWidget(ulabel)
 
         self.setLayout(layout)
 
@@ -111,8 +130,8 @@ class Logged_window(QWidget):
     def __init__(self, parent=None):
         super(Logged_window, self).__init__(parent)
         layout = QHBoxLayout()
-        ilabel = QLabel("Logado")
-        layout.addWidget(ilabel)
+        #ilabel = QLabel("Logado")
+        #layout.addWidget(ilabel)
         self.setLayout(layout)
 
         # self.ubutton.clicked.connect(self.clicked.emit)
@@ -133,6 +152,8 @@ class App(QMainWindow):
         self.menu_bar()
         self.sbar = QStatusBar()
         self.setStatusBar(self.sbar)
+        self.nvl_status = QLabel()
+        self.sbar.addPermanentWidget(self.nvl_status)
 
         self.opt_dialog = Options()
         self.reg_dialog = Register()
@@ -151,6 +172,7 @@ class App(QMainWindow):
         self.central_widget.addWidget(self.inlog)
         self.central_widget.setCurrentWidget(self.unlog)
 
+        self.user = User()
         # create an User instance of the current logged user
         self.log_dialog.login_info.connect(self.define_user)
 
@@ -165,10 +187,9 @@ class App(QMainWindow):
     def define_user(self, login_info):
         self.user = User(login_info)
         self.upd_dialog = Update(self.user)
-        nvl_str = "Usuário: {} | Nível: {}".format(self.user.sname, self.user.nvl)
+        nvl_str = "Usuário: {} | Nível: {} ".format(self.user.sname, self.user.nvl)
         logger.info("APP - {} permission '{}' defined".format(self.user.login, self.user.nvl))
-        self.nvl_status = QLabel(nvl_str)
-        self.sbar.addPermanentWidget(self.nvl_status)
+        self.nvl_status.setText(nvl_str)
 
     # change the current widget on signal
     def change_cwidget(self):
@@ -178,7 +199,6 @@ class App(QMainWindow):
     # hide/show able/disable widgets
     def manage_layout(self):
         self.layout_index = self.central_widget.currentIndex()
-
         if self.layout_index == 0:
             logger.info("APP - Current widget changed: {}".format(0))
             logger.debug("APP - {}".format(self.layout_index))
@@ -190,12 +210,7 @@ class App(QMainWindow):
             self.logoff.setVisible(False)
             self.loginDiag.setVisible(True)
             self.regDiag.setVisible(True)
-
-            try:
-                self.opt_dialog.opt_list.item(3).setHidden(True)
-                self.sbar.removeWidget(self.nvl_status)
-            except AttributeError:
-                pass
+            #self.sbar.removeWidget(self.nvl_status)
 
         elif self.layout_index == 1:
             logger.info("APP - Current widget changed: {}".format(1))
@@ -208,10 +223,6 @@ class App(QMainWindow):
             self.logoff.setVisible(True)
             self.loginDiag.setVisible(False)
             self.regDiag.setVisible(False)
-            try:
-                self.opt_dialog.opt_list.item(3).setHidden(False)
-            except AttributeError:
-                pass
 
     # defines the top menu bar
     def menu_bar(self):
@@ -300,8 +311,9 @@ class App(QMainWindow):
     def logout(self):
         logger.info("APP - {} instance of Class user deleted.".format(self.user.login))
         logger.info("APP - {} made loggout.".format(self.user.login))
-        del self.user
+        self.user = User()
         self.central_widget.setCurrentWidget(self.unlog)
+        self.nvl_status.clear()
         self.manage_layout()
 
     # method that apply the logout and recalls the login dialog, for quickies
@@ -652,11 +664,11 @@ class Update(QDialog):
         self.email_adress.setText(self.user.email)
         form_layout.addRow(QLabel('Email:'), self.email_adress)
 
-        nv_cb_list = ['Analista', 'Técnico', 'Aluno', 'Outros']
+        nv_cb_list = User.access_dict.keys()
         self.nv_cb = QComboBox()
         for item in nv_cb_list:
             self.nv_cb.addItem(item)
-        nv_index = self.user.access_dict.get(self.user.nvl, 0)
+        nv_index = User.access_dict.get(self.user.nvl, 0)
         self.nv_cb.setCurrentIndex(nv_index)
         form_layout.addRow(QLabel('Nível:'), self.nv_cb)
         self.other_label = QLabel('Qual?')
@@ -773,7 +785,7 @@ class Register(QDialog):
         self.email_adress = QLineEdit()
         form_layout.addRow(QLabel('Email:'), self.email_adress)
 
-        nv_cb_list = ['Analista', 'Técnico', 'Aluno', 'Outros']
+        nv_cb_list = User.access_dict.keys()
         self.nv_cb = QComboBox()
         for item in nv_cb_list:
             self.nv_cb.addItem(item)
@@ -933,7 +945,7 @@ class DatabaseViewer(QDialog):
         self.spacer_dv_large = Spacer(0, 50).spacer()
 
         self.dv_grid_new_entry = QPushButton("Nova entrada")
-        self.dv_grid_new_entry.clicked.connect(self.new_entry_open)
+        self.dv_grid_new_entry.clicked.connect(self.new_entry_decision)
         self.dv_grid_new_entry.setAutoDefault(False)
 
         self.dv_subgrid = QGridLayout()
@@ -1048,6 +1060,18 @@ class DatabaseViewer(QDialog):
                 self.update_table_gen(self.table_name, recent)
             else:
                 self.update_table_gen(self.table_name)
+    #point
+
+    def new_entry_decision(self):
+        nvl = ex.user.get_access()
+        logged = ex.user.is_logged()
+        if logged:
+            if nvl < 4:
+                self.new_entry_open()
+            else:
+                gerrors.wrong_access_level_error()
+        else:
+            gerrors.unlogged_error()
 
     def new_entry_open(self):
         self.dialog = New_Entry(self.schema, self.table_name)
@@ -1656,21 +1680,14 @@ class Options(QWidget):
         else:
             gerrors.serv_opt_error()
 
-
-# # #  server_opt definitions block end
-# # #  user_opt definitions block start
-
     def user_opt(self):
-
         user_layout = QGridLayout()
-
         # defining table
         rows = user_psql.row_count(usess, table="User")
         ut_header = "Usuário", "Nível"
-
         self.users_list = user_psql.query_values(usess, column="login")
         self.nvl_list = user_psql.query_values(usess, column="nvl")
-        nvl = ['Analista', 'Técnico', 'Aluno', 'Outros']
+        nvl = User.access_dict.keys()
 
         self.user_table = QTableWidget(rows, 2)
         self.user_table.setHorizontalHeaderLabels(ut_header)
@@ -1741,9 +1758,6 @@ class Options(QWidget):
             gerrors.res_error()
         else:
             QApplication.quit()
-
-# # #  user_opt definitions block end
-# # #  email_opt definitions block start
 
     def email_opt(self):
         email_layout = QGridLayout()
@@ -1908,6 +1922,7 @@ class Options(QWidget):
         except FileNotFoundError:
             self.log_viewer.setPlainText("Nenhum arquivo .log encontrado.\n\n"
                                          "Caso o endereço da pasta tenha sido alterado, reabra o programa.")
+
 # # #  log_opt definitions block end
 class System():
 
@@ -2051,6 +2066,7 @@ if __name__ == "__main__":
                 user_psql.commit_new_table(schema=schema_name, table=table_name)
     except:
         conn_error_flag = (True, "user")
+        raise
 
     try:
         sampat_psql, dsess = System().sql_sampat_connect()
@@ -2066,6 +2082,7 @@ if __name__ == "__main__":
                 sampat_psql.commit_new_table(schema=schema_name, table=table_name)
     except:
         conn_error_flag = (True, "sampat")
+        raise
 
     logger.info("__main__ - Program oppened")
     logger.info("CONFIG - Configurations initialized.")
@@ -2073,13 +2090,6 @@ if __name__ == "__main__":
 
     app = QApplication(sys.argv)
     screen = app.primaryScreen()
-
-    try:
-        if conn_error_flag[0] is True:
-            print("conn_error", conn_error_flag)
-            # gerrors.conn_error_flag(conn_error_flag[1])
-    except:
-        pass
 
     ex = App()
     sys.exit(app.exec_())
