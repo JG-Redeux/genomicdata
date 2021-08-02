@@ -17,13 +17,12 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QVBoxLayout, QTextBrowser, QHBoxLayout, QStackedWidget,
                              QStatusBar, QListWidget, QSpacerItem, QPlainTextEdit, QFileDialog,
                              QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView,
-                             QDateTimeEdit, QAbstractItemView, QScrollArea)
+                             QDateTimeEdit, QAbstractItemView, QScrollArea, QMenu)
 from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExpValidator,
-                         QDoubleValidator)
-from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject,
-                          QSettings, QTimer, QSignalMapper, QProcess, QRegExp)
+                         QDoubleValidator, QCursor)
+from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject, QFile, QTextStream,
+                          QSettings, QTimer, QSignalMapper, QProcess, QRegExp, QEvent, QDir)
 from datetime import datetime
-
 from sqlalchemy.sql.functions import user
 import recmail
 import sqlmng
@@ -33,6 +32,7 @@ import configparser
 import pandas as pd
 import pdm
 import auxiliary as aux
+import qdarkstyle
 
 absfilepath = os.path.abspath(__file__)
 
@@ -275,6 +275,14 @@ class App(QMainWindow):
         self.toolsMenu.addAction(self.patient_db)
         self.toolsMenu.addAction(self.opt_menu)
         self.toolsMenu.addAction(self.info_db)
+
+        self.theme_menu = self.toolsMenu.addMenu('&Trocar Tema')
+        self.bstyle_change = QAction('&Escuro', self)
+        self.wstyle_change = QAction('&Claro', self)
+        self.theme_menu.addAction(self.bstyle_change)
+        self.bstyle_change.triggered.connect(lambda: toggle_stylesheet(mode='dark'))
+        self.theme_menu.addAction(self.wstyle_change)
+        self.wstyle_change.triggered.connect(lambda: toggle_stylesheet(mode='light'))
 
         self.about = QAction('&Sobre', self)
         self.about.triggered.connect(self.about_open)
@@ -1013,7 +1021,6 @@ class DatabaseViewer(QDialog):
     def table_gen(self):
         sampat_table_widget_layout = QGridLayout()
 
-        # defining table
         self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
         df = self.target_query
         self.model = pdm.DataFrameModel(df)
@@ -1028,6 +1035,23 @@ class DatabaseViewer(QDialog):
         self.sampat_table_widget = QWidget()
         self.sampat_table_widget.setLayout(sampat_table_widget_layout)
         self.update()
+
+    def contextMenuEvent(self, event):
+        self.menu = QMenu(self)
+        deleteAction = QAction('Apagar Linha', self)
+        deleteAction.triggered.connect(lambda: self.deleteSlot(event))
+        self.menu.addAction(deleteAction)
+        self.menu.popup(QCursor.pos())
+
+    def deleteSlot(self, event):
+        row = self.target_table.rowAt(event.pos().y())
+        #col = self.target_table.columnAt(event.pos().x())
+        if ex.user.get_access() < 3:
+            id_cell = int(self.model.get_value(row, 0))
+            sampat_psql.delete_entry(dsess, schema=self.schema, table=self.table_name, target=id_cell)
+        else:
+            gerrors.wrong_access_level_error()
+        self.update_table_gen(self.table_name)
 
     def search(self):
         column = self.dv_grid_col_selector.currentText()
@@ -1368,12 +1392,6 @@ class Info(QDialog):
         infoLayout.addWidget(self.info_widget)
 
         self.setLayout(infoLayout)
-    '''
-    print("Usuários cadastrados (teste): ", upsql.row_count(usess, table="User"))
-    print("Pacientes registrados: ", spsql.row_count(ssess, table="Patients"))
-    print("Amostras cadastradas: ", spsql.row_count(ssess, table="Samples"))
-    print("Exames cadastrados: ", spsql.row_count(ssess, table="Exams"))
-    '''
 
     def create_info_layout(self):
 
@@ -1837,9 +1855,6 @@ class Options(QWidget):
         else:
             self.saved_email_lbl.setVisible(False)
 
-# # emaik_opt definitions block end
-# # log_opt definitions block start
-
     def log_opt(self):
         # defining the layouts
         self.log_paths = {"log_path": "",
@@ -2045,8 +2060,16 @@ class System():
         email_pass = [email_dict["serv_email_adress"], email_dict["serv_email_pass"]]
         return email_pass
 
-# the code that starts the magic
+def toggle_stylesheet(mode='dark'):
+    print('toggle')
+    if mode == 'dark':
+        print('dark')
+        app.setStyleSheet(qdarkstyle.load_stylesheet(qt_api='pyqt5'))
+    if mode == 'light':
+        print('light')
+        app.setStyleSheet('')
 
+# the code that starts the magic
 if __name__ == "__main__":
     # initializes the errors class inside the errorex module
     settings = System().settings
@@ -2090,6 +2113,5 @@ if __name__ == "__main__":
 
     app = QApplication(sys.argv)
     screen = app.primaryScreen()
-
     ex = App()
     sys.exit(app.exec_())

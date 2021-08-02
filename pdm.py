@@ -1,5 +1,4 @@
 from PyQt5 import QtCore
-
 import pandas as pd
 
 class DataFrameModel(QtCore.QAbstractTableModel):
@@ -64,8 +63,11 @@ class DataFrameModel(QtCore.QAbstractTableModel):
         return roles
 
     def sort(self, column):
-        colname = self._df.columns.tolist()[column]
+        colname = self._dataframe.columns.tolist()[column]
         self.layoutAboutToBeChanged.emit()
-        self._df.sort_values(colname, ascending=QtCore.Qt.AscendingOrder, inplace=True)
-        self._df.reset_index(inplace=True, drop=True)
+        self._dataframe.sort_values(colname, ascending=QtCore.Qt.AscendingOrder, inplace=True)
+        self._dataframe.reset_index(inplace=True, drop=True)
         self.layoutChanged.emit()
+
+    def get_value(self, row, col):
+        return self._dataframe.iloc[row, col]

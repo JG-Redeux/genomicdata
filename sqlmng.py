@@ -9,6 +9,7 @@ SQL Management Module
 '''This module focus is to create methods derived from sqlalchemy to be used in
 the main app, the methods names are self explanatory'''
 
+from errorex import gd_errors
 import psycopg2
 from sqlalchemy import (MetaData, Table, create_engine, Column, Integer, String, Date,
                         exists, Boolean, Float, exc, func, ForeignKey, select, text,
@@ -26,7 +27,7 @@ import datetime
 
 logger = logging.getLogger(__name__)
 Base = declarative_base()
-
+gerrors = gd_errors()
 # todo: update user info
 
 class SQL(object):
@@ -298,8 +299,11 @@ class SQL(object):
 
         # execute
         with self.engine.connect() as conn:
-            result = conn.execute(update_stmt)
-            return result
+            try:
+                result = conn.execute(update_stmt)
+                return result
+            except exc.IntegrityError:
+                return gerrors.fk_error()
 
     def add_rows_sampat(self, session, rows_info, schema, table):
         table = str_to_table(schema, table)
@@ -310,6 +314,12 @@ class SQL(object):
         except exc.ProgrammingError:
             raise ValueError
         logger.info("SQLMNG - {} rows added to {} table.".format(len(rows_info), table))
+
+    def delete_entry(self, session, schema, table, target):
+        true_table = str_to_table(schema, table)
+        true_col = str_to_column(true_table, 'id')
+        session.query(true_table).filter(true_col == target).delete()
+        session.commit()
 
     def update_table(self, session, schema, table, column, target, new_entry):
         true_table = str_to_table(schema, table)
@@ -325,7 +335,7 @@ class SQL(object):
         logging.info('SQLMNG - Update commited')
 
     def pat_flow(self, rows_info, schema, table, verbose=False):
-        # #TODO lidar com duplicatas
+        #TODO lidar com duplicatas
         logging.debug("SQLMNG - Insert entry <{}> requested.".format(rows_info))
 
         for entry in rows_info:
@@ -596,92 +606,3 @@ def rep_gen(ncls):
     repr_str = "={},".join(cl_keys) + "={}"
     cls_attr = [getattr(_cls, key) for key in cl_keys]
     return repr_str.format(*cls_attr)
-
-login = "citoTeste"
-spw = "schizo"
-hn = "localhost"
-udb = "user_database"
-ptdb = "sampat_database"
-
-# print("#UPSQL")
-# upsql, usess = sql_init(login, spw, hn, udb)
-# spsql, ssess = sql_init(login, spw, hn, ptdb)
-# spsql.commit_new_table("db_sampat_schema", "patients_table")
-
-'''
-# upsql.commit_new_tables()
-upsql.check_db_info()
-
-# upsql.class_mapper("db_user_schema", "users")
-print("# SPSQL")
-
-
-# pat_dict = itapi.create_dict(itapi.remodel_pat_table(itapi.filecsv, sep = ";"))
-# pat_dict2 = itapi.dict_popper(pat_dict, ["Teste", "sample_register_date", "sample_group", "Ficha clínica"])
-
-# samp_dict = itapi.create_dict(itapi.remodel_samp_table(itapi.filecsv, sep = ";"))
-# exams_dict = itapi.create_dict(itapi.remodel_exams_table(itapi.filecsv, sep = ";"))
-
-
-# spsql.commit_new_tables("public", "samples_table")
-# spsql.commit_new_tables("public", "exams_table")
-
-# spsql.pat_flow(pat_dict2, "public", "patients_table", verbose = True)
-# spsql.samp_flow(samp_dict, "public", "samples_table", verbose = True)
-# spsql.exams_flow(exams_dict, "public", "exams_table", verbose = True)
-
-print("Usuários cadastrados (teste): ", upsql.row_count(usess, table="User"))
-print("Pacientes registrados: ", spsql.row_count(ssess, table="Patients"))
-print("Amostras cadastradas: ", spsql.row_count(ssess, table="Samples"))
-print("Exames cadastrados: ", spsql.row_count(ssess, table="Exams"))
-
-# print(upsql.query_values(usess, column="login", _type = "all"))
-# print(upsql.query_values(usess, column="nvl", _type = "all"))
-
-spsql.check_db_info()
-
-
-df_dict = itapi.create_dict(itapi.remodel_pat_table(itapi.filecsv, ";"))
-# df_dict.pop('Ficha clínica', None)
-# df_dict.pop('sample_register_date', None)
-# df_dict.pop('sample_group', None)
-
-# Patient.query.filter(Patient.barcode == 1).delete()
-
-
-# query = upsql.query_values(usess, column="login", _all = True)
-# print("query", query.login)
-
-# query2 = ssess.query(Patient).with_entities(Patient.id, Patient.rn).group_by(Patient.id).having(Patient.id == 2).all()
-# query2 = ssess.query(Patient).filter_by(rn = False).all()
-
-query2 = spsql.query_values(ssess, target = ', column = "particular", schema = "public", table = "patients_table", _scalar = True)
-
-if not type(query2) == list:
-    print(query2)
-else:
-    for item in query2:
-        print("query", item)
-
-# print(User)
-# badwords = ["where", "in", "'", "*", "AND", "OR", "AND blabla WHERE blabla",
-#             '"', "''", '""', "%", "@", "!", "select", "insert", "delete",
-#             "ALL", "AS", "ANY", "ADD", "ALTER", "UPDATE", "BACKUP", "CLOSE",
-#             "email", " ", "name", "surname", "nome", "adm", "administrador",
-#             "logon", "CLOSE", "admin", "ADMIN", "4DM1N", "adm1n", "4dmin", "login",
-#             "user", "email", " ", "\\t", "\\n"]
-# upsql.populate_badword(usess, badwords)
-# query = psql.query_user(sess, "admin")
-# print(str(query).split(","))
-# psql.delete_user(sess, 29, ident=True)
-# ret = sess.query(exists().where(User.login=="sdas")).scalar()
-# print(ret)
-# Badwords.__table__
-# engine = psql.set_engine()
-# Base.metadata.create_all(engine)
-# sess.query(Badwords).all()
-# psql.change_user_pw(sess, "admin", "admin")
-# rows = psql.row_count(sess)
-# cols = ["nvl"]
-# print(User.__table_args__)
-'''

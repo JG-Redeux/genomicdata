@@ -205,6 +205,15 @@ class gd_errors():
         error.exec_()
         logger.error("ERROR - 16: Ação limitada pelo nível de acesso.")
 
+    def fk_error(self):
+        error = QMessageBox()
+        error.setIcon(QMessageBox.Critical)
+        error.setText("17: Lembre-se de cadastrar sempre na ordem Paciente -> Amostra -> Exame, para manter a integridade do banco de dados.")
+        error.setWindowTitle("Erro de ID/Integridade.")
+        error.setStandardButtons(QMessageBox.Ok)
+        error.exec_()
+        logger.error("ERROR - 17: Erro de ID/Integridade.")
+
     def custom_error(self, err):
         error = QMessageBox()
         error.setIcon(QMessageBox.Critical)
