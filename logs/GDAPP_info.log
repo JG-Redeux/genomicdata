@@ -9078,3 +9078,612 @@
 2021-08-02 18:09:43,014 - _logger - DEBUG - APP - 0
 2021-08-02 18:09:52,372 - _logger - INFO - APP - Patient DB dialog screen opened
 2021-08-02 18:10:03,086 - _logger - INFO - APP - Program closed
+2021-08-02 18:12:44,193 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:12:44,430 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:12:44,512 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:12:44,845 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:12:44,928 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:12:44,928 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:12:44,928 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D7A9C69940>
+2021-08-02 18:12:44,956 - _logger - WARNING - No options saved to load.
+2021-08-02 18:12:45,190 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:12:45,190 - _logger - WARNING - No options saved to load.
+2021-08-02 18:12:45,289 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:12:45,289 - _logger - DEBUG - APP - 0
+2021-08-02 18:12:48,999 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:13:00,143 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:13:02,152 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:13:02,157 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:13:02,157 - _logger - DEBUG - APP - 1
+2021-08-02 18:13:02,157 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:13:02,163 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:13:02,163 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:13:02,163 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001D7A9EBD0D0>.
+2021-08-02 18:13:02,163 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001D7A9EBD0D0>.
+2021-08-02 18:13:03,195 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:14:12,888 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:14:13,237 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:14:13,326 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:14:13,560 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:14:13,650 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:14:13,650 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:14:13,650 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000170E1A29940>
+2021-08-02 18:14:13,680 - _logger - WARNING - No options saved to load.
+2021-08-02 18:14:13,918 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:14:13,918 - _logger - WARNING - No options saved to load.
+2021-08-02 18:14:14,017 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:14:14,017 - _logger - DEBUG - APP - 0
+2021-08-02 18:14:18,045 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:14:19,744 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:14:19,747 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:14:19,747 - _logger - DEBUG - APP - 1
+2021-08-02 18:14:19,747 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:14:19,749 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:14:19,749 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:14:19,749 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x00000170E1C7C0D0>.
+2021-08-02 18:14:19,749 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x00000170E1C7C0D0>.
+2021-08-02 18:14:20,846 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:14:57,365 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:14:57,810 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:14:57,894 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:14:58,229 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:14:58,310 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:14:58,311 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:14:58,311 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D71278A8B0>
+2021-08-02 18:14:58,338 - _logger - WARNING - No options saved to load.
+2021-08-02 18:14:58,575 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:14:58,575 - _logger - WARNING - No options saved to load.
+2021-08-02 18:14:58,674 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:14:58,674 - _logger - DEBUG - APP - 0
+2021-08-02 18:15:01,044 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:15:02,576 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:15:02,579 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:15:02,579 - _logger - DEBUG - APP - 1
+2021-08-02 18:15:02,579 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:15:02,582 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:15:02,582 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:15:02,582 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001D7129DB040>.
+2021-08-02 18:15:02,582 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001D7129DB040>.
+2021-08-02 18:15:03,471 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:15:48,196 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:15:48,425 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:15:48,506 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:15:48,734 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:15:48,818 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:15:48,818 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:15:48,818 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F729E6A8B0>
+2021-08-02 18:15:48,846 - _logger - WARNING - No options saved to load.
+2021-08-02 18:15:49,070 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:15:49,071 - _logger - WARNING - No options saved to load.
+2021-08-02 18:15:49,173 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:15:49,173 - _logger - DEBUG - APP - 0
+2021-08-02 18:15:51,498 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:16:02,140 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:16:03,666 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:16:03,669 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:16:03,669 - _logger - DEBUG - APP - 1
+2021-08-02 18:16:03,669 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:16:03,672 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:16:03,672 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:16:03,672 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001F72A0BA040>.
+2021-08-02 18:16:03,672 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001F72A0BA040>.
+2021-08-02 18:16:05,965 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:16:34,542 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:16:34,775 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:16:34,861 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:16:35,081 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:16:35,164 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:16:35,164 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:16:35,164 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F4D1C6A8B0>
+2021-08-02 18:16:35,193 - _logger - WARNING - No options saved to load.
+2021-08-02 18:16:35,423 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:16:35,424 - _logger - WARNING - No options saved to load.
+2021-08-02 18:16:35,523 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:16:35,524 - _logger - DEBUG - APP - 0
+2021-08-02 18:16:37,588 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:16:43,835 - _logger - INFO - APP - Program closed
+2021-08-02 18:17:13,399 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:17:13,631 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:17:13,829 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:17:14,280 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:17:14,361 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:17:14,361 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:17:14,361 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CC44309940>
+2021-08-02 18:17:14,390 - _logger - WARNING - No options saved to load.
+2021-08-02 18:17:14,628 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:17:14,628 - _logger - WARNING - No options saved to load.
+2021-08-02 18:17:14,732 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:17:14,732 - _logger - DEBUG - APP - 0
+2021-08-02 18:17:16,748 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:17:18,531 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:17:18,534 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:17:18,534 - _logger - DEBUG - APP - 1
+2021-08-02 18:17:18,535 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:17:18,536 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:17:18,537 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:17:18,537 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001CC4455B0D0>.
+2021-08-02 18:17:18,537 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001CC4455B0D0>.
+2021-08-02 18:17:20,381 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:19:47,567 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:19:47,807 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:19:48,006 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:19:48,230 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:19:48,311 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:19:48,311 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:19:48,312 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D76676B8B0>
+2021-08-02 18:19:48,340 - _logger - WARNING - No options saved to load.
+2021-08-02 18:19:48,567 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:19:48,567 - _logger - WARNING - No options saved to load.
+2021-08-02 18:19:48,669 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:19:48,669 - _logger - DEBUG - APP - 0
+2021-08-02 18:19:54,056 - _logger - INFO - APP - Program closed
+2021-08-02 18:20:00,286 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:20:00,521 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:20:00,604 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:20:00,926 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:20:01,006 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:20:01,006 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:20:01,006 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001ABC32FA8B0>
+2021-08-02 18:20:01,034 - _logger - WARNING - No options saved to load.
+2021-08-02 18:20:01,262 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:20:01,262 - _logger - WARNING - No options saved to load.
+2021-08-02 18:20:01,362 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:20:01,362 - _logger - DEBUG - APP - 0
+2021-08-02 18:20:04,533 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:20:06,008 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:20:06,011 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:20:06,011 - _logger - DEBUG - APP - 1
+2021-08-02 18:20:06,011 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:20:06,013 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:20:06,013 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:20:06,013 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001ABC354B040>.
+2021-08-02 18:20:06,013 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001ABC354B040>.
+2021-08-02 18:20:06,892 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:20:17,623 - _logger - INFO - REGISTER - id created a new SQL entry
+2021-08-02 18:49:27,777 - _logger - INFO - REGISTER - id created a new SQL entry
+2021-08-02 18:50:58,327 - _logger - INFO - APP - Program closed
+2021-08-02 18:51:00,835 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:51:01,067 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:51:01,154 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:51:01,382 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:51:01,464 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:51:01,464 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:51:01,464 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000017ECB3CA8B0>
+2021-08-02 18:51:01,493 - _logger - WARNING - No options saved to load.
+2021-08-02 18:51:01,727 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:51:01,727 - _logger - WARNING - No options saved to load.
+2021-08-02 18:51:01,829 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:51:01,830 - _logger - DEBUG - APP - 0
+2021-08-02 18:51:05,082 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:51:12,177 - _logger - INFO - APP - Program closed
+2021-08-02 18:51:28,996 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:51:29,227 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:51:29,309 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:51:29,532 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:51:29,715 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:51:29,715 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:51:29,715 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000019A746AA8B0>
+2021-08-02 18:51:29,743 - _logger - WARNING - No options saved to load.
+2021-08-02 18:51:29,976 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:51:29,977 - _logger - WARNING - No options saved to load.
+2021-08-02 18:51:30,074 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:51:30,074 - _logger - DEBUG - APP - 0
+2021-08-02 18:51:34,203 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:51:35,673 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:51:35,676 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:51:35,676 - _logger - DEBUG - APP - 1
+2021-08-02 18:51:35,676 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:51:35,678 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:51:35,678 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:51:35,678 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x0000019A748FB040>.
+2021-08-02 18:51:35,678 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x0000019A748FB040>.
+2021-08-02 18:51:36,760 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:51:43,914 - _logger - INFO - APP - Program closed
+2021-08-02 18:54:13,257 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:54:13,604 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:54:13,689 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:54:13,918 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:54:14,007 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:54:14,007 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:54:14,007 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001471A3798B0>
+2021-08-02 18:54:14,035 - _logger - WARNING - No options saved to load.
+2021-08-02 18:54:14,264 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:54:14,264 - _logger - WARNING - No options saved to load.
+2021-08-02 18:54:14,363 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:54:14,363 - _logger - DEBUG - APP - 0
+2021-08-02 18:54:16,093 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:54:22,341 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 18:54:24,163 - _logger - DEBUG - APP - event: False.
+2021-08-02 18:54:24,166 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 18:54:24,166 - _logger - DEBUG - APP - 1
+2021-08-02 18:54:24,167 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 18:54:24,169 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 18:54:24,169 - _logger - INFO - APP - aaa logged.
+2021-08-02 18:54:24,169 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000001471A5CB040>.
+2021-08-02 18:54:24,169 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000001471A5CB040>.
+2021-08-02 18:54:25,217 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:54:37,488 - _logger - INFO - APP - aaa instance of Class user deleted.
+2021-08-02 18:54:37,488 - _logger - INFO - APP - aaa made loggout.
+2021-08-02 18:54:37,489 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:54:37,489 - _logger - DEBUG - APP - 0
+2021-08-02 18:54:39,863 - _logger - INFO - APP - Program closed
+2021-08-02 18:57:38,934 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:57:39,381 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:57:39,466 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 18:57:39,905 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 18:57:39,986 - _logger - INFO - __main__ - Program oppened
+2021-08-02 18:57:39,986 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 18:57:39,986 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002738DFE98B0>
+2021-08-02 18:57:40,014 - _logger - WARNING - No options saved to load.
+2021-08-02 18:57:40,238 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 18:57:40,239 - _logger - WARNING - No options saved to load.
+2021-08-02 18:57:40,337 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 18:57:40,337 - _logger - DEBUG - APP - 0
+2021-08-02 18:57:51,258 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 18:58:00,925 - _logger - INFO - APP - Program closed
+2021-08-02 19:36:58,791 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 19:36:59,022 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 19:36:59,208 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 19:36:59,431 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 19:36:59,512 - _logger - INFO - __main__ - Program oppened
+2021-08-02 19:36:59,513 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 19:36:59,513 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CFA22898B0>
+2021-08-02 19:36:59,543 - _logger - WARNING - No options saved to load.
+2021-08-02 19:36:59,780 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 19:36:59,780 - _logger - WARNING - No options saved to load.
+2021-08-02 19:46:24,796 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 19:46:25,027 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 19:46:25,113 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 19:46:25,339 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 19:46:25,425 - _logger - INFO - __main__ - Program oppened
+2021-08-02 19:46:25,425 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 19:46:25,425 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000272F1A7B940>
+2021-08-02 19:46:25,455 - _logger - WARNING - No options saved to load.
+2021-08-02 19:46:25,694 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 19:46:25,694 - _logger - WARNING - No options saved to load.
+2021-08-02 19:57:02,929 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 19:57:03,168 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 19:57:03,258 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 19:57:03,486 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 19:57:03,568 - _logger - INFO - __main__ - Program oppened
+2021-08-02 19:57:03,569 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 19:57:03,569 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002957C38C9D0>
+2021-08-02 19:57:03,598 - _logger - WARNING - No options saved to load.
+2021-08-02 19:57:03,841 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 19:57:03,841 - _logger - WARNING - No options saved to load.
+2021-08-02 20:01:29,566 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:01:29,799 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:01:29,886 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:01:30,119 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:01:30,209 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:01:30,209 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:01:30,209 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026495B4B940>
+2021-08-02 20:01:30,238 - _logger - WARNING - No options saved to load.
+2021-08-02 20:01:30,471 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:01:30,471 - _logger - WARNING - No options saved to load.
+2021-08-02 20:03:48,962 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:03:49,199 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:03:49,286 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:03:49,517 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:03:49,607 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:03:49,607 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:03:49,607 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E546A4B9D0>
+2021-08-02 20:03:49,637 - _logger - WARNING - No options saved to load.
+2021-08-02 20:03:49,897 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:03:49,897 - _logger - WARNING - No options saved to load.
+2021-08-02 20:03:50,010 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:03:50,010 - _logger - DEBUG - APP - 0
+2021-08-02 20:03:56,139 - _logger - INFO - APP - Program closed
+2021-08-02 20:08:09,303 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:08:09,536 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:08:09,726 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:08:10,056 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:08:10,140 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:08:10,140 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:08:10,140 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001A974ADC9D0>
+2021-08-02 20:08:10,168 - _logger - WARNING - No options saved to load.
+2021-08-02 20:08:10,397 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:08:10,397 - _logger - WARNING - No options saved to load.
+2021-08-02 20:15:54,421 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:15:54,770 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:15:54,858 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:15:55,083 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:15:55,270 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:15:55,270 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:15:55,270 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002A86577B9D0>
+2021-08-02 20:15:55,299 - _logger - WARNING - No options saved to load.
+2021-08-02 20:15:55,531 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:15:55,532 - _logger - WARNING - No options saved to load.
+2021-08-02 20:15:55,637 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:15:55,638 - _logger - DEBUG - APP - 0
+2021-08-02 20:15:56,931 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:16:01,429 - _logger - INFO - APP - Login dialog screen opened.
+2021-08-02 20:16:03,071 - _logger - DEBUG - APP - event: False.
+2021-08-02 20:16:03,074 - _logger - INFO - APP - Current widget changed: 1
+2021-08-02 20:16:03,074 - _logger - DEBUG - APP - 1
+2021-08-02 20:16:03,074 - _logger - INFO - USER - aaa instance of User class created
+2021-08-02 20:16:03,076 - _logger - INFO - APP - aaa permission 'Professor' defined
+2021-08-02 20:16:03,076 - _logger - INFO - APP - aaa logged.
+2021-08-02 20:16:03,076 - _logger - DEBUG - APP - Signal emit: <bound PYQT_SIGNAL login_signal of Login object at 0x000002A866EFE550>.
+2021-08-02 20:16:03,076 - _logger - DEBUG - APP - Info emit: <bound PYQT_SIGNAL login_info of Login object at 0x000002A866EFE550>.
+2021-08-02 20:16:04,174 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:16:10,624 - _logger - INFO - REGISTER - id created a new SQL entry
+2021-08-02 20:16:17,113 - _logger - INFO - REGISTER - id created a new SQL entry
+2021-08-02 20:18:09,962 - _logger - INFO - APP - Program closed
+2021-08-02 20:19:12,945 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:19:13,185 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:19:13,268 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:19:13,496 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:19:13,582 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:19:13,582 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:19:13,582 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001DDD5F0B9D0>
+2021-08-02 20:19:13,614 - _logger - WARNING - No options saved to load.
+2021-08-02 20:19:13,848 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:19:13,849 - _logger - WARNING - No options saved to load.
+2021-08-02 20:19:46,901 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:19:47,131 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:19:47,330 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:19:47,564 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:19:47,648 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:19:47,648 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:19:47,648 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000029B14B9B9D0>
+2021-08-02 20:19:47,677 - _logger - WARNING - No options saved to load.
+2021-08-02 20:19:47,914 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:19:47,915 - _logger - WARNING - No options saved to load.
+2021-08-02 20:20:17,695 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:20:17,924 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:20:18,007 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:20:18,231 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:20:18,431 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:20:18,432 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:20:18,432 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020157A2B9D0>
+2021-08-02 20:20:18,460 - _logger - WARNING - No options saved to load.
+2021-08-02 20:20:18,706 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:20:18,706 - _logger - WARNING - No options saved to load.
+2021-08-02 20:20:18,810 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:20:18,810 - _logger - DEBUG - APP - 0
+2021-08-02 20:20:20,907 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:20:37,669 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:20:38,032 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:20:38,114 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:20:38,340 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:20:38,424 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:20:38,424 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:20:38,424 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002D52CB8B9D0>
+2021-08-02 20:20:38,452 - _logger - WARNING - No options saved to load.
+2021-08-02 20:20:38,686 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:20:38,686 - _logger - WARNING - No options saved to load.
+2021-08-02 20:20:38,787 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:20:38,787 - _logger - DEBUG - APP - 0
+2021-08-02 20:20:40,705 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:20:51,219 - _logger - INFO - APP - Program closed
+2021-08-02 20:23:13,390 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:23:13,734 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:23:13,824 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:23:14,051 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:23:14,134 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:23:14,134 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:23:14,134 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020AB26BA8B0>
+2021-08-02 20:23:14,164 - _logger - WARNING - No options saved to load.
+2021-08-02 20:23:14,396 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:23:14,396 - _logger - WARNING - No options saved to load.
+2021-08-02 20:23:33,842 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:23:34,197 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:23:34,281 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:23:34,716 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:23:34,801 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:23:34,801 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:23:34,801 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001932248B940>
+2021-08-02 20:23:34,830 - _logger - WARNING - No options saved to load.
+2021-08-02 20:23:35,096 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:23:35,097 - _logger - WARNING - No options saved to load.
+2021-08-02 20:23:35,203 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:23:35,203 - _logger - DEBUG - APP - 0
+2021-08-02 20:23:37,556 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:24:44,011 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:24:44,372 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:24:44,462 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:24:44,796 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:24:44,883 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:24:44,883 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:24:44,883 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F7BA44B940>
+2021-08-02 20:24:44,912 - _logger - WARNING - No options saved to load.
+2021-08-02 20:24:45,159 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:24:45,159 - _logger - WARNING - No options saved to load.
+2021-08-02 20:24:45,261 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:24:45,261 - _logger - DEBUG - APP - 0
+2021-08-02 20:24:46,581 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:24:59,154 - _logger - INFO - APP - Program closed
+2021-08-02 20:27:36,214 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:27:36,442 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:27:36,524 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:27:36,749 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:27:36,831 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:27:36,831 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:27:36,831 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000258AFB9A9D0>
+2021-08-02 20:27:36,859 - _logger - WARNING - No options saved to load.
+2021-08-02 20:27:37,090 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:27:37,091 - _logger - WARNING - No options saved to load.
+2021-08-02 20:27:37,191 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:27:37,191 - _logger - DEBUG - APP - 0
+2021-08-02 20:27:39,132 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:33:32,073 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:33:32,307 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:33:32,392 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:33:32,732 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:33:32,813 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:33:32,813 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:33:32,813 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000194A39DBAF0>
+2021-08-02 20:33:32,842 - _logger - WARNING - No options saved to load.
+2021-08-02 20:33:33,076 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:33:33,077 - _logger - WARNING - No options saved to load.
+2021-08-02 20:33:33,181 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:33:33,181 - _logger - DEBUG - APP - 0
+2021-08-02 20:33:34,321 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:34:40,752 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:34:41,102 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:34:41,194 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:34:41,429 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:34:41,512 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:34:41,512 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:34:41,512 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001F8E5DEAA60>
+2021-08-02 20:34:41,541 - _logger - WARNING - No options saved to load.
+2021-08-02 20:34:41,788 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:34:41,789 - _logger - WARNING - No options saved to load.
+2021-08-02 20:34:41,892 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:34:41,892 - _logger - DEBUG - APP - 0
+2021-08-02 20:34:43,010 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:37:07,469 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:37:07,700 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:37:07,786 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:37:08,011 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:37:08,094 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:37:08,094 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:37:08,095 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002D7EB06CA60>
+2021-08-02 20:37:08,122 - _logger - WARNING - No options saved to load.
+2021-08-02 20:37:08,348 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:37:08,348 - _logger - WARNING - No options saved to load.
+2021-08-02 20:39:23,151 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:39:23,488 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:39:23,584 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:39:23,810 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:39:23,891 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:39:23,891 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:39:23,891 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001D4A9F8EA60>
+2021-08-02 20:39:23,919 - _logger - WARNING - No options saved to load.
+2021-08-02 20:39:24,155 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:39:24,155 - _logger - WARNING - No options saved to load.
+2021-08-02 20:42:15,432 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:42:15,673 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:42:15,762 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:42:15,994 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:42:16,080 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:42:16,080 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:42:16,080 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000234B11FDA60>
+2021-08-02 20:42:16,111 - _logger - WARNING - No options saved to load.
+2021-08-02 20:42:16,347 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:42:16,347 - _logger - WARNING - No options saved to load.
+2021-08-02 20:43:09,361 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:43:09,604 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:43:09,696 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:43:09,938 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:43:10,130 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:43:10,130 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:43:10,130 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001CF2137DA60>
+2021-08-02 20:43:10,158 - _logger - WARNING - No options saved to load.
+2021-08-02 20:43:10,389 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:43:10,390 - _logger - WARNING - No options saved to load.
+2021-08-02 20:43:10,500 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:43:10,500 - _logger - DEBUG - APP - 0
+2021-08-02 20:43:12,429 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:43:45,883 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:43:46,112 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:43:46,296 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:43:46,519 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:43:46,601 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:43:46,601 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:43:46,601 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001736149DA60>
+2021-08-02 20:43:46,631 - _logger - WARNING - No options saved to load.
+2021-08-02 20:43:46,859 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:43:46,859 - _logger - WARNING - No options saved to load.
+2021-08-02 20:43:46,976 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:43:46,976 - _logger - DEBUG - APP - 0
+2021-08-02 20:43:48,142 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:45:20,491 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:45:20,726 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:45:20,811 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:45:21,034 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:45:21,117 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:45:21,117 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:45:21,117 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000026B1F0AB940>
+2021-08-02 20:45:21,144 - _logger - WARNING - No options saved to load.
+2021-08-02 20:45:21,375 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:45:21,376 - _logger - WARNING - No options saved to load.
+2021-08-02 20:45:21,475 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:45:21,975 - _logger - DEBUG - APP - 0
+2021-08-02 20:45:23,126 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:45:33,095 - _logger - INFO - APP - Program closed
+2021-08-02 20:55:00,878 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:55:01,111 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:55:01,196 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:55:01,420 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:55:01,502 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:55:01,502 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:55:01,502 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000001E34244B9D0>
+2021-08-02 20:55:01,530 - _logger - WARNING - No options saved to load.
+2021-08-02 20:55:01,763 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:55:01,763 - _logger - WARNING - No options saved to load.
+2021-08-02 20:55:01,864 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:55:01,864 - _logger - DEBUG - APP - 0
+2021-08-02 20:55:03,489 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:55:14,634 - _logger - INFO - APP - Program closed
+2021-08-02 20:55:35,668 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:55:35,900 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:55:35,985 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:55:36,218 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:55:36,300 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:55:36,300 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:55:36,300 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000188E5F0B940>
+2021-08-02 20:55:36,328 - _logger - WARNING - No options saved to load.
+2021-08-02 20:55:36,565 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:55:36,565 - _logger - WARNING - No options saved to load.
+2021-08-02 20:55:36,668 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:55:36,668 - _logger - DEBUG - APP - 0
+2021-08-02 20:55:43,980 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:56:06,875 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:56:07,106 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:56:07,192 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:56:07,420 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:56:07,503 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:56:07,503 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:56:07,503 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x000002138953B940>
+2021-08-02 20:56:07,532 - _logger - WARNING - No options saved to load.
+2021-08-02 20:56:07,787 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:56:07,787 - _logger - WARNING - No options saved to load.
+2021-08-02 20:56:07,889 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:56:07,889 - _logger - DEBUG - APP - 0
+2021-08-02 20:56:11,631 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:56:24,577 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:56:30,172 - _logger - INFO - APP - Program closed
+2021-08-02 20:56:33,640 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:56:33,868 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:56:33,951 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:56:34,173 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:56:34,253 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:56:34,254 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:56:34,254 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x00000146CF19B940>
+2021-08-02 20:56:34,281 - _logger - WARNING - No options saved to load.
+2021-08-02 20:56:34,512 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:56:34,513 - _logger - WARNING - No options saved to load.
+2021-08-02 20:56:34,613 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:56:34,614 - _logger - DEBUG - APP - 0
+2021-08-02 20:56:38,215 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:57:09,071 - _logger - INFO - APP - Program closed
+2021-08-02 20:57:11,802 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:57:12,140 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:57:12,222 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:57:12,447 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:57:12,533 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:57:12,533 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:57:12,533 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000020629BEB940>
+2021-08-02 20:57:12,562 - _logger - WARNING - No options saved to load.
+2021-08-02 20:57:12,802 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:57:12,802 - _logger - WARNING - No options saved to load.
+2021-08-02 20:57:12,901 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:57:12,901 - _logger - DEBUG - APP - 0
+2021-08-02 20:57:15,803 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:57:28,581 - _logger - INFO - APP - Program closed
+2021-08-02 20:57:51,959 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:57:52,190 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:57:52,275 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 20:57:52,500 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 20:57:52,583 - _logger - INFO - __main__ - Program oppened
+2021-08-02 20:57:52,583 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 20:57:52,583 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000027A399BB940>
+2021-08-02 20:57:52,612 - _logger - WARNING - No options saved to load.
+2021-08-02 20:57:52,846 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 20:57:52,847 - _logger - WARNING - No options saved to load.
+2021-08-02 20:57:52,946 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 20:57:52,946 - _logger - DEBUG - APP - 0
+2021-08-02 20:57:54,417 - _logger - INFO - APP - Patient DB dialog screen opened
+2021-08-02 20:58:06,892 - _logger - INFO - APP - Program closed

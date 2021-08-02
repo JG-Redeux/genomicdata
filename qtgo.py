@@ -11,6 +11,7 @@ if any group or class became to complex or to extense (and while not being insid
 import sys
 import os
 import subprocess
+from typing import ContextManager
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessageBox,
                              QLineEdit, QLabel, QPushButton, QGridLayout, QStackedLayout,
                              QDialog, QGroupBox, QFormLayout, QComboBox, QDialogButtonBox,
@@ -19,9 +20,9 @@ from PyQt5.QtWidgets import (QMainWindow, QApplication, QWidget, QAction, QMessa
                              QTableWidget, QTableWidgetItem, QHeaderView, QCheckBox, QTableView,
                              QDateTimeEdit, QAbstractItemView, QScrollArea, QMenu)
 from PyQt5.QtGui import (QIcon, QPalette, QPixmap, QFont, QIntValidator, QRegExpValidator,
-                         QDoubleValidator, QCursor)
+                         QDoubleValidator, QCursor, QHoverEvent)
 from PyQt5.QtCore import (pyqtSlot, QCoreApplication, Qt, pyqtSignal, QObject, QFile, QTextStream,
-                          QSettings, QTimer, QSignalMapper, QProcess, QRegExp, QEvent, QDir)
+                          QSettings, QTimer, QSignalMapper, QProcess, QRegExp, QEvent, QDir, QDateTime)
 from datetime import datetime
 from sqlalchemy.sql.functions import user
 import recmail
@@ -879,6 +880,8 @@ class Register(QDialog):
         error.exec_()
 
 class DatabaseViewer(QDialog):
+    viewportLeaved = pyqtSignal()
+
     def __init__(self):
         super(DatabaseViewer, self).__init__()
 
@@ -890,7 +893,8 @@ class DatabaseViewer(QDialog):
         self.schema = "db_sampat_schema"
 
         self.create_databaseViewer_layout()
-
+        self.setMouseTracking(True)
+        self.is_entered = True
         DVLayout = QVBoxLayout()
         DVLayout.addWidget(self.DV_layout_widget)
         self.setLayout(DVLayout)
@@ -1030,6 +1034,7 @@ class DatabaseViewer(QDialog):
         self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
 
         self.target_table.doubleClicked.connect(self.update_entry_open)
+        self.target_table.entered.connect(self.on_viewportEntered)
 
         sampat_table_widget_layout.addWidget(self.target_table, 0, 0, 3, 4)
         self.sampat_table_widget = QWidget()
@@ -1038,16 +1043,24 @@ class DatabaseViewer(QDialog):
 
     def contextMenuEvent(self, event):
         self.menu = QMenu(self)
-        deleteAction = QAction('Apagar Linha', self)
-        deleteAction.triggered.connect(lambda: self.deleteSlot(event))
-        self.menu.addAction(deleteAction)
+        self.deleteAction = QAction('Apagar Linha', self)
+        self.deleteAction.triggered.connect(lambda: self.deleteSlot(event))
+        self.deleteAction.setVisible(self.is_entered)
+        self.menu.addAction(self.deleteAction)
         self.menu.popup(QCursor.pos())
+
+    def on_viewportEntered(self):
+        self.is_entered = True
 
     def deleteSlot(self, event):
         row = self.target_table.rowAt(event.pos().y())
         #col = self.target_table.columnAt(event.pos().x())
         if ex.user.get_access() < 3:
-            id_cell = int(self.model.get_value(row, 0))
+            try:
+                id_cell = int(self.model.get_value(row, 0))
+            except IndexError:
+                logger.debug("DEBUG-DELETESLOT--QTGO: ID_CELL {}".format(row))
+                return
             sampat_psql.delete_entry(dsess, schema=self.schema, table=self.table_name, target=id_cell)
         else:
             gerrors.wrong_access_level_error()
