@@ -1,3 +1,4 @@
+*.logs
 logs/GDAPP_info.log
 __pycache__/
 logs/GDAPP_info.log
