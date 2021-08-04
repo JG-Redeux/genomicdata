@@ -16,12 +16,28 @@ logger = logging.getLogger(__name__)
 
 # generate a random 8 character password
 def pass_gen():
+    """[generates random password]
+
+    Returns:
+        [string]: [random password]
+    """
     pass_len = 8
     alf = "abdefghojklmnopqrstuwvxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     logger.info("Senha aleatória gerada.")
     return ''.join(random.sample(alf, pass_len))
 
 def check_smtp(email):
+    """[check if smtp from string email is valid]
+
+    Args:
+        email ([string]): [email adress]
+
+    Raises:
+        KeyError: [in case the email inputed is not accounted for]
+
+    Returns:
+        [string]: [provider]
+    """
     smtp_dict = {"gmail": ['smtp.gmail.com', 587],
                  "yahoo": ['smtp.mail.yahoo.com', 465],
                  "hotmail": ['smtp.live.com', 587]}
@@ -34,6 +50,17 @@ def check_smtp(email):
 
 # organizes all the info needed for an email and send to the passed email
 def send_email(login, sobrenome, email, emailpass):
+    """[send email with random password to user]
+
+    Args:
+        login ([string]): [login string]
+        sobrenome ([string]): [surname string]
+        email ([string]): [email adress]
+        emailpass ([string]): [random password generated]
+
+    Returns:
+        [string]: [random password]
+    """
     login = str(login)
     sobrenome = str(sobrenome)
     email = str(email)

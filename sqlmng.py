@@ -31,11 +31,23 @@ gerrors = gd_errors()
 # todo: update user info
 
 class SQL(object):
+    """[manages sessions, connections and other database metainfo]
 
+    Args:
+        object ([object]): [parent object]
+    """
     default_tables = ["users_table", "patients_table", "samples_table", "exams_table"]
     # the init's parameters will be used to create the engine, it will be set in the main app
 
     def __init__(self, server_login, server_pw, hostname, database):
+        """[init the sql class]
+
+        Args:
+            server_login ([string]): [server login]
+            server_pw ([string]): [server password]
+            hostname ([string]): [hostname]
+            database ([string]): [target database]
+        """
         self.server_login = server_login
         self.server_pw = server_pw
         self.hostname = hostname
@@ -45,6 +57,11 @@ class SQL(object):
     # create the sqlalchemy engine using postgress and psycopg2 (the module)
     # the other infos comes from the SQL init class method
     def set_engine(self):
+        """[set database engine]
+
+        Returns:
+            [engine]: [database engine]
+        """
         db_adress = 'postgresql+psycopg2://{}:{}@{}/{}'.format(self.server_login,
                                                                self.server_pw,
                                                                self.hostname,
@@ -62,6 +79,14 @@ class SQL(object):
 
     # this method sets the session using the engine defined previously
     def set_session(self, engine):
+        """[define session from engine]
+
+        Args:
+            engine ([engine]): [sql engine]
+
+        Returns:
+            [session]: [database session from engine]
+        """
         Session = sessionmaker(bind=engine)
         self.session = Session()
         logger.debug(self.session)
@@ -69,6 +94,11 @@ class SQL(object):
         return self.session
 
     def check_db_info(self):
+        """[get database information]
+
+        Returns:
+            [list]: [list with database metadata]
+        """
         info_list = [list(Base.metadata.tables.keys()), self.metadata]
         return info_list
 
@@ -89,6 +119,12 @@ class SQL(object):
     '''
 
     def _create_db_table(self, schema, tablename, **table_info):
+        """[create table on schema.tablename with table_info]
+
+        Args:
+            schema ([string]): [schema name]
+            tablename ([string]): [table name]
+        """
         ###
         # May use in future
         ###
@@ -100,11 +136,26 @@ class SQL(object):
         # self.class_mapper(schema, tablename)
 
     def commit_new_table(self, schema, table):
+        """[commit table creation]
+
+        Args:
+            schema ([string]): [schema name]
+            tablename ([string]): [table name]
+        """
         print("sqlmng: ", schema, table)
         table = str_to_table(schema, table)
         table.__table__.create(self.engine)
 
     def schema_exists(self, schema_name, create=False):
+        """[check if schema already exist]
+
+        Args:
+            schema_name ([string]): [schema name]
+            create (bool, optional): [create table if not exist]. Defaults to False.
+
+        Returns:
+            [bool]: [True if schema exists]
+        """
         ret = self.engine.dialect.has_schema(self.engine, schema_name)
         if not ret:
             if create is True:
@@ -112,13 +163,25 @@ class SQL(object):
         return ret
 
     def table_exists(self, name, schema=None):
+        """[check if table name exist]
+
+        Args:
+            name ([string]): [table name]
+            schema ([string], optional): [schema name]. Defaults to None.
+
+        Returns:
+            [bool]: [True if table name exist]
+        """
         ret = inspect(self.engine).has_table(name, schema)
         return ret
 
     def class_mapper(self, schema, tablename):
-        '''
-        May use in the future
-        '''
+        """[dynamically creates tables, not in use]
+
+        Args:
+            schema ([string]): [schema name]
+            tablename ([string]): [table name]
+        """
         if tablename == "users":
             mydict = {'__table__': '{}.{}'.format(schema, tablename),
                       '__table_args__': ({'autoload': True, 'autoload_with': self.engine},)}
@@ -133,6 +196,15 @@ class SQL(object):
         mapper(cls, self.table)
 
     def detect_schema(self, schema, create_schema=False):
+        """[Another implementation to check if schema exist on database]
+
+        Args:
+            schema ([string]): [schema name]
+            create_schema (bool, optional): [if schema should be created]. Defaults to False.
+
+        Returns:
+            [bool]: [True if exists]
+        """
         fix_schema = str(schema)
         print("schema: ", fix_schema)
 
@@ -146,6 +218,12 @@ class SQL(object):
     # login, pw, name, surname, email and datetime
 
     def add_user(self, session, user_info):
+        """[summary]
+
+        Args:
+            session ([session]): [connection session]
+            user_info ([list]): [list with info to add to server table]
+        """
         new_user = User(**user_info)
         session.add(new_user)
         session.commit()
@@ -154,13 +232,28 @@ class SQL(object):
     # this method finds the target username and change the pw on the database for
     # the new one, the pw parameter
     def change_user_pw(self, session, username, pw):
+        """[change user password on table]
+
+        Args:
+            session ([session]): [connection session]
+            username ([string]): [username]
+            pw ([string]): [password]
+        """
         session.query(User).filter_by(login=username).update({"password": pw})
         session.commit()
         logging.info("SQLMNG - {} changed password.".format(username))
 
     # this one deletes the target (id/login) entry from the database
     # the ident params change if the code searchs for id or login
+
     def delete_user(self, session, target, ident=True):
+        """[delete user on table]
+
+        Args:
+            session ([session]): [connection session]
+            target ([string]): [user to be deleted]
+            ident (bool, optional): [if should be queried by id or login column]. Defaults to True.
+        """
         if ident:
             ident = session.query(User).filter_by(id=target).delete()
         else:
@@ -170,7 +263,23 @@ class SQL(object):
 
     def query_values(self, session, column=None, schema="db_user_schema",
                      target=None, table="users", _type="all", _pd=False):
+        """[query values from table]
 
+        Args:
+            session ([session]): [connection session]
+            column ([list or string], optional): [description]. Defaults to None.
+            schema (str, optional): [schema name]. Defaults to "db_user_schema".
+            target ([string], optional): [what should be queried]. Defaults to None.
+            table (str, optional): [table to look into]. Defaults to "users".
+            _type (str, optional): [query with .all(), .last(), .first(), .scalar() or .one()]. Defaults to "all".
+            _pd (bool, optional): [guide the flow of the method]. Defaults to False.
+
+        Raises:
+            ValueError: [In case the column name doesn't exist]
+
+        Returns:
+            [object]: [return the query result]
+        """
         logging.debug("SQLMNG - {}".format(":".join(str(x) for x in [session,
                       column, table, _type])))
 
@@ -244,6 +353,18 @@ class SQL(object):
     # if the user is set to true it will look for the login column, otherwise it will look at the email column
     # if scalar is set to true the output will be either True or False
     def query_user(self, session, target, badword=False, user=True, scalar=True):
+        """[summary]
+
+        Args:
+            session ([session]): [connection session]
+            target ([string]): [target to be queried for]
+            badword (bool, optional): [look in badword table or not]. Defaults to False.
+            user (bool, optional): [return the query result as a list]. Defaults to True.
+            scalar (bool, optional): [return the query result as a bool]. Defaults to True.
+
+        Returns:
+            [object]: [query]
+        """
         if badword is True:
             query = session.query(exists().where(Badwords.badword == target)).scalar()
             if target:
@@ -267,12 +388,29 @@ class SQL(object):
     # similar to the add_user and change password, it looks for the username and
     # update the row with the information inside new_info dict
     def update_user(self, session, username, new_info):
+        """[update user in table users with new info]
+
+        Args:
+            session ([session]): [connection session]
+            username ([string]): [user username to be updated]
+            new_info ([dict]): [info to be updated]
+        """
         session.query(User).filter_by(login=username).update(new_info)
         session.commit()
         logging.debug("SQLMNG - Update <{}> requested.".format(new_info))
         logging.info("SQLMNG - Update commited.")
 
     def upsert(self, schema, table_name, records={}):
+        """[summary]
+
+        Args:
+            schema ([string]): [schema name]
+            table_name ([string]): [table name]
+            records (dict, optional): [records to be update]. Defaults to {}.
+
+        Returns:
+            [execute]: [return the execution of the upsert]
+        """
         metadata = MetaData(schema=schema)
         metadata.bind = self.engine
 
@@ -306,6 +444,17 @@ class SQL(object):
                 return gerrors.fk_error()
 
     def add_rows_sampat(self, session, rows_info, schema, table):
+        """[summary]
+
+        Args:
+            session ([session]): [connection session]
+            rows_info ([dict]): [rows info to be added]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+
+        Raises:
+            ValueError: [In case the rows_info keyu doesn't match the table]
+        """
         table = str_to_table(schema, table)
         new_row = table(**rows_info)
         session.add(new_row)
@@ -316,18 +465,44 @@ class SQL(object):
         logger.info("SQLMNG - {} rows added to {} table.".format(len(rows_info), table))
 
     def delete_entry(self, session, schema, table, target):
+        """[delete target entry from the table schema.table ]
+
+        Args:
+            session ([session]): [connection session]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            target ([string]): [id to be queried]
+        """
         true_table = str_to_table(schema, table)
         true_col = str_to_column(true_table, 'id')
         session.query(true_table).filter(true_col == target).delete()
         session.commit()
 
     def update_table(self, session, schema, table, column, target, new_entry):
+        """[update table with new entry]
+
+        Args:
+            session ([session]): [connection session]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            column ([string]): [column to query the target]
+            target ([string]): [which to be queried]
+            new_entry ([dict]): [dict with info to be updated]
+        """
         true_table = str_to_table(schema, table)
         true_col = str_to_column(true_table, column)
         session.query(true_table).filter(true_col == target).update(new_entry)
         session.commit()
 
     def update_rows_sampat(self, session, rows_info, schema, table):
+        """[summary]
+
+        Args:
+            session ([session]): [connection session]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            rows_info ([dict]): [dict with info to be updated]
+        """
         table_obj = str_to_table(schema, table)
         new_row = table_obj(**rows_info)
         session.merge(new_row)
@@ -335,6 +510,17 @@ class SQL(object):
         logging.info('SQLMNG - Update commited')
 
     def pat_flow(self, rows_info, schema, table, verbose=False):
+        """[specific flow to add entries into patients table]
+
+        Args:
+            rows_info ([dict]): [dict with info to be updated]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            verbose (bool, optional): [to print or not the content of rows_info]. Defaults to False.
+
+        Raises:
+            ValueError: [In case the entry weren't added to the database]
+        """
         #TODO lidar com duplicatas
         logging.debug("SQLMNG - Insert entry <{}> requested.".format(rows_info))
 
@@ -358,6 +544,17 @@ class SQL(object):
                 pass
 
     def samp_flow(self, rows_info, schema, table, verbose=False):
+        """[specific flow to add entries into samples table]
+
+        Args:
+            rows_info ([dict]): [dict with info to be updated]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            verbose (bool, optional): [to print or not the content of rows_info]. Defaults to False.
+
+        Raises:
+            ValueError: [In case the entry weren't added to the database]
+        """
         for entry in rows_info:
             target = int(entry["samp_serial"])
             old_id = int(entry["old_id"])
@@ -383,6 +580,17 @@ class SQL(object):
                 pass
 
     def exams_flow(self, rows_info, schema, table, verbose=False):
+        """[specific flow to add entries into exams table]
+
+        Args:
+            rows_info ([dict]): [dict with info to be updated]
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            verbose (bool, optional): [to print or not the content of rows_info]. Defaults to False.
+
+        Raises:
+            ValueError: [In case the entry weren't added to the database]
+        """
         for entry in rows_info:
             target = int(entry["exam_serial"])
             old_id = int(entry["old_id"])
@@ -410,6 +618,15 @@ class SQL(object):
                 pass
 
     def row_count(self, session, table="users_table"):
+        """[get row count of table table]
+
+        Args:
+            session ([session]): [connection session]
+            table (str, optional): [table name]. Defaults to "users_table".
+
+        Returns:
+            [int]: [row number]
+        """
         if table == "users_table":
             rows = session.query(func.count(User.id)).scalar()
         elif table == "Badword":
@@ -423,12 +640,28 @@ class SQL(object):
         return rows
 
     def col_info(self, session, schema="db_sampat_schema", table="patients_table"):
+        """[get columns info from table]
+
+        Args:
+            session ([session]): [connection session]
+            schema (str, optional): [schema name]. Defaults to "db_sampat_schema".
+            table (str, optional): [table name]. Defaults to "patients_table".
+
+        Returns:
+            [list]: [columns from table]
+        """
         insp = reflection.Inspector.from_engine(self.engine)
         col_info = insp.get_columns(table, schema)
         return col_info
 
     # back-end method used to add entries to the badword table, it accepts both lists and strings
     def populate_badword(self, session, badword):
+        """[add badwords to table badwords]
+
+        Args:
+            session ([session]): [connection session]
+            badword ([list, str]): [badword to be added]
+        """
         if type(badword) == list:
             for item in badword:
                 new_bad = Badwords(badword=item)
@@ -440,11 +673,18 @@ class SQL(object):
         session.commit()
 
     def close_conn(self, session):
+        """[close the session]
+
+        Args:
+            session ([session]): [connection session]
+        """
         logging.info("SQL Session closed.")
         session.close()
 
 # class that defines the User table in the database, it follows the sqlalchemy guidelines
 class User(Base):
+    """[define User table on database]
+    """
     __tablename__ = 'users_table'
     __table_args__ = {'schema': "db_user_schema"}
 
@@ -466,6 +706,8 @@ class User(Base):
 
 # class that defines the Badword table in the database, it follows the sqlalchemy guidelines
 class Badwords(Base):
+    """[define Badwords table on database]
+    """
     __tablename__ = 'badwords'
     __table_args__ = {'schema': "db_user_schema"}
 
@@ -477,6 +719,8 @@ class Badwords(Base):
 
 # class that defines the main db in the server, it follows the sqlalchemy guidelines
 class Patient(Base):
+    """[define Patient table on database]
+    """
     __tablename__ = 'patients_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
@@ -509,6 +753,8 @@ class Patient(Base):
         return rep_gen(self)
 
 class Samples(Base):
+    """[define Samples table on database]
+    """
     __tablename__ = 'samples_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
@@ -550,6 +796,8 @@ class Samples(Base):
         return rep_gen(self)
 
 class Exams(Base):
+    """[define Exams table on database]
+    """
     __tablename__ = 'exams_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
@@ -574,6 +822,15 @@ class Exams(Base):
 
 # a plain function that initialize the SQL class and outputs the instance and session
 def str_to_table(schema, table):
+    """[transform string table into class object table]
+
+    Args:
+        schema ([string]): [schema name]
+        table ([string]): [table name]
+
+    Returns:
+        [object]: [table object]
+    """
     '''# for item in Base._decl_class_registry.values():
     # if hasattr(item, '__table__') and item.__table__.fullname == "{}.{}".format(schema, table):
         return item'''
@@ -582,6 +839,15 @@ def str_to_table(schema, table):
             return item.class_
 
 def str_to_column(table, column):
+    """[transform string column into class object table.column]
+
+    Args:
+        table ([string]): [table name]
+        column ([string]): [column name]
+
+    Returns:
+        [object]: [column object]
+    """
     return getattr(table, column)
 
 def sql_init(login, upw, hn, db):
@@ -595,6 +861,17 @@ def sql_init(login, upw, hn, db):
         return psql, sess
 
 def rep_gen(ncls):
+    """[method to generate how the table classes generate its __repr__ method]
+
+    Args:
+        ncls ([list]): [class keys]
+
+    Raises:
+        NameError: [In case the class doesn't exist]
+
+    Returns:
+        [string]: [__repr__ string]
+    """
     try:
         if type(ncls) == str:
             _cls = eval(ncls)

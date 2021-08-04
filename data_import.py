@@ -2,9 +2,10 @@
 """
 Created on Thu Jul 12 14:30:46 2018
 
-itable API
+Code created to modify the main source of data for the database into an uniform model
+and send to the database.
 
-@author: Usagi
+@author: Jullian G. Damasceno
 """
 
 # flake8: noqa
@@ -25,9 +26,20 @@ filesamp = path + "samp_subset.csv"
 filesamp2 = path + "samp_toda_dnateca_projpart.csv"
 
 def path_checker(path):
+    """[Check if path is valid]
+
+    Args:
+        path ([string]): [path]
+
+    Raises:
+        Exception: [In case path does not exist]
+
+    Returns:
+        [string]: [path]
+    """
     if "\\" in path:
         path.replace("\\", "/")
-    return path
+        return path
         
     if os.path.exists(path):
         return path
@@ -35,10 +47,27 @@ def path_checker(path):
         raise Exception("Path does not exist")
 
 def file_size(file):
+    """[Check file size]
+
+    Args:
+        file ([string]): [file path]
+
+    Returns:
+        [int]: [file size]
+    """
     return os.stat(file).st_size
 
 #TODO fix xlsx import table
 def import_table(file, sep = ","):
+    """[Import table (csv or xlsx) into memory]
+
+    Args:
+        file ([string]): [file path]
+        sep (str, optional): [separator character that should be used]. Defaults to ",".
+
+    Returns:
+        [dataframe]: [the table imported]
+    """
     file_path = path_checker(file)
     fsize = file_size(file_path)
     chunk = fsize//100
@@ -104,6 +133,15 @@ def import_table(file, sep = ","):
     return df
 
 def normalize_reg(df, col = 1):
+    """[Normalize columns]
+
+    Args:
+        df ([dataframe]): [dataframe to normalize]
+        col (int, optional): [the columns which to normalize]. Defaults to 1.
+
+    Returns:
+        [dataframe]: [dataframe with normalized col column]
+    """
     try:
         df_sep = pd.DataFrame(df[df.columns[col]].astype(str).str.split(' ', 1).tolist(),
                                 columns = ['real', 'fake'])
@@ -119,6 +157,14 @@ def normalize_reg(df, col = 1):
     return df_sep2
 
 def normalize_names(df):
+    """[Normalize columns]
+
+    Args:
+        df ([dataframe]): [dataframe to normalize]
+
+    Returns:
+        [dict]: [dict of normalized names]
+    """
     fname = []
     #TODO mname está errado
     mname = []
@@ -165,6 +211,14 @@ def normalize_names(df):
     return {"first_name": fname, "second_name": mname, "surname": sname}
     
 def normalize_parents(df):
+    """[Normalize columns]
+
+    Args:
+        df ([dataframe]): [dataframe to normalize]
+
+    Returns:
+        [dataframe]: [normalized dataframe]
+    """
     df_prt = pd.DataFrame(df[df.columns[8]], dtype = str)
     df_prt = pd.DataFrame(df_prt[df_prt.columns[0]].
                              str.replace(' de ', ' '))
@@ -174,6 +228,18 @@ def normalize_parents(df):
     return df_prt2
 
 def normalize_dates(df, table):
+    """[Normalize columns]
+
+    Args:
+        df ([dataframe]): [dataframe to normalize]
+        table ([type]): [table that should guide the normalization method]
+
+    Raises:
+        ValueError: [in case table doesn't exist or isn't as expected]
+
+    Returns:
+        [dict, dataframe]: [dict with normalized dates and column dataframe with dates]
+    """
     if table == "patients":
         
         df_date = pd.DataFrame(df[df.columns[4]].astype(str).str.split(' e ', 1).tolist(),
@@ -195,10 +261,32 @@ def normalize_dates(df, table):
     else:
         raise ValueError("Table must be 'patients' or 'samples'")
 
-def df_to_dict(df):
-    return df.to_dict()
+def df_to_dict(df, orient=None):
+    """[lazy function to write the pandas method in another way, why? reasons]
+
+    Args:
+        df ([dataframe]): [dataframe to be converted to dict]
+        orient ([string]): [the way the dict should be created]
+
+    Returns:
+        [dict]: [dict converted dataframe]
+    """
+    if type:
+        return df.to_dict(orient=type)
+    else:
+        return df.to_dict()
 
 def drop_columns(df, default, label, *columns):
+    """[function to drop specified columns in dataframe]
+
+    Args:
+        df ([dataframe]): [dataframe to drop columns]
+        default ([boolean]): [guide the way columns should be dropped]
+        label ([boolean]): [guide the way columns should be dropped]
+
+    Returns:
+        [type]: [description]
+    """
     columns = list(columns)
     if default:
         dfdrop = df.drop(df.columns[list(range(12,37)) + 
@@ -214,6 +302,14 @@ def drop_columns(df, default, label, *columns):
     return dfdrop
 
 def create_default_cols(df):
+    """[create dict with col info from df]
+
+    Args:
+        df ([dataframe]): [dataframe to create columns]
+
+    Returns:
+        [dict]: [dict with specified normalized info from dataframe]
+    """
     col_dict = {}
         
     rn_index = df.loc[df["Nome"].str.contains("rn", case = False, na = False)].index
@@ -222,11 +318,24 @@ def create_default_cols(df):
     return col_dict
 
 def add_missing_cols(*cols_dict):
+    """[create dataframe from columns information from cols_dict]
+
+    Returns:
+        [dataframe]: [dataframe with column infos]
+    """
     new_cols = [pd.DataFrame(x) for x in list(cols_dict)]
     new_df = pd.concat(new_cols, axis = 1, join = "inner")
     return new_df
 
 def exam_col_divider(df):
+    """[change df and append into list]
+
+    Args:
+        df ([dataframe]): [dataframe]
+
+    Returns:
+        [list]: [list with dataframes]
+    """
     df_lists = []
     kit_cols = list(range(2,25,2))
     for ind in kit_cols:
@@ -235,6 +344,15 @@ def exam_col_divider(df):
     return df_lists
 
 def exam_col_concat(df_list, nreg_df):
+    """[merge dataframes from df_list and output a list with merged dataframes]
+
+    Args:
+        df_list ([list]): [list of dataframes]
+        nreg_df ([dataframe]): [dataframe to merge into]
+
+    Returns:
+        [type]: [description]
+    """
     ndf_list = []
     for df in df_list:
         kit_list = ["P064", "P036", "P070", "P250", "P356", "P029", 
@@ -244,6 +362,14 @@ def exam_col_concat(df_list, nreg_df):
     return ndf_list
 
 def exam_fix_tables(df_list):
+    """[get dataframes from df_list and fix come columns data]
+
+    Args:
+        df_list ([list]): [list with dataframes]
+
+    Returns:
+        [dataframe]: [merged dataframe]
+    """
     fixed_dfs = []
     for df in df_list:
         df.rename(columns = {"Teste":"sample_exam", "Nº da corrida":"run_number",
@@ -258,11 +384,28 @@ def exam_fix_tables(df_list):
     return cat_df
 
 def norm_run_number(df):
+    """[normalize columns]
+
+    Args:
+        df ([dataframe]): [dataframe to normalize]
+
+    Returns:
+        [dataframe]: [normalized dataframe]
+    """
     df["run_letter"] = df["run_number"].str.extract(r'(\D)', expand = True)
     df["run_number"] = df["run_number"].str.extract(r'(\d)', expand = True)
     return df
 
 def remodel_pat_table(file, sep = None):
+    """[import table and remodel into the patients dataframe]
+
+    Args:
+        file ([string]): [csv or xlsx file path]
+        sep ([string], optional): [separator to be used when importing dataframe]. Defaults to None.
+
+    Returns:
+        [dataframe]: [remodeled and reindexed dataframe]
+    """
     if type(file) == str:
         df = import_table(file, sep = sep)
     else:
@@ -291,6 +434,15 @@ def remodel_pat_table(file, sep = None):
     return df_final.reindex()
 
 def remodel_samp_table(file, sep = None):
+    """[import table and remodel into the samples dataframe]
+
+    Args:
+        file ([string]): [csv or xlsx file path]
+        sep ([string], optional): [separator to be used when importing dataframe]. Defaults to None.
+
+    Returns:
+        [dataframe]: [remodeled and reindexed dataframe]
+    """
     #TODO função
     if type(file) == str:
         df = import_table(file, sep = sep)
@@ -314,6 +466,16 @@ def remodel_samp_table(file, sep = None):
     return df_final.reindex()
 
 def remodel_exams_table(file, sep = None):
+    """[import table and remodel into the exams dataframe]
+
+    Args:
+        file ([string]): [csv or xlsx file path]
+        sep ([string], optional): [separator to be used when importing dataframe]. Defaults to None.
+
+    Returns:
+        [dataframe]: [remodeled and reindexed dataframe]
+    """
+    
     if type(file) == str:
         df = import_table(file, sep = sep)
     else:
@@ -341,11 +503,16 @@ def remodel_exams_table(file, sep = None):
     final_df = drop_columns(fdf, False, False, [2, 3, 4])
     return final_df.reindex()
 
-def create_dict(df):
-    return df.to_dict(orient="record")
-    #.values()
+def dict_popper(dicty, pop_target):
+    """[pop pop_targets from dict dicty, cool names yeah?]
 
-def dict_popper(dicty, pop_target):    
+    Args:
+        dicty ([dict]): [dict to pop keys]
+        pop_target ([list]): [list with keys to pop]
+
+    Returns:
+        [type]: [description]
+    """
     for item in dicty:
         for col in pop_target:
             item.pop(col, None)
@@ -355,31 +522,9 @@ def dict_popper(dicty, pop_target):
                 item[k] = False          
     return dicty
 
-'''        
-item.pop("Teste", None)
-item.pop('sample_register_date', None)
-item.pop('sample_group', None)
-item.pop('Ficha clínica', None)
+#patdf = remodel_pat_table(filecsv, sep = ";")
+#sampdf = remodel_samp_table(filecsv, sep = ";")
+#examdf = remodel_exams_table(filecsv, sep = ";")
 
-#dftxt = import_table(filetxt)
-#dfcsv = import_table(filecsv, sep = ";")
-dfcsv = import_table(filecsv, sep = ";")
-df1 = normalize_parents(dfcsv)
-df2 = normalize_names(dfcsv)
-df3 = normalize_reg(dfcsv)
-df = remodel_pat_table(dfcsv)
-dfd = create_dict(df)
-#dict_popper(dfd)
-'''
-
-patdf = remodel_pat_table(filecsv, sep = ";")
-sampdf = remodel_samp_table(filecsv, sep = ";")
-examdf = remodel_exams_table(filecsv, sep = ";")
-
-df = import_table(filecsv, sep = ";")
-dfn = normalize_dates(df, "patients")
-
-#test = pd.concat([sampdf, pd.Series([len(v) for v in date_dict.values()])], axis = 1)
-#test2 = test.loc[test.index.repeat(test[test.columns[-1]])].reset_index(drop = True)
-
-
+#df = import_table(filecsv, sep = ";")
+#dfn = normalize_dates(df, "patients")

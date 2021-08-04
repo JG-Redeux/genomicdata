@@ -38,13 +38,24 @@ import qdarkstyle
 absfilepath = os.path.abspath(__file__)
 
 class Configurations(QSettings):
+    """[manage configurations settings of the application]
+    """
 
     def __init__(self):
+        """[initialize the instance of the class]
+        """
         super(Configurations, self).__init__()
         self.gd_settings = QSettings('GDAP', "Project GD")
         self.gd_settings.Scope(0)
 
     def add_registry(self, group, value_name, value):
+        """[add registry to OS]
+
+        Args:
+            group ([string]): [name of the group (reg folder)]
+            value_name ([string]): [name of the value]
+            value ([string]): [value to be set]
+        """
         try:
             self.gd_settings.beginGroup(group)
             self.gd_settings.setValue("{}".format(value_name), value)
@@ -58,6 +69,15 @@ class Configurations(QSettings):
             logger.warning(self.gd_settings.status())
 
     def load_registry(self, group, value_name):
+        """[load registry values from value name in registry]
+
+        Args:
+            group ([string]): [group name]
+            value_name ([string]): [value name]
+
+        Returns:
+            [string]: [value registered]
+        """
         try:
             value = self.gd_settings.value("{}/{}".format(group, value_name))
             return value
@@ -66,14 +86,32 @@ class Configurations(QSettings):
             logger.warning(self.gd_settings.status())
 
     def _keys(self):
+        """[get keys from the settings]
+
+        Returns:
+            [list]: [list of keys]
+        """
         return self.gd_settings.allKeys()
 
 class Spacer(QWidget):
+    """[class defining an spacer to be added on qt5 gui]
+    """
     def __init__(self, width, height):
+        """[init the spacer class]
+
+        Args:
+            width ([int]): [width of the spacer]
+            height ([int]): [height of the spacer]
+        """
         self.width = width
         self.height = height
 
     def spacer(self):
+        """[define the spacer]
+
+        Returns:
+            [object]: [spacer]
+        """
         self.spacer = QSpacerItem(self.width, self.height)
         return self.spacer
 
@@ -81,6 +119,8 @@ class Spacer(QWidget):
 # the necessity of calling the database all the time after the login, the big string
 # inside the classe keeps being valid
 class User():
+    """[define the instance of the user using the application]
+    """
     ''' The access_dict is supossed to work as a main driver for which acess level
         the user will be granted: 0 for dev mode (total access); 1 for total
         core functions acess; 2 for partial access (input data and visualizations);
@@ -92,12 +132,22 @@ class User():
                    "Outros": 5}
 
     def __init__(self, login_info=None):
+        """[initialize the instance of the user]
+
+        Args:
+            login_info ([list], optional): [login information from the database]. Defaults to None.
+        """
         self.logged = False
         self.nvl = 'Outros'
         if login_info:
             self._update(login_info)
 
     def _update(self, login_info):
+        """[update the class attributes with login info]
+
+        Args:
+            login_info ([list]): [login information from the database]. Defaults to None.
+        """
         self.logged = True
         self.login = login_info[0][1]
         self.pw = login_info[1][1]
@@ -109,15 +159,29 @@ class User():
         logger.info("USER - {} instance of User class created".format(self.login))
 
     def get_access(self):
+        """[get user access level]
+
+        Returns:
+            [int]: [return the access level of the user]
+        """
         return self.access_dict[self.nvl]
 
     def is_logged(self):
+        """[check if user is logged]
+
+        Returns:
+            [bool]: [True if user is logged]
+        """
         return self.logged
 
 # One of the layouts of the main window
 class Unlogged_window(QWidget):
+    """[Define the unlogged dialog window]
+    """
 
     def __init__(self, parent=None):
+        """[initialize the window]
+        """
         super(Unlogged_window, self).__init__(parent)
         layout = QGridLayout()
         #ulabel = QLabel("Deslogado")
@@ -127,20 +191,27 @@ class Unlogged_window(QWidget):
 
 # One of the layouts of the main window
 class Logged_window(QWidget):
+    """[Define the logged dialog window]
+    """
 
     def __init__(self, parent=None):
+        """[initialize the window]
+        """
         super(Logged_window, self).__init__(parent)
         layout = QHBoxLayout()
         #ilabel = QLabel("Logado")
         #layout.addWidget(ilabel)
         self.setLayout(layout)
-
         # self.ubutton.clicked.connect(self.clicked.emit)
 
 # where the magic happens
 
 class App(QMainWindow):
+    """[defines the main application window, the heart of the app]
+    """
     def __init__(self, parent=None):
+        """[initialize the application core code]
+        """
         super(App, self).__init__(parent)
         self.title = "Project GD"
         self.left = 100
@@ -186,6 +257,11 @@ class App(QMainWindow):
     # create the User instance and initiate the update info window
     # also set the status bar
     def define_user(self, login_info):
+        """[create the User class instance and set some visual information]
+
+        Args:
+            login_info ([list]): [information from the database]
+        """
         self.user = User(login_info)
         self.upd_dialog = Update(self.user)
         nvl_str = "Usuário: {} | Nível: {} ".format(self.user.sname, self.user.nvl)
@@ -194,11 +270,15 @@ class App(QMainWindow):
 
     # change the current widget on signal
     def change_cwidget(self):
+        """[change de layout as needed]
+        """
         self.central_widget.setCurrentWidget(self.inlog)
         self.manage_layout()
 
     # hide/show able/disable widgets
     def manage_layout(self):
+        """[set what is visible or not in the layout]
+        """
         self.layout_index = self.central_widget.currentIndex()
         if self.layout_index == 0:
             logger.info("APP - Current widget changed: {}".format(0))
@@ -227,6 +307,8 @@ class App(QMainWindow):
 
     # defines the top menu bar
     def menu_bar(self):
+        """[define the main menu bar]
+        """
         # #  top menu definition
         self.mainMenu = self.menuBar()
         self.fileMenu = self.mainMenu.addMenu('Arquivo')
@@ -306,6 +388,11 @@ class App(QMainWindow):
 
     # message box for logout confirmation
     def logout_msg(self, event):
+        """[message box for log out]
+
+        Args:
+            event ([event]): [event sent by the signal slot]
+        """
         lout = QMessageBox()
         lout.setWindowTitle("Logout")
         lout.setText("Deseja mesmo sair?")
@@ -318,6 +405,8 @@ class App(QMainWindow):
     # the logout method makes logout, change the layout and delete the actual
     # User class instance
     def logout(self):
+        """[manage the action of log out]
+        """
         logger.info("APP - {} instance of Class user deleted.".format(self.user.login))
         logger.info("APP - {} made loggout.".format(self.user.login))
         self.user = User()
@@ -327,6 +416,12 @@ class App(QMainWindow):
 
     # method that apply the logout and recalls the login dialog, for quickies
     def change_user(self, event):
+        """[manage the action of changing user]
+
+        Args:
+            event ([event]): [event sent by the signal slot]
+        """
+
         cuser = QMessageBox()
         cuser.setWindowTitle("Trocar de usuário")
         cuser.setText("Deseja mesmo trocar de usuário?")
@@ -340,6 +435,11 @@ class App(QMainWindow):
 
     # quit confirmation, closes the entire app
     def closeEvent(self, event):
+        """[manage the closing of application]
+
+        Args:
+            eevent ([event]): [event sent by the signal slot]
+        """
         close = QMessageBox()
         close.setWindowTitle("Fechar aplicativo")
         close.setText("Tem certeza?")
@@ -360,20 +460,28 @@ class App(QMainWindow):
 
     # open the update info widget
     def update_open(self):
+        """[open update dialog window]
+        """
         logger.info("APP - Dialog dialog screen opened.")
         self.upd_dialog.show()
 
     # open the login widget
     def login_open(self):
+        """[open the login dialog window]
+        """
         logger.info("APP - Login dialog screen opened.")
         self.log_dialog.show()
 
     # open the register widget
     def register_open(self):
+        """[open the register window]
+        """
         logger.info("APP - Register dialog screen opened")
         self.reg_dialog.show()
 
     def options_open(self):
+        """[open the options dialog window]
+        """
         try:
             logger.info("APP - {} entered option screen".format(self.user.login))
         except:
@@ -381,27 +489,42 @@ class App(QMainWindow):
         self.opt_dialog.show()
 
     def patdb_open(self):
+        """[open the patient table dialog window]
+        """
         logger.info("APP - Patient DB dialog screen opened")
         self.pat_dialog.show()
 
     def smpdb_open(self):
+        """[open the sampes table dialog window]
+        """
         logger.info("APP - Samples DB dialog screen opened")
         self.samp_dialog.show()
 
     def info_open(self):
+        """[open the info dialog window]
+        """
         logger.info("APP - Info dialog screen opened")
         self.info_dialog.show()
 
     def about_open(self):
+        """[open the about dialog window]
+        """
         logger.info("APP - about dialog screen opened")
         self.about_dialog.show()
 
     def contact_open(self):
+        """[open the contat dialog screen around]
+        """
         logger.info("APP - contact dialog screen opened")
         self.contact_dialog.show()
 
     # delete the current acc, it should ask for password at some point
     def acc_delete(self, event):
+        """[manage de account deletion dialog window]
+
+        Args:
+            event ([event]): [event sent by the signal slot]
+        """
         adel = QMessageBox()
         adel.setWindowTitle("Deletar usuário")
         adel.setText("Deseja mesmo deletar a conta?")
@@ -416,12 +539,15 @@ class App(QMainWindow):
 
 # defines the login window
 class Login(QDialog):
-
+    """[manage all login related code]
+    """
     # set custom signals
     login_signal = pyqtSignal()
     login_info = pyqtSignal(list)
 
     def __init__(self):
+        """[initialize the login class]
+        """
         super(Login, self).__init__()
         self.title = "Project GD Login"
         self.left = 100
@@ -442,6 +568,8 @@ class Login(QDialog):
         self.setGeometry(self.left, self.top, self.width, self.height)
 
     def create_login_layout(self):
+        """[create the login dialog layout]
+        """
         # window elements
         self.user_label = QLabel('Usuário:')
         self.pw_label = QLabel('Senha:')
@@ -490,6 +618,11 @@ class Login(QDialog):
 
     # check with the server if the login/pw matches
     def login_confirm(self, event):
+        """[manage the login action and server transaction]
+
+        Args:
+            event ([type]): [description]
+        """
         logger.debug("APP - event: {}.".format(event))
 
         quser = self.user_line_edit.text()
@@ -518,19 +651,30 @@ class Login(QDialog):
 
     # open the password recovery widget
     def rec_password(self, event):
+        """[open the recovery dialog window]
+
+        Args:
+            event ([event]): [event sent by the signal slot]
+        """
         self.rec_label.setStyleSheet('color: purple')
         self.dialog = Recovery()
         self.dialog.show()
 
     # open the registration widget
     def register_open(self, event):
+        """[open the register dialog window]
+
+        Args:
+            event ([event]): [event sent by the signal slot]
+        """
         self.reg_label.setStyleSheet('color: purple')
         self.dialog = Register()
         self.dialog.show()
 
 # defines the recovery window
 class Recovery(QDialog):
-
+    """[class that defines the recovery related code]
+    """
     def __init__(self):
         super(Recovery, self).__init__()
         # self.setFixedSize(400,150)
@@ -552,6 +696,8 @@ class Recovery(QDialog):
         self.setWindowTitle('Recuperação de Senha')
 
     def create_rec_box(self):
+        """[create recovery box window]
+        """
         self.rec_box = QGroupBox('Recuperação de Senha')
         rec_box_layout = QFormLayout()
 
@@ -577,8 +723,9 @@ class Recovery(QDialog):
 
         self.rec_box.setLayout(rec_box_layout)
 
-    # check the provided infos and compares with the registred info
     def check_db(self):
+        """[checj the provided info and compare with registered info in database]
+        """
         sender = self.sender()
         self.check_flag = False
 
@@ -612,6 +759,8 @@ class Recovery(QDialog):
 
     # send email with the new password
     def confirm_rec_email(self):
+        """[confirm the recovery email for sending new password]
+        """
         email = self.email_ad.text()
         user = self.user_name.text()
 
@@ -635,8 +784,14 @@ class Recovery(QDialog):
 
 # defines the update info window, its <almost> equal to the register window
 class Update(QDialog):
-
+    """[manage the update user info related code]
+    """
     def __init__(self, user):
+        """[initialize the class]
+
+        Args:
+            user ([object]): [user instance]
+        """
         super(Update, self).__init__()
 
         self.user = user
@@ -658,6 +813,8 @@ class Update(QDialog):
         self.setWindowTitle('Atualizar Cadastro')
 
     def update_user_box(self):
+        """[define the update user box window]
+        """
         self.update_form_box = QGroupBox("Atualizar Informações")
         form_layout = QFormLayout()
 
@@ -703,6 +860,11 @@ class Update(QDialog):
 
     # hides the other line edit if not needed
     def on_nv_cb_changed(self, value):
+        """[change labels on user level change]
+
+        Args:
+            value ([string]): [user level]
+        """
         if value == "Outros":
             self.other_label.show()
             self.other_name.show()
@@ -712,6 +874,8 @@ class Update(QDialog):
 
     # confirm the changes
     def upd_confirm(self):
+        """[update confirmation box]
+        """
         upd_conf = QMessageBox()
         upd_conf.setText("Salvar informações?")
         upd_conf.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
@@ -722,8 +886,9 @@ class Update(QDialog):
         else:
             self.reject()
 
-    # actually send the new infos, if no badword is found, to the database
     def save_form(self):
+        """[send the form info to the database if no badword is found]
+        """
         if self.other_name.text() == "" or self.other_name.text() == "None":
             other_name = None
         else:
@@ -764,8 +929,12 @@ class Update(QDialog):
 
 # defines the register widget - <almost identical, almost>
 class Register(QDialog):
+    """[manage the register related code]
+    """
 
     def __init__(self):
+        """[initialize the class]
+        """
         super(Register, self).__init__()
         self.create_form_group_box()
         self.nv_cb.currentTextChanged.connect(self.on_nv_cb_changed)
@@ -782,6 +951,8 @@ class Register(QDialog):
         self.setWindowTitle('Registro de Usuário')
 
     def create_form_group_box(self):
+        """[define register box window]
+        """
         self.form_group_box = QGroupBox('Registro de Usuário')
         form_layout = QFormLayout()
 
@@ -816,6 +987,11 @@ class Register(QDialog):
         self.form_group_box.setLayout(form_layout)
 
     def on_nv_cb_changed(self, value):
+        """[change labels on user level change]
+
+        Args:
+            value ([string]): [user level]
+        """
         if value == "Outros":
             self.other_label.show()
             self.other_name.show()
@@ -824,6 +1000,8 @@ class Register(QDialog):
             self.other_name.hide()
 
     def reg_confirm(self):
+        """[registration confirm window]
+        """
         reg_conf = QMessageBox()
         reg_conf.setText("Salvar informações?")
         reg_conf.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
@@ -835,6 +1013,8 @@ class Register(QDialog):
             self.reject()
 
     def save_form(self):
+        """[change the form input into the expected data types and send to the database]
+        """
         if self.other_name.text() == "" or "None":
             other_name = None
         else:
@@ -872,6 +1052,8 @@ class Register(QDialog):
             gerrors.reg_nf_error()
 
     def rec_sucess(self):
+        """[registration success window box]
+        """
         error = QMessageBox()
         error.setIcon(QMessageBox.Information)
         error.setText("Registro realizado com sucesso, realize o login.")
@@ -880,9 +1062,13 @@ class Register(QDialog):
         error.exec_()
 
 class DatabaseViewer(QDialog):
+    """[manage the model and Qtreeview related code]
+    """
     viewportLeaved = pyqtSignal()
 
     def __init__(self):
+        """[initialize the class]
+        """
         super(DatabaseViewer, self).__init__()
 
         self.setWindowTitle("Banco de Dados")
@@ -900,6 +1086,8 @@ class DatabaseViewer(QDialog):
         self.setLayout(DVLayout)
 
     def create_databaseViewer_layout(self):
+        """[create the layout in which the table will be inserted]
+        """
         self.DV_layout = QGridLayout()
 
         self.table = self.table_gen()
@@ -923,6 +1111,8 @@ class DatabaseViewer(QDialog):
         self.DV_layout_widget.setLayout(self.DV_layout)
 
     def dv_leftbar(self):
+        """[set the leftbar menu layout]
+        """
         height = self.geometry().height()
 
         self.DVLeftBar = QGridLayout()
@@ -994,6 +1184,11 @@ class DatabaseViewer(QDialog):
 
     @pyqtSlot(int)
     def onStateChange(self, state):
+        """[change checkbox state based on each other]
+
+        Args:
+            state ([bool]): [checkbox state]
+        """
         if state == Qt.Checked:
             if self.sender() == self.dv_grid_expriority_cb:
                 self.dv_grid_sppriority_cb.setChecked(False)
@@ -1006,6 +1201,12 @@ class DatabaseViewer(QDialog):
                 self.dv_grid_sppriority_cb.setChecked(False)
 
     def update_table_gen(self, table_name, df=None):
+        """[update the model with table or df]
+
+        Args:
+            table_name ([string]): [table name]
+            df ([dataframe], optional): [dataframe from query]. Defaults to None.
+        """
         self.table_name = table_name
         self.target_query = sampat_psql.query_values(dsess, table=table_name, schema=self.schema, _pd=True)
         if df is None:
@@ -1023,6 +1224,8 @@ class DatabaseViewer(QDialog):
         self.dv_grid_col_selector.addItems(col_list)
 
     def table_gen(self):
+        """[set the dataframe model]
+        """
         sampat_table_widget_layout = QGridLayout()
 
         self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
@@ -1042,6 +1245,11 @@ class DatabaseViewer(QDialog):
         self.update()
 
     def contextMenuEvent(self, event):
+        """[right click menu for delete lines]
+
+        Args:
+            event ([event]): [event from the signal slot]
+        """
         self.menu = QMenu(self)
         self.deleteAction = QAction('Apagar Linha', self)
         self.deleteAction.triggered.connect(lambda: self.deleteSlot(event))
@@ -1050,9 +1258,16 @@ class DatabaseViewer(QDialog):
         self.menu.popup(QCursor.pos())
 
     def on_viewportEntered(self):
+        """[detect if mouse is over the viewport, not exactlyu implemented]
+        """
         self.is_entered = True
 
     def deleteSlot(self, event):
+        """[send signal to delete line from table]
+
+        Args:
+            event ([event]): [event from the signal slot]
+        """
         row = self.target_table.rowAt(event.pos().y())
         #col = self.target_table.columnAt(event.pos().x())
         if ex.user.get_access() < 3:
@@ -1067,6 +1282,8 @@ class DatabaseViewer(QDialog):
         self.update_table_gen(self.table_name)
 
     def search(self):
+        """[search (query) function]
+        """
         column = self.dv_grid_col_selector.currentText()
         value = self.dv_grid_input_text.text()
         if len(value) > 0:
@@ -1077,6 +1294,11 @@ class DatabaseViewer(QDialog):
 
     @pyqtSlot(int)
     def cb_response(self, state):
+        """[change table shown based on checkbox state]
+
+        Args:
+            state ([bool]): [checkbox state]
+        """
         column = self.dv_grid_col_selector.currentText()
         expriority = sampat_psql.query_values(dsess, column="lib_date", schema=self.schema, table="exams_table", _pd=True, _type=None)
         sppriority = sampat_psql.query_values(dsess, column="lib_date", schema=self.schema, table="samples_table", _pd=True, _type=None)
@@ -1100,6 +1322,8 @@ class DatabaseViewer(QDialog):
     #point
 
     def new_entry_decision(self):
+        """[check if user has access level for adding new stuff]
+        """
         nvl = ex.user.get_access()
         logged = ex.user.is_logged()
         if logged:
@@ -1111,6 +1335,8 @@ class DatabaseViewer(QDialog):
             gerrors.unlogged_error()
 
     def new_entry_open(self):
+        """[open new entry dialog window]
+        """
         self.dialog = New_Entry(self.schema, self.table_name)
         self.dialog.show()
         self.dialog.update.connect(lambda x=self.table_name: self.update_table_gen(x))
@@ -1122,9 +1348,17 @@ class DatabaseViewer(QDialog):
         self.dialog.update.connect(lambda x=self.table_name: self.update_table_gen(x))
 
 class New_Entry(QDialog):
+    """[manage the new entry related code]
+    """
     update = pyqtSignal()
 
     def __init__(self, schema, table):
+        """[initialize the class]
+
+        Args:
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+        """
         super(New_Entry, self).__init__()
 
         self.table_name = table
@@ -1145,6 +1379,8 @@ class New_Entry(QDialog):
         self.setWindowTitle('Novo registro')
 
     def create_NE_form_group_box(self):
+        """[create the new entry form box window]
+        """
         self.NE_form_group_box = QGroupBox('Novo registro')
         NE_form_layout = QFormLayout()
 
@@ -1188,6 +1424,8 @@ class New_Entry(QDialog):
         self.NE_scrollArea.setFixedHeight(500)
 
     def NE_confirm(self):
+        """[new entry confirmation box window]
+        """
         NE_conf = QMessageBox()
         NE_conf.setText("Salvar informações?")
         NE_conf.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
@@ -1199,6 +1437,8 @@ class New_Entry(QDialog):
             self.reject()
 
     def save_form(self):
+        """[check if the information on the formulary is type correct and send to the database]
+        """
         flag = False
         ne_form_dict = {}
         for key, value in self.line_dict.items():
@@ -1245,6 +1485,8 @@ class New_Entry(QDialog):
             self.close()
 
     def ne_sucess(self):
+        """[new entry success information box window]
+        """
         error = QMessageBox()
         error.setIcon(QMessageBox.Information)
         error.setText("Novas entradas adicionadas com sucesso.")
@@ -1253,9 +1495,18 @@ class New_Entry(QDialog):
         error.exec_()
 
 class Update_Entry(QDialog):
+    """[manage the code related to update entries]
+    """
     update = pyqtSignal()
 
     def __init__(self, schema, table, _id):
+        """[initialize the class]
+
+        Args:
+            schema ([string]): [schema name]
+            table ([string]): [table name]
+            _id ([type]): [id to update into]
+        """
         super(Update_Entry, self).__init__()
 
         self.table_name = table
@@ -1277,6 +1528,8 @@ class Update_Entry(QDialog):
         self.setWindowTitle('Atualizar registro')
 
     def create_NE_form_group_box(self):
+        """[create the new entry formulary window already filled to be updated]
+        """
         self.NE_form_group_box = QGroupBox('Atualizar registro')
         NE_form_layout = QFormLayout()
 
@@ -1326,6 +1579,8 @@ class Update_Entry(QDialog):
         self.NE_scrollArea.setFixedHeight(500)
 
     def NE_confirm(self):
+        """[confirmation box window]
+        """
         NE_conf = QMessageBox()
         NE_conf.setText("Salvar informações?")
         NE_conf.setStandardButtons(QMessageBox.Yes | QMessageBox.Cancel)
@@ -1337,6 +1592,8 @@ class Update_Entry(QDialog):
             self.reject()
 
     def save_form(self):
+        """[check if the information on the formulary is type correct and send to the database]
+        """
         flag = False
         ne_form_dict = {}
         for key, value in self.line_dict.items():
@@ -1384,6 +1641,8 @@ class Update_Entry(QDialog):
             self.close()
 
     def ne_sucess(self):
+        """[new entry update success box window]
+        """
         error = QMessageBox()
         error.setIcon(QMessageBox.Information)
         error.setText("Entradas atualizadas com sucesso.")
@@ -1392,7 +1651,11 @@ class Update_Entry(QDialog):
         error.exec_()
 
 class Info(QDialog):
+    """[manage the info window related code]
+    """
     def __init__(self):
+        """[initialize the class]
+        """
         super(Info, self).__init__()
 
         self.setWindowTitle("BD Info")
@@ -1407,7 +1670,8 @@ class Info(QDialog):
         self.setLayout(infoLayout)
 
     def create_info_layout(self):
-
+        """[create info layout]
+        """
         self.info_grid = QGridLayout()
         self.info_viewer = QPlainTextEdit()
         self.info_viewer.setReadOnly(True)
@@ -1434,7 +1698,11 @@ class Info(QDialog):
         self.info_widget.setLayout(self.info_grid)
 
 class About(QDialog):
+    """[manage the about window related code]
+    """
     def __init__(self):
+        """[initialize the class]
+        """
         super(About, self).__init__()
         self.setWindowTitle("Sobre")
         self.setGeometry(200, 200, 400, 200)
@@ -1445,6 +1713,8 @@ class About(QDialog):
         self.setLayout(about_layout)
 
     def create_about_layout(self):
+        """[create the about window layout and add information from readme file]
+        """
         self.about_grid = QGridLayout()
         self.about_viewer = QPlainTextEdit()
         self.about_viewer.setReadOnly(True)
@@ -1459,7 +1729,11 @@ class About(QDialog):
         self.about_widget.setLayout(self.about_grid)
 
 class Contact(QWidget):
+    """[manage the contact window related code]
+    """
     def __init__(self):
+        """[initialize the class]
+        """
         super(Contact, self).__init__()
         self.setWindowTitle("Contato")
         self.setGeometry(200, 200, 400, 100)
@@ -1470,6 +1744,8 @@ class Contact(QWidget):
         self.setLayout(contact_layout)
 
     def create_contact_layout(self):
+        """[create the contact window layout and set it's text]
+        """
         self.contact_grid = QGridLayout()
         self.contact_viewer = QPlainTextEdit()
         self.contact_viewer.setReadOnly(True)
@@ -1485,7 +1761,11 @@ class Contact(QWidget):
         self.contact_widget.setLayout(self.contact_grid)
 
 class Options(QWidget):
+    """[manage the configurations related code]
+    """
     def __init__(self):
+        """[initialize the class]
+        """
         super(Options, self).__init__()
 
         self.setWindowTitle("Configurações")
@@ -1501,7 +1781,12 @@ class Options(QWidget):
 
         self.opt_list.currentItemChanged.connect(self.options_layout_manager)
 
-    def options_layout_manager(self, new_item, old_item):
+    def options_layout_manager(self, new_item):
+        """[changes the configuration menu layout accordingly]
+
+        Args:
+            new_item ([list]): [list of layouts]
+        """
         row = self.opt_list.row(new_item)
         if row == 0:
             self.central_opt_widget.setCurrentWidget(self.server_widget)
@@ -1513,6 +1798,8 @@ class Options(QWidget):
             self.central_opt_widget.setCurrentWidget(self.user_widget)
 
     def create_config_layout(self):
+        """[create the general configuration window layout]
+        """
         self.opt_list = QListWidget()
 
         opt_list = ["Servidor", "Configurações de Email",
@@ -1557,9 +1844,9 @@ class Options(QWidget):
         self.opt_widget = QWidget()
         self.opt_widget.setLayout(self.options_grid)
 
-# # #  server_opt definitions block start
-
     def server_opt(self):
+        """[create the sub layout of server options]
+        """
         layout = QGridLayout()
 
         uform_layout = QFormLayout()
@@ -1634,6 +1921,8 @@ class Options(QWidget):
         self.server_widget.setLayout(layout)
 
     def serv_options_recap(self):
+        """[function to load the configs in the registry]
+        """
         user_db_dict = {}
         data_db_dict = {}
 
@@ -1659,12 +1948,19 @@ class Options(QWidget):
         self.dtableedit.setText(data_db_dict["dentryt"])
 
     def saved_serv_timer(self, active=False):
+        """[timer to show a label for a limited time]
+
+        Args:
+            active (bool, optional): [control the visible state]. Defaults to False.
+        """
         if active:
             self.saved_serv_lbl.setVisible(True)
         else:
             self.saved_serv_lbl.setVisible(False)
 
     def save_serv_options(self):
+        """[save the configuration on the registry]
+        """
         valid_flag = False
         user_db_dict = {"uentryl": self.uloginedit.text(),
                         "uentryw": self.upasswordedit.text(),
@@ -1712,6 +2008,8 @@ class Options(QWidget):
             gerrors.serv_opt_error()
 
     def user_opt(self):
+        """[create the sub layout of user options]
+        """
         user_layout = QGridLayout()
         # defining table
         rows = user_psql.row_count(usess, table="User")
@@ -1756,6 +2054,8 @@ class Options(QWidget):
         self.user_widget.setLayout(user_layout)
 
     def combo_flags(self):
+        """[define the combo box of user flags]
+        """
         comboBox = self.sender()
         row = comboBox.property('row')
         text = comboBox.currentText()
@@ -1763,6 +2063,8 @@ class Options(QWidget):
         self.changes_dict[user] = [self.nvl_list[row][0], text]
 
     def update_nvl(self):
+        """[function that let the admin to change the access level of users]
+        """
         logger.debug("OPTIONS - User permissions changed: {}".format(self.changes_dict))
         for key, values in self.changes_dict.items():
             user = key
@@ -1777,12 +2079,22 @@ class Options(QWidget):
         timer.singleShot(2000, self.saved_user_timer)
 
     def saved_user_timer(self, active=False):
+        """[timer to show a label for a limited time]
+
+        Args:
+            active (bool, optional): [control the visible state]. Defaults to False.
+        """
         if active:
             self.saved_user_lbl.setVisible(True)
         else:
             self.saved_user_lbl.setVisible(False)
 
     def restart_app_btn(self, event):
+        """[button that restart the app]
+
+        Args:
+            event ([event]): [event sent to the signal slot]
+        """
         try:
             subprocess.Popen([sys.executable, absfilepath])
         except OSError:
@@ -1791,6 +2103,8 @@ class Options(QWidget):
             QApplication.quit()
 
     def email_opt(self):
+        """[create the sub layout of user options]
+        """
         email_layout = QGridLayout()
         email_form_layout = QFormLayout()
 
@@ -1833,6 +2147,8 @@ class Options(QWidget):
         self.email_widget.setLayout(email_layout)
 
     def email_opt_recap(self):
+        """[load the database adress from the registry]
+        """
         email_dict = {}
 
         for item in settings._keys():
@@ -1845,6 +2161,8 @@ class Options(QWidget):
         self.serv_email_password.setText(email_dict["serv_email_pass"])
 
     def save_email_option(self):
+        """[save the database adress to the the registry]
+        """
         email_dict = {"serv_email_adress": self.serv_email_adress.text(),
                       "serv_email_pass": self.serv_email_password.text()}
 
@@ -1863,12 +2181,19 @@ class Options(QWidget):
         timer.singleShot(2000, self.saved_email_timer)
 
     def saved_email_timer(self, active=False):
+        """[timer to show a label for a limited time]
+
+        Args:
+            active (bool, optional): [control the visible state]. Defaults to False.
+        """
         if active:
             self.saved_email_lbl.setVisible(True)
         else:
             self.saved_email_lbl.setVisible(False)
 
     def log_opt(self):
+        """[create the sub layout of logging options]
+        """
         # defining the layouts
         self.log_paths = {"log_path": "",
                           "config_path": "",
@@ -1911,17 +2236,23 @@ class Options(QWidget):
         self.log_widget.setLayout(grid_layout)
 
     def change_buttons(self):
+        """[change the log button text]
+        """
         value = settings.load_registry("configs", "log_path")
         self.log_btn.setText(value)
         QApplication.processEvents()
 
     def default_log(self):
+        """[set a default .log path]
+        """
         default_path = os.path.dirname(os.path.realpath(__file__)) + "\\logs"
         settings.add_registry("configs", "log_path", default_path)
         self.change_buttons()
         self.log_reader(default_path + self.log_paths["log_file"])
 
     def log_file(self):
+        """[read the .log file on the path provided]
+        """
         log_folder = QFileDialog()
         log_folder.setFileMode(2)
         log_folder.setOption(QFileDialog.ReadOnly)
@@ -1937,6 +2268,11 @@ class Options(QWidget):
             self.log_reader(self.log_path)
 
     def log_reader(self, log_path):
+        """[read the content of .log file and show on the dialog window]
+
+        Args:
+            log_path ([string]): [.log path]
+        """
         try:
             with open(log_path, "r") as log:
                 log_lines = log.readlines()
@@ -1953,8 +2289,11 @@ class Options(QWidget):
 
 # # #  log_opt definitions block end
 class System():
-
+    """[manage general application code]
+    """
     def __init__(self):
+        """[initialize the class]
+        """
         self.settings = Configurations()
         self.path = self.settings.load_registry("configs", "log_path")  # it doesn't belong here but it needs to be here
         self.logger = _logger.logger_define(self.path)
@@ -1962,6 +2301,8 @@ class System():
         self.gerrors = errorex.gd_errors()
 
     def sys_serv_opt_recap(self):
+        """[load the server adresses from the registry]
+        """
         self.user_db_dict = {}
         self.data_db_dict = {}
 
@@ -1975,6 +2316,8 @@ class System():
                     self.data_db_dict[value_name] = value  # aux.hex_to_str(value, 3)
 
     def createDefaultConfig(self):
+        """[create default configs files for running an database]
+        """
         config = configparser.ConfigParser()
         config["DEFAULT_SERVER_ADRESS"] = {"login": "postgres",
                                            "password": "postgres",
@@ -1990,6 +2333,15 @@ class System():
             config.write(configfile)
 
     def sql_user_connect(self):
+        """[use the sqlmng module to define both connections and sessions
+        of users database]
+
+        Raises:
+            Exception: [In case the file doesn't exist, create one]
+
+        Returns:
+            [istance, session]: [instance of database connection and its session]
+        """
         config = configparser.ConfigParser()
         try:
             self.sys_serv_opt_recap()
@@ -2026,6 +2378,15 @@ class System():
             return user_psql, usess
 
     def sql_sampat_connect(self):
+        """[use the sqlmng module to define both connections and sessions
+        of sampat database]
+
+        Raises:
+            Exception: [In case the file doesn't exist, create one]
+
+        Returns:
+            [istance, session]: [instance of database connection and its session]
+        """
         config = configparser.ConfigParser()
         try:
             self.sys_serv_opt_recap()
@@ -2062,6 +2423,11 @@ class System():
             return sampat_psql, dsess
 
     def sys_email(self):
+        """[load database email adress from registry]
+
+        Returns:
+            [string]: [database email adress password]
+        """
         email_dict = {}
         for item in settings._keys():
             if "db_adress" in item:
@@ -2074,6 +2440,11 @@ class System():
         return email_pass
 
 def toggle_stylesheet(mode='dark'):
+    """[toggle the stylesheets of the application]
+
+    Args:
+        mode (str, optional): [choose between dark and light (default)]. Defaults to 'dark'.
+    """
     print('toggle')
     if mode == 'dark':
         print('dark')

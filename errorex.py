@@ -19,6 +19,8 @@ logger = logging.getLogger(__name__)
 
 # each error code is given simply by cronological order
 class gd_errors():
+    """[class which manage all errors qmessagebox generated at runtime]
+    """
     # this error will prompt if something happens during server connection
     def db_error(self):
         error = QMessageBox()
@@ -29,6 +31,7 @@ class gd_errors():
         error.exec_()
         logger.error("ERROR - 01: Banco de Usuários não encontrado.")
 
+    '''
     # unnused
     # def preen_error(self):
     #    error = QMessageBox()
@@ -40,6 +43,8 @@ class gd_errors():
 
     # this errors will prompt if the user didn't fill an username or email or
     # the login don't exist in the users DB
+    '''
+
     def rec_error(self):
         error = QMessageBox()
         error.setIcon(QMessageBox.Critical)

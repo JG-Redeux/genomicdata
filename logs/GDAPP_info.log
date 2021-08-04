@@ -9687,3 +9687,16 @@
 2021-08-02 20:57:52,946 - _logger - DEBUG - APP - 0
 2021-08-02 20:57:54,417 - _logger - INFO - APP - Patient DB dialog screen opened
 2021-08-02 20:58:06,892 - _logger - INFO - APP - Program closed
+2021-08-02 21:01:24,858 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 21:01:25,099 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 21:01:25,191 - _logger - WARNING - No valid server, reaching custom configuration
+2021-08-02 21:01:25,418 - _logger - WARNING - No valid server, default configuration/localhost
+2021-08-02 21:01:25,501 - _logger - INFO - __main__ - Program oppened
+2021-08-02 21:01:25,501 - _logger - INFO - CONFIG - Configurations initialized.
+2021-08-02 21:01:25,501 - _logger - DEBUG - CONFIG - <__main__.Configurations object at 0x0000021CAE11B940>
+2021-08-02 21:01:25,529 - _logger - WARNING - No options saved to load.
+2021-08-02 21:01:25,767 - _logger - DEBUG - APP - OPTIONS - Users option error
+2021-08-02 21:01:25,767 - _logger - WARNING - No options saved to load.
+2021-08-02 21:01:25,869 - _logger - INFO - APP - Current widget changed: 0
+2021-08-02 21:01:25,869 - _logger - DEBUG - APP - 0
+2021-08-02 21:08:46,136 - _logger - INFO - APP - Program closed
