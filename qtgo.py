@@ -1385,7 +1385,7 @@ class New_Entry(QDialog):
         NE_form_layout = QFormLayout()
 
         col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
-        col_list = [(col["name"], col["type"]) for col in col_info]
+        col_list = [(col["name"].replace("_", " "), col["type"]) for col in col_info]
 
         self.line_dict = {}
 
@@ -2455,6 +2455,7 @@ def toggle_stylesheet(mode='dark'):
 
 # the code that starts the magic
 if __name__ == "__main__":
+    print("starto")
     # initializes the errors class inside the errorex module
     settings = System().settings
     logger = System().logger
@@ -2473,6 +2474,7 @@ if __name__ == "__main__":
                 user_psql.commit_new_table(schema=schema_name, table=table_name)
     except:
         conn_error_flag = (True, "user")
+        print("halp1")
         raise
 
     try:
@@ -2489,6 +2491,7 @@ if __name__ == "__main__":
                 sampat_psql.commit_new_table(schema=schema_name, table=table_name)
     except:
         conn_error_flag = (True, "sampat")
+        print("halp2")
         raise
 
     logger.info("__main__ - Program oppened")
