@@ -9,6 +9,11 @@ logging handler
 
 import os
 import logging
+from pathlib import Path
+
+def touchFile(path):
+    _log = Path(path)
+    _log.touch(exist_ok=True)
 
 def logger_path(lpath=None):
     """[Get and/or set path for the .log file rw]
@@ -20,11 +25,17 @@ def logger_path(lpath=None):
         [string]: [.log file path]
     """
     path = os.path.dirname(os.path.realpath(__file__))
+
     if not lpath:
         log_file = path + "\\logs\\GDAPP_info.log"
     else:
         log_file = lpath + "\\GDAPP_info.log"
-    return log_file
+
+    if not os.path.exists(os.path.dirname(log_file)):
+        os.mkdir(os.path.dirname(log_file))
+
+    with open(log_file, "a"):
+        return log_file
 
 def formatter():
     """[Format strings into expected output]

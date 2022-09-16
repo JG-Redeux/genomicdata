@@ -309,7 +309,7 @@ class SQL(object):
                 elif _type == "last":
                     try:
                         col_obj = str_to_column(table_name, column)
-                        q = pd.read_sql(self.session.query(table_name).order_by(column.id.asc()).limit(20).statement, self.session.bind)
+                        q = pd.read_sql(self.session.query(table_name).order_by(column.ID.asc()).limit(20).statement, self.session.bind)
                         return q
                     except:
                         return pd.read_sql(self.session.query(table_name).statement, self.session.bind)
@@ -628,15 +628,15 @@ class SQL(object):
             [int]: [row number]
         """
         if table == "users_table":
-            rows = session.query(func.count(User.id)).scalar()
+            rows = session.query(func.count(User.ID)).scalar()
         elif table == "Badword":
-            rows = session.query(func.count(Badwords.id)).scalar()
+            rows = session.query(func.count(Badwords.ID)).scalar()
         elif table == "samples_table":
-            rows = session.query(func.count(Samples.id)).scalar()
+            rows = session.query(func.count(Samples.ID)).scalar()
         elif table == "patients_table":
-            rows = session.query(func.count(Patient.id)).scalar()
+            rows = session.query(func.count(Patient.ID)).scalar()
         elif table == "exams_table":
-            rows = session.query(func.count(Exams.id)).scalar()
+            rows = session.query(func.count(Exams.ID)).scalar()
         return rows
 
     def col_info(self, session, schema="db_sampat_schema", table="patients_table"):
@@ -688,15 +688,15 @@ class User(Base):
     __tablename__ = 'users_table'
     __table_args__ = {'schema': "db_user_schema"}
 
-    id = Column(Integer, primary_key=True)
-    login = Column(String)
-    password = Column(String)
-    name = Column(String)
-    surname = Column(String)
-    nvl = Column(String)
-    other_spec = Column(String)
-    email = Column(String)
-    date = Column(Date)
+    ID = Column('ID', Integer, primary_key=True)
+    login = Column('Login', String)
+    password = Column('Senha', String)
+    name = Column('Nome', String)
+    surname = Column('Sobrenome', String)
+    nvl = Column('Nível', String)
+    other_spec = Column('Outros', String)
+    email = Column('E-Mail', String)
+    date = Column('Data', Date)
 
     def __repr__(self):
         return "login={},password={},name={},surname={},nvl={},"\
@@ -724,28 +724,29 @@ class Patient(Base):
     __tablename__ = 'patients_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column(Integer, primary_key=True, unique=True)
+    ID = Column('ID', Integer, primary_key=True, unique=True)
     # old_id = Column("barcode", Integer, unique=False)
-    Amostras = relationship("Samples", backref='sample_owner')
-    Particular = Column(Boolean, default=False, unique=False, nullable=False)
-    Primeiro_Nome = Column(String, default=None)
-    Sobre_Nome = Column(String, default=None)
-    RN = Column(Boolean, default=False, unique=False)
-    NT = Column(Boolean, default=False, unique=False)
-    Documento = Column(String, default=None)
-    Registro = Column(String, default=None)
-    Data_de_Nascimento = Column(Date, default=None)
-    Data_de_Registro = Column(Date, default=None)
-    Origem_Paciente = Column(String, default=None)
-    Medico_Responsavel = Column(String, default=None)
-    Tipo_de_Parentesco = Column(String, default=None)
-    Parentesco = Column(String, default=None)
-    Liberado = Column(Boolean, default=False, unique=False, nullable=False)
-    Hipotese_Diagnostica = Column(String, default=None)
-    Termo_Consentimento = Column(Boolean, default=False, unique=False, nullable=False)
-    Genotipo = Column(String, default=None)
-    Cariotipo = Column(String, default=None)
-    Obs = Column(String, default=None)
+    samples = relationship("Samples", backref='sample_owner')
+    particular = Column('Particular?', Boolean, default=False, unique=False, nullable=False)
+    first_name = Column('Primeiro Nome', String, default=None)
+    #second_name = Column(, String, default=None)
+    surname = Column('Sobrenome', String, default=None)
+    rn = Column('RN?', Boolean, default=False, unique=False)
+    nt = Column('NT?', Boolean, default=False, unique=False)
+    rg = Column('Documento', String, default=None)
+    registry = Column('Registro', String, default=None)
+    birth_date = Column('Data Nasc.', Date, default=None)
+    register_date = Column('Data de Registro', Date, default=None)
+    pat_origin = Column('Origem Paciente', String, default=None)
+    doctor = Column('Médico Resp.', String, default=None)
+    parent_type = Column('Parentesco', String, default=None)
+    parent = Column('Parente', String, default=None)
+    lib = Column('Liberado?', Boolean, default=False, unique=False, nullable=False)
+    diag_hipt = Column('Hipótese Diagn.', String, default=None)
+    term = Column('Termo de Cons.', Boolean, default=False, unique=False, nullable=False)
+    gen = Column('Genótipo', String, default=None)
+    karyotype = Column('Cariótipo', String, default=None)
+    obs = Column('Observações', String, default=None)
     updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
@@ -757,39 +758,38 @@ class Samples(Base):
     __tablename__ = 'samples_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column(Integer, primary_key=True)
-    Barcode = Column(Integer, default=None)
+    ID = Column('ID', Integer, primary_key=True, unique=True)
+    barcode = Column('Cod. Barras', Integer, default=None, unique=True)
     # old_id = Column(Integer, unique=False)
-    Grupo_de_Amostra = Column(String, default=None)
-    Sequencial_Amostra = Column(Integer, default=None, unique=True)
-    ID_Paciente = Column(Integer, ForeignKey('db_sampat_schema.patients_table.ID'), nullable=False)
-    Exames = relationship('Exams', backref='master_sample')
-    Origem_da_Amostra = Column(String, default=None)
-    Cor_Tampa = Column(String, default=None)
-    Tipo_do_Material = Column(String, default=None)
-    Informacoes_do_Material = Column(String, default=None)
-    Volume_do_Material = Column(Float, default=None)
-    Tubo_Mae = Column(Boolean, default=False, unique=False, nullable=False)
-    Aliquota = Column(Boolean, default=False, unique=False, nullable=False)
-    ID_Aliquota = Column(Integer, default=None, nullable=True)
-    Extraido = Column(Boolean, default=False, unique=False, nullable=False)
-    Processado = Column(Boolean, default=False, unique=False, nullable=False)
-    Arquivado = Column(Boolean, default=False, unique=False, nullable=False)
-    Data_Arquivamento = Column(Date, default=None, nullable=True)
-    Posicao_Arquivamento = Column(String, default=None)
-    Data_Registro_Amostra = Column(Date, default=None)
-    Data_Extracao_Amostra = Column(Date, default=None)
-    Data_Processamento_Amostra = Column(Date, default=None)
-    Data_Aliquot_Amostra = Column(Date, default=None)
-    Concentracao_DNA_Amostra = Column(Float, default=None)
-    Qualidade_DNA_Amostra = Column(Float, default=None)
-    Reconvocacao = Column(Boolean, default=False, nullable=False)
-    Data_Reconvocacao = Column(Date, default=None, nullable=True)
-    ID_Amostra_Reconvocada = Column(Integer, default=None, nullable=True)
-    Data_Registro_Convocacao = Column(Date, default=None, nullable=True)
-    Data_Liberação = Column(Date, default=None)
-    Liberado = Column(Boolean, default=False, unique=False, nullable=False)
-    Obs = Column(String, default=None)
+    sample_group = Column('Grupo de Amostras', String, default=None)
+    samp_serial = Column('Sequencial de Amostra', Integer, default=None, unique=True)
+    patient_id = Column('ID Paciente', Integer, ForeignKey('db_sampat_schema.patients_table.ID'), nullable=False)
+    exams = relationship('Exams', backref='master_sample')
+    sample_orign = Column('Origem da Amostra', String, default=None)
+    cap_color = Column('Tubo/Tampa', String, default=None)
+    material_type = Column('Tipo de Material', String, default=None)
+    material_volume = Column('Volume', Float, default=None)
+    main_tube = Column('Tubo Mãe', Boolean, default=False, unique=False, nullable=False)
+    aliquot = Column('Alíquota?', Boolean, default=False, unique=False, nullable=False)
+    aliquot_id = Column('ID Alíquota', Integer, default=None, nullable=True)
+    extracted = Column('Extraído?', Boolean, default=False, unique=False, nullable=False)
+    processed = Column('Processado', Boolean, default=False, unique=False, nullable=False)
+    arquived = Column('Arquivado?', Boolean, default=False, unique=False, nullable=False)
+    arquiv_date = Column('Data de Arquivamento', Date, default=None, nullable=True)
+    arq_position = Column('Posição Arquivada', String, default=None)
+    sample_register_date = Column('Data de Cadastro', Date, default=None)
+    sample_extraction_date = Column('Data de Extração', Date, default=None)
+    sample_process_date = Column('Data de Processamento', Date, default=None)
+    sample_aliquot_date = Column('Data da Alíquota', Date, default=None)
+    sample_dna_concentration = Column('Concentração', Float, default=None)
+    sample_dna_quality = Column('Pureza', Float, default=None)
+    recall = Column('Recoleta?', Boolean, default=False, nullable=False)
+    recall_date = Column('Data de Recoleta', Date, default=None, nullable=True)
+    #recall_sample_id = Column(Integer, default=None, nullable=True)
+    #recall_register_date = Column(Date, default=None, nullable=True)
+    lib_date = Column('Data de Liberação', Date, default=None)
+    lib = Column('Liberado?', Boolean, default=False, unique=False, nullable=False)
+    obs = Column('Observações', String, default=None)
     updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
@@ -801,20 +801,20 @@ class Exams(Base):
     __tablename__ = 'exams_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column(Integer, primary_key=True)
-    ID_Amostra = Column(Integer, ForeignKey('db_sampat_schema.samples_table.ID'), nullable=False)
-    #Sequencial_Exame = Column(Integer, default=None, unique=True)
-    Exame_amostra = Column(String, default=None)
-    Num_Corrida = Column(Integer, default=None)
-    Num_Sequencial = Column(Integer, default=None)
-    ID_Rotina = Column(String, default=None, unique=False)
-    Kit = Column(String, default=None)
-    Lote_Kit = Column(String, default=None)
-    Plataforma = Column(String, default=None)
-    Resultados = Column(String, default=None)
-    Data_Liberação = Column(Date, default=None)
-    Liberado = Column(Boolean, default=False, unique=False, nullable=False)
-    Obs = Column(String, default=None)
+    ID = Column('ID', Integer, primary_key=True, unique=True)
+    sample_id = Column(Integer, ForeignKey('db_sampat_schema.samples_table.ID'), nullable=False, unique=True)
+    exam_serial = Column('Sequencial', Integer, default=None, unique=True)
+    sample_exam = Column('Exame', String, default=None)
+    run_number = Column('Núm. Rotina', Integer, default=None)
+    #seq_number = Column(Integer, default=None)
+    run_letter = Column('ID da Rotina', String, default=None, unique=False)
+    kit = Column('Kit', String, default=None)
+    kit_lot = Column('Lote do Kit', String, default=None)
+    platform = Column('Plataforma', String, default=None)
+    results = Column('Resultados', String, default=None)
+    lib_date = Column('Data de Liberação', Date, default=None)
+    lib = Column('Liberado?', Boolean, default=False, unique=False, nullable=False)
+    obs = Column('Observações', String, default=None)
     updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):
@@ -826,15 +826,17 @@ class Projects(Base):
     __tablename__ = 'projects_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column(Integer, primary_key=True)
-    Nome_Projeto = Column(String, default=None, unique=True)
-    Descricao_Simplificada = Column(String, default=None)
-    Pesquisador_Chefe = Column(String, default=None)
-    Instituicao = Column(String, default=None)
-    Inst_Fomento = Column(String, default=None)
-    Fomento_ID = Column(String, default=None)
-    Descricao_Completa = Column(String, default=None)
-    Obs = Column(String, default=None)
+    ID = Column('ID', Integer, primary_key=True, unique=True)
+    project_name = Column('Nome do Projeto', String, default=None, unique=True)
+    short_descriptor = Column('Descrição Simples', String, default=None)
+    lead_researcher = Column('Pesquisador Chefe', String, default=None)
+    coord = Column('Orientação/Coord.', String, default=None)
+    institution = Column('Instituição', String, default=None)
+    fund = Column('Fomento?', Boolean, default=False, unique=False)
+    fund_name = Column('Agência de Fomento', String, default=None)
+    fund_id = Column('Registro do Fomento', String, default=None)
+    long_descriptor = Column('Descrição do Projeto', String, default=None)
+    obs = Column('Observações', String, default=None)
     updated = Column(DateTime, default=datetime.datetime.now())
 
     def __repr__(self):

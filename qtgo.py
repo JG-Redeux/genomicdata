@@ -1300,13 +1300,13 @@ class DatabaseViewer(QDialog):
             state ([bool]): [checkbox state]
         """
         column = self.dv_grid_col_selector.currentText()
-        expriority = sampat_psql.query_values(dsess, column="lib_date", schema=self.schema, table="exams_table", _pd=True, _type=None)
-        sppriority = sampat_psql.query_values(dsess, column="lib_date", schema=self.schema, table="samples_table", _pd=True, _type=None)
+        expriority = sampat_psql.query_values(dsess, column="Data de Liberação", schema=self.schema, table="exams_table", _pd=True, _type=None)
+        sppriority = sampat_psql.query_values(dsess, column="Data de Liberação", schema=self.schema, table="samples_table", _pd=True, _type=None)
         recent = sampat_psql.query_values(dsess, column="updated", schema=self.schema, table=self.table_name, _pd=True, _type="last")
 
-        expriority.sort_values(by=["id", "lib_date"], ascending=True, inplace=True)
-        sppriority.sort_values(by=["id", "lib_date"], ascending=True, inplace=True)
-        recent.sort_values(by="id", inplace=True)
+        expriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
+        sppriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
+        recent.sort_values(by="ID", inplace=True)
 
         if state == Qt.Checked:
             if self.sender() == self.dv_grid_expriority_cb:
@@ -1408,6 +1408,7 @@ class New_Entry(QDialog):
                 self.line_dict[col[0]] = QLineEdit()
                 self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
                 self.line_dict[col[0]].setReadOnly(True)
+                self.line_dict[col[0]].setVisible(False)
             else:
                 self.line_dict[col[0]] = QLineEdit()
 
