@@ -1209,17 +1209,19 @@ class DatabaseViewer(QDialog):
         """
         self.table_name = table_name
         self.target_query = sampat_psql.query_values(dsess, table=table_name, schema=self.schema, _pd=True)
+        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
+        col_list = [col["name"] for col in col_info]
+
         if df is None:
             df = self.target_query
-            model = pdm.DataFrameModel(df)
+            model = pdm.DataFrameModel(df, colnames=col_list)
             self.target_table.setModel(model)
         else:
-            model = pdm.DataFrameModel(df)
+            model = pdm.DataFrameModel(df, colnames=col_list)
             self.target_table.setModel(model)
 
         self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
-        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
-        col_list = [col["name"] for col in col_info]
+        #self.target_table.setHorizontalHeader(col_list)
         self.dv_grid_col_selector.clear()
         self.dv_grid_col_selector.addItems(col_list)
 
@@ -1230,11 +1232,14 @@ class DatabaseViewer(QDialog):
 
         self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
         df = self.target_query
-        self.model = pdm.DataFrameModel(df)
+        col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
+        col_list = [col["name"] for col in col_info]
+        self.model = pdm.DataFrameModel(df, colnames=col_list)
         self.target_table = QTableView()
+        self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
         self.target_table.setEditTriggers(QAbstractItemView.DoubleClicked)
         self.target_table.setModel(self.model)
-        self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
+        self.target_table.verticalHeader().setSortIndicator(1, Qt.AscendingOrder)
 
         self.target_table.doubleClicked.connect(self.update_entry_open)
         self.target_table.entered.connect(self.on_viewportEntered)
@@ -1258,7 +1263,7 @@ class DatabaseViewer(QDialog):
         self.menu.popup(QCursor.pos())
 
     def on_viewportEntered(self):
-        """[detect if mouse is over the viewport, not exactlyu implemented]
+        """[detect if mouse is over the viewport, not exactly implemented]
         """
         self.is_entered = True
 
@@ -1276,7 +1281,8 @@ class DatabaseViewer(QDialog):
             except IndexError:
                 logger.debug("DEBUG-DELETESLOT--QTGO: ID_CELL {}".format(row))
                 return
-            sampat_psql.delete_entry(dsess, schema=self.schema, table=self.table_name, target=id_cell)
+            print(id_cell)
+            sampat_psql.delete_entry(dsess, schema=self.schema, table=self.table_name, target=id_cell + 1)
         else:
             gerrors.wrong_access_level_error()
         self.update_table_gen(self.table_name)
@@ -1304,9 +1310,11 @@ class DatabaseViewer(QDialog):
         sppriority = sampat_psql.query_values(dsess, column="Data de Liberação", schema=self.schema, table="samples_table", _pd=True, _type=None)
         recent = sampat_psql.query_values(dsess, column="updated", schema=self.schema, table=self.table_name, _pd=True, _type="last")
 
-        expriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
-        sppriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
-        recent.sort_values(by="ID", inplace=True)
+        try:
+            expriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
+            sppriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
+        except KeyError:
+            recent.sort_values(by="ID", inplace=True)
 
         if state == Qt.Checked:
             if self.sender() == self.dv_grid_expriority_cb:
@@ -1405,10 +1413,11 @@ class New_Entry(QDialog):
                 self.line_dict[col[0]] = (QLineEdit(), "date")
                 self.line_dict[col[0]][0].setValidator(onlyDate)
             elif "updated" in col[0]:
-                self.line_dict[col[0]] = QLineEdit()
-                self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
-                self.line_dict[col[0]].setReadOnly(True)
-                self.line_dict[col[0]].setVisible(False)
+                continue
+                #self.line_dict[col[0]] = QLineEdit()
+                #self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
+                #self.line_dict[col[0]].setReadOnly(True)
+                #self.line_dict[col[0]].setVisible(False)
             else:
                 self.line_dict[col[0]] = QLineEdit()
 

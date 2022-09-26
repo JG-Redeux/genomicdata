@@ -13,7 +13,7 @@ class DataFrameModel(QtCore.QAbstractTableModel):
     DtypeRole = QtCore.Qt.UserRole + 1000
     ValueRole = QtCore.Qt.UserRole + 1001
 
-    def __init__(self, df=pd.DataFrame(), parent=None):
+    def __init__(self, df=pd.DataFrame(), colnames=None, parent=None):
         """[init the instance]
 
         Args:
@@ -22,6 +22,7 @@ class DataFrameModel(QtCore.QAbstractTableModel):
         """
         super(DataFrameModel, self).__init__(parent)
         self._dataframe = df
+        self._colnames = colnames
 
     def setDataFrame(self, dataframe):
         """[set dataframe as the model]
@@ -135,7 +136,7 @@ class DataFrameModel(QtCore.QAbstractTableModel):
         colname = self._dataframe.columns.tolist()[column]
         self.layoutAboutToBeChanged.emit()
         self._dataframe.sort_values(colname, ascending=QtCore.Qt.AscendingOrder, inplace=True)
-        self._dataframe.reset_index(inplace=True, drop=True)
+        #self._dataframe.reset_index(inplace=True, drop=True)
         self.layoutChanged.emit()
 
     def get_value(self, row, col):
@@ -149,3 +150,8 @@ class DataFrameModel(QtCore.QAbstractTableModel):
             [object]: [value from dataframe[row,col]]
         """
         return self._dataframe.iloc[row, col]
+
+    def headerData(self, section: int, orientation: QtCore.Qt.Orientation, role: int = QtCore.Qt.DisplayRole):
+        if role == QtCore.Qt.DisplayRole and QtCore.Qt.Orientation == QtCore.Qt.Horizontal:
+            return self._dataframe.columns[section]
+        return QtCore.QAbstractTableModel.headerData(self, section, orientation, role)

@@ -474,7 +474,8 @@ class SQL(object):
             target ([string]): [id to be queried]
         """
         true_table = str_to_table(schema, table)
-        true_col = str_to_column(true_table, 'id')
+        true_col = str_to_column(true_table, 'ID')
+        print(true_col)
         session.query(true_table).filter(true_col == target).delete()
         session.commit()
 
@@ -724,7 +725,7 @@ class Patient(Base):
     __tablename__ = 'patients_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column('ID', Integer, primary_key=True, unique=True)
+    ID = Column('ID', Integer, primary_key=True, unique=True, nullable=False)
     # old_id = Column("barcode", Integer, unique=False)
     samples = relationship("Samples", backref='sample_owner')
     particular = Column('Particular?', Boolean, default=False, unique=False, nullable=False)
@@ -758,7 +759,7 @@ class Samples(Base):
     __tablename__ = 'samples_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column('ID', Integer, primary_key=True, unique=True)
+    ID = Column('ID', Integer, primary_key=True, unique=True, nullable=False)
     barcode = Column('Cod. Barras', Integer, default=None, unique=True)
     # old_id = Column(Integer, unique=False)
     sample_group = Column('Grupo de Amostras', String, default=None)
@@ -801,7 +802,7 @@ class Exams(Base):
     __tablename__ = 'exams_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column('ID', Integer, primary_key=True, unique=True)
+    ID = Column('ID', Integer, primary_key=True, unique=True, nullable=False)
     sample_id = Column(Integer, ForeignKey('db_sampat_schema.samples_table.ID'), nullable=False, unique=True)
     exam_serial = Column('Sequencial', Integer, default=None, unique=True)
     sample_exam = Column('Exame', String, default=None)
@@ -826,7 +827,7 @@ class Projects(Base):
     __tablename__ = 'projects_table'
     __table_args__ = {'schema': "db_sampat_schema"}
 
-    ID = Column('ID', Integer, primary_key=True, unique=True)
+    ID = Column('ID', Integer, primary_key=True, unique=True, nullable=False)
     project_name = Column('Nome do Projeto', String, default=None, unique=True)
     short_descriptor = Column('Descrição Simples', String, default=None)
     lead_researcher = Column('Pesquisador Chefe', String, default=None)
