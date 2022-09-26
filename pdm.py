@@ -13,7 +13,7 @@ class DataFrameModel(QtCore.QAbstractTableModel):
     DtypeRole = QtCore.Qt.UserRole + 1000
     ValueRole = QtCore.Qt.UserRole + 1001
 
-    def __init__(self, df=pd.DataFrame(), colnames=None, parent=None):
+    def __init__(self, df=pd.DataFrame(), parent=None):
         """[init the instance]
 
         Args:
@@ -22,7 +22,6 @@ class DataFrameModel(QtCore.QAbstractTableModel):
         """
         super(DataFrameModel, self).__init__(parent)
         self._dataframe = df
-        self._colnames = colnames
 
     def setDataFrame(self, dataframe):
         """[set dataframe as the model]
@@ -57,7 +56,7 @@ class DataFrameModel(QtCore.QAbstractTableModel):
             [QtCore.QVariant]: [Qt5 construct]
         """
         if role == QtCore.Qt.DisplayRole:
-            if orientation == QtCore.Qt.Horizontal:
+            if orientation == QtCore.Qt.Orientation.Horizontal:
                 return self._dataframe.columns[section]
             else:
                 return str(self._dataframe.index[section])

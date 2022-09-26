@@ -638,6 +638,8 @@ class SQL(object):
             rows = session.query(func.count(Patient.ID)).scalar()
         elif table == "exams_table":
             rows = session.query(func.count(Exams.ID)).scalar()
+        elif table == "projects_table":
+            rows = session.query(func.count(Projects.ID)).scalar()
         return rows
 
     def col_info(self, session, schema="db_sampat_schema", table="patients_table"):
@@ -803,7 +805,7 @@ class Exams(Base):
     __table_args__ = {'schema': "db_sampat_schema"}
 
     ID = Column('ID', Integer, primary_key=True, unique=True, nullable=False)
-    sample_id = Column(Integer, ForeignKey('db_sampat_schema.samples_table.ID'), nullable=False, unique=True)
+    sample_id = Column('ID Amostra', Integer, ForeignKey('db_sampat_schema.samples_table.ID'), nullable=False, unique=True)
     exam_serial = Column('Sequencial', Integer, default=None, unique=True)
     sample_exam = Column('Exame', String, default=None)
     run_number = Column('Núm. Rotina', Integer, default=None)

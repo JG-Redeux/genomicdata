@@ -32,6 +32,7 @@ import _logger
 import configparser
 import pandas as pd
 import pdm
+import pdmv2
 import auxiliary as aux
 import qdarkstyle
 
@@ -1119,7 +1120,8 @@ class DatabaseViewer(QDialog):
 
         table_dict = {"Pacientes": "patients_table",
                       "Amostras": "samples_table",
-                      "Exames": "exams_table"}
+                      "Exames": "exams_table",
+                      "Projetos": "projects_table"}
 
         self.list_header = QLabel("Opções de busca")
 
@@ -1214,14 +1216,15 @@ class DatabaseViewer(QDialog):
 
         if df is None:
             df = self.target_query
-            model = pdm.DataFrameModel(df, colnames=col_list)
-            self.target_table.setModel(model)
-        else:
-            model = pdm.DataFrameModel(df, colnames=col_list)
+            model = pdmv2.PandasModel(df)
             self.target_table.setModel(model)
 
-        self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
-        #self.target_table.setHorizontalHeader(col_list)
+        else:
+            model = pdmv2.PandasModel(df)
+            self.target_table.setModel(model)
+
+        self.model.reorderID()
+        #pdmv2.FormatView(self.target_table)
         self.dv_grid_col_selector.clear()
         self.dv_grid_col_selector.addItems(col_list)
 
@@ -1229,18 +1232,17 @@ class DatabaseViewer(QDialog):
         """[set the dataframe model]
         """
         sampat_table_widget_layout = QGridLayout()
-
+        self.target_table = QTableView()
         self.target_query = sampat_psql.query_values(dsess, table=self.table_name, schema=self.schema, _pd=True)
         df = self.target_query
         col_info = sampat_psql.col_info(dsess, self.schema, self.table_name)
         col_list = [col["name"] for col in col_info]
-        self.model = pdm.DataFrameModel(df, colnames=col_list)
-        self.target_table = QTableView()
-        self.target_table.horizontalHeader().setSortIndicator(0, Qt.AscendingOrder)
+
+        self.model = pdmv2.PandasModel(df)
+        self.model.reorderID()
+        pdmv2.FormatView(self.target_table)
         self.target_table.setEditTriggers(QAbstractItemView.DoubleClicked)
         self.target_table.setModel(self.model)
-        self.target_table.verticalHeader().setSortIndicator(1, Qt.AscendingOrder)
-
         self.target_table.doubleClicked.connect(self.update_entry_open)
         self.target_table.entered.connect(self.on_viewportEntered)
 
@@ -1273,19 +1275,27 @@ class DatabaseViewer(QDialog):
         Args:
             event ([event]): [event from the signal slot]
         """
-        row = self.target_table.rowAt(event.pos().y())
-        #col = self.target_table.columnAt(event.pos().x())
-        if ex.user.get_access() < 3:
-            try:
-                id_cell = int(self.model.get_value(row, 0))
-            except IndexError:
-                logger.debug("DEBUG-DELETESLOT--QTGO: ID_CELL {}".format(row))
-                return
-            print(id_cell)
-            sampat_psql.delete_entry(dsess, schema=self.schema, table=self.table_name, target=id_cell + 1)
-        else:
-            gerrors.wrong_access_level_error()
-        self.update_table_gen(self.table_name)
+        row = self.target_table.selectionModel().selectedRows()
+        col = self.target_table.selectionModel().selectedColumns()
+        
+        indexes = [index for index in self.target_table.selectionModel().selectedRows()]
+        for index in indexes:
+            print(index.row())
+            query = sampat_psql.query_values(dsess, schema=self.schema, table=self.table_name, target=index.row())
+
+        #if ex.user.get_access() < 3:
+            #try:
+            #    
+            #    except IndexError:
+            #        logger.debug("DEBUG-DELETESLOT--QTGO: ID_CELL {}".format(row))
+            #        return
+            #query = sampat_psql.query_values(dsess, schema=self.schema, table=self.table_name, target=id_cell)
+            #print(query)
+            #sampat_psql.delete_entry(dsess, schema=self.schema, table=self.table_name, target=id_cell)
+            
+        #else:
+        #    gerrors.wrong_access_level_error()
+        #self.update_table_gen(self.table_name)
 
     def search(self):
         """[search (query) function]
@@ -1293,7 +1303,9 @@ class DatabaseViewer(QDialog):
         column = self.dv_grid_col_selector.currentText()
         value = self.dv_grid_input_text.text()
         if len(value) > 0:
-            q = sampat_psql.query_values(dsess, column=column, schema=self.schema, table=self.table_name, target=value, _pd=True)
+            print(column)
+            q = sampat_psql.query_values(dsess, column=column, schema=self.schema, table=self.table_name, target=value, _type="one", _pd=True)
+            print(q)
             self.update_table_gen(self.table_name, q)
         else:
             self.update_table_gen(self.table_name)
@@ -1311,8 +1323,8 @@ class DatabaseViewer(QDialog):
         recent = sampat_psql.query_values(dsess, column="updated", schema=self.schema, table=self.table_name, _pd=True, _type="last")
 
         try:
-            expriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
-            sppriority.sort_values(by=["ID", "lib_date"], ascending=True, inplace=True)
+            expriority.sort_values(by=["ID", "Data de Liberação"], ascending=True, inplace=True)
+            sppriority.sort_values(by=["ID", "Data de Liberação"], ascending=True, inplace=True)
         except KeyError:
             recent.sort_values(by="ID", inplace=True)
 
@@ -1351,6 +1363,7 @@ class DatabaseViewer(QDialog):
 
     def update_entry_open(self, e):
         target = str(self.target_query.iloc[e.row(), 0])
+        print(target)
         self.dialog = Update_Entry(self.schema, self.table_name, target)
         self.dialog.show()
         self.dialog.update.connect(lambda x=self.table_name: self.update_table_gen(x))
@@ -1400,6 +1413,9 @@ class New_Entry(QDialog):
         for i, col in enumerate(col_list):
             if "BOOLEAN" in str(col[1]):
                 self.line_dict[col[0]] = QCheckBox()
+            elif "ID" in str(col[0]):
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(str(int(sampat_psql.row_count(dsess, table=self.table_name)) + 1))
             elif "DOUBLE" in str(col[1]):
                 onlyDouble = QDoubleValidator(-999.99, 999.99, 4)
                 self.line_dict[col[0]] = QLineEdit()
@@ -1413,11 +1429,9 @@ class New_Entry(QDialog):
                 self.line_dict[col[0]] = (QLineEdit(), "date")
                 self.line_dict[col[0]][0].setValidator(onlyDate)
             elif "updated" in col[0]:
-                continue
-                #self.line_dict[col[0]] = QLineEdit()
-                #self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
-                #self.line_dict[col[0]].setReadOnly(True)
-                #self.line_dict[col[0]].setVisible(False)
+                self.line_dict[col[0]] = QLineEdit()
+                self.line_dict[col[0]].setText(datetime.now().strftime("%d/%m/%Y"))
+                self.line_dict[col[0]].setReadOnly(True)               
             else:
                 self.line_dict[col[0]] = QLineEdit()
 
@@ -1521,7 +1535,7 @@ class Update_Entry(QDialog):
 
         self.table_name = table
         self.schema = schema
-        self.column = "id"
+        self.column = "ID"
         self.query = sampat_psql.query_values(dsess, column=self.column, schema=self.schema, table=self.table_name, target=_id, _pd=True)
         self.qdict = self.query.to_dict('list')
         self.create_NE_form_group_box()
@@ -1551,7 +1565,6 @@ class Update_Entry(QDialog):
         for i, col in enumerate(col_list):
             if "BOOLEAN" in str(col[1]):
                 self.line_dict[col[0]] = QCheckBox()
-                print(self.qdict[col[0]][0])
                 self.line_dict[col[0]].setChecked(self.qdict[col[0]][0])
             elif "DOUBLE" in str(col[1]):
                 onlyDouble = QDoubleValidator(-999.99, 999.99, 4)
@@ -1983,7 +1996,6 @@ class Options(QWidget):
                         "dentryt": self.dtableedit.text()}
 
         for value in user_db_dict.values():
-            print(value)
             if isinstance(value, str) and value != "":
                 if not len(value) > 3:
                     valid_flag = True
@@ -2465,7 +2477,6 @@ def toggle_stylesheet(mode='dark'):
 
 # the code that starts the magic
 if __name__ == "__main__":
-    print("starto")
     # initializes the errors class inside the errorex module
     settings = System().settings
     logger = System().logger
@@ -2484,14 +2495,14 @@ if __name__ == "__main__":
                 user_psql.commit_new_table(schema=schema_name, table=table_name)
     except:
         conn_error_flag = (True, "user")
-        print("halp1")
         raise
 
     try:
         sampat_psql, dsess = System().sql_sampat_connect()
         tables = {sqlmng.Patient.__tablename__: sqlmng.Patient.__table_args__["schema"],
                   sqlmng.Samples.__tablename__: sqlmng.Samples.__table_args__["schema"],
-                  sqlmng.Exams.__tablename__: sqlmng.Exams.__table_args__["schema"]}
+                  sqlmng.Exams.__tablename__: sqlmng.Exams.__table_args__["schema"],
+                  sqlmng.Projects.__tablename__: sqlmng.Projects.__table_args__["schema"]}
 
         for schema_name in tables.values():
             sampat_psql.schema_exists(schema_name, True)
@@ -2501,7 +2512,6 @@ if __name__ == "__main__":
                 sampat_psql.commit_new_table(schema=schema_name, table=table_name)
     except:
         conn_error_flag = (True, "sampat")
-        print("halp2")
         raise
 
     logger.info("__main__ - Program oppened")
